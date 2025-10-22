@@ -1,4 +1,7 @@
 {
+    "id": "psosm-week3-assign1",
+    "title": "Week 3: Assignment 1",
+    "week": 3,
     "questions": [
       {
         "text": "Which of the following statement(s) is/are true about Twitter and its API? \n S1: Twitter keys can be created from developer.twitter.com \n S2: Twitter API has no rate limit. We can collect any number of tweets using Twitter API. \n S3: Streaming API can collect all the tweets related to certain events.",
