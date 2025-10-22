@@ -1,0 +1,67 @@
+{
+  "id": "orgbeh-week11-assign1",
+  "title": "Week 11: Assignment 1",
+  "week": 11,
+  "questions": [
+    {
+      "id": "orgbeh-w11-q1",
+      "text": "Airline attendant teams are an example of:",
+      "options": ["Production teams", "Service teams", "Advisory teams", "Management teams"],
+      "correctAnswer": "Service teams"
+    },
+    {
+      "id": "orgbeh-w11-q2",
+      "text": "Groups are more cohesive than teams and groups are a subset of teams.",
+      "options": ["True", "False"],
+      "correctAnswer": "False"
+    },
+    {
+      "id": "orgbeh-w11-q3",
+      "text": "The stage of group development at which unwritten rules for teams are established:",
+      "options": ["Norming", "Storming", "Forming", "Adjourning"],
+      "correctAnswer": "Norming"
+    },
+    {
+      "id": "orgbeh-w11-q4",
+      "text": "Taking advantage of other members in a group and claiming ownership for their work is called:",
+      "options": ["Altruism", "Groupthink", "Freeriding", "Synergy"],
+      "correctAnswer": "Freeriding"
+    },
+    {
+      "id": "orgbeh-w11-q5",
+      "text": "Sometimes in teams, people may think that if they work more, other people will take advantage of them and give all the responsibilities to them. So it is better to decrease their performance. This phenomenon is called:",
+      "options": ["De-individualization", "Social loafing", "Freeriding", "Sucker aversion"],
+      "correctAnswer": "Sucker aversion"
+    },
+    {
+      "id": "orgbeh-w11-q6",
+      "text": "Low trust among the team members can often lead to social loafing.",
+      "options": ["True", "False"],
+      "correctAnswer": "True"
+    },
+    {
+      "id": "orgbeh-w11-q7",
+      "text": "A type of thought exhibited by group members who try to minimize conflict and reach consensus without critically testing, analyzing and evaluating ideas.",
+      "options": ["Team cohesion", "Instrumentality", "Mundane task", "Groupthink"],
+      "correctAnswer": "Groupthink"
+    },
+    {
+      "id": "orgbeh-w11-q8",
+      "text": "Culture influences both the conscious and unconscious level of the mind.",
+      "options": ["True", "False"],
+      "correctAnswer": "True"
+    },
+    {
+      "id": "orgbeh-w11-q9",
+      "text": "An organization in which its culture is driven by the motive for affiliation:",
+      "options": ["Bureaucracy", "Industrial Organization", "Clubs", "Educational Institutions"],
+      "correctAnswer": "Clubs"
+    },
+    {
+      "id": "orgbeh-w11-q10",
+      "text": "Which of the following is the source of organizational culture?",
+      "options": ["Selection practices", "Actions of top management", "Socialization methods", "Founder’s vision/mission/attitudes"],
+      "correctAnswer": "Founder’s vision/mission/attitudes"
+    }
+  ]
+}

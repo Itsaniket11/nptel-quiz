@@ -1,0 +1,92 @@
+{
+    "id": "env-week2-assign2",
+    "title": "Week 2: Assignment 2",
+    "week": 2,
+    "questions": [
+      {
+        "id": "env-w2-q1",
+        "text": "In an undisturbed sedimentary strata, bottom layers are older than layers above them. This is known as",
+        "options": [
+          "Principle of superposition",
+          "Principle of original horizontality",
+          "Principle of lateral continuity",
+          "Principle of inclusions"
+        ],
+        "correctAnswer": "Principle of superposition"
+      },
+      {
+        "id": "env-w2-q2",
+        "text": "Mount Vesuvius is an example of",
+        "options": ["Shield volcano", "Composite volcano", "Caldera", "Flood basalt province"],
+        "correctAnswer": "Composite volcano"
+      },
+      {
+        "id": "env-w2-q3",
+        "text": "Krakatoa eruption resulted in the formation of",
+        "options": ["Shield volcano", "Stratovolcano", "Caldera", "Flood basalt province"],
+        "correctAnswer": "Caldera"
+      },
+      {
+        "id": "env-w2-q4",
+        "text": "Which of these is not a method of absolute dating?",
+        "options": [
+          "radioisotope dating",
+          "thermoluminescence dating",
+          "inclusion study",
+          "fission track dating"
+        ],
+        "correctAnswer": "inclusion study"
+      },
+      {
+        "id": "env-w2-q5",
+        "text": "Which of these is true about S waves?",
+        "options": [
+          "They are longitudinal in nature",
+          "They are transverse in nature",
+          "They cannot move through solids, liquids and gases",
+          "They are the first to reach the surface of the Earth"
+        ],
+        "correctAnswer": "They are transverse in nature"
+      },
+      {
+        "id": "env-w2-q6",
+        "text": "Hawaiian volcanoes are an example of",
+        "options": ["Shield volcano", "Stratovolcano", "Caldera", "Flood basalt province"],
+        "correctAnswer": "Shield volcano"
+      },
+      {
+        "id": "env-w2-q7",
+        "text": "Within a depositional basin, strata are laterally continuous in all directions till the edge of the basin. This is known as",
+        "options": [
+          "Principle of superposition",
+          "Principle of original horizontality",
+          "Principle of lateral continuity",
+          "Principle of inclusions"
+        ],
+        "correctAnswer": "Principle of lateral continuity"
+      },
+      {
+        "id": "env-w2-q8",
+        "text": "Which of these is a gas giant?",
+        "options": ["Mercury", "Venus", "Mars", "Saturn"],
+        "correctAnswer": "Saturn"
+      },
+      {
+        "id": "env-w2-q9",
+        "text": "Assemblage of fossils are unique to the time that they lived in, and so can be used to age rocks across a wide geographic distribution. This is known as",
+        "options": [
+          "Principle of fossil succession",
+          "Principle of original horizontality",
+          "Principle of superposition",
+          "Principle of cross-cutting relationships"
+        ],
+        "correctAnswer": "Principle of fossil succession"
+      },
+      {
+        "id": "env-w2-q10",
+        "text": "Which of these is an example of direct source of information about the Earth?",
+        "options": ["earthquake", "volcanic eruption", "magnetic survey", "gravity anomaly"],
+        "correctAnswer": "volcanic eruption"
+      }
+    ]
+  }

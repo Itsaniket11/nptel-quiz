@@ -1,0 +1,112 @@
+{
+    "id": "cybersec-week11-assign11",
+    "title": "Week 11: Assignment 11",
+    "week": 11,
+    "questions": [
+      {
+        "id": "cyber-w11-q1",
+        "text": "How does CCE ensure policy neutrality?",
+        "options": [
+          "By providing universal encryption algorithms",
+          "By aligning with a single operating system",
+          "By avoiding recommendations for specific configurations",
+          "By focusing on network protocols only"
+        ],
+        "correctAnswer": "By avoiding recommendations for specific configurations"
+      },
+      {
+        "id": "cyber-w11-q2",
+        "text": "CCE entries are most useful for which of the following tasks?",
+        "options": [
+          "Developing network security protocols",
+          "Monitoring real time network traffic",
+          "Identifying software development bugs",
+          "Ensuring consistent policy configurations across systems"
+        ],
+        "correctAnswer": "Ensuring consistent policy configurations across systems"
+      },
+      {
+        "id": "cyber-w11-q3",
+        "text": "What does CVSS's \"Base Score\" represent?",
+        "options": [
+          "Age of the vulnerability",
+          "The level of user awareness about the vulnerability",
+          "The inherent danger of the vulnerability",
+          "The cost of fixing a vulnerability"
+        ],
+        "correctAnswer": "The inherent danger of the vulnerability"
+      },
+      {
+        "id": "cyber-w11-q4",
+        "text": "How does CVSS help organizations prioritize vulnerabilities?",
+        "options": [
+          "By giving software updates",
+          "By assigning severity score to vulnerabilities",
+          "By listing all known vulnerabilities",
+          "By identifying root cause of the vulnerabilities"
+        ],
+        "correctAnswer": "By assigning severity score to vulnerabilities"
+      },
+      {
+        "id": "cyber-w11-q5",
+        "text": "What is the main use of CCE in security management?",
+        "options": [
+          "To enumerate configurable security controls in software",
+          "To document user activities",
+          "To map vulnerabilities to specific platform",
+          "To define encryption standards"
+        ],
+        "correctAnswer": "To enumerate configurable security controls in software"
+      },
+      {
+        "id": "cyber-w11-q6",
+        "text": "Why is CPE critical for inventory management in security systems?",
+        "options": [
+          "It tracks user behavior inside the network",
+          "It provides standardized identifiers for software and hardware",
+          "It encrypts sensitive data in the inventory",
+          "It automatically fixes software vulnerabilities"
+        ],
+        "correctAnswer": "It provides standardized identifiers for software and hardware"
+      },
+      {
+        "id": "cyber-w11-q7",
+        "text": "Which CVSS component score is most likely to change as new information becomes available?",
+        "options": ["Temporal score", "Base score", "Environmental score", "Overall score"],
+        "correctAnswer": "Temporal score"
+      },
+      {
+        "id": "cyber-w11-q8",
+        "text": "How does the CPE standard contribute to security automation?",
+        "options": [
+          "By listing all possible software licenses",
+          "By defining network configurations",
+          "By standardizing the naming of hardware and software entities",
+          "It tracks user behavior in the network"
+        ],
+        "correctAnswer": "By standardizing the naming of hardware and software entities"
+      },
+      {
+        "id": "cyber-w11-q9",
+        "text": "How can SCAP's CVSS scoring system assist organizations in resource allocation?",
+        "options": [
+          "By requiring equal resources for all vulnerabilities, regardless of severity.",
+          "By requiring manual scoring for each vulnerability.",
+          "By prioritizing vulnerabilities based on their severity and potential impact.",
+          "By focusing only on vulnerabilities with the lowest scores."
+        ],
+        "correctAnswer": "By prioritizing vulnerabilities based on their severity and potential impact."
+      },
+      {
+        "id": "cyber-w11-q10",
+        "text": "Which of the following best describes the purpose of CVE?",
+        "options": [
+          "To manage encryption keys",
+          "To classify network protocols",
+          "To track software licensing",
+          "To enumerate software vulnerabilities"
+        ],
+        "correctAnswer": "To enumerate software vulnerabilities"
+      }
+    ]
+  }

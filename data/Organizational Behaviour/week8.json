@@ -1,0 +1,69 @@
+
+{
+    "id": "orgbeh-week8-assign1",
+    "title": "Week 8: Assignment 1",
+    "week": 8,
+    "questions": [
+      {
+        "id": "orgbeh-w8-q1",
+        "text": "In communication, the process of converting a message into symbols is called:",
+        "options": ["Message", "Channel", "Decoding", "Encoding"],
+        "correctAnswer": "Encoding"
+      },
+      {
+        "id": "orgbeh-w8-q2",
+        "text": "Any disturbance that interfere with the transmission, receipt or feedback of a message is called noise.",
+        "options": ["True", "False"],
+        "correctAnswer": "True"
+      },
+      {
+        "id": "orgbeh-w8-q3",
+        "text": "The communication style that is supportive and avoids change and confrontation is called:",
+        "options": ["Animated communication style", "Driver communication style", "Amiable communication style", "Analytical communication style"],
+        "correctAnswer": "Amiable communication style"
+      },
+      {
+        "id": "orgbeh-w8-q4",
+        "text": "Which of the following is NOT a non-verbal mode of communication?",
+        "options": ["Facial expressions", "Pupil dilation", "Gestures", "None of the above"],
+        "correctAnswer": "None of the above"
+      },
+      {
+        "id": "orgbeh-w8-q5",
+        "text": "The study of spatial inter-relationships is called:",
+        "options": ["Kinesics", "Proxemics", "Silence", "Symbols"],
+        "correctAnswer": "Proxemics"
+      },
+      {
+        "id": "orgbeh-w8-q6",
+        "text": "Maintaining and distributing minutes of the meeting is helpful in reducing miscommunication in team meetings.",
+        "options": ["True", "False"],
+        "correctAnswer": "True"
+      },
+      {
+        "id": "orgbeh-w8-q7",
+        "text": "When parts of some information are shared with the group members whereas other pieces of information are unshared, it gives rise to:",
+        "options": ["Hidden profile paradigm", "Awareness", "Trust building", "Minimizing status difference"],
+        "correctAnswer": "Hidden profile paradigm"
+      },
+      {
+        "id": "orgbeh-w8-q8",
+        "text": "In information sharing scenario, the case that has to be avoided to reduce decision making problems is:",
+        "options": ["Fully shared case", "Non-overlapping case", "Distributed partial overlap", "All of the above"],
+        "correctAnswer": "Distributed partial overlap"
+      },
+      {
+        "id": "orgbeh-w8-q9",
+        "text": "Most eastern cultures are comfortable with silence between conversations.",
+        "options": ["True", "False"],
+        "correctAnswer": "True"
+      },
+      {
+        "id": "orgbeh-w8-q10",
+        "text": "The level of openness which exists in an organization which gives a certain level of comfort to its members is called:",
+        "options": ["Common information effect", "Hidden profile paradigm", "Communication climate", "Paralinguistic communication"],
+        "correctAnswer": "Communication climate"
+      }
+    ]
+  }
+  

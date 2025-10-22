@@ -1,0 +1,67 @@
+{
+    "id": "env-week3-assign3",
+    "title": "Week 3: Assignment 3",
+    "week": 3,
+    "questions": [
+      {
+        "id": "env-w3-q1",
+        "text": "“the points where three or more cirques meet” is the definition of",
+        "options": ["cirque", "arete", "horn", "hanging valley"],
+        "correctAnswer": "horn"
+      },
+      {
+        "id": "env-w3-q2",
+        "text": "Which of these is an example of endogenic process?",
+        "options": ["weathering", "mass movement", "erosion", "folding"],
+        "correctAnswer": "folding"
+      },
+      {
+        "id": "env-w3-q3",
+        "text": "Sandstone is an example of",
+        "options": ["siliciclastic rock", "carbonate rock", "evaporite rock", "phosphatic rock"],
+        "correctAnswer": "siliciclastic rock"
+      },
+      {
+        "id": "env-w3-q4",
+        "text": "“smooth oval-shaped ridge-like features comprised of glacial till, gravel and sand arranged parallel to the direction of ice movement” is the definition of",
+        "options": ["glacial till", "outwash deposit", "esker", "drumlin"],
+        "correctAnswer": "drumlin"
+      },
+      {
+        "id": "env-w3-q5",
+        "text": "Which of these is an example of exogenic process?",
+        "options": ["volcanism", "earthquake", "plate tectonics", "deposition"],
+        "correctAnswer": "deposition"
+      },
+      {
+        "id": "env-w3-q6",
+        "text": "“white or colourless hard mineral virtually insoluble in water” is a description of",
+        "options": ["amphiboles", "quartz", "feldspar", "pyroxene"],
+        "correctAnswer": "quartz"
+      },
+      {
+        "id": "env-w3-q7",
+        "text": "Dolomite is an example of",
+        "options": ["siliciclastic rock", "carbonate rock", "evaporite rock", "phosphatic rock"],
+        "correctAnswer": "carbonate rock"
+      },
+      {
+        "id": "env-w3-q8",
+        "text": "“green or black coloured inosilicate minerals forming prism or needle-like crystals” is a description of",
+        "options": ["amphiboles", "feldspar", "mica", "pyroxene"],
+        "correctAnswer": "amphiboles"
+      },
+      {
+        "id": "env-w3-q9",
+        "text": "“deep, long and wide troughs or basins with very steep concave to vertically dropping high walls as its head and sides” is the definition of",
+        "options": ["cirque", "arete", "horn", "hanging valley"],
+        "correctAnswer": "cirque"
+      },
+      {
+        "id": "env-w3-q10",
+        "text": "“magnesium iron silicate; a primary component of the Earth’s upper mantle” is a description of",
+        "options": ["amphiboles", "feldspar", "quartz", "olivine"],
+        "correctAnswer": "olivine"
+      }
+    ]
+  }

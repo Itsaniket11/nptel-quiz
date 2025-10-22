@@ -1,0 +1,121 @@
+{
+    "id": "cybersec-week4-assign4",
+    "title": "Week 4: Assignment 4",
+    "week": 4,
+    "questions": [
+      {
+        "id": "cyber-w4-q1",
+        "text": "What is the primary benefit of mapping TTPs from raw data logs during incident analysis?",
+        "options": [
+          "It provides immediate context on threat actor motivations.",
+          "It automatically classifies the threat actor group responsible for the attack.",
+          "It reduces the need for further investigation by providing all the necessary details upfront",
+          "It helps in identifying patterns and anomalies that indicate potential malicious activity."
+        ],
+        "correctAnswer": "It helps in identifying patterns and anomalies that indicate potential malicious activity."
+      },
+      {
+        "id": "cyber-w4-q2",
+        "text": "Which feature of the MITRE ATT&CK Navigator allows analysts to prioritize and focus on the most relevant TTPs for their organization?",
+        "options": [
+          "The option to create and run custom scripts to analyze attack data.",
+          "The capability to filter and layer techniques based on various criteria, such as detection coverage or threat group relevance.",
+          "The automated integration of external threat intelligence feeds into the Navigator.",
+          "The ability to simulate cyberattacks directly within the tool."
+        ],
+        "correctAnswer": "The capability to filter and layer techniques based on various criteria, such as detection coverage or threat group relevance."
+      },
+      {
+        "id": "cyber-w4-q3",
+        "text": "What is the primary purpose of using layers in the MITRE ATT&CK Navigator?",
+        "options": [
+          "To automatically scan your network for vulnerabilities.",
+          "To visualize and compare different sets of techniques, such as those used by different threat groups or covered by different security controls",
+          "To generate a list of recommended software updates.",
+          "To simulate cyberattacks within the organization's network."
+        ],
+        "correctAnswer": "To visualize and compare different sets of techniques, such as those used by different threat groups or covered by different security controls"
+      },
+      {
+        "id": "cyber-w4-q4",
+        "text": "What is the difference between a MITRE Tactic and Technique?",
+        "options": [
+          "A MITRE Tactic is a specific method used in an attack, while a MITRE Technique is a broad category that describes the overall goal of the attack.",
+          "A MITRE Tactic refers to the tools used in a cyberattack, whereas a MITRE Technique describes the team or individuals executing the attack.",
+          "A MITRE Tactic is a defensive strategy used to protect systems, and a MITRE Technique is a type of encryption used to secure data.",
+          "A MITRE Tactic is a high-level objective that attackers aim to achieve during a cyberattack, such as gaining initial access or maintaining persistence. A MITRE Technique is a specific method or way to achieve one of these objectives."
+        ],
+        "correctAnswer": "A MITRE Tactic is a high-level objective that attackers aim to achieve during a cyberattack, such as gaining initial access or maintaining persistence. A MITRE Technique is a specific method or way to achieve one of these objectives."
+      },
+      {
+        "id": "cyber-w4-q5",
+        "text": "What are some of the processes to be followed while doing defensive recommendations (Check all that Apply)",
+        "options": [
+          "Research Organizational Constraints/Capabilities",
+          "Research on how techniques are being used",
+          "Determine Priority Techniques",
+          "None of the Above"
+        ],
+        "correctAnswer": [
+          "Research Organizational Constraints/Capabilities",
+          "Research on how techniques are being used",
+          "Determine Priority Techniques"
+        ]
+      },
+      {
+        "id": "cyber-w4-q6",
+        "text": "Which of the following challenges might you face when mapping TTPs from raw data compared to finished reports?",
+        "options": [
+          "Finished reports do not offer any information on TTPs, so raw data is always preferred.",
+          "Raw data often contains too much context, making it difficult to focus on specific TTPs.",
+          "Finished reports generally provide less detail, making TTP mapping more complex",
+          "Raw data may lack the context needed to easily identify and map specific TTPs."
+        ],
+        "correctAnswer": "Raw data may lack the context needed to easily identify and map specific TTPs."
+      },
+      {
+        "id": "cyber-w4-q7",
+        "text": "How can ATT&CK-mapped data be used to improve the effectiveness of an organization's detection capabilities?",
+        "options": [
+          "By using the mapped data to create custom detection rules tailored to the techniques most relevant to the organization's threat landscape.",
+          "By solely relying on the default settings of existing security tools without modification.",
+          "By randomly selecting techniques from the ATT&CK framework and adding them to the monitoring tools.",
+          "By focusing exclusively on tactics without regard to specific techniques or procedures"
+        ],
+        "correctAnswer": "By using the mapped data to create custom detection rules tailored to the techniques most relevant to the organization's threat landscape."
+      },
+      {
+        "id": "cyber-w4-q8",
+        "text": "What is the use of MITRE ATT & CK Navigator",
+        "options": [
+          "The MITRE ATT&CK Navigator is a software application that automatically detects and removes malware from a system.",
+          "The MITRE ATT&CK Navigator is a tool that allows users to visualize, annotate, and explore different techniques and tactics from the MITRE ATT&CK framework, helping to analyze and understand potential attack patterns.",
+          "The MITRE ATT&CK Navigator is used to simulate cyberattacks in real-time on a network to test its defenses.",
+          "The MITRE ATT&CK Navigator is a training platform for teaching cybersecurity professionals how to use various hacking tools."
+        ],
+        "correctAnswer": "The MITRE ATT&CK Navigator is a tool that allows users to visualize, annotate, and explore different techniques and tactics from the MITRE ATT&CK framework, helping to analyze and understand potential attack patterns."
+      },
+      {
+        "id": "cyber-w4-q9",
+        "text": "When mapping TTPs from finished threat intelligence reports, which of the following is most important?",
+        "options": [
+          "Verifying the authenticity of the data sources mentioned in the report",
+          "Matching the reported TTPs with those observed in your own environment.",
+          "Focusing solely on the tactics used, as techniques are usually not relevant.",
+          "Prioritizing the report's publication date over the TTPs mentioned."
+        ],
+        "correctAnswer": "Matching the reported TTPs with those observed in your own environment."
+      },
+      {
+        "id": "cyber-w4-q10",
+        "text": "How can the MITRE ATT&CK Navigator be used to enhance an organization's defensive strategies?",
+        "options": [
+          "By allowing security teams to map their current detection and mitigation controls against known adversary techniques, identifying potential gaps.",
+          "By automatically blocking all known malicious IP addresses listed in the Navigator.",
+          "By deploying pre-configured security rules directly from the Navigator into their network devices.",
+          "By generating real-time alerts for ongoing cyberattacks using historical data."
+        ],
+        "correctAnswer": "By allowing security teams to map their current detection and mitigation controls against known adversary techniques, identifying potential gaps."
+      }
+    ]
+  }

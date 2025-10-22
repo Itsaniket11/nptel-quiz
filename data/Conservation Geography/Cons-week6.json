@@ -1,0 +1,77 @@
+{
+    "id": "env-week6-assign6",
+    "title": "Week 6: Assignment 6",
+    "week": 6,
+    "questions": [
+      {
+        "id": "env-w6-q1",
+        "text": "In Koeppen classification, which is hot summer temperature?",
+        "options": ["h", "k", "a", "b"],
+        "correctAnswer": "a"
+      },
+      {
+        "id": "env-w6-q2",
+        "text": "In Koeppen classification, which is desert precipitation?",
+        "options": ["W", "S", "f", "s"],
+        "correctAnswer": "W"
+      },
+      {
+        "id": "env-w6-q3",
+        "text": "India’s location is",
+        "options": [
+          "Equatorial in South, Tropical in North",
+          "Tropical in South, Equatorial in North",
+          "Tropical in South, Sub-tropical in North",
+          "Sub-tropical in South, Tropical in North"
+        ],
+        "correctAnswer": "Tropical in South, Sub-tropical in North"
+      },
+      {
+        "id": "env-w6-q4",
+        "text": "In Koeppen classification, which is cold arid temperature?",
+        "options": ["h", "k", "a", "b"],
+        "correctAnswer": "k"
+      },
+      {
+        "id": "env-w6-q5",
+        "text": "In Koeppen classification, which is winter dry precipitation?",
+        "options": ["w", "S", "f", "s"],
+        "correctAnswer": "w"
+      },
+      {
+        "id": "env-w6-q6",
+        "text": "In Koeppen classification, which is cool summer temperature?",
+        "options": ["c", "d", "F", "T"],
+        "correctAnswer": "c"
+      },
+      {
+        "id": "env-w6-q7",
+        "text": "Which of these is the correct sequence of seasons in India?",
+        "options": [
+          "Hot weather season → Retreating monsoon season → South-West monsoon season → Cold weather season",
+          "Hot weather season → South-West monsoon season → Retreating monsoon season → Cold weather season",
+          "Hot weather season → Cold weather season → South-West monsoon season → Retreating monsoon season",
+          "Hot weather season → South-West monsoon season → Cold weather season → Retreating monsoon season"
+        ],
+        "correctAnswer": "Hot weather season → South-West monsoon season → Retreating monsoon season → Cold weather season"
+      },
+      {
+        "id": "env-w6-q8",
+        "text": "In Koeppen classification, which is monsoonal precipitation?",
+        "options": ["W", "S", "m", "s"],
+        "correctAnswer": "m"
+      },
+      {
+        "id": "env-w6-q9",
+        "text": "Physiography is the outcome of",
+        "options": ["structure", "process", "stage of development", "all of these"],
+        "correctAnswer": "all of these"
+      },
+      {
+        "id": "env-w6-q10",
+        "text": "In Koeppen classification, which is equatorial climate?",
+        "options": ["A", "B", "C", "D"],
+        "correctAnswer": "A"
+      }
+    ]
+  }

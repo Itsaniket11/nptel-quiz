@@ -1,0 +1,117 @@
+{
+    "id": "cybersec-week10-assign10",
+    "title": "Week 10: Assignment 10",
+    "week": 10,
+    "questions": [
+      {
+        "id": "cyber-w10-q1",
+        "text": "Meta Objects in STIX are generally used to",
+        "options": [
+          "Provide information about STIX objects, such as labels or markings.",
+          "Represent tangible cyber entities like IP addresses or files.",
+          "Store complex data structures that can't be defined by other objects.",
+          "Describe the physical hardware of a compromised system."
+        ],
+        "correctAnswer": "Provide information about STIX objects, such as labels or markings."
+      },
+      {
+        "id": "cyber-w10-q2",
+        "text": "An Intrusion Set SDO differs from a Campaign SDO in that it",
+        "options": [
+          "Focuses on the technical details of a specific malware instance.",
+          "Captures multiple campaigns with shared attributes over a long period.",
+          "Represents a specific incident or wave of attacks.",
+          "Describes the geographic origin of a cyberattack."
+        ],
+        "correctAnswer": "Captures multiple campaigns with shared attributes over a long period."
+      },
+      {
+        "id": "cyber-w10-q3",
+        "text": "How does the Sighting Object differ from other relationship objects in STIX?",
+        "options": [
+          "It is used solely to indicate communication between different systems.",
+          "It always involves at least three entities: an actor, a target, and a tool.",
+          "It only links attack techniques to specific vulnerabilities.",
+          "It doesn't represent a relationship but provides metadata about an object."
+        ],
+        "correctAnswer": "It doesn't represent a relationship but provides metadata about an object."
+      },
+      {
+        "id": "cyber-w10-q4",
+        "text": "How does the introduction of Meta Objects in STIX 2.1 enhance the representation of threat intelligence?",
+        "options": [
+          "By allowing for more detailed metadata, improving the accuracy of data analysis.",
+          "By integrating all metadata directly into the core STIX Objects, simplifying data structures.",
+          "By enabling the separation of core threat data from contextual and descriptive metadata, enhancing data organization",
+          "By reducing the overall complexity of the STIX framework, making it more user-friendly."
+        ],
+        "correctAnswer": "By enabling the separation of core threat data from contextual and descriptive metadata, enhancing data organization"
+      },
+      {
+        "id": "cyber-w10-q5",
+        "text": "In what way does the Bundle Object facilitate the sharing of threat intelligence?",
+        "options": [
+          "By ensuring that all objects within the bundle are related to the same incident.",
+          "By compressing the data within the bundle, reducing transmission time.",
+          "By automatically validating the objects within the bundle, ensuring data accuracy.",
+          "By providing a container for STIX Objects, making it easier to transmit complex sets of related data in a single package"
+        ],
+        "correctAnswer": "By providing a container for STIX Objects, making it easier to transmit complex sets of related data in a single package"
+      },
+      {
+        "id": "cyber-w10-q6",
+        "text": "What is the Malware SDO primarily used for?",
+        "options": [
+          "To document the financial impact of malware on an organization.",
+          "To identify the geographic location of malware origin.",
+          "To provide intelligence on a specific instance or family of malware.",
+          "To describe legal actions taken against malware creators."
+        ],
+        "correctAnswer": "To provide intelligence on a specific instance or family of malware."
+      },
+      {
+        "id": "cyber-w10-q7",
+        "text": "Which of the following statements about the Data Marking Object in STIX 2.1 is true?",
+        "options": [
+          "It is used to categorize threat intelligence data by severity.",
+          "It tracks the provenance and ownership of the threat intelligence data.",
+          "It automatically encrypts sensitive data within a STIX Bundle.",
+          "It applies labels to data objects to indicate handling and sharing restrictions."
+        ],
+        "correctAnswer": "It applies labels to data objects to indicate handling and sharing restrictions."
+      },
+      {
+        "id": "cyber-w10-q8",
+        "text": "In the context of STIX, what is the primary function of the Attack Pattern SDO?",
+        "options": [
+          "To represent the location of a cyberattack.",
+          "To categorize and describe the tactics used by threat actors.",
+          "To document the financial impact of a cyberattack.",
+          "To record the identities of the attackers involved."
+        ],
+        "correctAnswer": "To categorize and describe the tactics used by threat actors."
+      },
+      {
+        "id": "cyber-w10-q9",
+        "text": "Which of the following best describes the purpose of Machine Readable Threat Intelligence (MRTI)?",
+        "options": [
+          "To manually analyze threat actor patterns.",
+          "To develop software for cyberattack simulations.",
+          "To create human-readable reports for cybersecurity experts.",
+          "To automate the exchange of threat intelligence data."
+        ],
+        "correctAnswer": "To automate the exchange of threat intelligence data."
+      },
+      {
+        "id": "cyber-w10-q10",
+        "text": "What is a key difference between a Grouping SDO and a STIX Bundle?",
+        "options": [
+          "A Grouping object asserts shared context, while a STIX Bundle does not.",
+          "A Grouping object is used for malware analysis, while a STIX Bundle is not.",
+          "A Grouping object conveys no context, while a STIX Bundle explicitly asserts context.",
+          "A Grouping object is used for reporting incidents, while a STIX Bundle is not."
+        ],
+        "correctAnswer": "A Grouping object asserts shared context, while a STIX Bundle does not."
+      }
+    ]
+  }

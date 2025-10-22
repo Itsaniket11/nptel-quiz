@@ -1,0 +1,107 @@
+{
+    "id": "env-week7-assign7",
+    "title": "Week 7: Assignment 7",
+    "week": 7,
+    "questions": [
+      {
+        "id": "env-w7-q1",
+        "text": "Soil formation is dependent upon",
+        "options": ["vegetation", "time", "climate", "all of the above"],
+        "correctAnswer": "all of the above"
+      },
+      {
+        "id": "env-w7-q2",
+        "text": "Which of these is not a characteristic of pioneer species",
+        "options": [
+          "ability to grow on bare rocks",
+          "ability to tolerate extreme temperatures",
+          "large size",
+          "short life span"
+        ],
+        "correctAnswer": "large size"
+      },
+      {
+        "id": "env-w7-q3",
+        "text": "\"groups of actually or potentially interbreeding natural populations, which are reproductively isolated from other such groups\" is a definition of",
+        "options": ["cells", "species", "ecosystems", "biomes"],
+        "correctAnswer": "species"
+      },
+      {
+        "id": "env-w7-q4",
+        "text": "Mechanical action of ocean waves is an example of",
+        "options": [
+          "chemical weathering",
+          "physical weathering",
+          "biological weathering",
+          "none of the above"
+        ],
+        "correctAnswer": "physical weathering"
+      },
+      {
+        "id": "env-w7-q5",
+        "text": "The climax near Tindni village is being controlled by disturbance by cattle. This is an example of",
+        "options": [
+          "climatic climax",
+          "edaphic climax",
+          "disclimax",
+          "catastrophic climax"
+        ],
+        "correctAnswer": "disclimax"
+      },
+      {
+        "id": "env-w7-q6",
+        "text": "Carbonation is an example of",
+        "options": [
+          "chemical weathering",
+          "physical weathering",
+          "biological weathering",
+          "none of the above"
+        ],
+        "correctAnswer": "chemical weathering"
+      },
+      {
+        "id": "env-w7-q7",
+        "text": "In soil profile, C refers to",
+        "options": [
+          "organic surface layer",
+          "topsoil layer",
+          "subsoil layer",
+          "substratum layer"
+        ],
+        "correctAnswer": "substratum layer"
+      },
+      {
+        "id": "env-w7-q8",
+        "text": "A climax caused by wildfires is an example of",
+        "options": [
+          "climatic climax",
+          "edaphic climax",
+          "disclimax",
+          "catastrophic climax"
+        ],
+        "correctAnswer": "catastrophic climax"
+      },
+      {
+        "id": "env-w7-q9",
+        "text": "Regur is a term for",
+        "options": [
+          "black cotton soil",
+          "alluvial soil",
+          "saline soil",
+          "red and yellow soil"
+        ],
+        "correctAnswer": "black cotton soil"
+      },
+      {
+        "id": "env-w7-q10",
+        "text": "\"the diversity that exists among different geographies\" is",
+        "options": [
+          "alpha (α) biodiversity",
+          "beta (β) biodiversity",
+          "gamma (γ) biodiversity",
+          "delta (δ) biodiversity"
+        ],
+        "correctAnswer": "gamma (γ) biodiversity"
+      }
+    ]
+  }

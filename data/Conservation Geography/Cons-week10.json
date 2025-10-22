@@ -1,0 +1,82 @@
+{
+    "id": "env-week10-assign10",
+    "title": "Week 10: Assignment 10",
+    "week": 10,
+    "questions": [
+      {
+        "id": "env-w10-q1",
+        "text": "Hydrogen for nuclear fusion comes under the category of",
+        "options": ["potential resources", "actual resources", "reserve resources", "stock resources"],
+        "correctAnswer": "stock resources"
+      },
+      {
+        "id": "env-w10-q2",
+        "text": "Which of these is the largest source of ammonia (NH3) in the atmosphere?",
+        "options": [
+          "animal manure",
+          "mineral fertiliser",
+          "crops and their decomposition",
+          "human waste"
+        ],
+        "correctAnswer": "animal manure"
+      },
+      {
+        "id": "env-w10-q3",
+        "text": "“the part of actual resources that can be developed profitably in the future” is a definition of",
+        "options": ["potential resources", "actual resources", "reserve resources", "stock resources"],
+        "correctAnswer": "reserve resources"
+      },
+      {
+        "id": "env-w10-q4",
+        "text": "Timber from forests that is being harvested can be categorised under",
+        "options": ["potential resources", "actual resources", "reserve resources", "stock resources"],
+        "correctAnswer": "actual resources"
+      },
+      {
+        "id": "env-w10-q5",
+        "text": "Rain gardens are primarily meant to",
+        "options": [
+          "reduce water usage",
+          "increase recharge to groundwater",
+          "protect existing water sources",
+          "increase water flow to streams"
+        ],
+        "correctAnswer": "increase recharge to groundwater"
+      },
+      {
+        "id": "env-w10-q6",
+        "text": "Oil that has not been drilled can be categorised under",
+        "options": ["potential resources", "actual resources", "reserve resources", "stock resources"],
+        "correctAnswer": "potential resources"
+      },
+      {
+        "id": "env-w10-q7",
+        "text": "Which of these is the largest source of nitrogen oxides in the atmosphere?",
+        "options": [
+          "electricity generation",
+          "mobile sources",
+          "industrial processes",
+          "waste disposal"
+        ],
+        "correctAnswer": "mobile sources"
+      },
+      {
+        "id": "env-w10-q8",
+        "text": "“those resources that are currently being used after surveying, quantification and qualification” is a definition of",
+        "options": ["potential resources", "actual resources", "reserve resources", "stock resources"],
+        "correctAnswer": "actual resources"
+      },
+      {
+        "id": "env-w10-q9",
+        "text": "“those resources that may be used in the future” is a definition of",
+        "options": ["potential resources", "actual resources", "reserve resources", "stock resources"],
+        "correctAnswer": "potential resources"
+      },
+      {
+        "id": "env-w10-q10",
+        "text": "Low concentration ores come in the category of",
+        "options": ["potential resources", "actual resources", "reserve resources", "stock resources"],
+        "correctAnswer": "reserve resources"
+      }
+    ]
+  }

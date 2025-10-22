@@ -1,0 +1,77 @@
+{
+    "id": "env-week1-assign1",
+    "title": "Week 1: Assignment 1",
+    "week": 1,
+    "questions": [
+      {
+        "id": "env-w1-q1",
+        "text": "“Science of relationships between organisms and their environments” is the definition of:",
+        "options": ["conservation", "preservation", "environmentalism", "ecology"],
+        "correctAnswer": "ecology"
+      },
+      {
+        "id": "env-w1-q2",
+        "text": "The Trinity explosion of 1945 is taken as the beginning of the",
+        "options": ["Holocene", "Cenocene", "Anthropocene", "Eocene"],
+        "correctAnswer": "Anthropocene"
+      },
+      {
+        "id": "env-w1-q3",
+        "text": "Sustainable harvest of resources falls under the category of:",
+        "options": ["conservation", "preservation", "environmentalism", "none of the above"],
+        "correctAnswer": "conservation"
+      },
+      {
+        "id": "env-w1-q4",
+        "text": "The quantum of human impacts can be written as",
+        "options": ["I = P + A + T", "I = P X A + T", "I = P X A X T", "I = P + A X T"],
+        "correctAnswer": "I = P X A X T"
+      },
+      {
+        "id": "env-w1-q5",
+        "text": "The discipline of Demography is most closely related to:",
+        "options": ["Phytogeography", "Zoogeography", "Population Geography", "Economic Geography"],
+        "correctAnswer": "Population Geography"
+      },
+      {
+        "id": "env-w1-q6",
+        "text": "\"The rate of any biological process is limited by that factor in least amount relative to requirement, so there is a single limiting factor.\" This is the statement for",
+        "options": [
+          "Liebig’s law of the minimum",
+          "Liebig’s law of the maximum",
+          "Shelford’s law of tolerance",
+          "Shelford’s law of intolerance"
+        ],
+        "correctAnswer": "Liebig’s law of the minimum"
+      },
+      {
+        "id": "env-w1-q7",
+        "text": "\"The geographical distribution of a species will be controlled by that environmental factor for which the organism has the narrowest range of tolerance.\" This is the statement for",
+        "options": [
+          "Liebig’s law of the minimum",
+          "Liebig’s law of the maximum",
+          "Shelford’s law of tolerance",
+          "Shelford’s law of intolerance"
+        ],
+        "correctAnswer": "Shelford’s law of tolerance"
+      },
+      {
+        "id": "env-w1-q8",
+        "text": "The regional approach to Geography was developed by:",
+        "options": ["Alexander von Humboldt", "Karl Ritter", "Rene Descartes", "Eratosthenes"],
+        "correctAnswer": "Karl Ritter"
+      },
+      {
+        "id": "env-w1-q9",
+        "text": "Good climate is a",
+        "options": ["chemical factor", "demographic factor", "push factor", "pull factor"],
+        "correctAnswer": "pull factor"
+      },
+      {
+        "id": "env-w1-q10",
+        "text": "Scarcity of food is a",
+        "options": ["chemical factor", "demographic factor", "push factor", "pull factor"],
+        "correctAnswer": "push factor"
+      }
+    ]
+  }

@@ -1,0 +1,115 @@
+{
+    "id": "cybersec-week2-assign2",
+    "title": "Week 2: Assignment 2",
+    "week": 2,
+    "questions": [
+      {
+        "id": "cyber-w2-q1",
+        "text": "What is the best measure of how effective our cybersecurity infrastructure is?",
+        "options": ["Compliance", "Robustness", "Resilience", "Patch", "Update"],
+        "correctAnswer": "Resilience"
+      },
+      {
+        "id": "cyber-w2-q2",
+        "text": "Which of the following best describes a zero-click attack?",
+        "options": [
+          "An attack that uses brute force to crack passwords",
+          "An attack that exploits vulnerabilities in a system without any user interaction",
+          "An attack that targets the network infrastructure directly",
+          "An attack that involves clicking zeros as response",
+          "An attack that requires user interaction, such as clicking on a link or opening an attachment"
+        ],
+        "correctAnswer": "An attack that exploits vulnerabilities in a system without any user interaction"
+      },
+      {
+        "id": "cyber-w2-q3",
+        "text": "Command and Control (C2) is NOT used for which of the following activities by the adversary?",
+        "options": [
+          "Privilege escalation",
+          "Knowing if the intended malware is installed on the target",
+          "Sending commands to the compromised system",
+          "Data exfiltration",
+          "Disabling security systems"
+        ],
+        "correctAnswer": "Privilege escalation"
+      },
+      {
+        "id": "cyber-w2-q4",
+        "text": "Which method is ranked highest for knowing if your internet-facing systems are being scanned?",
+        "options": [
+          "Network Monitoring",
+          "Application Logs",
+          "User Activity Logs",
+          "Web Server Logs",
+          "Windows Event Viewer"
+        ],
+        "correctAnswer": "Network Monitoring"
+      },
+      {
+        "id": "cyber-a-w2-q5",
+        "text": "In the MITRE ATT&CK framework, what is the relationship between tactics and techniques?",
+        "options": [
+          "Techniques are the overarching goals, while tactics are the steps to achieve those goals",
+          "Techniques are the strategic objectives, and tactics are the tools used to accomplish them",
+          "Tactics are the overall goals of an adversary, while techniques are the specific methods used to achieve those goals",
+          "Tactics and techniques are interchangeable terms for adversary actions",
+          "Tactics are specific methods used to achieve techniques"
+        ],
+        "correctAnswer": "Tactics are the overall goals of an adversary, while techniques are the specific methods used to achieve those goals"
+      },
+      {
+        "id": "cyber-w2-q6",
+        "text": "What type of delivery mechanism is most commonly used in the 'Delivery' stage of the Cyber Kill Chain?",
+        "options": [
+          "Denial of service attacks",
+          "SQL injection",
+          "Man-in-the-middle attacks",
+          "Zero-day exploits",
+          "Phishing"
+        ],
+        "correctAnswer": "Phishing"
+      },
+      {
+        "id": "cyber-w2-q7",
+        "text": "Which of the following is a method used to deceive attackers during the 'Actions on Objectives' stage in the Cyber Kill Chain?",
+        "options": ["Firewall ACL", "Patch", "Honeypot", "NIDS", "In-line AV"],
+        "correctAnswer": "Honeypot"
+      },
+      {
+        "id": "cyber-w2-q8",
+        "text": "What is the most relevant order of importance for IT system security?",
+        "options": [
+          "Availability, Confidentiality, Integrity",
+          "Availability, Integrity, Confidentiality",
+          "Confidentiality, Integrity, Availability",
+          "Confidentiality, Availability, Integrity",
+          "Integrity, Confidentiality, Availability"
+        ],
+        "correctAnswer": "Confidentiality, Integrity, Availability"
+      },
+      {
+        "id": "cyber-w2-q9",
+        "text": "What is the most reliable way to identify if someone from suspicious IP addresses is visiting your website?",
+        "options": [
+          "Application Logs",
+          "Intrusion Detection Systems (IDS)",
+          "Network Monitoring",
+          "Windows Event Viewer",
+          "Web Server Logs"
+        ],
+        "correctAnswer": "Web Server Logs"
+      },
+      {
+        "id": "cyber-w2-q10",
+        "text": "During the 'Installation' stage of the Cyber Kill Chain, the attacker typically aims to:",
+        "options": [
+          "Deploy additional tools for further attacks",
+          "Bypass security defenses of the target",
+          "Steal user credentials from the target",
+          "Establish persistence on the target's system",
+          "Initiate data exfiltration processes"
+        ],
+        "correctAnswer": "Establish persistence on the target's system"
+      }
+    ]
+  }

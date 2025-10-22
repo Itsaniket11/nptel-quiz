@@ -1,0 +1,69 @@
+
+{
+    "id": "orgbeh-week12-assign1",
+    "title": "Week 12: Assignment 1",
+    "week": 12,
+    "questions": [
+      {
+        "id": "orgbeh-w12-q1",
+        "text": "Redesigning business processes to increase organizational effectiveness is called:",
+        "options": ["Restructuring", "Reengineering", "Organizational Ethics", "Downsizing"],
+        "correctAnswer": "Reengineering"
+      },
+      {
+        "id": "orgbeh-w12-q2",
+        "text": "Revolutionary change happens slowly in an organization and on its own.",
+        "options": ["True", "False"],
+        "correctAnswer": "False"
+      },
+      {
+        "id": "orgbeh-w12-q3",
+        "text": "The formal system of task and authority relationships that control how people coordinate their actions and use resources to achieve organizational goals is called:",
+        "options": ["Organizational structure", "Organizational change", "Cognitive biases", "Resource allocation"],
+        "correctAnswer": "Organizational structure"
+      },
+      {
+        "id": "orgbeh-w12-q4",
+        "text": "Indian Railways having different zones of operation like Southern Railways, Central Railway etc. is an example of:",
+        "options": ["Horizontal differentiation", "Vertical differentiation", "Spatial differentiation", "None of the above"],
+        "correctAnswer": "Spatial differentiation"
+      },
+      {
+        "id": "orgbeh-w12-q5",
+        "text": "Defining employees’ roles through formal documentation is a part of formalization.",
+        "options": ["True", "False"],
+        "correctAnswer": "True"
+      },
+      {
+        "id": "orgbeh-w12-q6",
+        "text": "___ can provide more inputs into decision making and will help in reducing information overload.",
+        "options": ["Centralization", "Decentralization", "Environmental uncertainty", "None of the above"],
+        "correctAnswer": "Decentralization"
+      },
+      {
+        "id": "orgbeh-w12-q7",
+        "text": "According to life-cycle perspective, the stage of organizational life cycle where the goals are ambiguous but there is a lot of creativity is called:",
+        "options": ["Formalization-and-control stage", "Collectivity stage", "Elaboration-of-structure stage", "Entrepreneurial stage"],
+        "correctAnswer": "Entrepreneurial stage"
+      },
+      {
+        "id": "orgbeh-w12-q8",
+        "text": "The life-cycle perspective sees the organization as an organism.",
+        "options": ["True", "False"],
+        "correctAnswer": "True"
+      },
+      {
+        "id": "orgbeh-w12-q9",
+        "text": "A set of interrelated and interdependent parts arranged in a manner that produces a unified whole is called:",
+        "options": ["System", "Training", "Rituals", "Span of control"],
+        "correctAnswer": "System"
+      },
+      {
+        "id": "orgbeh-w12-q10",
+        "text": "Closed systems differentiate too much from the larger system and have their own identity.",
+        "options": ["True", "False"],
+        "correctAnswer": "True"
+      }
+    ]
+  }
+  

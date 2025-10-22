@@ -1,0 +1,69 @@
+
+{
+    "id": "orgbeh-week5-assign1",
+    "title": "Week 5: Assignment 1",
+    "week": 5,
+    "questions": [
+      {
+        "id": "orgbeh-w5-q1",
+        "text": "An unfocused, relatively mild feeling that exists as background to our daily experience is called:",
+        "options": ["Behaviour", "Perception", "Mood", "Envy"],
+        "correctAnswer": "Mood"
+      },
+      {
+        "id": "orgbeh-w5-q2",
+        "text": "The psychological effort involved in holding back one’s true emotions is called:",
+        "options": ["Emotional dissonance", "Emotional labor", "Emotional Attachment", "Temperament"],
+        "correctAnswer": "Emotional labor"
+      },
+      {
+        "id": "orgbeh-w5-q3",
+        "text": "When John failed his driving license test, he starts to remember how his friends used to tease him saying he was not a good driver. This is an example of:",
+        "options": ["Work-family spillover effect", "Emotional dissonance", "Empathy", "Mood congruence effect"],
+        "correctAnswer": "Mood congruence effect"
+      },
+      {
+        "id": "orgbeh-w5-q4",
+        "text": "___ is a mild form of hate.",
+        "options": ["Guilt", "Humiliation", "Resentment", "Shame"],
+        "correctAnswer": "Resentment"
+      },
+      {
+        "id": "orgbeh-w5-q5",
+        "text": "Threat-based aggression can stem from both a real stimulus or a perceived stimulus.",
+        "options": ["True", "False"],
+        "correctAnswer": "True"
+      },
+      {
+        "id": "orgbeh-w5-q6",
+        "text": "___ is when you have a goal and you are moving towards that goal and you feel that something or someone is stopping you from reaching that goal.",
+        "options": ["Threat-based aggression", "Instrumental aggression", "Irritable aggression", "Frustration-based aggression"],
+        "correctAnswer": "Frustration-based aggression"
+      },
+      {
+        "id": "orgbeh-w5-q7",
+        "text": "Fear of being rejected is one of the main reasons that make people non-assertive.",
+        "options": ["True", "False"],
+        "correctAnswer": "True"
+      },
+      {
+        "id": "orgbeh-w5-q8",
+        "text": "The stress which happens because of positive incidences is called:",
+        "options": ["Distress", "Eustress", "Hypo-stress", "Hyper work stress"],
+        "correctAnswer": "Eustress"
+      },
+      {
+        "id": "orgbeh-w5-q9",
+        "text": "The feeling of completely tired and exhausted when you are stressed for a very long time accompanied by lack of meaning is called:",
+        "options": ["Burnout", "Absenteeism", "Hypo stress", "Alarm-reaction"],
+        "correctAnswer": "Burnout"
+      },
+      {
+        "id": "orgbeh-w5-q10",
+        "text": "What are the behavioural symptoms of stress?",
+        "options": ["Low productivity", "Interpersonal conflicts", "Suicidal tendencies", "All of the above"],
+        "correctAnswer": "All of the above"
+      }
+    ]
+  }
+  

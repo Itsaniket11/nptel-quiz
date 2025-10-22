@@ -1,0 +1,67 @@
+{
+    "id": "env-week5-assign5",
+    "title": "Week 5: Assignment 5",
+    "week": 5,
+    "questions": [
+      {
+        "id": "env-w5-q1",
+        "text": "Equal density curves are called",
+        "options": ["isopycnal curves", "isohaline curves", "isotherm curves", "isobuoyant curves"],
+        "correctAnswer": "isopycnal curves"
+      },
+      {
+        "id": "env-w5-q2",
+        "text": "Which of these is a minor feature of the ocean floor?",
+        "options": ["continental shelf", "continental slope", "guyot", "abyssal plain"],
+        "correctAnswer": "guyot"
+      },
+      {
+        "id": "env-w5-q3",
+        "text": "“mountains with pointed summits rising from the sea floor, but not reaching the surface of the ocean” is a description of",
+        "options": ["oceanic deep / trench", "mid-oceanic ridge", "seamount", "atoll"],
+        "correctAnswer": "seamount"
+      },
+      {
+        "id": "env-w5-q4",
+        "text": "Which of these is the largest habitat on the Earth?",
+        "options": ["continental shelf", "continental slope", "guyot", "abyssal plain"],
+        "correctAnswer": "abyssal plain"
+      },
+      {
+        "id": "env-w5-q5",
+        "text": "Which of these are the largest mountain ranges on Earth?",
+        "options": ["oceanic deep / trench", "mid-oceanic ridge", "seamount", "atoll"],
+        "correctAnswer": "mid-oceanic ridge"
+      },
+      {
+        "id": "env-w5-q6",
+        "text": "“deep valleys, often cutting across continental shelves and slopes” is a description of",
+        "options": ["oceanic deep / trench", "mid-oceanic ridge", "guyot", "submarine canyon"],
+        "correctAnswer": "submarine canyon"
+      },
+      {
+        "id": "env-w5-q7",
+        "text": "Continental slope has a gradient of",
+        "options": ["0-1 degree", "1-2 degree", "2-5 degree", "5-10 degree"],
+        "correctAnswer": "2-5 degree"
+      },
+      {
+        "id": "env-w5-q8",
+        "text": "Which of these is not a prominent tidal pattern?",
+        "options": ["diurnal", "mixed diurnal", "semidiurnal", "mixed semidiurnal"],
+        "correctAnswer": "mixed diurnal"
+      },
+      {
+        "id": "env-w5-q9",
+        "text": "“relatively steep-sided, narrow, deep basins” is a description of",
+        "options": ["oceanic deep / trench", "mid-oceanic ridge", "seamount", "atoll"],
+        "correctAnswer": "oceanic deep / trench"
+      },
+      {
+        "id": "env-w5-q10",
+        "text": "In the sea, a layer where the temperature decreases rapidly from the mixed upper layer to the cold deeper layer is called",
+        "options": ["isopycnal", "thermophil", "thermohaline", "thermocline"],
+        "correctAnswer": "thermocline"
+      }
+    ]
+  }

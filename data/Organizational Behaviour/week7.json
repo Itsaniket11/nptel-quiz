@@ -1,0 +1,69 @@
+
+{
+    "id": "orgbeh-week7-assign1",
+    "title": "Week 7: Assignment 1",
+    "week": 7,
+    "questions": [
+      {
+        "id": "orgbeh-w7-q1",
+        "text": "The degree of confidence we have on others in a relationship is called:",
+        "options": ["Transactional contract", "Relational contract", "Trust", "Norms"],
+        "correctAnswer": "Trust"
+      },
+      {
+        "id": "orgbeh-w7-q2",
+        "text": "The kind of psychological contract that focuses on long-term interaction and a widely defined relationship is called relational contract.",
+        "options": ["True", "False"],
+        "correctAnswer": "True"
+      },
+      {
+        "id": "orgbeh-w7-q3",
+        "text": "The type of trust that is established based on the credibility of a person, for example, trusting the doctor:",
+        "options": ["Trust based on familiarity", "Swift trust", "Trust based on similarity", "Trust based on social networks"],
+        "correctAnswer": "Swift trust"
+      },
+      {
+        "id": "orgbeh-w7-q4",
+        "text": "The characteristic of being respectful towards others is:",
+        "options": ["Conscientiousness", "Sportsmanship", "Civic virtue", "Courtesy"],
+        "correctAnswer": "Courtesy"
+      },
+      {
+        "id": "orgbeh-w7-q5",
+        "text": "Treating the common resources responsibly is called civic virtue.",
+        "options": ["True", "False"],
+        "correctAnswer": "True"
+      },
+      {
+        "id": "orgbeh-w7-q6",
+        "text": "__________ is helping without expecting anything in return.",
+        "options": ["Altruism", "Competition", "Cooperation", "Conscientiousness"],
+        "correctAnswer": "Altruism"
+      },
+      {
+        "id": "orgbeh-w7-q7",
+        "text": "When each party involved in a task tries to maximize its own gains, often at the expense of others, it is called:",
+        "options": ["Cooperation", "Interdependency", "Competition", "None of the above"],
+        "correctAnswer": "Competition"
+      },
+      {
+        "id": "orgbeh-w7-q8",
+        "text": "People who focus on maximizing the joint outcomes of everyone involved are called:",
+        "options": ["Competitors", "Cooperators", "Individualists", "Equalizers"],
+        "correctAnswer": "Cooperators"
+      },
+      {
+        "id": "orgbeh-w7-q9",
+        "text": "Which conflict handling style is best for both the parties involved?",
+        "options": ["Competing", "Avoiding", "Accommodating", "Collaborating"],
+        "correctAnswer": "Collaborating"
+      },
+      {
+        "id": "orgbeh-w7-q10",
+        "text": "Disagreements on strategy and sharing of responsibility and resources is called:",
+        "options": ["Relational conflict", "Task conflict", "Process conflict", "Avoiding"],
+        "correctAnswer": "Process conflict"
+      }
+    ]
+  }
+  

@@ -1,0 +1,127 @@
+{
+    "id": "cybersec-week6-assign6",
+    "title": "Week 6: Assignment 6",
+    "week": 6,
+    "questions": [
+      {
+        "id": "cyber-w6-q1",
+        "text": "Which of the following is not typically considered a method used in \"File Analysis\" under the MITRE DEF3ND Framework?",
+        "options": [
+          "File Hashing",
+          "File Compression",
+          "Dynamic Analysis",
+          "File Content Rules",
+          "Emulated File Analysis"
+        ],
+        "correctAnswer": "File Compression"
+      },
+      {
+        "id": "cyber-w6-q2",
+        "text": "Before executing the attacks, PUSIKURAC registers domains through FreeDNS services.Which tactic is being described?",
+        "options": [
+          "Persistence",
+          "Initial Access",
+          "Resource Development",
+          "Command & Control",
+          "Defense Evasion"
+        ],
+        "correctAnswer": "Resource Development"
+      },
+      {
+        "id": "cyber-w6-q3",
+        "text": "If you perform process injection, i.e., inject code into a running process, what would the resulting digital artifact be?",
+        "options": [
+          "The network logs of the process",
+          "The CPU usage of the process",
+          "The process ID of the injected process",
+          "The file path of the executable",
+          "The content of the memory allocated to that process"
+        ],
+        "correctAnswer": "The content of the memory allocated to that process"
+      },
+      {
+        "id": "cyber-w6-q4",
+        "text": "Which of the following is not a sub-tactic under the \"Harden\" tactic in the MITRE DEF3ND Framework?",
+        "options": [
+          "Credential Hardening",
+          "Network Hardening",
+          "Message Hardening",
+          "Platform Hardening",
+          "Application Hardening"
+        ],
+        "correctAnswer": "Network Hardening"
+      },
+      {
+        "id": "cyber-w6-q5",
+        "text": "In network isolation, why do we segment a network?",
+        "options": [
+          "To create firewalls and access controls between segments, so that if one part of the network is compromised, the other segments remain secure.",
+          "To allow unrestricted communication between all devices within the network.",
+          "To simplify the network design and reduce the need for security measures.",
+          "To ensure that all network segments share the same access controls and permissions.",
+          "To increase the overall speed and efficiency of the network."
+        ],
+        "correctAnswer": "To create firewalls and access controls between segments, so that if one part of the network is compromised, the other segments remain secure."
+      },
+      {
+        "id": "cyber-w6-q6",
+        "text": "Which of the following is not typically considered a method of Credential Hardening?",
+        "options": [
+          "Multi-factor Authentication",
+          "Data Encryption",
+          "Strong Password Policy",
+          "One-Time Password",
+          "Certificate Pinning"
+        ],
+        "correctAnswer": "Data Encryption"
+      },
+      {
+        "id": "cyber-w6-q7",
+        "text": "The downloaded executable performs a known UAC bypass through event viewer registry hijacking to gain the highest privileges. What is the recommended defensive measure?",
+        "options": [
+          "Application Whitelisting",
+          "User Access Control (UAC) Reinforcement",
+          "Privilege Escalation",
+          "Patch in time",
+          "Anti-malware tool"
+        ],
+        "correctAnswer": "Patch in time"
+      },
+      {
+        "id": "cyber-w6-q8",
+        "text": "Which of the following sub-tactics is not part of the \"Detect\" tactic in the MITRE DEF3ND Framework?",
+        "options": [
+          "User Behavior Analysis",
+          "Network Traffic Analysis",
+          "Identifier Analysis",
+          "Memory Analysis",
+          "File Analysis"
+        ],
+        "correctAnswer": "Memory Analysis"
+      },
+      {
+        "id": "cyber-w6-q9",
+        "text": "In the context of cybersecurity, when does a digital object become a digital artifact?",
+        "options": [
+          "When captured in network traffic and subjected to analysis, elevating it to the level of a digital artifact.",
+          "When it undergoes routine monitoring or logging within a secure system.",
+          "When stored in a secure environment with restricted access, transforming it into a historical or forensic artifact.",
+          "When it is articulated to provide security within a system.",
+          "When it is touched, used, or created by a threat actor or defensive actor, transitioning it into a significant digital artifact."
+        ],
+        "correctAnswer": "When it is touched, used, or created by a threat actor or defensive actor, transitioning it into a significant digital artifact."
+      },
+      {
+        "id": "cyber-w6-q10",
+        "text": "In the context of the MITRE DEF3ND Framework, which of the following cannot be considered a \"message\" when discussing Message Hardening?",
+        "options": [
+          "Two processes using a message-passing protocol",
+          "SMS",
+          "HTTP requests",
+          "API call",
+          "Socket connection"
+        ],
+        "correctAnswer": "SMS"
+      }
+    ]
+  }

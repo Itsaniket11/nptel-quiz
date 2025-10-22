@@ -1,0 +1,103 @@
+{
+    "id": "cybersec-week1-assign1",
+    "title": "Week 1: Cybersecurity Fundamentals",
+    "week": 1,
+    "questions": [
+      {
+        "id": "cyber-w1-q1",
+        "text": "Which of the following is a tool used for Reconnaissance?",
+        "options": ["NMap", "Antivirus", "IDA Pro", "Ghidra"],
+        "correctAnswer": "NMap"
+      },
+      {
+        "id": "cyber-w1-q2",
+        "text": "Which of the following is NOT a cyber defense tactic?",
+        "options": [
+          "Intrusion Detection Systems (IDS)",
+          "Firewalls",
+          "Phishing",
+          "Antivirus Software"
+        ],
+        "correctAnswer": "Phishing"
+      },
+      {
+        "id": "cyber-w1-q3",
+        "text": "Which among the following is NOT an essential function of Cyber Security according to NIST CSF?",
+        "options": ["Recover", "Identify", "Analyze", "Respond"],
+        "correctAnswer": "Analyze"
+      },
+      {
+        "id": "cyber-w1-q4",
+        "text": "Which of the following correctly defines Robustness and Resilience?",
+        "options": [
+          "Robustness is the ability to predict and prevent disturbances, while resilience is the capacity to learn from past failures.",
+          "Robustness is the ability of a system to withstand disturbances without experiencing significant changes in its performance, while Resilience is the ability of a system to recover from disturbances and return to its original or improved state.",
+          "Robustness and resilience are synonyms, both referring to the ability to withstand any type of change.",
+          "Robustness is the speed of recovery after a disturbance, and resilience is the ability to prevent disturbances."
+        ],
+        "correctAnswer": "Robustness is the ability of a system to withstand disturbances without experiencing significant changes in its performance, while Resilience is the ability of a system to recover from disturbances and return to its original or improved state."
+      },
+      {
+        "id": "cyber-w1-q5",
+        "text": "What is the primary objective of the Weaponization stage in the Lockheed Martin Cyber Kill Chain?",
+        "options": [
+          "Gathering information about the target",
+          "Delivering the weaponized payload",
+          "Establishing communication channels",
+          "Creating or acquiring tools to exploit vulnerabilities"
+        ],
+        "correctAnswer": "Creating or acquiring tools to exploit vulnerabilities"
+      },
+      {
+        "id": "cyber-w1-q6",
+        "text": "What does Cyber Security primarily deal with?",
+        "options": [
+          "People, Process, Technology",
+          "Devices, Supply Chain, Networks",
+          "People, Process, Software",
+          "Process, Technology, Hardware"
+        ],
+        "correctAnswer": "People, Process, Technology"
+      },
+      {
+        "id": "cyber-w1-q7",
+        "text": "What is Lockheed Martin Cyber Kill Chain all about?",
+        "options": [
+          "The Lockheed Martin Cyber Kill Chain is a type of advanced persistent threat (APT) used by nation-state actors to infiltrate target systems.",
+          "The Lockheed Martin Cyber Kill Chain is a global cybersecurity certification program for IT professionals.",
+          "The Lockheed Martin Cyber Kill Chain is a new encryption standard designed to protect sensitive government data.",
+          "The Lockheed Martin Cyber Kill Chain is a framework that outlines the steps an attacker typically takes to compromise a target system, allowing defenders to identify and prevent attacks at different stages."
+        ],
+        "correctAnswer": "The Lockheed Martin Cyber Kill Chain is a framework that outlines the steps an attacker typically takes to compromise a target system, allowing defenders to identify and prevent attacks at different stages."
+      },
+      {
+        "id": "cyber-w1-q8",
+        "text": "What is the role of a defender to defend against reconnaissance.",
+        "options": [
+          "Deploying antivirus software on all endpoints.",
+          "Monitoring network traffic for unusual patterns and anomalies.",
+          "Sending fake emails to confuse attackers.",
+          "Changing employee passwords every week."
+        ],
+        "correctAnswer": "Monitoring network traffic for unusual patterns and anomalies."
+      },
+      {
+        "id": "cyber-w1-q9",
+        "text": "Which of the following is NOT one of the stages of the Lockheed Martin Cyber Kill Chain?",
+        "options": ["Command and Control", "Recovery", "Exploitation", "Reconnaissance"],
+        "correctAnswer": "Recovery"
+      },
+      {
+        "id": "cyber-w1-q10",
+        "text": "What is the distinguishing factor for Cyber Crime and Cyber Attack?",
+        "options": [
+          "Cyber Crime is more likely to happen for Individuals and Cyber Attacks happen to Organisations.",
+          "Cyber Attack is only done to Individuals whereas Cyber Crime only happens for Organisations",
+          "Cyber Attack is only done to Organisations whereas Cyber Crime only happens for Individuals",
+  
+          "Cyber Crime is always conducted offline while Cyber Attacks are always online."
+        ],
+        "correctAnswer": "Cyber Crime is more likely to happen for Individuals and Cyber Attacks happen to Organisations."
+      }
+    ]
+  }

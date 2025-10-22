@@ -1,0 +1,115 @@
+{
+    "id": "cybersec-week7-assign7",
+    "title": "Week 7: Assignment 7",
+    "week": 7,
+    "questions": [
+      {
+        "id": "cyber-w7-q1",
+        "text": "In an organization, there are two assets we are considering. For the first asset, the impact of a potential risk is high, but the likelihood is low. For the second asset, the likelihood of a potential risk is high, but the impact is low. Based on the likelihood * impact risk matrix, what would be the probable risk levels for both assets?",
+        "options": [
+          "Moderate for both assets",
+          "High for both assets",
+          "High for the first asset, Low for the second asset",
+          "Low for both assets",
+          "Low for the first asset, Moderate for the second asset"
+        ],
+        "correctAnswer": "Moderate for both assets"
+      },
+      {
+        "id": "cyber-w7-q2",
+        "text": "Which of the following is not a component of Information Assets?",
+        "options": ["People", "Security Policies", "Procedures", "Hardware (HW)", "Data"],
+        "correctAnswer": "Security Policies"
+      },
+      {
+        "id": "cyber-w7-q3",
+        "text": "Which methods are most commonly used to measure risk in information systems and insurance, respectively?",
+        "options": [
+          "Qualitative Risk Measurement for both",
+          "Predictive Risk Modeling for both",
+          "Quantitative Risk Measurement for both",
+          "Quantitative Risk Measurement for information systems and Qualitative Risk Measurement for insurance",
+          "Qualitative Risk Measurement for information systems and Quantitative Risk Measurement for insurance"
+        ],
+        "correctAnswer": "Qualitative Risk Measurement for information systems and Quantitative Risk Measurement for insurance"
+      },
+      {
+        "id": "cyber-w7-q4",
+        "text": "What is the purpose of a risk matrix in the risk assessment process?",
+        "options": [
+          "To minimize potential losses",
+          "To assign risk levels based on impact and likelihood",
+          "To eliminate all vulnerabilities",
+          "To identify potential risks and threats",
+          "To ignore potential risks"
+        ],
+        "correctAnswer": "To assign risk levels based on impact and likelihood"
+      },
+      {
+        "id": "cyber-w7-q5",
+        "text": "Which of the following could not typically be considered a threat agent?",
+        "options": [
+          "Insider",
+          "Authenticated User",
+          "Some Hacktivists",
+          "Firewall",
+          "Threat Group"
+        ],
+        "correctAnswer": "Firewall"
+      },
+      {
+        "id": "cyber-w7-q6",
+        "text": "What is the first step in the NIST Risk Assessment Methodology?",
+        "options": [
+          "Threat Identification",
+          "System Characterization",
+          "Impact Analysis",
+          "Vulnerability Identification",
+          "Control Analysis"
+        ],
+        "correctAnswer": "System Characterization"
+      },
+      {
+        "id": "cyber-w7-q7",
+        "text": "Which of the following best represents the formula for calculating risk?",
+        "options": [
+          "Vulnerability minus Threat multiplied by Impact",
+          "Threat divided by Vulnerability minus Impact",
+          "Threat multiplied by Vulnerability multiplied by Impact",
+          "Impact plus Vulnerability minus Threat",
+          "Threat plus Vulnerability plus Impact"
+        ],
+        "correctAnswer": "Threat multiplied by Vulnerability multiplied by Impact"
+      },
+      {
+        "id": "cyber-w7-q8",
+        "text": "In the Risk Identification process, what does \"knowing ourselves\" refer to?",
+        "options": [
+          "Evaluating the effectiveness of security controls",
+          "Identifying, classifying, and prioritizing the organization's information assets",
+          "Understanding external threats and vulnerabilities",
+          "Assessing the impact of potential security breaches",
+          "Determining the likelihood of an attack on the organization"
+        ],
+        "correctAnswer": "Identifying, classifying, and prioritizing the organization's information assets"
+      },
+      {
+        "id": "cyber-w7-q9",
+        "text": "An organization has a web server that hosts its corporate website.The website displays general company information and is not connected to any backend systems. If a breach of PII is penalized at INR 250 crore, based on qualitative risk assessment,what would be the appropriate risk classification for this web asset?",
+        "options": ["Severe", "High", "Low", "Moderate", "Very Low"],
+        "correctAnswer": "Low"
+      },
+      {
+        "id": "cyber-w7-q10",
+        "text": "A highly reputable government organization has a web server that hosts its corporate website.The website holds its employees' Personally Identifiable Information (PII) and all login credentials, which are stored in the backend. If a breach of PII is penalized at INR 250 crore and the likelihood of an attack occurring on the website on Independence Day is 99.9%, what is the risk value of the web asset according to a quantitative risk assessment?",
+        "options": [
+          "INR 2500 crore",
+          "INR 0",
+          "INR 2.5 crore",
+          "INR 249.75 crore",
+          "INR 25 crore"
+        ],
+        "correctAnswer": "INR 249.75 crore"
+      }
+    ]
+  }

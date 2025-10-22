@@ -1,0 +1,69 @@
+
+{
+    "id": "orgbeh-week3-assign1",
+    "title": "Week 3: Assignment 1",
+    "week": 3,
+    "questions": [
+      {
+        "id": "orgbeh-w3-q1",
+        "text": "The meaning of the Latin word ‘Persona’ from which the word Personality arises is:",
+        "options": ["Behaviour", "Mask", "Thought", "Person"],
+        "correctAnswer": "Mask"
+      },
+      {
+        "id": "orgbeh-w3-q2",
+        "text": "Many psychologists argue that one’s personality can be changed over a period of time because those qualities are formed because of social factors.",
+        "options": ["True", "False"],
+        "correctAnswer": "True"
+      },
+      {
+        "id": "orgbeh-w3-q3",
+        "text": "According to Sigmund Freud’s psychoanalytic theory, the deepest level of consciousness is:",
+        "options": ["Subconscious", "Conscious state", "Unconscious", "Awareness"],
+        "correctAnswer": "Unconscious"
+      },
+      {
+        "id": "orgbeh-w3-q4",
+        "text": "According to Sigmund Freud, reality principle is followed by:",
+        "options": ["Id", "Super Ego", "Dream", "Ego"],
+        "correctAnswer": "Ego"
+      },
+      {
+        "id": "orgbeh-w3-q5",
+        "text": "In social learning theory, the withdrawal of something which somebody likes to strengthen a behaviour is called:",
+        "options": ["Negative Reinforcement", "Positive Reinforcement", "Reward", "Punishment"],
+        "correctAnswer": "Negative Reinforcement"
+      },
+      {
+        "id": "orgbeh-w3-q6",
+        "text": "The main proponent of Self Theory was:",
+        "options": ["Sigmund Freud", "Albert Bandura", "Carl Rogers", "B.F. Skinner"],
+        "correctAnswer": "Carl Rogers"
+      },
+      {
+        "id": "orgbeh-w3-q7",
+        "text": "In Johari’s Window model of self-awareness, the part of the self which is not known to ourselves, but others know is called:",
+        "options": ["Open", "Blind", "Hidden", "Unknown"],
+        "correctAnswer": "Blind"
+      },
+      {
+        "id": "orgbeh-w3-q8",
+        "text": "Employees with high self-esteem are more ready to take responsibilities.",
+        "options": ["True", "False"],
+        "correctAnswer": "True"
+      },
+      {
+        "id": "orgbeh-w3-q9",
+        "text": "People with ___ locus of control believe that others control their life and whatever happens in their life is because of outside factors.",
+        "options": ["Internal", "External"],
+        "correctAnswer": "External"
+      },
+      {
+        "id": "orgbeh-w3-q10",
+        "text": "According to Big Five Personality Theory, people who like to experiment and try and find out new things and are less judgmental about people of other cultures are high on:",
+        "options": ["Adjustment", "Agreeableness", "Conscientiousness", "Intellectual Openness"],
+        "correctAnswer": "Intellectual Openness"
+      }
+    ]
+  }
+  

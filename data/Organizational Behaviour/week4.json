@@ -1,0 +1,69 @@
+
+{
+    "id": "orgbeh-week4-assign1",
+    "title": "Week 4: Assignment 1",
+    "week": 4,
+    "questions": [
+      {
+        "id": "orgbeh-w4-q1",
+        "text": "A relatively permanent change in behaviour occurring as a result of experience is called",
+        "options": ["Thinking", "Sensation", "Learning", "Prejudice"],
+        "correctAnswer": "Learning"
+      },
+      {
+        "id": "orgbeh-w4-q2",
+        "text": "In Pavlov’s Dog experiment, the food presented which makes the dog salivate is:",
+        "options": ["Unconditional stimulus", "Unconditional response", "Conditioned stimulus", "Conditioned response"],
+        "correctAnswer": "Unconditional stimulus"
+      },
+      {
+        "id": "orgbeh-w4-q3",
+        "text": "In Operant conditioning, the process through which the responses that are no longer reinforced tend to gradually diminish in strength is called:",
+        "options": ["Positive reinforcement", "Negative Reinforcement", "Punishment", "Extinction"],
+        "correctAnswer": "Extinction"
+      },
+      {
+        "id": "orgbeh-w4-q4",
+        "text": "After watching a Dance TV show, a kid starts to make dance moves. This is an example of:",
+        "options": ["Operant conditioning", "Classical conditioning", "Observational learning", "Negative Reinforcement"],
+        "correctAnswer": "Observational learning"
+      },
+      {
+        "id": "orgbeh-w4-q5",
+        "text": "***___*** are evaluative statements towards objects, people or events.",
+        "options": ["Learning", "Attitudes", "Memory", "Personality"],
+        "correctAnswer": "Attitudes"
+      },
+      {
+        "id": "orgbeh-w4-q6",
+        "text": "Opinion is primarily ___ in nature.",
+        "options": ["Affective", "Cognitive", "Behavioural", "Unconscious"],
+        "correctAnswer": "Cognitive"
+      },
+      {
+        "id": "orgbeh-w4-q7",
+        "text": "The intensity of an attitude or the magnitude/degree of its favorableness is called",
+        "options": ["Multiplexity", "Relation to need", "Centrality", "Valence"],
+        "correctAnswer": "Valence"
+      },
+      {
+        "id": "orgbeh-w4-q8",
+        "text": "When people do not provide honest answers to certain questions because they feel that it is not right to give those answers, it is called:",
+        "options": ["Social Loafing", "Fatigue", "Social Desirability Effect", "Sampling"],
+        "correctAnswer": "Social Desirability Effect"
+      },
+      {
+        "id": "orgbeh-w4-q9",
+        "text": "Uncomfortable tension which comes from holding two conflicting thoughts in the mind at the same time is called Cognitive Dissonance.",
+        "options": ["True", "False"],
+        "correctAnswer": "True"
+      },
+      {
+        "id": "orgbeh-w4-q10",
+        "text": "Providing more information can lead to change in attitude.",
+        "options": ["True", "False"],
+        "correctAnswer": "True"
+      }
+    ]
+  }
+  

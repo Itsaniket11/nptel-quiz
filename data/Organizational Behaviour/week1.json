@@ -1,0 +1,68 @@
+{
+    "id": "orgbeh-week1-assign1",
+    "title": "Week 1: Assignment 1",
+    "week": 1,
+    "questions": [
+      {
+        "id": "orgbeh-w1-q1",
+        "text": "Response of the organism or system to various stimuli or inputs, whether internal or external, conscious or subconscious, overt or covert, voluntary or involuntary is called:",
+        "options": ["Organization", "Behaviour", "Resource", "Productivity"],
+        "correctAnswer": "Behaviour"
+      },
+      {
+        "id": "orgbeh-w1-q2",
+        "text": "Which of the following is not an organization?",
+        "options": ["TATA Steels", "UNICEF", "Facebook Inc.", "Germany"],
+        "correctAnswer": "Germany"
+      },
+      {
+        "id": "orgbeh-w1-q3",
+        "text": "More output for less input or being able to provide optimal output for a given input is called:",
+        "options": ["Effectiveness", "Productivity", "Efficiency", "Motivation"],
+        "correctAnswer": "Efficiency"
+      },
+      {
+        "id": "orgbeh-w1-q4",
+        "text": "The social expectation on an individual is called:",
+        "options": ["Role", "Designation", "Job", "Task"],
+        "correctAnswer": "Role"
+      },
+      {
+        "id": "orgbeh-w1-q5",
+        "text": "Which field can be called as the mother of Organizational behaviour?",
+        "options": ["Anthropology", "Economics", "Industrial Psychology", "Law"],
+        "correctAnswer": "Industrial Psychology"
+      },
+      {
+        "id": "orgbeh-w1-q6",
+        "text": "The scientific management movement was pioneered by:",
+        "options": ["Walter Dill Scott", "Edward K Strong Jr.", "Hugo Munsterberg", "Frederick W Taylor"],
+        "correctAnswer": "Frederick W Taylor"
+      },
+      {
+        "id": "orgbeh-w1-q7",
+        "text": "The assembly line of production was first introduced by Henry Ford.",
+        "options": ["True", "False"],
+        "correctAnswer": "True"
+      },
+      {
+        "id": "orgbeh-w1-q8",
+        "text": "The process of breaking down the entire job into specific tasks and see how each of these tasks are performed and how much time on an average a person will take to finish it is called:",
+        "options": ["Time and Motion Study", "Workplace management", "Job Profile", "Productivity"],
+        "correctAnswer": "Time and Motion Study"
+      },
+      {
+        "id": "orgbeh-w1-q9",
+        "text": "In an experiment, the group in which you make no changes is called the:",
+        "options": ["Experimental Group", "Focus Group", "Control Group", "Target Group"],
+        "correctAnswer": "Control Group"
+      },
+      {
+        "id": "orgbeh-w1-q10",
+        "text": "Hawthorne experiments were a set of experiments conducted to study the impact of assembly line on the health of the workers.",
+        "options": ["True", "False"],
+        "correctAnswer": "False"
+      }
+    ]
+  }
+  

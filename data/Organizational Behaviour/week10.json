@@ -1,0 +1,69 @@
+
+{
+    "id": "orgbeh-week10-assign1",
+    "title": "Week 10: Assignment 1",
+    "week": 10,
+    "questions": [
+      {
+        "id": "orgbeh-w10-q1",
+        "text": "The source of power which is based on the capacity to administer punishment to others:",
+        "options": ["Legitimate", "Reward", "Coercive", "Expert"],
+        "correctAnswer": "Coercive"
+      },
+      {
+        "id": "orgbeh-w10-q2",
+        "text": "Expert power is when you have certain abilities which nobody else has or is very rare.",
+        "options": ["True", "False"],
+        "correctAnswer": "True"
+      },
+      {
+        "id": "orgbeh-w10-q3",
+        "text": "Information one possesses, which cannot be recorded or measured is called:",
+        "options": ["Empowerment", "Referent power", "Gossiping", "Tacit knowledge"],
+        "correctAnswer": "Tacit knowledge"
+      },
+      {
+        "id": "orgbeh-w10-q4",
+        "text": "The form of political behaviour exhibited when employees try to form a group based on common language they speak is:",
+        "options": ["Impression management", "Building coalitions", "Blaming", "Manipulating information flow"],
+        "correctAnswer": "Building coalitions"
+      },
+      {
+        "id": "orgbeh-w10-q5",
+        "text": "_________ is the ability to persuade others to seek defined objectives enthusiastically.",
+        "options": ["Coercion", "Behavioural change", "Leadership", "Authority"],
+        "correctAnswer": "Leadership"
+      },
+      {
+        "id": "orgbeh-w10-q6",
+        "text": "While managers rely on control, leaders _________.",
+        "options": ["Ask how and when", "Focus on systems and structure", "Accept status quo", "Inspire trust"],
+        "correctAnswer": "Inspire trust"
+      },
+      {
+        "id": "orgbeh-w10-q7",
+        "text": "The leadership style where the responsibilities are shared by all and can be very useful in businesses where creative ideas are very important:",
+        "options": ["Autocratic", "Laissez-Faire", "Task centered", "Paternalistic"],
+        "correctAnswer": "Laissez-Faire"
+      },
+      {
+        "id": "orgbeh-w10-q8",
+        "text": "Democratic leadership style encourages decision making from different perspectives.",
+        "options": ["True", "False"],
+        "correctAnswer": "True"
+      },
+      {
+        "id": "orgbeh-w10-q9",
+        "text": "The ideal case in Blake Mouton Managerial Grid of Leadership style is:",
+        "options": ["Country club", "Impoverished", "Produce or perish", "Team Leader"],
+        "correctAnswer": "Team Leader"
+      },
+      {
+        "id": "orgbeh-w10-q10",
+        "text": "The theory which states that the subordinates will be motivated to follow the leader only when they perceive that the leader can help them to fulfil their goals:",
+        "options": ["Path-goal theory", "Fiedler’s model", "Hersey and Blanchard’s situational leadership theory", "Trait theory"],
+        "correctAnswer": "Path-goal theory"
+      }
+    ]
+  }
+  

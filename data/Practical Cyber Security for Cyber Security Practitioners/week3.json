@@ -1,0 +1,121 @@
+{
+    "id": "cybersec-week3-assign3",
+    "title": "Week 3: Assignment 3",
+    "week": 3,
+    "questions": [
+      {
+        "id": "cyber-w3-q1",
+        "text": "What is the primary purpose of an attack bridge simulation?",
+        "options": [
+          "To simulate the creation of network topologies",
+          "To simulate the analysis of financial risks",
+          "To simulate new encryption methods",
+          "To simulate real-world cyber attacks for training and testing purposes",
+          "To simulate the design of physical security systems"
+        ],
+        "correctAnswer": "To simulate real-world cyber attacks for training and testing purposes"
+      },
+      {
+        "id": "cyber-w3-q2",
+        "text": "Which of the following is not a usage of the MITRE ATT&CK framework?",
+        "options": [
+          "Threat Hunting",
+          "Authentication",
+          "Comparing two threat groups",
+          "Adversary Emulation",
+          "Attack Detection"
+        ],
+        "correctAnswer": "Authentication"
+      },
+      {
+        "id": "cyber-w3-q3",
+        "text": "What does \"Resource Development\" refer to in the context of MITRE ATT&CK?",
+        "options": [
+          "The phase where an attacker establishes persistence on a target system",
+          "The process of gathering public information about a target organization",
+          "The tactic where adversaries develop, purchase, or acquire resources needed for future operations",
+          "The stage of exploiting known vulnerabilities in target systems",
+          "The phase involving cleanup and anti-forensic actions after an attack"
+        ],
+        "correctAnswer": "The tactic where adversaries develop, purchase, or acquire resources needed for future operations"
+      },
+      {
+        "id": "cyber-w3-q4",
+        "text": "Which of the following is associated with \"Easy\" difficulty in the Pyramid of Pain?",
+        "options": [
+          "TTPs (Tactics, Techniques, and Procedures)",
+          "IP Addresses",
+          "Domain Names",
+          "Hash Values",
+          "Network/Host Artifacts"
+        ],
+        "correctAnswer": "IP Addresses"
+      },
+      {
+        "id": "cyber-w3-q5",
+        "text": "How can we check if Command and Control (C&C) connections are happening?",
+        "options": [
+          "Application log analysis",
+          "Host Intrusion Detection",
+          "Web server log monitoring",
+          "Network Intrusion Detection",
+          "Firewall configuration review"
+        ],
+        "correctAnswer": "Network Intrusion Detection"
+      },
+      {
+        "id": "cyber-w3-q6",
+        "text": "The STIX format is used to communicate:",
+        "options": [
+          "Software Licensing Information",
+          "Malware",
+          "Cyber Threat Intelligence",
+          "Networking protocol",
+          "Network Configurations"
+        ],
+        "correctAnswer": "Cyber Threat Intelligence"
+      },
+      {
+        "id": "cyber-w3-q7",
+        "text": "Which of the following is not a technique for Initial Access in MITRE ATT&CK?",
+        "options": [
+          "Drive-by Compromise",
+          "Exploit Public-Facing Application",
+          "Content Injection",
+          "Phishing",
+          "Active Scanning"
+        ],
+        "correctAnswer": "Active Scanning"
+      },
+      {
+        "id": "cyber-w3-q8",
+        "text": "Which of the following is not a step in the process of mapping to ATT&CK?",
+        "options": [
+          "Compare your results to other analysts",
+          "Develop new cybersecurity tools",
+          "Research the behavior",
+          "Understand ATT&CK",
+          "Find the behavior"
+        ],
+        "correctAnswer": "Develop new cybersecurity tools"
+      },
+      {
+        "id": "cyber-w3-q9",
+        "text": "An attacker uses command injection to run a command on a web server host. Which MITRE ATT&CK tactic does this fall under?",
+        "options": ["Privilege Escalation", "Initial Access", "Persistence", "Execution", "Reconnaissance"],
+        "correctAnswer": "Execution"
+      },
+      {
+        "id": "cyber-w3-q10",
+        "text": "What is the difference in responsibilities between the red team and blue team in cybersecurity?",
+        "options": [
+          "The red team finds vulnerabilities by simulating attacks, while the blue team responds to incidents and defends against attacks.",
+          "The red team emulates attacks to find vulnerabilities, while the blue team creates security policies.",
+          "The red team defends against cyber threats, while the blue team finds vulnerabilities by breaking through defenses",
+          "The red team monitors network traffic for threats, while the blue team responds to incidents and creates defenses.",
+          "The red team defends against attacks and responds to incidents, while the blue team simulates attacks to test defenses"
+        ],
+        "correctAnswer": "The red team finds vulnerabilities by simulating attacks, while the blue team responds to incidents and defends against attacks."
+      }
+    ]
+  }

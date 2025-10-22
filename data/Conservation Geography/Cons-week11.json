@@ -1,0 +1,82 @@
+{
+    "id": "env-week11-assign11",
+    "title": "Week 11: Assignment 11",
+    "week": 11,
+    "questions": [
+      {
+        "id": "env-w11-q1",
+        "text": "New Delhi can best be categorised as",
+        "options": ["administrative town", "industrial town", "transport town", "commercial town"],
+        "correctAnswer": "administrative town"
+      },
+      {
+        "id": "env-w11-q2",
+        "text": "Which of these is a factor governing barrier effect of roads?",
+        "options": ["traffic intensity", "speed of vehicles", "driver sensitivity", "all of these"],
+        "correctAnswer": "all of these"
+      },
+      {
+        "id": "env-w11-q3",
+        "text": "Which of these is a factor governing barrier effect of roads?",
+        "options": [
+          "presence and location of animal crossings",
+          "movement pattern of species",
+          "species specific preference of road use",
+          "all of these"
+        ],
+        "correctAnswer": "all of these"
+      },
+      {
+        "id": "env-w11-q4",
+        "text": "Varanasi can best be categorised as",
+        "options": ["mining town", "garrison town", "educational town", "religious town"],
+        "correctAnswer": "religious town"
+      },
+      {
+        "id": "env-w11-q5",
+        "text": "“the ability to produce a good using fewer inputs than another producer” is",
+        "options": [
+          "comparative advantage",
+          "absolute advantage",
+          "production advantage",
+          "resource advantage"
+        ],
+        "correctAnswer": "absolute advantage"
+      },
+      {
+        "id": "env-w11-q6",
+        "text": "\"the price of a good that prevails in the world market for that good” is the definition of",
+        "options": ["export price", "import price", "world price", "domestic price"],
+        "correctAnswer": "world price"
+      },
+      {
+        "id": "env-w11-q7",
+        "text": "Visakhapatnam can best be categorised as",
+        "options": ["administrative town", "industrial town", "transport town", "commercial town"],
+        "correctAnswer": "transport town"
+      },
+      {
+        "id": "env-w11-q8",
+        "text": "Which of these is / are example(s) of mitigation measures to mitigate impacts of linear infrastructure on wildlife?",
+        "options": ["land bridges", "canopy bridges", "glider poles", "all of these"],
+        "correctAnswer": "all of these"
+      },
+      {
+        "id": "env-w11-q9",
+        "text": "Bhilai can best be categorised as",
+        "options": ["administrative town", "industrial town", "transport town", "commercial town"],
+        "correctAnswer": "industrial town"
+      },
+      {
+        "id": "env-w11-q10",
+        "text": "“the ability to produce a good at a lower opportunity cost than another producer” is a definition of",
+        "options": [
+          "real advantage",
+          "monetary advantage",
+          "comparative advantage",
+          "opportunity advantage"
+        ],
+        "correctAnswer": "comparative advantage"
+      }
+    ]
+  }

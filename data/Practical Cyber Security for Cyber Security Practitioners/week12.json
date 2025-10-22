@@ -1,0 +1,117 @@
+{
+    "id": "cybersec-week12-assign12",
+    "title": "Week 12: Assignment 12",
+    "week": 12,
+    "questions": [
+      {
+        "id": "cyber-w12-q1",
+        "text": "In OVAL, what is the role of the 'State' element?",
+        "options": [
+          "It stores system configurations",
+          "It locates specific entities",
+          "It defines a policy recommendation",
+          "It evaluates the state of entities"
+        ],
+        "correctAnswer": "It evaluates the state of entities"
+      },
+      {
+        "id": "cyber-w12-q2",
+        "text": "What can OVAL be used for?",
+        "options": [
+          "Configuring firewall rules",
+          "Tracking network performance",
+          "Precise expression of policy compliance, vulnerability presence, inventory measures,and patch detection",
+          "Managing user accounts"
+        ],
+        "correctAnswer": "Precise expression of policy compliance, vulnerability presence, inventory measures,and patch detection"
+      },
+      {
+        "id": "cyber-w12-q3",
+        "text": "How does the OVAL community contribute to the repository after security alerts are published?",
+        "options": [
+          "By contributing content shortly after alerts are published",
+          "By submitting compliance reports",
+          "By offering system configuration updates",
+          "By updating firewall settings automatically"
+        ],
+        "correctAnswer": "By contributing content shortly after alerts are published"
+      },
+      {
+        "id": "cyber-w12-q4",
+        "text": "How can SCAP’s XCCDF language be used to enhance an organization's cybersecurity posture?",
+        "options": [
+          "By requiring manual interpretation of all security policies.",
+          "By structuring and encapsulating security policies into a format that can be automated and assessed.",
+          "By limiting the use of security policies to specific departments.",
+          "By focusing only on creating human-readable documents."
+        ],
+        "correctAnswer": "By structuring and encapsulating security policies into a format that can be automated and assessed."
+      },
+      {
+        "id": "cyber-w12-q5",
+        "text": "Which of the following is a key component of a STIX file?",
+        "options": [
+          "Device drivers",
+          "IP addresses and Port numbers",
+          "System configuration data",
+          "Indicators, Observables, and Incidents"
+        ],
+        "correctAnswer": "Indicators, Observables, and Incidents"
+      },
+      {
+        "id": "cyber-w12-q6",
+        "text": "OVAL definitions are now published with which security advisories?",
+        "options": [
+          "RedHat Security Advisories",
+          "Ubuntu Security Advisories",
+          "Microsoft Security Advisories",
+          "Apple Security Advisories"
+        ],
+        "correctAnswer": "RedHat Security Advisories"
+      },
+      {
+        "id": "cyber-w12-q7",
+        "text": "What is the primary function of the OVAL language?",
+        "options": [
+          "Managing network traffic",
+          "Automating software updates",
+          "Describing how to locate and test system state information",
+          "Storing system configurations"
+        ],
+        "correctAnswer": "Describing how to locate and test system state information"
+      },
+      {
+        "id": "cyber-w12-q8",
+        "text": "What is the primary purpose of a STIX file?",
+        "options": [
+          "Storing network configurations",
+          "Hosting website content",
+          "Performing system backups",
+          "Representing cyber threat information"
+        ],
+        "correctAnswer": "Representing cyber threat information"
+      },
+      {
+        "id": "cyber-w12-q9",
+        "text": "What is the main function of STIG Viewer?",
+        "options": [
+          "Reviewing system compliance with security guidelines",
+          "Managing firewall rules",
+          "Automating network device configurations",
+          "Tracking network performance metrics"
+        ],
+        "correctAnswer": "Reviewing system compliance with security guidelines"
+      },
+      {
+        "id": "cyber-w12-q10",
+        "text": "Which of the following is NOT a capability of STIG Viewer?",
+        "options": [
+          "Importing system configuration information",
+          "Automatically fixing security vulnerabilities",
+          "Reviewing vulnerability findings",
+          "Generating compliance reports"
+        ],
+        "correctAnswer": "Automatically fixing security vulnerabilities"
+      }
+    ]
+  }

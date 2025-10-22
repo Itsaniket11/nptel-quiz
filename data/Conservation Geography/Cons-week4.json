@@ -1,0 +1,72 @@
+{
+    "id": "env-week4-assign4",
+    "title": "Week 4: Assignment 4",
+    "week": 4,
+    "questions": [
+      {
+        "id": "env-w4-q1",
+        "text": "Which of these air masses is generally cool and moist?",
+        "options": ["cP", "cT", "mP", "mT"],
+        "correctAnswer": "mP"
+      },
+      {
+        "id": "env-w4-q2",
+        "text": "Which of these air masses is generally cold and dry?",
+        "options": ["cP", "cT", "mP", "mT"],
+        "correctAnswer": "cP"
+      },
+      {
+        "id": "env-w4-q3",
+        "text": "The ISS orbits in which layer?",
+        "options": ["Troposphere", "Stratosphere", "Mesosphere", "Thermosphere"],
+        "correctAnswer": "Thermosphere"
+      },
+      {
+        "id": "env-w4-q4",
+        "text": "The government came up with a regulation that incandescent bulbs be replaced by LED bulbs, so that electricity consumption and release of carbon dioxide from power plants is reduced. In the context of climate change, such an action would be called",
+        "options": ["adaptation", "mitigation", "deceleration", "maladaptation"],
+        "correctAnswer": "mitigation"
+      },
+      {
+        "id": "env-w4-q5",
+        "text": "Surplus seed and sperm banking is an adaptation option to facilitate",
+        "options": [
+          "resistance to climate changes",
+          "resilience to climate changes",
+          "response to climate changes",
+          "none of these"
+        ],
+        "correctAnswer": "resilience to climate changes"
+      },
+      {
+        "id": "env-w4-q6",
+        "text": "The classical period for taking averages for climate is",
+        "options": ["10 years", "20 years", "30 years", "40 years"],
+        "correctAnswer": "30 years"
+      },
+      {
+        "id": "env-w4-q7",
+        "text": "Noctilucent clouds are present in which layer?",
+        "options": ["Troposphere", "Stratosphere", "Mesosphere", "Thermosphere"],
+        "correctAnswer": "Mesosphere"
+      },
+      {
+        "id": "env-w4-q8",
+        "text": "Because of climate change, Mudumalai Tiger Reserve is suffering from frequent droughts. The management has built several artificial water holes for animals, and fills them up regularly with tankers. In the context of climate change, such an action would be called",
+        "options": ["adaptation", "mitigation", "deceleration", "maladaptation"],
+        "correctAnswer": "adaptation"
+      },
+      {
+        "id": "env-w4-q9",
+        "text": "Which of these is home to the ozone layer?",
+        "options": ["Troposphere", "Stratosphere", "Mesosphere", "Thermosphere"],
+        "correctAnswer": "Stratosphere"
+      },
+      {
+        "id": "env-w4-q10",
+        "text": "Most of the weather phenomena occur in",
+        "options": ["Troposphere", "Stratosphere", "Mesosphere", "Thermosphere"],
+        "correctAnswer": "Troposphere"
+      }
+    ]
+  }

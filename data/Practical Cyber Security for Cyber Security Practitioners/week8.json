@@ -1,0 +1,127 @@
+{
+    "id": "cybersec-week8-assign8",
+    "title": "Week 8: Assignment 8",
+    "week": 8,
+    "questions": [
+      {
+        "id": "cyber-w8-q1",
+        "text": "Which of the following is NOT a characteristic of a cyber crisis?",
+        "options": [
+          "Global spread potential",
+          "Long-term uncertainty",
+          "Technical nature requiring specialized expertise",
+          "High impact and rarity",
+          "Immediate and certain resolution"
+        ],
+        "correctAnswer": "Immediate and certain resolution"
+      },
+      {
+        "id": "cyber-w8-q2",
+        "text": "Which type of exercise is most suitable for organizations that have never conducted cyber crisis management exercises?",
+        "options": [
+          "Tabletop exercise",
+          "Full-scale operational exercise",
+          "Unannounced simulation exercise",
+          "Surprise drill exercise",
+          "Remote exercise"
+        ],
+        "correctAnswer": "Tabletop exercise"
+      },
+      {
+        "id": "cyber-w8-q3",
+        "text": "What does the Asset Management (AM) domain aim to achieve within the CRR framework?",
+        "options": [
+          "To provide training for cybersecurity awareness",
+          "To monitor external dependencies and their impact on service delivery",
+          "To document and manage assets throughout their lifecycle to support critical services",
+          "To ensure the availability and integrity of critical service assets",
+          "To identify and manage vulnerabilities"
+        ],
+        "correctAnswer": "To document and manage assets throughout their lifecycle to support critical services"
+      },
+      {
+        "id": "cyber-w8-q4",
+        "text": "Which potential impact should be considered during cyber crisis management exercises to ensure comprehensive preparedness?",
+        "options": [
+          "Reputational damage, application unavailability, and legal repercussions",
+          "Enhanced public image",
+          "Expansion of the organization's market presence",
+          "Increase in employee bonuses",
+          "Improvement in cybersecurity software sales"
+        ],
+        "correctAnswer": "Reputational damage, application unavailability, and legal repercussions"
+      },
+      {
+        "id": "cyber-w8-q5",
+        "text": "According to the NIST Framework Version 1.1, which of the following is NOT a component of the framework?",
+        "options": [
+          "Framework Profiles",
+          "Cybersecurity Operations",
+          "Framework Implementation Tiers",
+          "Framework Core",
+          "Framework Categories"
+        ],
+        "correctAnswer": "Cybersecurity Operations"
+      },
+      {
+        "id": "cyber-w8-q6",
+        "text": "What is the primary objective of organizing cyber crisis management exercises within an organization?",
+        "options": [
+          "To identify and punish employees responsible for security breaches",
+          "To implement new software systems",
+          "To reduce the number of cyber attacks",
+          "To increase the organization's revenue",
+          "To develop reflexes and enhance teamwork during a crisis"
+        ],
+        "correctAnswer": "To develop reflexes and enhance teamwork during a crisis"
+      },
+      {
+        "id": "cyber-w8-q7",
+        "text": "What is a critical step that technical teams must undertake during a cyber crisis?",
+        "options": [
+          "Financial auditing",
+          "Hiring new staff",
+          "Public relations management",
+          "Investigation, remediation, and stabilization",
+          "Market analysis"
+        ],
+        "correctAnswer": "Investigation, remediation, and stabilization"
+      },
+      {
+        "id": "cyber-w8-q8",
+        "text": "Which domain within the Cyber Resilience Review (CRR) focuses on managing the lifecycle and integrity of assets?",
+        "options": [
+          "Controls Management (CM)",
+          "External Dependencies Management (EDM)",
+          "Configuration and Change Management (CCM)",
+          "Risk Management (RM)",
+          "Vulnerability Management (VM)"
+        ],
+        "correctAnswer": "Configuration and Change Management (CCM)"
+      },
+      {
+        "id": "cyber-w8-q9",
+        "text": "What is a key feature of the CRR self-assessment process?",
+        "options": [
+          "It only assesses the physical security measures in place",
+          "It is an interview-based assessment led by external cybersecurity experts",
+          "It requires the participation of external facilitators only",
+          "It focuses solely on financial risks",
+          "It enables organizations to conduct the assessment independently without external facilitators"
+        ],
+        "correctAnswer": "It enables organizations to conduct the assessment independently without external facilitators"
+      },
+      {
+        "id": "cyber-w8-q10",
+        "text": "Which of the following best describes a \"critical service\" as defined in the Cyber Resilience Review (CRR)?",
+        "options": [
+          "A set of activities vital to the organization's success, where disruption would severely impact operations",
+          "Any service that requires a high budget to operate",
+          "A service provided to customers for free",
+          "A non-essential service with minimal impact on the organization's mission",
+          "A service that is outsourced to third-party vendors"
+        ],
+        "correctAnswer": "A set of activities vital to the organization's success, where disruption would severely impact operations"
+      }
+    ]
+  }

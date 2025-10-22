@@ -1,0 +1,82 @@
+{
+    "id": "env-week12-assign12",
+    "title": "Week 12: Assignment 12",
+    "week": 12,
+    "questions": [
+      {
+        "id": "env-w12-q1",
+        "text": "The time of flight for LiDAR is 0.00001 sec. Find the distance of the object from the instrument.",
+        "options": ["500 m", "1000 m", "1500 m", "2000 m"],
+        "correctAnswer": "1500 m"
+      },
+      {
+        "id": "env-w12-q2",
+        "text": "Which of these uses imputed willingness to pay?",
+        "options": [
+          "market price method",
+          "replacement cost method",
+          "travel cost method",
+          "contingent valuation method"
+        ],
+        "correctAnswer": "replacement cost method"
+      },
+      {
+        "id": "env-w12-q3",
+        "text": "“The situation of people, infrastructure, housing, production capacities and other tangible human assets located in hazard-prone areas.” is a definition for",
+        "options": ["hazard", "exposure", "vulnerability", "disaster"],
+        "correctAnswer": "exposure"
+      },
+      {
+        "id": "env-w12-q4",
+        "text": "“A process, phenomenon or human activity that may cause loss of life, injury or other health impacts, property damage, social and economic disruption or environmental degradation.” is a definition for",
+        "options": ["hazard", "exposure", "vulnerability", "disaster"],
+        "correctAnswer": "hazard"
+      },
+      {
+        "id": "env-w12-q5",
+        "text": "“A serious disruption of the functioning of a community or a society at any scale due to hazardous events interacting with conditions of exposure, vulnerability and capacity, leading to one or more of the following: human, material, economic and environmental losses and impacts.” is a definition for",
+        "options": ["hazard", "exposure", "vulnerability", "disaster"],
+        "correctAnswer": "disaster"
+      },
+      {
+        "id": "env-w12-q6",
+        "text": "“The combination of all the strengths, attributes and resources available within an organisation, community or society to manage and reduce disaster risks and strengthen resilience.” is a definition for",
+        "options": ["contingency", "disaster management", "vulnerability", "capacity"],
+        "correctAnswer": "capacity"
+      },
+      {
+        "id": "env-w12-q7",
+        "text": "Bathymetric LiDAR uses",
+        "options": ["far infrared light", "near infrared light", "orange light", "green light"],
+        "correctAnswer": "green light"
+      },
+      {
+        "id": "env-w12-q8",
+        "text": "IMU stands for",
+        "options": [
+          "Imperial metering unit",
+          "Inertial metering unit",
+          "Imperial measurement unit",
+          "Inertial measurement unit"
+        ],
+        "correctAnswer": "Inertial measurement unit"
+      },
+      {
+        "id": "env-w12-q9",
+        "text": "Which of these is not a consumptive value?",
+        "options": ["timber", "firewood", "non-timber forest products", "education"],
+        "correctAnswer": "education"
+      },
+      {
+        "id": "env-w12-q10",
+        "text": "The frequency of flyovers is an indicator of",
+        "options": [
+          "spatial resolution",
+          "temporal resolution",
+          "spectral resolution",
+          "radiometric resolution"
+        ],
+        "correctAnswer": "temporal resolution"
+      }
+    ]
+  }

@@ -1,0 +1,117 @@
+{
+    "id": "cybersec-week5-assign5",
+    "title": "Week 5: Assignment 5",
+    "week": 5,
+    "questions": [
+      {
+        "id": "cyber-w5-q1",
+        "text": "How can attackers achieve intermediate goals in a network using the Unified Kill Chain?",
+        "options": [
+          "By combining multiple phases strategically to gain a foothold, propagate, and act on critical assets.",
+          "By focusing on a single phase without considering the overall progression.",
+          "By sequentially using disconnected tactics with no regard for the final objective",
+          "By relying solely on external attacks without targeting the internal network."
+        ],
+        "correctAnswer": "By combining multiple phases strategically to gain a foothold, propagate, and act on critical assets."
+      },
+      {
+        "id": "cyber-w5-q2",
+        "text": "How does the Unified Kill Chain enhance the effectiveness of Red Team threat emulations?",
+        "options": [
+          "By providing a clear, time-bound sequence of attack phases to follow",
+          "By focusing only on the initial phases of an attack.",
+          "By limiting the scope of threat emulations to simple attacks.",
+          "By improving the predictive value through structured analysis of likely attack paths"
+        ],
+        "correctAnswer": "By improving the predictive value through structured analysis of likely attack paths"
+      },
+      {
+        "id": "cyber-w5-q3",
+        "text": "What is a key consideration for defensive strategies according to the Unified Kill Chain model?",
+        "options": [
+          "Prioritizing defenses against external attacks while ignoring internal network security",
+          "Creating choke points in the network to force attackers to restart their attack path",
+          "Securing every single internet-connected device with equal priority.",
+          "Assuming that attackers will follow a predictable, linear sequence of attack phases"
+        ],
+        "correctAnswer": "Creating choke points in the network to force attackers to restart their attack path"
+      },
+      {
+        "id": "cyber-w5-q4",
+        "text": "Why might focusing on defending a limited number of critical assets be more effective than protecting all internet-connected systems?",
+        "options": [
+          "Because critical assets are less likely to be targeted by attackers.",
+          "Because critical assets are typically within the defender's control and are essential to the attacker's objectives.",
+          "Because the compromise of every system is easy to prevent.",
+          "Because attackers generally avoid targeting critical assets in favor of more accessible targets."
+        ],
+        "correctAnswer": "Because critical assets are typically within the defender's control and are essential to the attacker's objectives."
+      },
+      {
+        "id": "cyber-w5-q5",
+        "text": "What challenge does the Unified Kill Chain suggest exists for defenders when dealing with advanced attacks?",
+        "options": [
+          "Attackers are unlikely to bypass any phases of the kill chain",
+          "Advanced attacks always follow a strict sequence, making them predictable.",
+          "The kill chain guarantees that defenders will succeed if they disrupt any single phase.",
+          "Attackers can bypass, repeat, or rearrange attack phases, complicating defensive strategies."
+        ],
+        "correctAnswer": "Attackers can bypass, repeat, or rearrange attack phases, complicating defensive strategies."
+      },
+      {
+        "id": "cyber-w5-q6",
+        "text": "Which of the following approaches is likely to enhance the success of defensive strategies against cyber attacks?",
+        "options": [
+          "Implementing layered defense strategies that focus on high-frequency attack phases",
+          "Focusing exclusively on preventing attacks at their earliest stage",
+          "Relying solely on perimeter defenses to stop attackers.",
+          "Assuming that attackers will be deterred after failing at one attack phase"
+        ],
+        "correctAnswer": "Implementing layered defense strategies that focus on high-frequency attack phases"
+      },
+      {
+        "id": "cyber-w5-q7",
+        "text": "Which of the following is a reason for the development of the Unified Kill Chain over the traditional Cyber Kill Chain (CKC)?",
+        "options": [
+          "The traditional CKC fully covers all attack vectors, including those behind the organizational perimeter.",
+          "The traditional CKC is focused only on endpoint security, ignoring network-based attacks",
+          "The MITRE ATT&CK model fully captures the progression of an attack, making the CKC redundant.",
+          "The Unified Kill Chain was developed because the traditional CKC is perimeter- and malware-focused, missing other attack vectors."
+        ],
+        "correctAnswer": "The Unified Kill Chain was developed because the traditional CKC is perimeter- and malware-focused, missing other attack vectors."
+      },
+      {
+        "id": "cyber-w5-q8",
+        "text": "Why might a purely deterministic sequence of attack phases in the CKC model be insufficient for modern cybersecurity defense?",
+        "options": [
+          "Because attackers always follow a predictable path.",
+          "Because attackers can bypass certain phases, making the sequence less relevant.",
+          "Because the CKC model is perfect and doesn’t need any adjustments.",
+          "Because focusing on early stages of attacks is always enough to prevent breaches."
+        ],
+        "correctAnswer": "Because attackers can bypass certain phases, making the sequence less relevant."
+      },
+      {
+        "id": "cyber-w5-q9",
+        "text": "How does the Unified Kill Chain improve upon traditional kill chain models in terms of cybersecurity investments?",
+        "options": [
+          "By focusing investments exclusively on endpoint security",
+          "By ignoring the need for threat intelligence and focusing only on real-time attacks.",
+          "By simplifying the defense strategy to focus on the most basic threats",
+          "By offering a structured basis to realign investments across prevention, detection, response, and intelligence."
+        ],
+        "correctAnswer": "By offering a structured basis to realign investments across prevention, detection, response, and intelligence."
+      },
+      {
+        "id": "cyber-w5-q10",
+        "text": "What is the primary advantage of using the Unified Kill Chain in emergency response situations?",
+        "options": [
+          "It eliminates the need for triage in incident response.",
+          "It aids investigators in triage and models likely attack paths for more effective responses.",
+          "It guarantees that all attacks will be detected before they occur.",
+          "It focuses solely on external attacks, ignoring internal network breaches."
+        ],
+        "correctAnswer": "It aids investigators in triage and models likely attack paths for more effective responses."
+      }
+    ]
+  }
