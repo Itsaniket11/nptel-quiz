@@ -8,7 +8,7 @@ import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 import { Menu, GraduationCap } from 'lucide-react';
 
 const navLinks = [
-  { href: '/subjects', label: 'Subjects' },
+  { href: '/courses', label: 'Courses' },
   { href: '/leaderboard', label: 'Leaderboard' },
 ];
 
@@ -18,7 +18,7 @@ const Header = () => {
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-16 items-center">
-        <Link href="/subjects" className="flex items-center gap-2">
+        <Link href="/courses" className="flex items-center gap-2">
             <GraduationCap className="h-7 w-7 text-primary" />
             <span className="text-xl font-headline font-bold">NPTEL Quizzly</span>
         </Link>

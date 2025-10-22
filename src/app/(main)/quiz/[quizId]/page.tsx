@@ -3,58 +3,58 @@ import { Suspense } from 'react';
 import { notFound } from 'next/navigation';
 import QuizClient from './QuizClient';
 import { Skeleton } from '@/components/ui/skeleton';
-import type { Quiz, Subject } from '@/lib/types';
+import type { Quiz, Subject as Course } from '@/lib/types';
 import fs from 'fs';
 import path from 'path';
 
 // This function should only be called in server-side components/pages.
-export const getSubjects = (): Subject[] => {
+export const getCourses = (): Course[] => {
   const dataDirectory = path.join(process.cwd(), 'data');
   try {
-    const subjectDirs = fs.readdirSync(dataDirectory);
-    const subjects: Subject[] = [];
+    const courseDirs = fs.readdirSync(dataDirectory);
+    const courses: Course[] = [];
 
-    for (const subjectDir of subjectDirs) {
-        const subjectPath = path.join(dataDirectory, subjectDir);
-        if (!fs.lstatSync(subjectPath).isDirectory()) continue;
+    for (const courseDir of courseDirs) {
+        const coursePath = path.join(dataDirectory, courseDir);
+        if (!fs.lstatSync(coursePath).isDirectory()) continue;
         
-        const subjectJsonPath = path.join(subjectPath, 'subject.json');
+        const subjectJsonPath = path.join(coursePath, 'subject.json');
         if (fs.existsSync(subjectJsonPath)) {
             const subjectJson = fs.readFileSync(subjectJsonPath, 'utf-8');
-            const subjectData = JSON.parse(subjectJson) as Omit<Subject, 'quizzes' | 'id'>;
+            const courseData = JSON.parse(subjectJson) as Omit<Course, 'quizzes' | 'id'>;
             
             const quizzes: Quiz[] = [];
-            const quizFiles = fs.readdirSync(subjectPath).filter(file => file.endsWith('.json') && file !== 'subject.json');
+            const quizFiles = fs.readdirSync(coursePath).filter(file => file.endsWith('.json') && file !== 'subject.json');
 
             for (const quizFile of quizFiles) {
-              const quizJson = fs.readFileSync(path.join(subjectPath, quizFile), 'utf-8');
+              const quizJson = fs.readFileSync(path.join(coursePath, quizFile), 'utf-8');
               const quizData = JSON.parse(quizJson) as Quiz;
               quizzes.push(quizData);
             }
 
             quizzes.sort((a, b) => a.week - b.week);
 
-            subjects.push({
-                id: subjectDir.replace(/\s+/g, '-').toLowerCase(),
-                ...subjectData,
+            courses.push({
+                id: courseDir.replace(/\s+/g, '-').toLowerCase(),
+                ...courseData,
                 quizzes: quizzes,
             });
         }
     }
-    return subjects;
+    return courses;
   } catch (error) {
-    console.error('Failed to read subjects from data directory', error);
+    console.error('Failed to read courses from data directory', error);
     return [];
   }
 };
 
 // This function should only be called in server-side components/pages.
-export const getQuizById = (quizId: string): { quiz: Quiz | undefined, subject: Subject | undefined } => {
-    const subjects = getSubjects();
-    for (const subject of subjects) {
-        const quiz = subject.quizzes.find(q => q.id === quizId);
+export const getQuizById = (quizId: string): { quiz: Quiz | undefined, subject: Course | undefined } => {
+    const courses = getCourses();
+    for (const course of courses) {
+        const quiz = course.quizzes.find(q => q.id === quizId);
         if (quiz) {
-            return { quiz, subject };
+            return { quiz, subject: course };
         }
     }
     return { quiz: undefined, subject: undefined };
@@ -89,9 +89,9 @@ function QuizSkeleton() {
 }
 
 export default function QuizPage({ params, searchParams }: QuizPageProps) {
-  const { quiz, subject } = getQuizById(params.quizId);
+  const { quiz, subject: course } = getQuizById(params.quizId);
   
-  if (!quiz || !subject) {
+  if (!quiz || !course) {
       notFound();
   }
 
@@ -100,7 +100,7 @@ export default function QuizPage({ params, searchParams }: QuizPageProps) {
   return (
     <div className="container py-8">
       <Suspense fallback={<QuizSkeleton />}>
-        <QuizClient quiz={quiz} subject={subject} timeLimitInSeconds={timeLimit} />
+        <QuizClient quiz={quiz} subject={course} timeLimitInSeconds={timeLimit} />
       </Suspense>
     </div>
   );

@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className="flex flex-col min-h-screen">
        <header className="p-4 flex justify-between items-center md:hidden">
-        <Link href="/subjects" className="flex items-center gap-2">
+        <Link href="/courses" className="flex items-center gap-2">
             <GraduationCap className="h-7 w-7 text-primary" />
             <span className="text-xl font-headline font-bold">NPTEL Quizzly</span>
         </Link>
@@ -18,11 +18,11 @@ export default function Home() {
             NPTEL Quizzly
           </h1>
           <p className="mt-4 text-md sm:text-lg md:text-xl text-muted-foreground">
-            Master your NPTEL subjects with interactive quizzes, track your progress, and climb the leaderboard.
+            Master your NPTEL courses with interactive quizzes, track your progress, and climb the leaderboard.
           </p>
           <div className="mt-8 flex flex-col sm:flex-row justify-center gap-4">
             <Button asChild size="lg" className="w-full sm:w-auto">
-              <Link href="/subjects">
+              <Link href="/courses">
                 Explore Quizzes
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Link>

@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useMemo, useCallback } from 'react';
 import { useRouter } from 'next/navigation';
-import { Quiz, Subject, Question, AnswerData } from '@/lib/types';
+import { Quiz, Subject as Course, Question, AnswerData } from '@/lib/types';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { RadioGroup, RadioGroupItem } from '@/components/ui/radio-group';
@@ -13,7 +13,7 @@ import { cn } from '@/lib/utils';
 
 type QuizClientProps = {
   quiz: Quiz;
-  subject: Subject;
+  subject: Course;
   timeLimitInSeconds: number;
 };
 
@@ -27,7 +27,7 @@ const shuffleArray = <T,>(array: T[]): T[] => {
   return newArray;
 };
 
-export default function QuizClient({ quiz, subject, timeLimitInSeconds }: QuizClientProps) {
+export default function QuizClient({ quiz, subject: course, timeLimitInSeconds }: QuizClientProps) {
   const router = useRouter();
   
   const [shuffledQuestions, setShuffledQuestions] = useState<Question[]>([]);
@@ -93,7 +93,7 @@ export default function QuizClient({ quiz, subject, timeLimitInSeconds }: QuizCl
       total: quiz.questions.length,
       score: finalAnswers.filter(a => a.isCorrect).length,
       quiz: quiz,
-      subject: subject,
+      subject: course,
     };
 
     try {
@@ -103,7 +103,7 @@ export default function QuizClient({ quiz, subject, timeLimitInSeconds }: QuizCl
     }
 
     router.replace(`/quiz/${quiz.id}/results`);
-  }, [quizFinished, timeLimitInSeconds, timeLeft, router, quiz, subject, answers, selectedAnswer, currentQuestion, questionStartTime]);
+  }, [quizFinished, timeLimitInSeconds, timeLeft, router, quiz, course, answers, selectedAnswer, currentQuestion, questionStartTime]);
 
 
   const handleNext = () => {
@@ -153,7 +153,7 @@ export default function QuizClient({ quiz, subject, timeLimitInSeconds }: QuizCl
         <CardHeader>
           <div className="flex flex-col sm:flex-row justify-between items-start mb-2 gap-4">
             <div>
-              <p className="text-sm font-medium text-primary">{subject.name}</p>
+              <p className="text-sm font-medium text-primary">{course.name}</p>
               <CardTitle className="text-2xl md:text-3xl font-headline mt-1">{quiz.title}</CardTitle>
             </div>
             <div className="flex items-center gap-2 text-lg font-semibold tabular-nums bg-muted px-3 py-1.5 rounded-md self-start sm:self-center">

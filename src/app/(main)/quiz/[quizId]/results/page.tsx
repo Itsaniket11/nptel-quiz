@@ -6,7 +6,7 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Clock, CheckCircle, Star, RotateCw, Check, X, TimerIcon, HelpCircle, XCircle } from 'lucide-react';
 import { Skeleton } from '@/components/ui/skeleton';
-import { AnswerData, Question, Quiz, Subject } from '@/lib/types';
+import { AnswerData, Question, Quiz, Subject as Course } from '@/lib/types';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
 import { cn } from '@/lib/utils';
 
@@ -17,7 +17,7 @@ type QuizResult = {
     time: number;
     answers: AnswerData[];
     quiz: Quiz;
-    subject: Subject;
+    subject: Course;
 }
 
 function ResultsDisplay() {
@@ -54,9 +54,9 @@ function ResultsDisplay() {
     );
   }
 
-  const { score, total, time, answers, quiz, subject } = result;
+  const { score, total, time, answers, quiz, subject: course } = result;
 
-  if (!quiz || !subject) {
+  if (!quiz || !course) {
       return (
         <div className="container py-4 md:py-8 max-w-4xl mx-auto text-center">
             <Card>
@@ -65,8 +65,8 @@ function ResultsDisplay() {
                 </CardHeader>
                 <CardContent>
                     <p>There was an error loading the quiz data for your results.</p>
-                    <Button onClick={() => router.push(`/subjects`)} className="mt-4">
-                        Back to Subjects
+                    <Button onClick={() => router.push(`/courses`)} className="mt-4">
+                        Back to Courses
                     </Button>
                 </CardContent>
             </Card>
@@ -167,7 +167,7 @@ function ResultsDisplay() {
           </Card>
 
           <div className="text-center pt-4">
-            <Button size="lg" onClick={() => router.push(`/subjects/${subject.id}`)}>
+            <Button size="lg" onClick={() => router.push(`/courses/${course.id}`)}>
               <RotateCw className="mr-2 h-4 w-4" />
               Try Another Quiz
             </Button>

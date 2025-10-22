@@ -8,14 +8,14 @@ import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { Timer, FileQuestion, ArrowRight, ChevronLeft } from 'lucide-react';
 import Link from 'next/link';
-import type { Quiz, Subject } from '@/lib/types';
+import type { Quiz, Subject as Course } from '@/lib/types';
 
 type QuizStartClientProps = {
   quiz: Quiz;
-  subject: Subject;
+  subject: Course;
 };
 
-export default function QuizStartClient({ quiz, subject }: QuizStartClientProps) {
+export default function QuizStartClient({ quiz, subject: course }: QuizStartClientProps) {
   const router = useRouter();
   const [timeLimit, setTimeLimit] = useState(10); // Default 10 minutes
 
@@ -27,9 +27,9 @@ export default function QuizStartClient({ quiz, subject }: QuizStartClientProps)
     <Card className="w-full max-w-lg">
       <CardHeader>
         <div className='mb-2'>
-          <Link href={`/subjects/${subject.id}`} className="text-sm text-muted-foreground hover:text-primary flex items-center gap-1">
+          <Link href={`/courses/${course.id}`} className="text-sm text-muted-foreground hover:text-primary flex items-center gap-1">
             <ChevronLeft className="w-4 h-4" />
-            Back to {subject.name}
+            Back to {course.name}
           </Link>
         </div>
         <CardTitle className="text-3xl font-headline">{quiz.title}</CardTitle>
