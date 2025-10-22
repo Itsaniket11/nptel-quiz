@@ -1,1 +1,84 @@
-{}
+{
+    "questions": [
+      {
+        "text": "Why is username a good candidate to link profiles?",
+        "options": [
+          "Username is public",
+          "Username is heterogeneous",
+          "Username is homogeneous",
+          "Username cannot be changed"
+        ],
+        "correctAnswer": "Username is public | Username is homogeneous"
+      },
+      {
+        "text": "Clustering coefficient is the measure of:",
+        "options": [
+          "Tendency of nodes to form clusters",
+          "If a cluster is possible or not",
+          "Edge similarity",
+          "None of the above"
+        ],
+        "correctAnswer": "Tendency of nodes to form clusters"
+      },
+      {
+        "text": "Which network among the following has the maximum clustering coefficient, as discussed in the lecture?",
+        "options": ["Instagram", "Facebook", "Twitter", "Gab"],
+        "correctAnswer": "Facebook"
+      },
+      {
+        "text": "4chan is a / an:",
+        "options": [
+          "Anonymous social network",
+          "Professional networking site",
+          "Dating app",
+          "Live-streaming platform"
+        ],
+        "correctAnswer": "Anonymous social network"
+      },
+      {
+        "text": "On anonymous networks we can see who liked a post?",
+        "options": ["True", "False"],
+        "correctAnswer": "False"
+      },
+      {
+        "text": "Whisper provides: [select all applicable]",
+        "options": [
+          "Archive of a user history",
+          "Links to personal information given user ID",
+          "Persistent Social links",
+          "Replies"
+        ],
+        "correctAnswer": "Replies"
+      },
+      {
+        "text": "How to link the profile of a user on Facebook to 4chan?",
+        "options": [
+          "By searching for user name and doing a semantic matching",
+          "Comparing friends of a user on both the networks",
+          "Both a and b",
+          "Impossible"
+        ],
+        "correctAnswer": "Impossible"
+      },
+      {
+        "text": "We can use the visualization software Gephi to get Modularity of a given graph?",
+        "options": ["True", "False"],
+        "correctAnswer": "True"
+      },
+      {
+        "text": "Which of the following layout options is NOT available in Gephi ?",
+        "options": ["Contraction", "Expansion", "Random", "Classic"],
+        "correctAnswer": "Classic"
+      },
+      {
+        "text": "Why is visualizing graphs necessary?",
+        "options": [
+          "It gives quantitative measures that are otherwise impossible to find",
+          "Human deducible decision making",
+          "To calculate the number of clusters",
+          "None of the above"
+        ],
+        "correctAnswer": "Human deducible decision making"
+      }
+    ]
+  }

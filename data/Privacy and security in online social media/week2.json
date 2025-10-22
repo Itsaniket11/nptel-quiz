@@ -1,1 +1,79 @@
-{}
+{
+    "questions": [
+      {
+        "text": "Which of the following statements is/are true? \n S1: Research on Hurricane Sandy and Boston blasts shows how Twitter users debunk falsehoods during disasters. \n S2: Boston Blasts happened on 15 April 2013.",
+        "options": ["S1", "S2", "Both", "None"],
+        "correctAnswer": "Both"
+      },
+      {
+        "text": "Which of the following statements are true about Relational Databases? \n i. They provided a standard way of representing and querying data and are table-based. \n ii. They are a good fit for static datasets. \n iii. The relationships between tables in a relational database are defined by using keys.",
+        "options": ["I, iii", "i, ii", "Ii, iii", "All are correct"],
+        "correctAnswer": "All are correct"
+      },
+      {
+        "text": "Which of the following is/are designed to handle large amounts of unstructured and semi-structured data?",
+        "options": ["CouchDB", "Oracle SQL", "MongoDB", "JavaDB"],
+        "correctAnswer": "CouchDB | MongoDB"
+      },
+      {
+        "text": "Which of the following can be potentially used to collect the below data?",
+        "options": ["MySQL", "Graph API", "Facebook API", "RoboMongo"],
+        "correctAnswer": "Graph API"
+      },
+      {
+        "text": "Which features perform better to distinguish fake and legitimate tweets?",
+        "options": [
+          "tweet-based features",
+          "Meta-data features",
+          "user-based features",
+          "All the above"
+        ],
+        "correctAnswer": "tweet-based features"
+      },
+      {
+        "text": "Tweet about “Floods in McDonald’s at Virginia beach” is related to which Misinformation news spreads?",
+        "options": [
+          "Boston’s explosion",
+          "Hurricane Sandy",
+          "Shootouts in the Mexican city",
+          "None of the above"
+        ],
+        "correctAnswer": "Hurricane Sandy"
+      },
+      {
+        "text": "Choose the correct statement (s):",
+        "options": [
+          "Inter-annotator agreement is used to calculate how good/bad annotations are.",
+          "NoSQL databases have a flexible schema, which means that the structure of the data can change over time.",
+          "Kohen’s Kappa is one of the best ways to calculate inter-annotator agreement.",
+          "It is not important to report how trustworthy the annotation is."
+        ],
+        "correctAnswer": "Inter-annotator agreement is used to calculate how good/bad annotations are. | NoSQL databases have a flexible schema, which means that the structure of the data can change over time. | Kohen’s Kappa is one of the best ways to calculate inter-annotator agreement."
+      },
+      {
+        "text": "JSON refers to",
+        "options": [
+          "Javascript Object Notation",
+          "Javascript Object Number",
+          "Java Object Notation",
+          "Java Operational Notation"
+        ],
+        "correctAnswer": "Javascript Object Notation"
+      },
+      {
+        "text": "Which of the following is/are python wrappers to collect data?",
+        "options": ["PRAW", "reddit_api", "API_wrapper", "None of the above"],
+        "correctAnswer": "PRAW"
+      },
+      {
+        "text": "Which of the following option(s) is/are true about API?",
+        "options": [
+          "APIs cannot be designed for external use by third-party developers to access the functionality and data of an application.",
+          "The API is a set of rules and protocols for building and interacting with software applications.",
+          "An API allows different systems to communicate with each other over a network, such as through HTTP requests and responses.",
+          "APIs can access a wide range of functionality and data, such as retrieving data from a database, creating or updating resources, or performing operations on a remote system."
+        ],
+        "correctAnswer": "The API is a set of rules and protocols for building and interacting with software applications. | An API allows different systems to communicate with each other over a network, such as through HTTP requests and responses. | APIs can access a wide range of functionality and data, such as retrieving data from a database, creating or updating resources, or performing operations on a remote system."
+      }
+    ]
+  }

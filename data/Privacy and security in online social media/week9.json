@@ -1,1 +1,89 @@
-{}
+{
+    "questions": [
+      {
+        "text": "Gephi allows the user to configure the following parameters:",
+        "options": [
+          "filter nodes and edges",
+          "Add edges manually",
+          "calculate statistics of graph",
+          "Change node size and colour"
+        ],
+        "correctAnswer": "filter nodes and edges | Add edges manually | calculate statistics of graph | Change node size and colour"
+      },
+      {
+        "text": "“Nidhi Razdan received an offer to teach journalism at Harvard University. After a few months, she realized that it was not genuine and meant to access her personal information”. \n Which of the following statements is/are true? \n i. It is a phishing attack. \n ii. It is a semantic attack.",
+        "options": ["Only i is true", "Only ii is true", "Both are true", "None"],
+        "correctAnswer": "Both are true"
+      },
+      {
+        "text": "What are the potential reasons users change their usernames?",
+        "options": [
+          "Suit a trending event",
+          "Gain / lose anonymity",
+          "Avoid boredom",
+          "All of the above"
+        ],
+        "correctAnswer": "All of the above"
+      },
+      {
+        "text": "What is correct, when talking about the username change frequency?",
+        "options": [
+          "It is strongly and positively correlated to the indegree of the users",
+          "It is weakly and positively correlated to the indegree of the users",
+          "It is strongly and negatively correlated to the indegree of the users",
+          "It is weakly and negatively correlated to the indegree of the users"
+        ],
+        "correctAnswer": "It is weakly and positively correlated to the indegree of the users"
+      },
+      {
+        "text": "True or False \n “ Link farming will not be effective in increasing your social capital and influence.”",
+        "options": ["True", "False"],
+        "correctAnswer": "False"
+      },
+      {
+        "text": "Which of the following option(s) is/are the correct syntax for reading a .csv file in python?",
+        "options": [
+          "import pandas as pd \n data=pd.read_csv(\"filename.csv\",header = None, encoding='utf-8')",
+          "import pandas as pd \n data=pd.read_csv(filename.csv)",
+          "import pandas as pd \n f ile=\"filename.csv\" \n data=pd.read_csv(file,header = None, encoding='utf-8')",
+          "import pandas as pd \n data=pd.read_csv(filename.csv, header = None, encoding='utf-8')"
+        ],
+        "correctAnswer": "import pandas as pd \n data=pd.read_csv(\"filename.csv\",header = None, encoding='utf-8') | import pandas as pd \n f ile=\"filename.csv\" \n data=pd.read_csv(file,header = None, encoding='utf-8')"
+      },
+      {
+        "text": "Why are usernames important for linking users across social media platforms?",
+        "options": [
+          "Usernames do not change",
+          "Restrictions on character and length",
+          "User can have many usernames",
+          "Publicly available attribute."
+        ],
+        "correctAnswer": "Restrictions on character and length | Publicly available attribute."
+      },
+      {
+        "text": "In the context of text processing, Match the following preprocessing steps with the reasons for carrying that preprocessing? Mark the most likely option.",
+        "options": [
+          "i - 3, ii - 1, iii - 4, iv - 2",
+          "i - 3, ii - 4, iii - 1, iv - 2",
+          "i - 2, ii - 1, iii - 3, iv - 4",
+          "i - 2, ii - 4, iii - 3, iv - 1"
+        ],
+        "correctAnswer": "i - 2, ii - 4, iii - 3, iv - 1"
+      },
+      {
+        "text": "Which of the following is an example of a 3-D Plot?",
+        "options": ["Scatter chart", "Bar chart", "Bubble chart", "Histogram"],
+        "correctAnswer": "Bubble chart"
+      },
+      {
+        "text": "Which among the following options can be used to create a DataFrame in Pandas?",
+        "options": [
+          "A pandas series",
+          "An ndarray",
+          "A python dict",
+          "All of the above"
+        ],
+        "correctAnswer": "All of the above"
+      }
+    ]
+  }

@@ -1,1 +1,167 @@
-{}
+{
+    "questions": [
+      {
+        "text": "Recently, there was a privacy policy change by Whatsapp; how did Whatsapp go about the situation?",
+        "options": [
+          "They notified the users with the revised policy and gave them a timeline to accept the policy.",
+          "They only tell about the policy change to newly registered users.",
+          "They hide this information from all users.",
+          "They notify the users with the revised policy and give them a timeline, where either they can accept or reject it and continue using the product."
+        ],
+        "correctAnswer": "They notified the users with the revised policy and gave them a timeline to accept the policy."
+      },
+      {
+        "text": "How can you start the jupyter notebook server without opening a browser?",
+        "options": [
+          "jupyter notebook --no-browser",
+          "jupyter notebook --browser",
+          "jupyter notebook --not-browser",
+          "None of the above"
+        ],
+        "correctAnswer": "jupyter notebook --no-browser"
+      },
+      {
+        "text": "Given below the following, Identify the correct option(s) regarding python list and python numpy array. \n 1) [2, ‘dog’,’3’,4.0, 5] \n 2) [0.,1.23452321, 1.98675643,3.45675423,7.12354378]",
+        "options": [
+          "1) can be a python list whereas 2) can be a python numpy array",
+          "1) can be a python numpy array whereas 2) can be a python list",
+          "1) can be a python list whereas 2) can be a python list",
+          "1) can be a python numpy array whereas 2) can be a python numpy array"
+        ],
+        "correctAnswer": "1) can be a python list whereas 2) can be a python numpy array | 1) can be a python list whereas 2) can be a python list"
+      },
+      {
+        "text": "What would be the ‘output’ of the below code \n import numpy as np \n privacy= np.array([ 4, 5, 6] ) \n security=np.array([ 1, 2, 3] ) \n output = np.hstack((security, privacy))",
+        "options": [
+          "[4 5 6 1 2 3]",
+          "[1 2 3 4 5 6]",
+          "[1 3 2 4 6 5]",
+          "[1 4 5 6 2 3 ]"
+        ],
+        "correctAnswer": "[1 2 3 4 5 6]"
+      },
+      {
+        "text": "What is the problem statement of LATANYA SWEENEY’s research work, as discussed in the lecture?",
+        "options": [
+          "Given person-specific field-structured data, produce a release of the data with scientific guarantees that the individuals who are the subjects of the data cannot be reidentified while the data remain practically useful.",
+          "Identifying important attributes for the re-identification of a person, given any dataset,only ZIP, Birth Date, and Sex are the important attributes.",
+          "None of the above"
+        ],
+        "correctAnswer": "Given person-specific field-structured data, produce a release of the data with scientific guarantees that the individuals who are the subjects of the data cannot be reidentified while the data remain practically useful."
+      },
+      {
+        "text": "Which of the following statement(s) is/are true about k-anonymity?",
+        "options": [
+          "The information for each individual in the released anonymized dataset cannot be distinguished from at-least k-1 individuals whose information also appears in the anonymized dataset.",
+          "Any record in a k-anonymized data set has a maximum probability 1/k of being re identified",
+          "K-anonymity provides privacy even if the sensitive attributes in the dataset lack diversity"
+        ],
+        "correctAnswer": "The information for each individual in the released anonymized dataset cannot be distinguished from at-least k-1 individuals whose information also appears in the anonymized dataset. | Any record in a k-anonymized data set has a maximum probability 1/k of being re-identified"
+      },
+      {
+        "text": "What is the output of the following code? \n import numpy as np \n import numpy.matlib \n media = np.arange(12).reshape(2,2,3) \n social= np.arange(8).reshape(2,2,2) \n print (np.matmul(social,media))",
+        "options": [
+          "[[[ 4 5 6 ] \n [ 12 17 22 ]] \n [[ 92 101 119] \n [132 145 171]]]",
+          "[[[ 3 4 5] \n [ 9 14 19]] \n [[ 69 78 87] \n [ 99 112 125]]]",
+          "Value Error",
+          "None of the above"
+        ],
+        "correctAnswer": "[[[ 3 4 5] \n [ 9 14 19]] \n [[ 69 78 87] \n [ 99 112 125]]]"
+      },
+      {
+        "text": "What are the correct guidelines to raise awareness about oversharing on social media?",
+        "options": [
+          "Develop platforms like “Pleaserobme.com” to create awareness",
+          "Change the privacy of your posts and profiles periodically",
+          "Do not make birthdate, address, children’s names related information public.",
+          "All of the above"
+        ],
+        "correctAnswer": "All of the above"
+      },
+      {
+        "text": "What percentage of users never read the privacy policy on any website?",
+        "options": ["75%", "25%", "10%", "80%"],
+        "correctAnswer": "75%"
+      },
+      {
+        "text": "With respect to the content and information provided by you, what is true about information sharing on Whatsapp ?",
+        "options": [
+          "Your messages, photos, and account information, Group you are connected to are not shared with facebook.",
+          "Whatsapp does not create a favorites list of your contacts for you.",
+          "Whatsapp messages are end-to-end encrypted but third parties can read them.",
+          "All of the above"
+        ],
+        "correctAnswer": "Your messages, photos, and account information, Group you are connected to are not shared with facebook."
+      },
+      {
+        "text": "Among content, information and transactions made, what data does Whatsapp collect?",
+        "options": [
+          "Credit Card number",
+          "Transactional Information",
+          "device-specific information when you use Whatsapp services.",
+          "device-specific information when you install, access Whatsapp services."
+        ],
+        "correctAnswer": "Transactional Information | device-specific information when you use Whatsapp services. | device-specific information when you install, access Whatsapp services."
+      },
+      {
+        "text": "Choose the correct option(s):",
+        "options": [
+          "Whatsapp keeps your information, even after you delete your account.",
+          "The undelivered message is deleted only after 30 days.",
+          "Whatsapp does not retain your messages in the ordinary course of providing Services to their customers.",
+          "Whatsapp uses your data for research, analytics and responding to customers."
+        ],
+        "correctAnswer": "The undelivered message is deleted only after 30 days. | Whatsapp does not retain your messages in the ordinary course of providing Services to their customers. | Whatsapp uses your data for research, analytics and responding to customers."
+      },
+      {
+        "text": "What types of the third-parties with whom Whatsapp shares the data?",
+        "options": [
+          "Partners who use Whatsapp analytical services.",
+          "Advertisers on facebook for making product suggestions.",
+          "With facebook to show relevant offers and ads.",
+          "None of the above"
+        ],
+        "correctAnswer": "None of the above"
+      },
+      {
+        "text": "Whatsapp doesn’t store information about the duration of your activity!",
+        "options": ["True", "False"],
+        "correctAnswer": "False"
+      },
+      {
+        "text": "What percent of participants were matched to their correct Facebook profiles In experiment 2?",
+        "options": ["28%", "39%", "40%", "38%"],
+        "correctAnswer": "38%"
+      },
+      {
+        "text": "Photo/video taken by CCTV cameras is of more concern than someone’s smartphone according to the participants, in the context of Mobile phones?",
+        "options": ["True", "False"],
+        "correctAnswer": "False"
+      },
+      {
+        "text": "In Experiment 1, discussed in the lecture, photos were collected from Instagram.",
+        "options": ["True", "False"],
+        "correctAnswer": "False"
+      },
+      {
+        "text": "In Experiment 1 discussed in the lecture, “for identifying the person from an unidentified source, Government and dating websites both were used.” This statement is:",
+        "options": ["True", "False"],
+        "correctAnswer": "False"
+      },
+      {
+        "text": "For reidentification, which of the following sources was used according to experiment 2 discussed in the lecture?",
+        "options": [
+          "CCTV cameras",
+          "Facebook",
+          "Government",
+          "Dating Website"
+        ],
+        "correctAnswer": "Facebook"
+      },
+      {
+        "text": "Assume all the required libraries (if any) are already imported? What would be the output of the following code (python2.7+)? \n online= lambda a : a + 15 \n print(online(10)) \n socialmedia = lambda b, c : b* c \n print(socialmedia(12, 4))",
+        "options": ["25, 48", "27, 48", "19,48", "Compilation Error"],
+        "correctAnswer": "25, 48"
+      }
+    ]
+  }

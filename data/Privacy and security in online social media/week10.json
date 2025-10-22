@@ -1,1 +1,79 @@
-{}
+{
+    "questions": [
+      {
+        "text": "What are the different type of attacks that could happen: \n i. Pragmatic \n ii. Syntactic \n iii. Physical",
+        "options": ["Only i and iii", "Only iii", "Only ii and iii", "All of the above"],
+        "correctAnswer": "Only ii and iii"
+      },
+      {
+        "text": "What is the term used for Generating usernames and monetizing them, when necessary?",
+        "options": [
+          "Username Sale",
+          "Username hopping",
+          "Username squatting",
+          "All of the above"
+        ],
+        "correctAnswer": "Username squatting"
+      },
+      {
+        "text": "What is meant by the Pareto distribution of username change?",
+        "options": [
+          "20% users frequently change usernames in short intervals and 80% change rarely after long intervals",
+          "80% users frequently change usernames in short intervals and 20% change rarely after long intervals",
+          "20% users rarely change usernames in short intervals and 80% change frequently after long intervals",
+          "80% users rarely change usernames in short intervals and 20% change frequently after long intervals"
+        ],
+        "correctAnswer": "20% users frequently change usernames in short intervals and 80% change rarely after long intervals"
+      },
+      {
+        "text": "For anonymous social networks which of the following statements hold true? \n i. Clustering coefficient is different \n ii. User interact with strangers",
+        "options": ["Only i", "Only ii", "Both i and ii", "None of the above"],
+        "correctAnswer": "Both i and ii"
+      },
+      {
+        "text": "Which of the following statements are false about spammers: \n i. Users of less in-degree do not reciprocate to spammers \n ii. Users with small in-degree tend to follow back more. \n iii. Top link farmers have very high in-degree compared to spammers",
+        "options": ["Only ii", "Only i", "Only iii", "None of the above"],
+        "correctAnswer": "Only ii"
+      },
+      {
+        "text": "“For linking user profiles across different social media, having profile information from past will not help in improving the efficiency or accuracy” \n Is this statement true or False?",
+        "options": ["True", "False"],
+        "correctAnswer": "False"
+      },
+      {
+        "text": "Mark all the true statements with respect to Fake information on social media?",
+        "options": [
+          "Truthful information comes onto social media faster than fake information",
+          "Various user and user’s network features can be used to classify fake information.",
+          "Community of users posting fake content are usually closed.",
+          "Techniques used to classify fake content on twitter would work equally well on facebook post, without any need for tweaking."
+        ],
+        "correctAnswer": "Various user and user’s network features can be used to classify fake information. | Community of users posting fake content are usually closed."
+      },
+      {
+        "text": "Which of the following is/are Location-based social networks?",
+        "options": ["Gab", "Foursquare", "Koo", "Whisper"],
+        "correctAnswer": "Foursquare"
+      },
+      {
+        "text": "In the context of e-crime match the following:",
+        "options": [
+          "1- iii ; 2 - iv ; 3 - ii ; 4 - i",
+          "1- iii ; 2 - i ; 3 - ii ; 4 - iv",
+          "1- i ; 2 - iv ; 3 - ii ; 4 - iii",
+          "1- i ; 2 - iii ; 3 - ii ; 4 - iv"
+        ],
+        "correctAnswer": "1- iii ; 2 - iv ; 3 - ii ; 4 - i"
+      },
+      {
+        "text": "For matplotlib, which of the following parameters can be configured? \n i. Minor axis label \n ii. Intervals on both axis \n iii. Size of figure \n Iv. The number of subplots in a single figure",
+        "options": [
+          "Only i and ii",
+          "Only i",
+          "Only i, ii, iv",
+          "All of the above"
+        ],
+        "correctAnswer": "All of the above"
+      }
+    ]
+  }

@@ -1,1 +1,88 @@
-{}
+{
+    "questions": [
+      {
+        "text": "Which of the following is the correct social platform, as depicted in Figure 1?",
+        "options": ["Whisper", "Facebook", "Reddit", "None of the above"],
+        "correctAnswer": "Reddit"
+      },
+      {
+        "text": "Which of the following statement(s) is/are true about Anonymous social networks?",
+        "options": [
+          "Content posted on Anonymous Social is not connected with particular online identities or profiles",
+          "Anonymous social networks might ask for log-in details and sync your contact details to personalise the user experience",
+          "Anonymous social networks help build a professional network and seek a job",
+          "Anonymous networks are safe."
+        ],
+        "correctAnswer": "Content posted on Anonymous Social is not connected with particular online identities or profiles | Anonymous social networks might ask for log-in details and sync your contact details to personalise the user experience"
+      },
+      {
+        "text": "What is the output of the response variable in the below code: \n import requests \n response=requests.get(\"https://precog.iiit.ac.in/\")",
+        "options": [
+          "< Response [200] >",
+          "< Response [404] >",
+          "None of the above responses"
+        ],
+        "correctAnswer": "< Response [200] >"
+      },
+      {
+        "text": "Which platform uses a bidirectional (“mutual”) connection model?",
+        "options": ["Twitter", "Facebook", "Instagram", "Youtube"],
+        "correctAnswer": "Facebook"
+      },
+      {
+        "text": "What does Value specify in 5Vs on Social Media?",
+        "options": [
+          "Confirmation of the information posted as legitimate",
+          "Data can be obtained from many different sources",
+          "Ability to get value out of the platform",
+          "All of the above"
+        ],
+        "correctAnswer": "Ability to get value out of the platform"
+      },
+      {
+        "text": "Which one of the following is an example of shoulder surfing?",
+        "options": [
+          "Mail claiming that your system has been infected or the account has been breached",
+          "Someone sees your password standing behind you while you type without letting you know.",
+          "Emails that claim you’ve won a prize and require you to go on a link",
+          "None of the above."
+        ],
+        "correctAnswer": "Someone sees your password standing behind you while you type without letting you know."
+      },
+      {
+        "text": "You have two files in the folder: \" privacy.py” and “security.py”. Now you want to command to stage the privacy.py file and commit. Which of the following option are correct?",
+        "options": [
+          "git add privacy.py git commit -m \"Commit message\"",
+          "git add privacy.py git commit -m \"privacy.py\"",
+          "git add security.py git commit -m \"security.py\"",
+          "git add security.py git commit -m \"privacy.py\""
+        ],
+        "correctAnswer": "git add privacy.py git commit -m \"Commit message\""
+      },
+      {
+        "text": "Which of the following statements is/are true?",
+        "options": [
+          "Python is a language that can be used to draw network graphs.",
+          "It is an interpreted language.",
+          "Python Functions do not have restrictions on the type of the argument and the type of its return value.",
+          "None of the above"
+        ],
+        "correctAnswer": "Python is a language that can be used to draw network graphs. | It is an interpreted language. | Python Functions do not have restrictions on the type of the argument and the type of its return value."
+      },
+      {
+        "text": "Match the following. Choose the most appropriate option.",
+        "options": [
+          "1-ii , 2-v, 3-i, 4-iii, 5-iv",
+          "1-ii , 2-v, 3-iv, 4-iii, 5-i",
+          "1-v , 2-iii, 3-ii, 4-iv, 5-i",
+          "1-v , 2-iii, 3-iv, 4-ii, 5-i"
+        ],
+        "correctAnswer": "1-v , 2-iii, 3-ii, 4-iv, 5-i"
+      },
+      {
+        "text": "Choose the incorrect option about ephemeral content. \n (i) Instagram Stories are a type of ephemeral content. \n (ii) Ephemeral content helps in generating more user-generated content.",
+        "options": ["Only i", "Only ii", "Both i and ii", "None of the above"],
+        "correctAnswer": "None of the above"
+      }
+    ]
+  }

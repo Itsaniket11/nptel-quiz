@@ -1,1 +1,79 @@
-{}
+{
+    "questions": [
+      {
+        "text": "How are top link farmers different from spammers and random social network users?",
+        "options": [
+          "High indegree and high outdegree",
+          "Low indegree and high outdegree",
+          "Low indegree and low outdegree",
+          "High indegree and low outdegree"
+        ],
+        "correctAnswer": "High indegree and high outdegree"
+      },
+      {
+        "text": "What topics are dominant in link farmers?",
+        "options": ["Markets, business", "Life, friends", "Love, person", "Music, world"],
+        "correctAnswer": "Markets, business"
+      },
+      {
+        "text": "If a URL is part of a link farm, what is the value of - the number of external URLs mentioned vs the number of mentions received",
+        "options": ["Almost 1", "Much higher than 1", "Far lesser than 1", "Can not say"],
+        "correctAnswer": "Almost 1"
+      },
+      {
+        "text": "Select the communication corresponding to the most number of successful phishing attacks:",
+        "options": ["Male to Male", "Female to Male", "Male to Female", "Female to Female"],
+        "correctAnswer": "Male to Female"
+      },
+      {
+        "text": "[True / False] Nudges while using any application offers a great user experience:",
+        "options": ["True", "False"],
+        "correctAnswer": "False"
+      },
+      {
+        "text": "Semantic Attacks takes advantage of the:",
+        "options": [
+          "context as perceived by humans.",
+          "technology used by software.",
+          "time of day.",
+          "very weak wall of a server room."
+        ],
+        "correctAnswer": "context as perceived by humans."
+      },
+      {
+        "text": "Identify the three major components that make phishing emails distinguishable:",
+        "options": [
+          "Subject line",
+          "Urgency in the body",
+          "Links present in the email",
+          "Name of the person sending the email."
+        ],
+        "correctAnswer": "Subject line | Urgency in the body | Links present in the email"
+      },
+      {
+        "text": "Who among younger and older participants were more vulnerable to phishing attack as discussed in the lecture?",
+        "options": ["Younger", "Older"],
+        "correctAnswer": "Younger"
+      },
+      {
+        "text": "Select all methods by which we can avoid phishing:",
+        "options": [
+          "By educating the users",
+          "By using browser extensions",
+          "By disclosing all private information on Facebook",
+          "By opening all links present in an email"
+        ],
+        "correctAnswer": "By educating the users | By using browser extensions"
+      },
+      {
+        "text": "Which of the following is true about PageRank?",
+        "options": [
+          "It is used to evaluate the least genuineness of a page.",
+          "It can be calculated for collections of documents of any size",
+          "Both a and b",
+          "None of the above"
+        ],
+        "correctAnswer": "It can be calculated for collections of documents of any size"
+      }
+    ]
+  }

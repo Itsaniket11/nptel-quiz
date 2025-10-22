@@ -1,1 +1,79 @@
-{}
+{
+    "questions": [
+      {
+        "text": "Select the pair(s) of social platforms that are adopted by different police departments to engage with people?",
+        "options": [
+          "Whisper, Yak-Yak",
+          "Twitter, Youtube",
+          "Yak-Yak, Tik-tok",
+          "Facebook, Twitter"
+        ],
+        "correctAnswer": "Twitter, Youtube | Facebook, Twitter"
+      },
+      {
+        "text": "Which of the following tweet(s) is done by the official or verified twitter account of the Hyderabad police?",
+        "options": ["a) only", "b) only", "Both a) and b)", "None of the above"],
+        "correctAnswer": "Both a) and b)"
+      },
+      {
+        "text": "Choose the correct option for a research question: “How do citizens and police engage in social media discussion threads”?",
+        "options": [
+          "Topical characteristics",
+          "Engagement characteristics",
+          "Emotional Exchanges",
+          "Cognitive and Social Orientation"
+        ],
+        "correctAnswer": "Engagement characteristics"
+      },
+      {
+        "text": "Which of the following pieces of information about a user is/are returned by the Twitter API?",
+        "options": [
+          "The user’s username",
+          "The user’s contact to sign up with Twitter",
+          "The number of followers of user",
+          "The Geo-location of user"
+        ],
+        "correctAnswer": "The user’s username | The number of followers of user | The Geo-location of user"
+      },
+      {
+        "text": "Given below the graphs: Here X-axis shows the total number of posts of a particular type. Y-axis shows the post type. Which is the most important issue that is reflected in the graph?",
+        "options": ["Theft", "Traffic", "Neighborhood", "Dissatisfaction"],
+        "correctAnswer": "Neighborhood"
+      },
+      {
+        "text": "When did Prof. PK join Twitter?",
+        "options": [
+          "September, 2009",
+          "October, 2009",
+          "December, 2009",
+          "May, 2009"
+        ],
+        "correctAnswer": "September, 2009"
+      },
+      {
+        "text": "As discussed in the lecture, what is the communication style of posts done by citizens and police on social media?",
+        "options": [
+          "Informal, formal by citizen and formal by police",
+          "Informal, formal by citizen and Informal, formal by police",
+          "formal by citizen and formal by police",
+          "Informal by citizen and informal by police"
+        ],
+        "correctAnswer": "Informal, formal by citizen and formal by police"
+      },
+      {
+        "text": "Choose the correct option whether the tweet is legitimate?",
+        "options": ["True", "False"],
+        "correctAnswer": "True"
+      },
+      {
+        "text": "Which features (from options) can be used to measure behaviour on social media (shown in the figure below)?",
+        "options": [
+          "Engagement features",
+          "Linguistic features",
+          "Social features",
+          "Cognitive features"
+        ],
+        "correctAnswer": "Engagement features"
+      }
+    ]
+  }
