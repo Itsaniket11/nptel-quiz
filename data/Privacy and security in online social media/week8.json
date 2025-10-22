@@ -4,6 +4,7 @@
     "week": 8,
     "questions": [
       {
+        "id": "psosm-w8-q1",
         "text": "Why is username a good candidate to link profiles?",
         "options": [
           "Username is public",
@@ -11,9 +12,10 @@
           "Username is homogeneous",
           "Username cannot be changed"
         ],
-        "correctAnswer": "Username is public | Username is homogeneous"
+        "correctAnswer": "Username is public"
       },
       {
+        "id": "psosm-w8-q2",
         "text": "Clustering coefficient is the measure of:",
         "options": [
           "Tendency of nodes to form clusters",
@@ -24,11 +26,13 @@
         "correctAnswer": "Tendency of nodes to form clusters"
       },
       {
+        "id": "psosm-w8-q3",
         "text": "Which network among the following has the maximum clustering coefficient, as discussed in the lecture?",
         "options": ["Instagram", "Facebook", "Twitter", "Gab"],
         "correctAnswer": "Facebook"
       },
       {
+        "id": "psosm-w8-q4",
         "text": "4chan is a / an:",
         "options": [
           "Anonymous social network",
@@ -39,11 +43,13 @@
         "correctAnswer": "Anonymous social network"
       },
       {
+        "id": "psosm-w8-q5",
         "text": "On anonymous networks we can see who liked a post?",
         "options": ["True", "False"],
         "correctAnswer": "False"
       },
       {
+        "id": "psosm-w8-q6",
         "text": "Whisper provides: [select all applicable]",
         "options": [
           "Archive of a user history",
@@ -54,6 +60,7 @@
         "correctAnswer": "Replies"
       },
       {
+        "id": "psosm-w8-q7",
         "text": "How to link the profile of a user on Facebook to 4chan?",
         "options": [
           "By searching for user name and doing a semantic matching",
@@ -64,16 +71,19 @@
         "correctAnswer": "Impossible"
       },
       {
+        "id": "psosm-w8-q8",
         "text": "We can use the visualization software Gephi to get Modularity of a given graph?",
         "options": ["True", "False"],
         "correctAnswer": "True"
       },
       {
+        "id": "psosm-w8-q9",
         "text": "Which of the following layout options is NOT available in Gephi ?",
         "options": ["Contraction", "Expansion", "Random", "Classic"],
         "correctAnswer": "Classic"
       },
       {
+        "id": "psosm-w8-q10",
         "text": "Why is visualizing graphs necessary?",
         "options": [
           "It gives quantitative measures that are otherwise impossible to find",

@@ -4,6 +4,7 @@
     "week": 3,
     "questions": [
       {
+        "id": "psosm-w3-q1",
         "text": "Which of the following statement(s) is/are true about Twitter and its API? \n S1: Twitter keys can be created from developer.twitter.com \n S2: Twitter API has no rate limit. We can collect any number of tweets using Twitter API. \n S3: Streaming API can collect all the tweets related to certain events.",
         "options": [
           "Only S1 is true",
@@ -14,6 +15,7 @@
         "correctAnswer": "Only S1 is true"
       },
       {
+        "id": "psosm-w3-q2",
         "text": "Consider the following statements. Which of the following options is false?",
         "options": [
           "MySQL supports dynamic queries and is schema-free, whereas Mongo DB is schema dependent.",
@@ -24,6 +26,7 @@
         "correctAnswer": "MySQL supports dynamic queries and is schema-free, whereas Mongo DB is schema dependent."
       },
       {
+        "id": "psosm-w3-q3",
         "text": "What is the full form of “WOT” in the context of website reputation scoring?",
         "options": [
           "Web of Technology",
@@ -34,11 +37,13 @@
         "correctAnswer": "Web of Trust"
       },
       {
+        "id": "psosm-w3-q4",
         "text": "Which of the following is the most powerful tool to build real-time applications that can process and analyse tweets and can do sentiment analysis, trending events, etc.?",
         "options": ["Twitter API", "Graph API", "Twitter streaming API", "PRAW"],
         "correctAnswer": "Twitter streaming API"
       },
       {
+        "id": "psosm-w3-q5",
         "text": "Consider the following examples. Match the categories: Fundamentalists, pragmatists and unconcerned with each example. \n Example 1: a business leader who makes decisions based on what will be most profitable for the company rather than adhering to a particular business philosophy. \n Example 2: A person who strictly adheres to the literal interpretation of religious texts and refuses to consider other perspectives or modern interpretations. \n Example 3: an individual is unconcerned about the environment and takes no steps to reduce their carbon footprint or conserve resources.",
         "options": [
           "Example 1: Pragmatist, Example 2: Fundamentalists, Example 3: unconcerned",
@@ -49,6 +54,7 @@
         "correctAnswer": "Example 1: Pragmatist, Example 2: Fundamentalists, Example 3: unconcerned"
       },
       {
+        "id": "psosm-w3-q6",
         "text": "Which of the following statement(s) is/are true about fundamentalists?",
         "options": [
           "They generally avoid being identified, avoid being in pictures",
@@ -56,9 +62,10 @@
           "They generally don't care about their personal information",
           "They generally care about their personal information but don't care about professional ones."
         ],
-        "correctAnswer": "They generally avoid being identified, avoid being in pictures | They generally use technologies to avoid tracking them"
+        "correctAnswer": "They generally avoid being identified, avoid being in pictures"
       },
       {
+        "id": "psosm-w3-q7",
         "text": "Which of the following is true?",
         "options": [
           "TweetCred is a chrome extension that helps to find tweet credibility.",
@@ -69,6 +76,7 @@
         "correctAnswer": "Both a) and b)"
       },
       {
+        "id": "psosm-w3-q8",
         "text": "The basic method for adding data to MongoDB is ________. To insert a single document, use the collection’s _________ method.",
         "options": [
           "Insert, insertOne",
@@ -79,6 +87,7 @@
         "correctAnswer": "Insert, insertOne"
       },
       {
+        "id": "psosm-w3-q9",
         "text": "Which of the following python command(s) is/are correct w.r.t to connection with MongoDB ?",
         "options": [
           "from pymongo import MongoClient \n client = MongoClient(port=27017)",
@@ -86,9 +95,10 @@
           "from pymongo import MongoClient \n client = MongoClient('localhost:27017’)",
           "from pymongo import MongoClient \n db = client.business"
         ],
-        "correctAnswer": "from pymongo import MongoClient \n client = MongoClient(port=27017) | import pymongo \n client = pymongo.MongoClient( “localhost:27017”) | from pymongo import MongoClient \n client = MongoClient('localhost:27017’)"
+        "correctAnswer": "from pymongo import MongoClient \n client = MongoClient(port=27017)"
       },
       {
+        "id": "psosm-w3-q10",
         "text": "Given below is the sample data in JSON format. Here x randomly named restaurants with corresponding ratings will be created in the MongoDB database called “restaurants”. These restaurants are created in a single collection called “reviews”. Choose the correct command to find the total number of restaurants rated with a 1. \n restaurants = {u'rating': 1, u'_id': ObjectId('58e66688hdtg67jf195'), u'name': u'pizza wings, u'cuisine': u'Italian’}",
         "options": [
           "db.reviews.find({'rating': 1}).count()",

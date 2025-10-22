@@ -4,6 +4,7 @@
     "week": 7,
     "questions": [
       {
+        "id": "psosm-w7-q1",
         "text": "How are top link farmers different from spammers and random social network users?",
         "options": [
           "High indegree and high outdegree",
@@ -14,26 +15,31 @@
         "correctAnswer": "High indegree and high outdegree"
       },
       {
+        "id": "psosm-w7-q2",
         "text": "What topics are dominant in link farmers?",
         "options": ["Markets, business", "Life, friends", "Love, person", "Music, world"],
         "correctAnswer": "Markets, business"
       },
       {
+        "id": "psosm-w7-q3",
         "text": "If a URL is part of a link farm, what is the value of - the number of external URLs mentioned vs the number of mentions received",
         "options": ["Almost 1", "Much higher than 1", "Far lesser than 1", "Can not say"],
         "correctAnswer": "Almost 1"
       },
       {
+        "id": "psosm-w7-q4",
         "text": "Select the communication corresponding to the most number of successful phishing attacks:",
         "options": ["Male to Male", "Female to Male", "Male to Female", "Female to Female"],
         "correctAnswer": "Male to Female"
       },
       {
+        "id": "psosm-w7-q5",
         "text": "[True / False] Nudges while using any application offers a great user experience:",
         "options": ["True", "False"],
         "correctAnswer": "False"
       },
       {
+        "id": "psosm-w7-q6",
         "text": "Semantic Attacks takes advantage of the:",
         "options": [
           "context as perceived by humans.",
@@ -44,6 +50,7 @@
         "correctAnswer": "context as perceived by humans."
       },
       {
+        "id": "psosm-w7-q7",
         "text": "Identify the three major components that make phishing emails distinguishable:",
         "options": [
           "Subject line",
@@ -51,14 +58,16 @@
           "Links present in the email",
           "Name of the person sending the email."
         ],
-        "correctAnswer": "Subject line | Urgency in the body | Links present in the email"
+        "correctAnswer": "Subject line"
       },
       {
+        "id": "psosm-w7-q8",
         "text": "Who among younger and older participants were more vulnerable to phishing attack as discussed in the lecture?",
         "options": ["Younger", "Older"],
         "correctAnswer": "Younger"
       },
       {
+        "id": "psosm-w7-q9",
         "text": "Select all methods by which we can avoid phishing:",
         "options": [
           "By educating the users",
@@ -66,9 +75,10 @@
           "By disclosing all private information on Facebook",
           "By opening all links present in an email"
         ],
-        "correctAnswer": "By educating the users | By using browser extensions"
+        "correctAnswer": "By educating the users"
       },
       {
+        "id": "psosm-w7-q10",
         "text": "Which of the following is true about PageRank?",
         "options": [
           "It is used to evaluate the least genuineness of a page.",

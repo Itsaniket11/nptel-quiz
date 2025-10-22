@@ -4,6 +4,7 @@
     "week": 6,
     "questions": [
       {
+        "id": "psosm-w6-q1",
         "text": "Which of the following best illustrates impersonation on social media platforms?",
         "options": [
           "Creating a fan page with the name and photo of a celebrity and clearly stating it's unofficial.",
@@ -14,6 +15,7 @@
         "correctAnswer": "Creating a fake account using someone else's name, photos, and bio to mislead others."
       },
       {
+        "id": "psosm-w6-q2",
         "text": "What are the second node's indegree and outdegree in the graph below?",
         "options": [
           "Indegree- 2, Outdegree-3",
@@ -24,26 +26,31 @@
         "correctAnswer": "Indegree- 2, Outdegree-3"
       },
       {
+        "id": "psosm-w6-q3",
         "text": "An Adjacency matrix and XML file format are preferable for representing",
         "options": ["Graph data", "Tabular data", "Both a and b", "None of the above"],
         "correctAnswer": "Graph data"
       },
       {
+        "id": "psosm-w6-q4",
         "text": "The Facebook team asked you to find the most popular person in this friendship network, which centrality measure is the most appropriate?",
         "options": ["Betweenness", "Degree", "Closeness", "None of the above"],
         "correctAnswer": "Degree"
       },
       {
+        "id": "psosm-w6-q5",
         "text": "[True / False] Spamming can get you suspended on Twitter?",
         "options": ["True", "False"],
         "correctAnswer": "True"
       },
       {
+        "id": "psosm-w6-q6",
         "text": "What is a legit way to identify the popularity of a web page?",
         "options": ["Link farming", "PageRank"],
         "correctAnswer": "PageRank"
       },
       {
+        "id": "psosm-w6-q7",
         "text": "Select the true statement(s):",
         "options": [
           "Impersonation account has access to the user id and password of the target person.",
@@ -51,9 +58,10 @@
           "Act of tricking someone into handling over her login credentials to exploit personal information",
           "Impersonation in the form of Fan accounts is a crime."
         ],
-        "correctAnswer": "Klout score is influenced by twitter indegree | Act of tricking someone into handling over her login credentials to exploit personal information"
+        "correctAnswer": "Klout score is influenced by twitter indegree"
       },
       {
+        "id": "psosm-w6-q8",
         "text": "What does network diameter signify?",
         "options": [
           "The hierarchical size of a network",
@@ -64,6 +72,7 @@
         "correctAnswer": "The linear size of a network"
       },
       {
+        "id": "psosm-w6-q9",
         "text": "Which of the following statements are true for Link Farmers?",
         "options": [
           "Top Link farmers have high indegree as compared to Spammers",
@@ -71,9 +80,10 @@
           "Node indegree of Link Farmers are the same as any Random samples",
           "Node indegree of Link Farmers are higher than any Random samples"
         ],
-        "correctAnswer": "Top Link farmers have high indegree as compared to Spammers | Node indegree of Link Farmers are higher than any Random samples"
+        "correctAnswer": "Top Link farmers have high indegree as compared to Spammers"
       },
       {
+        "id": "psosm-w6-q10",
         "text": "What are the node 4- indegree and outdegree in the graph below?",
         "options": [
           "Indegree- 2, Outdegree-2",

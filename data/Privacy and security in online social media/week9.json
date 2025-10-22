@@ -4,6 +4,7 @@
     "week": 9,
     "questions": [
       {
+        "id": "psosm-w9-q1",
         "text": "Gephi allows the user to configure the following parameters:",
         "options": [
           "filter nodes and edges",
@@ -11,14 +12,16 @@
           "calculate statistics of graph",
           "Change node size and colour"
         ],
-        "correctAnswer": "filter nodes and edges | Add edges manually | calculate statistics of graph | Change node size and colour"
+        "correctAnswer": "filter nodes and edges"
       },
       {
+        "id": "psosm-w9-q2",
         "text": "“Nidhi Razdan received an offer to teach journalism at Harvard University. After a few months, she realized that it was not genuine and meant to access her personal information”. \n Which of the following statements is/are true? \n i. It is a phishing attack. \n ii. It is a semantic attack.",
         "options": ["Only i is true", "Only ii is true", "Both are true", "None"],
         "correctAnswer": "Both are true"
       },
       {
+        "id": "psosm-w9-q3",
         "text": "What are the potential reasons users change their usernames?",
         "options": [
           "Suit a trending event",
@@ -29,6 +32,7 @@
         "correctAnswer": "All of the above"
       },
       {
+        "id": "psosm-w9-q4",
         "text": "What is correct, when talking about the username change frequency?",
         "options": [
           "It is strongly and positively correlated to the indegree of the users",
@@ -39,11 +43,13 @@
         "correctAnswer": "It is weakly and positively correlated to the indegree of the users"
       },
       {
+        "id": "psosm-w9-q5",
         "text": "True or False \n “ Link farming will not be effective in increasing your social capital and influence.”",
         "options": ["True", "False"],
         "correctAnswer": "False"
       },
       {
+        "id": "psosm-w9-q6",
         "text": "Which of the following option(s) is/are the correct syntax for reading a .csv file in python?",
         "options": [
           "import pandas as pd \n data=pd.read_csv(\"filename.csv\",header = None, encoding='utf-8')",
@@ -51,9 +57,10 @@
           "import pandas as pd \n f ile=\"filename.csv\" \n data=pd.read_csv(file,header = None, encoding='utf-8')",
           "import pandas as pd \n data=pd.read_csv(filename.csv, header = None, encoding='utf-8')"
         ],
-        "correctAnswer": "import pandas as pd \n data=pd.read_csv(\"filename.csv\",header = None, encoding='utf-8') | import pandas as pd \n f ile=\"filename.csv\" \n data=pd.read_csv(file,header = None, encoding='utf-8')"
+        "correctAnswer": "import pandas as pd \n data=pd.read_csv(\"filename.csv\",header = None, encoding='utf-8')"
       },
       {
+        "id": "psosm-w9-q7",
         "text": "Why are usernames important for linking users across social media platforms?",
         "options": [
           "Usernames do not change",
@@ -61,9 +68,10 @@
           "User can have many usernames",
           "Publicly available attribute."
         ],
-        "correctAnswer": "Restrictions on character and length | Publicly available attribute."
+        "correctAnswer": "Restrictions on character and length"
       },
       {
+        "id": "psosm-w9-q8",
         "text": "In the context of text processing, Match the following preprocessing steps with the reasons for carrying that preprocessing? Mark the most likely option.",
         "options": [
           "i - 3, ii - 1, iii - 4, iv - 2",
@@ -74,11 +82,13 @@
         "correctAnswer": "i - 2, ii - 4, iii - 3, iv - 1"
       },
       {
+        "id": "psosm-w9-q9",
         "text": "Which of the following is an example of a 3-D Plot?",
         "options": ["Scatter chart", "Bar chart", "Bubble chart", "Histogram"],
         "correctAnswer": "Bubble chart"
       },
       {
+        "id": "psosm-w9-q10",
         "text": "Which among the following options can be used to create a DataFrame in Pandas?",
         "options": [
           "A pandas series",

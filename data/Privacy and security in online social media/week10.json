@@ -4,11 +4,13 @@
     "week": 10,
     "questions": [
       {
+        "id": "psosm-w10-q1",
         "text": "What are the different type of attacks that could happen: \n i. Pragmatic \n ii. Syntactic \n iii. Physical",
         "options": ["Only i and iii", "Only iii", "Only ii and iii", "All of the above"],
         "correctAnswer": "Only ii and iii"
       },
       {
+        "id": "psosm-w10-q2",
         "text": "What is the term used for Generating usernames and monetizing them, when necessary?",
         "options": [
           "Username Sale",
@@ -19,6 +21,7 @@
         "correctAnswer": "Username squatting"
       },
       {
+        "id": "psosm-w10-q3",
         "text": "What is meant by the Pareto distribution of username change?",
         "options": [
           "20% users frequently change usernames in short intervals and 80% change rarely after long intervals",
@@ -29,21 +32,25 @@
         "correctAnswer": "20% users frequently change usernames in short intervals and 80% change rarely after long intervals"
       },
       {
+        "id": "psosm-w10-q4",
         "text": "For anonymous social networks which of the following statements hold true? \n i. Clustering coefficient is different \n ii. User interact with strangers",
         "options": ["Only i", "Only ii", "Both i and ii", "None of the above"],
         "correctAnswer": "Both i and ii"
       },
       {
+        "id": "psosm-w10-q5",
         "text": "Which of the following statements are false about spammers: \n i. Users of less in-degree do not reciprocate to spammers \n ii. Users with small in-degree tend to follow back more. \n iii. Top link farmers have very high in-degree compared to spammers",
         "options": ["Only ii", "Only i", "Only iii", "None of the above"],
         "correctAnswer": "Only ii"
       },
       {
+        "id": "psosm-w10-q6",
         "text": "“For linking user profiles across different social media, having profile information from past will not help in improving the efficiency or accuracy” \n Is this statement true or False?",
         "options": ["True", "False"],
         "correctAnswer": "False"
       },
       {
+        "id": "psosm-w10-q7",
         "text": "Mark all the true statements with respect to Fake information on social media?",
         "options": [
           "Truthful information comes onto social media faster than fake information",
@@ -51,14 +58,16 @@
           "Community of users posting fake content are usually closed.",
           "Techniques used to classify fake content on twitter would work equally well on facebook post, without any need for tweaking."
         ],
-        "correctAnswer": "Various user and user’s network features can be used to classify fake information. | Community of users posting fake content are usually closed."
+        "correctAnswer": "Various user and user’s network features can be used to classify fake information."
       },
       {
+        "id": "psosm-w10-q8",
         "text": "Which of the following is/are Location-based social networks?",
         "options": ["Gab", "Foursquare", "Koo", "Whisper"],
         "correctAnswer": "Foursquare"
       },
       {
+        "id": "psosm-w10-q9",
         "text": "In the context of e-crime match the following:",
         "options": [
           "1- iii ; 2 - iv ; 3 - ii ; 4 - i",
@@ -69,6 +78,7 @@
         "correctAnswer": "1- iii ; 2 - iv ; 3 - ii ; 4 - i"
       },
       {
+        "id": "psosm-w10-q10",
         "text": "For matplotlib, which of the following parameters can be configured? \n i. Minor axis label \n ii. Intervals on both axis \n iii. Size of figure \n Iv. The number of subplots in a single figure",
         "options": [
           "Only i and ii",

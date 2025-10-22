@@ -4,11 +4,13 @@
     "week": 1,
     "questions": [
       {
+        "id": "psosm-w1-q1",
         "text": "Which of the following is the correct social platform, as depicted in Figure 1?",
         "options": ["Whisper", "Facebook", "Reddit", "None of the above"],
         "correctAnswer": "Reddit"
       },
       {
+        "id": "psosm-w1-q2",
         "text": "Which of the following statement(s) is/are true about Anonymous social networks?",
         "options": [
           "Content posted on Anonymous Social is not connected with particular online identities or profiles",
@@ -16,9 +18,10 @@
           "Anonymous social networks help build a professional network and seek a job",
           "Anonymous networks are safe."
         ],
-        "correctAnswer": "Content posted on Anonymous Social is not connected with particular online identities or profiles | Anonymous social networks might ask for log-in details and sync your contact details to personalise the user experience"
+        "correctAnswer": "Content posted on Anonymous Social is not connected with particular online identities or profiles"
       },
       {
+        "id": "psosm-w1-q3",
         "text": "What is the output of the response variable in the below code: \n import requests \n response=requests.get(\"https://precog.iiit.ac.in/\")",
         "options": [
           "< Response [200] >",
@@ -28,11 +31,13 @@
         "correctAnswer": "< Response [200] >"
       },
       {
+        "id": "psosm-w1-q4",
         "text": "Which platform uses a bidirectional (“mutual”) connection model?",
         "options": ["Twitter", "Facebook", "Instagram", "Youtube"],
         "correctAnswer": "Facebook"
       },
       {
+        "id": "psosm-w1-q5",
         "text": "What does Value specify in 5Vs on Social Media?",
         "options": [
           "Confirmation of the information posted as legitimate",
@@ -43,6 +48,7 @@
         "correctAnswer": "Ability to get value out of the platform"
       },
       {
+        "id": "psosm-w1-q6",
         "text": "Which one of the following is an example of shoulder surfing?",
         "options": [
           "Mail claiming that your system has been infected or the account has been breached",
@@ -53,6 +59,7 @@
         "correctAnswer": "Someone sees your password standing behind you while you type without letting you know."
       },
       {
+        "id": "psosm-w1-q7",
         "text": "You have two files in the folder: \" privacy.py” and “security.py”. Now you want to command to stage the privacy.py file and commit. Which of the following option are correct?",
         "options": [
           "git add privacy.py git commit -m \"Commit message\"",
@@ -63,6 +70,7 @@
         "correctAnswer": "git add privacy.py git commit -m \"Commit message\""
       },
       {
+        "id": "psosm-w1-q8",
         "text": "Which of the following statements is/are true?",
         "options": [
           "Python is a language that can be used to draw network graphs.",
@@ -70,9 +78,10 @@
           "Python Functions do not have restrictions on the type of the argument and the type of its return value.",
           "None of the above"
         ],
-        "correctAnswer": "Python is a language that can be used to draw network graphs. | It is an interpreted language. | Python Functions do not have restrictions on the type of the argument and the type of its return value."
+        "correctAnswer": "Python is a language that can be used to draw network graphs."
       },
       {
+        "id": "psosm-w1-q9",
         "text": "Match the following. Choose the most appropriate option.",
         "options": [
           "1-ii , 2-v, 3-i, 4-iii, 5-iv",
@@ -83,6 +92,7 @@
         "correctAnswer": "1-v , 2-iii, 3-ii, 4-iv, 5-i"
       },
       {
+        "id": "psosm-w1-q10",
         "text": "Choose the incorrect option about ephemeral content. \n (i) Instagram Stories are a type of ephemeral content. \n (ii) Ephemeral content helps in generating more user-generated content.",
         "options": ["Only i", "Only ii", "Both i and ii", "None of the above"],
         "correctAnswer": "None of the above"
