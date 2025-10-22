@@ -1,1 +1,151 @@
-{}
+{
+    "id": "rsa-week10-assign10",
+    "title": "Week 10: Assignment 10",
+    "week": 10,
+    "questions": [
+      {
+        "id": "rsa-w10-q1",
+        "text": "What does ‘AGI’ stand for?",
+        "options": [
+          "Augmented General Intelligence",
+          "Artificial Guided Intelligence",
+          "Augmented Guided Intelligence",
+          "Artificial General Intelligence"
+        ],
+        "correctAnswer": "Artificial General Intelligence"
+      },
+      {
+        "id": "rsa-w10-q2",
+        "text": "According to the lecture, why is ‘blackbox access’ insufficient for AI agents?",
+        "options": [
+          "It is too expensive to implement for most companies.",
+          "It poses a significant security risk for the company that developed the AI.",
+          "It prevents auditors from understanding the model's internal workings and decision making processes.",
+          "It doesn't allow for the assessment of the model's training data."
+        ],
+        "correctAnswer": "It prevents auditors from understanding the model's internal workings and decision-making processes."
+      },
+      {
+        "id": "rsa-w10-q3",
+        "text": "Which of the following best describes one of the possible definitions of AGI?",
+        "options": [
+          "AI systems that are limited to specific tasks.",
+          "AI systems surpassing human intelligence.",
+          "AI models trained for basic automation.",
+          "AI systems which show high training accuracy."
+        ],
+        "correctAnswer": "AI systems surpassing human intelligence."
+      },
+      {
+        "id": "rsa-w10-q4",
+        "text": "What is the key difference between 'reward gaming' and 'goal miss generalization' in AI systems?",
+        "options": [
+          "Reward gaming is an intentional exploitation of the reward function, while goal miss generalization is an accidental misinterpretation of the goal.",
+          "Reward gaming is easier to detect and correct than goal miss generalization.",
+          "Reward gaming involves optimizing the wrong reward function, while goal miss generalization involves optimizing a correlated but incorrect reward function.",
+          "Reward gaming is a more significant threat to AI safety than goal miss generalization. j"
+        ],
+        "correctAnswer": "Reward gaming involves optimizing the wrong reward function, while goal miss generalization involves optimizing a correlated but incorrect reward function."
+      },
+      {
+        "id": "rsa-w10-q5",
+        "text": "According to the lecture, what is the primary concern regarding the arrival of AGI?",
+        "options": [
+          "AGI will be primarily used for malicious purposes by bad actors and rogue states.",
+          "AGI will be too expensive to develop and maintain, leading to a new form of global inequality.",
+          "The arrival of AGI could lead to chaotic power struggles, the extinction of humanity, or other severe negative consequences.",
+          "AGI will lead to massive job displacement and economic disruption."
+        ],
+        "correctAnswer": "The arrival of AGI could lead to chaotic power struggles, the extinction of humanity, or other severe negative consequences."
+      },
+      {
+        "id": "rsa-w10-q6",
+        "text": "As mentioned in the lecture, what is the main concern about the use of social media data for training AI models?",
+        "options": [
+          "The data is often of low quality, which leads to inaccurate and unreliable AI models.",
+          "There is a lack of incentive to protect user privacy in the current business models of tech companies.",
+          "The data is not diverse enough, which leads to biased and unfair AI models.",
+          "The data is too expensive for smaller companies to acquire, leading to a monopolization of AI development."
+        ],
+        "correctAnswer": "There is a lack of incentive to protect user privacy in the current business models of tech companies."
+      },
+      {
+        "id": "rsa-w10-q7",
+        "text": "According to the lecture, what 'dangerous amount of power' do AI assistants create for the companies that develop them?",
+        "options": [
+          "The power to censor information and control the user's access to knowledge.",
+          "The power to manipulate users' beliefs and behaviors based on their personal information and habits.",
+          "The power to control the user's personal finances and investments.",
+          "The power to replace human workers in a wide range of industries."
+        ],
+        "correctAnswer": "The power to manipulate users' beliefs and behaviors based on their personal information and habits."
+      },
+      {
+        "id": "rsa-w10-q8",
+        "text": "Which of the following are identified as significant challenges or concerns related to the development and deployment of advanced AI? (Select all that apply.)",
+        "options": [
+          "The difficulty of achieving global coordination to pause or regulate AI development, similar to challenges like climate change.",
+          "The potential for AI systems to be misused by individuals for personal entertainment, leading to decreased productivity.",
+          "The legal and ethical issues surrounding the use of copyrighted material for training Large Language Models (LLMs).",
+          "The risk of \"goal miss generalization,\" where an AI optimizes for a correlated but incorrect goal, leading to unintended and potentially harmful behavior.",
+          "The high computational cost of training advanced AI models, making them accessible only to a few large tech companies."
+        ],
+        "correctAnswer": "The difficulty of achieving global coordination to pause or regulate AI development, similar to challenges like climate change.\nThe legal and ethical issues surrounding the use of copyrighted material for training Large Language Models (LLMs).\nThe risk of \"goal miss generalization,\" where an AI optimizes for a correlated but incorrect goal, leading to unintended and potentially harmful behavior."
+      },
+      {
+        "id": "rsa-w10-q9",
+        "text": "According to the lecture, what is the main legal challenge when an AI system makes a biased mistake in an employment context?",
+        "options": [
+          "It is difficult to prove that the AI was the sole cause of the mistake.",
+          "Current laws primarily hold the employer responsible, not the AI developer.",
+          "AI developers are protected by international treaties.",
+          "There are no existing laws that cover discrimination in hiring."
+        ],
+        "correctAnswer": "Current laws primarily hold the employer responsible, not the AI developer."
+      },
+      {
+        "id": "rsa-w10-q10",
+        "text": "What is meant by 'implicit bias' in an AI system?",
+        "options": [
+          "Unconscious and involuntary stereotypes and assumptions embedded within algorithms",
+          "Biases that are intentionally programmed into the AI by developers.",
+          "Biases that only appear when the AI interacts with specific users.",
+          "A safety feature that helps the AI avoid making biased statements."
+        ],
+        "correctAnswer": "Unconscious and involuntary stereotypes and assumptions embedded within algorithms"
+      },
+      {
+        "id": "rsa-w10-q11",
+        "text": "Which of the following are presented as key areas of concern or focus for the future of AI? (Select all that apply)",
+        "options": [
+          "The need for international regulation based on fundamental human rights.",
+          "The difficulty in marketing AI products to a skeptical public.",
+          "The environmental impact, particularly energy and water consumption.",
+          "The challenge of assigning legal responsibility when AI systems cause harm."
+        ],
+        "correctAnswer": "The need for international regulation based on fundamental human rights.\nThe environmental impact, particularly energy and water consumption.\nThe challenge of assigning legal responsibility when AI systems cause harm."
+      },
+      {
+        "id":"rsa-w10-q12",
+        "text": "What is the primary danger of the 'arms race' mentality in AI development?",
+        "options": [
+          "It slows down innovation by focusing too much on safety.",
+          "It encourages collaboration and open-sourcing of models.",
+          "It leads to rapid, unchecked development without adequate time for regulation and safety checks.",
+          "It reduces the profitability of AI companies."
+        ],
+        "correctAnswer": "It leads to rapid, unchecked development without adequate time for regulation and safety checks."
+      },
+      {
+        "id": "rsa-w10-q13",
+        "text": "How is 'multimodality' viewed in the context of achieving AGI?",
+        "options": [
+          "It has already been fully achieved by current AI models.",
+          "It is seen as essential for an AI to match the full range of human cognitive abilities.",
+          "It is considered a distraction from the more efficient text-based training methods.",
+          "It is believed to be the primary cause of bias in AI systems."
+        ],
+        "correctAnswer": "It is seen as essential for an AI to match the full range of human cognitive abilities."
+      }
+    ]
+  }

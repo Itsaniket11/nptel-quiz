@@ -1,1 +1,113 @@
-{}
+{
+    "id": "rsa-week9-assign9",
+    "title": "Week 9: Assignment 9",
+    "week": 9,
+    "questions": [
+      {
+        "id": "rsa-w9-q1",
+        "text": "Which of the following is NOT mentioned as one of the RAI (Responsible AI) principles in the slides?",
+        "options": ["Fairness", "Explainability", "Sustainability", "Privacy"],
+        "correctAnswer": "Sustainability"
+      },
+      {
+        "id": "rsa-w9-q2",
+        "text": "According to the lecture, how many Executive Orders on AI were issued?",
+        "options": ["One", "Two", "Three", "Four"],
+        "correctAnswer": "Two"
+      },
+      {
+        "id": "rsa-w9-q3",
+        "text": "What does PEMAT stand for in the context of healthcare video assessment?",
+        "options": [
+          "Patient Education Materials Assessment Tool",
+          "Patient Evaluation Medical Assessment Test",
+          "Public Education Medical Assessment Tool",
+          "Patient Educational Material Analysis Tool"
+        ],
+        "correctAnswer": "Patient Education Materials Assessment Tool"
+      },
+      {
+        "id": "rsa-w9-q4",
+        "text": "According to the presentation, which domains need AI emergency response capabilities?",
+        "options": [
+          "Only .com domains",
+          "Only .gov domains",
+          ".mil, .com and .gov domains",
+          "Only .edu domains"
+        ],
+        "correctAnswer": ".mil, .com and .gov domains"
+      },
+      {
+        "id": "rsa-w9-q5",
+        "text": "Which of the following statement(s) is true regarding the development and implementation of AI systems?",
+        "options": [
+          "Policy considerations and technical details are equally important",
+          "Technical details alone are sufficient for effective AI development",
+          "Policy considerations are only important in few countries",
+          "AI systems do not require any policy or ethical considerations"
+        ],
+        "correctAnswer": "Policy considerations and technical details are equally important"
+      },
+      {
+        "id": "rsa-w9-q6",
+        "text": "In the suffix attacks, what is the vulnerability related to?",
+        "options": [
+          "Data poisoning",
+          "Model stealing",
+          "Breaking alignment policies of chatbots",
+          "Privacy breaches"
+        ],
+        "correctAnswer": "Breaking alignment policies of chatbots"
+      },
+      {
+        "id": "rsa-w9-q7",
+        "text": "What type of multi-disciplinary approaches are required for AI evaluation?",
+        "options": [
+          "Only computer science approaches",
+          "Only engineering approaches",
+          "Social science, engineering, and computer science approaches",
+          "Only social science approaches"
+        ],
+        "correctAnswer": "Social science, engineering, and computer science approaches"
+      },
+      {
+        "id": "rsa-w9-q8",
+        "text": "Based on the lecture content: From a mathematical perspective, which of the following is not considered a major problem in AI today, compared among others?",
+        "options": ["Explainability", "Hallucinations", "Data privacy", "Bias"],
+        "correctAnswer": "Data privacy"
+      },
+      {
+        "id": "rsa-w9-q9",
+        "text": "According to the lecture, who is primarily responsible for self-regulation in the context of AI and technology?",
+        "options": [
+          "Individuals / Individual organizations",
+          "Government agencies",
+          "Only the organizations with more than 1 crore turnover",
+          "International organizations"
+        ],
+        "correctAnswer": "Individuals / Individual organizations"
+      },
+      {
+        "id": "rsa-w9-q10",
+        "text": "What is the six-step process for adopting a systems approach to fairness?",
+        "options": [
+          "Define, Measure, Understand, Improve, Mitigate, Monitor",
+          "Design, Build, Test, Deploy, Evaluate, Maintain",
+          "Plan, Execute, Review, Adjust, Scale, Optimize",
+          "Collect, Process, Analyze, Model, Validate, Implement"
+        ],
+        "correctAnswer": "Define, Measure, Understand, Improve, Mitigate, Monitor"
+      },
+      {
+        "id": "rsa-w9-q11",
+        "text": "In the Accuracy vs. Disparity chart, what represents the Ideal model?",
+        "options": [
+          "High accuracy, high disparity",
+          "Low accuracy, low disparity",
+          "High accuracy, low disparity",
+          "Moderate accuracy, moderate disparity"
+        ],
+        "correctAnswer": "High accuracy, low disparity"
+      }
+    ]
+  }

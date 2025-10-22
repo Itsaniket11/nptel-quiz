@@ -1,1 +1,125 @@
-{}
+{
+    "id": "rsa-week11-assign11",
+    "title": "Week 11: Assignment 11",
+    "week": 11,
+    "questions": [
+      {
+        "id": "rsa-w11-q1",
+        "text": "What are the countermeasures for computer security? (Select all that apply.)",
+        "options": [
+          "Train the users",
+          "Wait until the threat goes away on its own.",
+          "Silently eliminate the threat.",
+          "Warn users about the threat."
+        ],
+        "correctAnswer": "Train the users\nSilently eliminate the threat.\nWarn users about the threat."
+      },
+      {
+        "id": "rsa-w11-q2",
+        "text": "Which of the following is an OECD AI Principle? (Select all that apply.)",
+        "options": [
+          "International co-operation for trustworthy AI",
+          "Transparency and Explainability",
+          "Deletion of AI systems",
+          "Removing guardrails from AI",
+          "Robustness. Security and Safety",
+          "Investing in AI research and development"
+        ],
+        "correctAnswer": "International co-operation for trustworthy AI\nTransparency and Explainability\nRobustness. Security and Safety\nInvesting in AI research and development"
+      },
+      {
+        "id": "rsa-w11-q3",
+        "text": "According to the AI Value Chain, who uses AI systems under authority?",
+        "options": ["Provider", "Deployer", "Distributor", "Representative"],
+        "correctAnswer": "Deployer"
+      },
+      {
+        "id": "rsa-w11-q4",
+        "text": "According to the OECD AI principles, what is ‘Accountability’?",
+        "options": [
+          "AI actors should respect the rule of law, human rights, democratic and human-centered values throughout the AI system lifecycle.",
+          "AI actors should commit to transparency and responsible disclosure regarding AI systems.",
+          "AI systems should be robust, secure, and safe throughout their entire lifecycle so that, in conditions of normal use, foreseeable use or misuse, or other adverse conditions, they function appropriately and do not pose unreasonable safety and/or security risks.",
+          "AI actors should be accountable for the proper functioning of AI systems and for the respect of the above principles, based on their roles, the context, and consistent with the state of the art."
+        ],
+        "correctAnswer": "AI actors should be accountable for the proper functioning of AI systems and for the respect of the above principles, based on their roles, the context, and consistent with the state of the art."
+      },
+      {
+        "id": "rsa-w11-q5",
+        "text": "According to the EU AI Act, what AI Systems are considered “Unacceptable Risk”?",
+        "options": [
+          "AI systems that understand too many languages.",
+          "AI systems that can understand logic but not emotional statements.",
+          "AI systems that can generate media such as images, videos, and audio.",
+          "AI systems that are able to behaviorally manipulate people."
+        ],
+        "correctAnswer": "AI systems that are able to behaviorally manipulate people."
+      },
+      {
+        "id": "rsa-w11-q6",
+        "text": "According to Semantic Graph Entropy, which of the following is true?",
+        "options": [
+          "Entropy and consistency are not related.",
+          "Entropy and consistency are proportional.",
+          "Entropy and consistency are inversely proportional.",
+          "Consistency is constant regardless of entropy."
+        ],
+        "correctAnswer": "Entropy and consistency are inversely proportional."
+      },
+      {
+        "id": "rsa-w11-q7",
+        "text": "What is the main problem identified with Large Language Models (LLMs)?",
+        "options": [
+          "They are too slow.",
+          "They are inconsistent.",
+          "They lack creativity.",
+          "They cannot identify human emotions."
+        ],
+        "correctAnswer": "They are inconsistent."
+      },
+      {
+        "id": "rsa-w11-q8",
+        "text": "What does “Semantic Consistency” mean?",
+        "options": [
+          "The ability to understand different languages.",
+          "The ability to make consistent decisions.",
+          "The ability to generate grammatically correct sentences.",
+          "The ability to learn new vocabulary."
+        ],
+        "correctAnswer": "The ability to make consistent decisions."
+      },
+      {
+        "id": "rsa-w11-q9",
+        "text": "According to the lecture, what type of scenarios do LLMs \"struggle\" with more?",
+        "options": [
+          "Commonsense scenarios.",
+          "Mathematical problems.",
+          "Moral scenarios.",
+          "Factual questions."
+        ],
+        "correctAnswer": "Moral scenarios."
+      },
+      {
+        "id": "rsa-w11-q10",
+        "text": "What was a key finding of the SaGE framework regarding consistency and accuracy?",
+        "options": [
+          "Consistency and accuracy are the same problem.",
+          "Consistency and accuracy are not the same problem and need separate evaluation.",
+          "Accuracy automatically implies consistency.",
+          "Consistency is irrelevant if accuracy is high."
+        ],
+        "correctAnswer": "Consistency and accuracy are not the same problem and need separate evaluation."
+      },
+      {
+        "id": "rsa-w11-q11",
+        "text": "What is \"Rule of Thumb\" generation?",
+        "options": [
+          "Developing general guidelines from practical experience.",
+          "A method for generating paraphrases.",
+          "A general guideline for model training.",
+          "A statistical measure of model performance."
+        ],
+        "correctAnswer": "Developing general guidelines from practical experience."
+      }
+    ]
+  }

@@ -1,1 +1,123 @@
-{}
+{
+    "id": "rsa-week7-assign7",
+    "title": "Week 7: Assignment 7",
+    "week": 7,
+    "questions": [
+      {
+        "id": "rsa-w7-q1",
+        "text": "In approximate differential privacy, what role does the delta ($\\delta$) parameter play? (Notation same as in the lecture)",
+        "options": [
+          "It ensures that epsilon differential privacy holds for all possible sets",
+          "It allows for some rare events (set S) where epsilon differential privacy may not hold",
+          "It reduces the amount of noise required in all cases",
+          "It eliminates the need for the epsilon parameter"
+        ],
+        "correctAnswer": "It allows for some rare events (set S) where epsilon differential privacy may not hold"
+      },
+      {
+        "id": "rsa-w7-q2",
+        "text": "What is a key advantage of approximate differential privacy over standard differential privacy?",
+        "options": [
+          "It provides stronger privacy guarantees",
+          "It eliminates the need for noise addition",
+          "It can increase utility",
+          "It works only with categorical data"
+        ],
+        "correctAnswer": "It can increase utility"
+      },
+      {
+        "id": "rsa-w7-q3",
+        "text": "In approximate differential privacy, the Gaussian noise follows which pattern?",
+        "options": [
+          "$N(0, \\sigma) \\text{ where } \\sigma = \\frac{\\sqrt{d \\log(1/\\delta)}}{n+\\epsilon}$",
+          "$N(0, \\sigma) \\text{ where } \\sigma = \\frac{\\sqrt{d \\log(1/\\delta)}}{\\epsilon}$",
+          "$N(0, \\sigma) \\text{ where } \\sigma = \\frac{d \\log(1/\\delta)}{n-\\epsilon}$",
+          "$N(0, \\sigma) \\text{ where } \\sigma = \\frac{\\sqrt{d \\log(1/\\delta)}}{n\\cdot\\epsilon}$"
+        ],
+        "correctAnswer": "$N(0, \\sigma) \\text{ where } \\sigma = \\frac{\\sqrt{d \\log(1/\\delta)}}{n\\cdot\\epsilon}$"
+      },
+      {
+        "id": "rsa-w7-q4",
+        "text": "What does Statistical Parity require for a fair classifier?",
+        "options": [
+          "The classifier should have equal accuracy across all groups",
+          "The probability of positive predictions should be equal across protected and non-protected groups",
+          "The true positive rates should be identical for all demographic groups",
+          "Individual similar cases should receive similar predictions"
+        ],
+        "correctAnswer": "The probability of positive predictions should be equal across protected and non-protected groups"
+      },
+      {
+        "id": "rsa-w7-q5",
+        "text": "For an ideal fair algorithm under Equality of Opportunity, what condition must be satisfied?",
+        "options": [
+          "The overall prediction rates must be equal across groups",
+          "The false positive rates of unprivileged and privileged groups should be equal",
+          "The true positive rates of unprivileged and privileged groups should be equal",
+          "The precision should be identical for both protected and non-protected groups"
+        ],
+        "correctAnswer": "The true positive rates of unprivileged and privileged groups should be equal"
+      },
+      {
+        "id": "rsa-w7-q6",
+        "text": "What is the Post-Processing property in differential privacy?",
+        "options": [
+          "Any preprocessing of data before applying DP mechanisms maintains the privacy guarantee",
+          "Privacy guarantees are strengthened when multiple post-processing steps are applied",
+          "Any data-independent transformation applied to the output of a differentially private mechanism does not degrade its privacy guarantee",
+          "Post-processing can be used to improve the privacy guarantee of any mechanism"
+        ],
+        "correctAnswer": "Any data-independent transformation applied to the output of a differentially private mechanism does not degrade its privacy guarantee"
+      },
+      {
+        "id": "rsa-w7-q7",
+        "text": "In a PCA analysis, if the reconstruction error for female data points is lower than for male data points, what does this indicate?",
+        "options": [
+          "The dataset is biased against females",
+          "The dataset is biased against males",
+          "Reconstruction error differences are due to random noise",
+          "Male data is more correlated"
+        ],
+        "correctAnswer": "The dataset is biased against males"
+      },
+      {
+        "id": "rsa-w7-q8",
+        "text": "In the exponential mechanism to calculate the price to maximize the revenue, identify the correct statement in the scenario where 2 unequal prices result in the same revenue:",
+        "options": [
+          "Both prices have an unequal probability of being selected",
+          "Both prices have an equal probability of being selected",
+          "A higher price has a higher probability of being chosen due to normalisation",
+          "A lower price has a higher probability of being chosen due to normalisation"
+        ],
+        "correctAnswer": "Both prices have an equal probability of being selected"
+      },
+      {
+        "id": "rsa-w7-q9",
+        "text": "In an ideal situation where the models are completely fair, the different parity values are:",
+        "options": ["Approach 0", "1", "Approach 1", "0"],
+        "correctAnswer": "0"
+      },
+      {
+        "id": "rsa-w7-q10",
+        "text": "In a classifier, if a data point lies exactly on the decision boundary (hyperplane), what is the probability of it belonging to the positive class?",
+        "options": [
+          "Greater than 50%",
+          "Less than 50%",
+          "Equal to 50%",
+          "Cannot be determined from the given information"
+        ],
+        "correctAnswer": "Equal to 50%"
+      },
+      {
+        "id": "rsa-w7-q11",
+        "text": "In Fair Logistic Regression, the equation P(M(x)=1|C=1) - P(M(x)=1|C=0) represents which fairness metric?",
+        "options": [
+          "Equality of Opportunity",
+          "Statistical Parity",
+          "Predictive Parity",
+          "Individual Fairness"
+        ],
+        "correctAnswer": "Statistical Parity"
+      }
+    ]
+  }

@@ -1,1 +1,131 @@
-{}
+{
+    "id": "rsa-week3-assign3",
+    "title": "Week 3: Assignment 3",
+    "week": 3,
+    "questions": [
+      {
+        "id": "rsa-w3-q1",
+        "text": "What is the definition of “Machine Unlearning”?",
+        "options": [
+          "Removing the influences of training data from a trained model",
+          "The ability of a machine learning model to adapt to new data",
+          "A technique used to compress machine learning models",
+          "The ability of a machine learning model to learn a variety of data"
+        ],
+        "correctAnswer": "Removing the influences of training data from a trained model"
+      },
+      {
+        "id": "rsa-w3-q2",
+        "text": "What might be some types of information that one might want to remove from model data? (Select all that apply.)",
+        "options": [
+          "Private data",
+          "Toxic or unsafe content",
+          "Accurate information",
+          "Model hyperparameter settings",
+          "Stale knowledge"
+        ],
+        "correctAnswer": "Private data\nToxic or unsafe content\nStale knowledge"
+      },
+      {
+        "id": "rsa-w3-q3",
+        "text": "What is GDPR’s Article 17 about in the context of Machine Learning?",
+        "options": [
+          "Right to be remembered",
+          "Right to be modified",
+          "Right to be distributed",
+          "Right to be forgotten"
+        ],
+        "correctAnswer": "Right to be forgotten"
+      },
+      {
+        "id": "rsa-w3-q4",
+        "text": "What are the steps in the SISA approach?",
+        "options": [
+          "Sampled, Isolated, Stopped, Aggregated",
+          "Sharded, Imitate, Sliced, Annotated",
+          "Sharded, Isolated, Sliced, Aggregated",
+          "Sampled, Imitate, Stopped, Annotated"
+        ],
+        "correctAnswer": "Sharded, Isolated, Sliced, Aggregated"
+      },
+      {
+        "id": "rsa-w3-q5",
+        "text": "What is Membership Inference Attack (MIA) used for?",
+        "options": [
+          "To train LLMs faster",
+          "To improve the models robustness",
+          "To remove accurate data",
+          "To classify between training and unseen data"
+        ],
+        "correctAnswer": "To classify between training and unseen data"
+      },
+      {
+        "id": "rsa-w3-q6",
+        "text": "What is the role of differential privacy?",
+        "options": [
+          "To improve model accuracy",
+          "To make the model forget everything",
+          "To make models indistinguishable with/without certain data points",
+          "To speed up training time"
+        ],
+        "correctAnswer": "To make models indistinguishable with/without certain data points"
+      },
+      {
+        "id": "rsa-w3-q7",
+        "text": "Which benchmarks are used to evaluate unlearning in LLMs? (Select all that apply.)",
+        "options": [
+          "TOFU",
+          "GLUE",
+          "WMDP",
+          "GUIDE"
+        ],
+        "correctAnswer": "TOFU\nWMDP"
+      },
+      {
+        "id": "rsa-w3-q8",
+        "text": "Case: A hospital wants to share patient health data with research institutions to support public health studies. However, it must ensure that a patient's identity cannot be inferred. To achieve this, the hospital generates and sends aggregate statistics to the institute. Which form of unlearning is this?",
+        "options": [
+          "Exact unlearning",
+          "Unlearning via differential privacy",
+          "Just ask for unlearning",
+          "Empirical Unlearning"
+        ],
+        "correctAnswer": "Unlearning via differential privacy"
+      },
+      {
+        "id": "rsa-w3-q9",
+        "text": "Which isn’t a type of graph unlearning?",
+        "options": [
+          "Node unlearning",
+          "Edge unlearning",
+          "Label unlearning",
+          "Node feature unlearning"
+        ],
+        "correctAnswer": "Label unlearning"
+      },
+      {
+        "id": "rsa-w3-q10",
+        "text": "Which methods are used for Node unlearning? (Select all that apply.)",
+        "options": [
+          "GraphEraser",
+          "GUIDE",
+          "Projector",
+          "GraphdEditor",
+          "GNNDelete",
+          "MEGU"
+        ],
+        "correctAnswer": "GraphEraser\nGUIDE\nGraphdEditor\nGNNDelete\nMEGU"
+      },
+      {
+        "id": "rsa-w3-q11",
+        "text": "What are “hidden representations”?",
+        "options": [
+          "The final model outputs",
+          "Raw training data stored in memory",
+          "Intermediate activation vectors captured during model execution",
+          "The model's loss values during training"
+        ],
+        "correctAnswer": "Intermediate activation vectors captured during model execution"
+      }
+    ]
+  }

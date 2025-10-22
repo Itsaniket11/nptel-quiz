@@ -1,1 +1,130 @@
-{}
+{
+    "id": "rsa-week5-assign5",
+    "title": "Week 5: Assignment 5",
+    "week": 5,
+    "questions": [
+      {
+        "id": "rsa-w5-q1",
+        "text": "What is considered an ideal Stereotype Score (ss)?",
+        "options": ["0%", "25%", "50%", "75%"],
+        "correctAnswer": "50%"
+      },
+      {
+        "id": "rsa-w5-q2",
+        "text": "What does SEAT stand for?",
+        "options": [
+          "Standard Evaluation Assessment Test",
+          "Semantic Evaluation Annotation Test",
+          "Structured Embedding Accuracy Test",
+          "Sentence Embedding Association Test"
+        ],
+        "correctAnswer": "Sentence Embedding Association Test"
+      },
+      {
+        "id": "rsa-w5-q3",
+        "text": "In counterfactual data augmentation (CDA), what is altered to rebalance the corpus?",
+        "options": [
+          "Sentence Length",
+          "Syntex",
+          "Bias attribute words",
+          "Vocabulary complexity"
+        ],
+        "correctAnswer": "Bias attribute words"
+      },
+      {
+        "id": "rsa-w5-q4",
+        "text": "Which characteristic makes a language model more likely to generate gender neutral responses in text-to-text tasks? (Select all that apply.)",
+        "options": [
+          "Training on diverse and balanced datasets.",
+          "Use of bias-specific adapter modules.",
+          "Conditioning outputs on explicit gender tokens.",
+          "Reliance on pretrained token embeddings without fine-tuning."
+        ],
+        "correctAnswer": "Training on diverse and balanced datasets.\nUse of bias-specific adapter modules."
+      },
+      {
+        "id": "rsa-w5-q5",
+        "text": "Which toolkit is used to add programmable guardrails to LLM-based conversational applications like ChatGPT?",
+        "options": ["GPT-4", "NVIDIA NeMo", "CoDi", "MAFIA"],
+        "correctAnswer": "NVIDIA NeMo"
+      },
+      {
+        "id": "rsa-w5-q6",
+        "text": "Which of the following is the correct formula for Pointwise Mutual Information (PMI)?",
+        "options": [
+          "$PMI(w_i, w_j) = \\log_2 \\frac{N \\cdot c(w_i, w_j)}{c(w_i)^2 \\cdot c(w_j)^2}$",
+          "$PMI(w_i, w_j) = \\log_2 \\frac{c(w_i) \\cdot c(w_j)}{N \\cdot c(w_i, w_j)}$",
+          "$PMI(w_i, w_j) = \\log_2 \\frac{N \\cdot c(w_i, w_j)}{c(w_i) \\cdot c(w_j)}$",
+          "$PMI(w_i, w_j) = \\log_2 \\frac{c(w_i, w_j)}{N \\cdot c(w_i) \\cdot c(w_j)}$"
+        ],
+        "correctAnswer": "$PMI(w_i, w_j) = \\log_2 \\frac{N \\cdot c(w_i, w_j)}{c(w_i) \\cdot c(w_j)}$"
+      },
+      {
+        "id": "rsa-w5-q7",
+        "text": "‘Useful fairness’ couples which of the following? (Select all that apply.)",
+        "options": [
+          "Context awareness",
+          "Bias Score",
+          "STS task performance",
+          "Dataset diversity"
+        ],
+        "correctAnswer": "Bias Score\nSTS task performance"
+      },
+      {
+        "id": "rsa-w5-q8",
+        "text": "What is the key architectural idea behind the MAFIA model for effective debiasing?",
+        "options": [
+          "Fusing bias-specific adapters while keeping the base model the same.",
+          "Replacing all model weights with debiased adapters.",
+          "Dynamically routing inputs based on detected bias type.",
+          "Using GANs to hallucinate fair outputs."
+        ],
+        "correctAnswer": "Fusing bias-specific adapters while keeping the base model the same."
+      },
+      {
+        "id": "rsa-w5-q9",
+        "text": "Which of the following is true about proprietary models?",
+        "options": [
+          "They are more neutral compared to CoDi and other open source models.",
+          "They are less neutral compared to CoDi and other open source models.",
+          "They have more bias than CoDi and other open source models.",
+          "They have the same neutrality as CoDi and other open source models."
+        ],
+        "correctAnswer": "They are more neutral compared to CoDi and other open source models."
+      },
+      {
+        "id": "rsa-w5-q10",
+        "text": "Which of the following are benchmark datasets commonly used to measure bias in language models? (Select all that apply.)",
+        "options": [
+          "Stereoset",
+          "CrowS-Pairs",
+          "ImageNet",
+          "Bias-STS-S",
+          "SQuAD"
+        ],
+        "correctAnswer": "Stereoset\nCrowS-Pairs\nBias-STS-S"
+      },
+      {
+        "id": "rsa-w5-q11",
+        "text": "What is ‘gender-bleaching’ in the context of VLMs?",
+        "options": [
+          "Improving the quality of input images.",
+          "Turning all people in the input images white.",
+          "Enhancing gender-specific features in input images.",
+          "Removing/Obscuring visual cues related to gender in input images."
+        ],
+        "correctAnswer": "Removing/Obscuring visual cues related to gender in input images."
+      },
+      {
+        "id": "rsa-w5-q12",
+        "text": "Why might a single adapter for all bias types (like iDEBall) fail?",
+        "options": [
+          "Cannot effectively debias across all categories.",
+          "Trains slower than other models.",
+          "Requires more input data.",
+          "Does not understand contextual information."
+        ],
+        "correctAnswer": "Cannot effectively debias across all categories."
+      }
+    ]
+  }

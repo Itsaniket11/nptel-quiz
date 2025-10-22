@@ -1,1 +1,140 @@
-{}
+{
+    "id": "rsa-week6-assign6",
+    "title": "Week 6: Assignment 6",
+    "week": 6,
+    "questions": [
+      {
+        "id": "rsa-w6-q1",
+        "text": "What are the primary disadvantages of cryptographic solutions for privacy protection? Select all that apply.",
+        "options": [
+          "Inference possibility remains uncertain in all scenarios",
+          "Utility reduces",
+          "It is expensive",
+          "Security guarantees are absolute in all cases"
+        ],
+        "correctAnswer": "Inference possibility remains uncertain in all scenarios\nIt is expensive"
+      },
+      {
+        "id": "rsa-w6-q2",
+        "text": "Why do anonymization techniques often fail to provide adequate privacy protection?",
+        "options": [
+          "They require excessive computational resources",
+          "Adversaries can leverage auxiliary databases for de-anonymization attacks",
+          "They only work with structured data formats",
+          "The anonymization process introduces too much noise"
+        ],
+        "correctAnswer": "Adversaries can leverage auxiliary databases for de-anonymization attacks"
+      },
+      {
+        "id": "rsa-w6-q3",
+        "text": "In the randomized response model, what does the parameter epsilon in $e^{\\epsilon}$ represent?",
+        "options": [
+          "The percentage of truthfulness of the response that is allowed to be revealed",
+          "The ratio between falsehood and randomness in responses",
+          "The computational complexity of the algorithm",
+          "The number of participants in the study"
+        ],
+        "correctAnswer": "The percentage of truthfulness of the response that is allowed to be revealed"
+      },
+      {
+        "id": "rsa-w6-q4",
+        "text": "What characterizes an ideal privacy model?",
+        "options": [
+          "Maximum utility with zero privacy guarantees",
+          "Perfect privacy with minimal utility",
+          "Balanced trade-off between utility and privacy requirements",
+          "Complete data suppression for absolute privacy"
+        ],
+        "correctAnswer": "Balanced trade-off between utility and privacy requirements"
+      },
+      {
+        "id": "rsa-w6-q5",
+        "text": "Given: $X_i$ represents truth, $Y_i$ represents randomized value of $X_i$, and $Z_i = (Y_i - (1/(1 + e^{\\epsilon}))) \\times (e^{\\epsilon} + 1)/(e^{\\epsilon} - 1)$, What is the expected value $E[Z_i]$?",
+        "options": [
+          "$E[Z_i] = X_i$",
+          "$E[Z_i] = e^{\\epsilon}$",
+          "$E[Z_i] = X_i \\times e^{\\epsilon}$",
+          "$E[Z_i] = 0$"
+        ],
+        "correctAnswer": "$E[Z_i] = X_i$"
+      },
+      {
+        "id": "rsa-w6-q6",
+        "text": "In the randomized response model, which statements are correct? Select all that apply.",
+        "options": [
+          "Privacy guarantee can be controlled by parameter $\\epsilon$",
+          "Privacy and utility are independent of sample size",
+          "Higher $\\epsilon$ values provide stronger utility",
+          "Utility guarantee scales with $\\sqrt{n}$"
+        ],
+        "correctAnswer": "Privacy guarantee can be controlled by parameter $\\epsilon$\nUtility guarantee scales with $\\sqrt{n}$"
+      },
+      {
+        "id": "rsa-w6-q7",
+        "text": "Consider datasets:X= {x1, x2, ..., xN} (truth), Y = {y1, y2, ..., yN} (revealed values). To derive better estimators Z = {z1, z2, ..., zN} from Y, What process is required?",
+        "options": [
+          "Removing bias from Y introduced through randomization",
+          "Adding bias to Y removed through randomization",
+          "Removing variance from Y introduced through randomization",
+          "Adding variance to Y removed through randomization"
+        ],
+        "correctAnswer": "Removing bias from Y introduced through randomization"
+      },
+      {
+        "id": "rsa-w6-q8",
+        "text": "Which factors directly influence the privacy guarantee in differential privacy mechanisms? Select all that apply.",
+        "options": [
+          "Sensitivity of the query function",
+          "Magnitude of added noise",
+          "Size of the dataset",
+          "Privacy parameter Epsilon"
+        ],
+        "correctAnswer": "Sensitivity of the query function\nMagnitude of added noise\nPrivacy parameter Epsilon"
+      },
+      {
+        "id": "rsa-w6-q9",
+        "text": "Which trust scenario correctly describes the differential privacy model?",
+        "options": [
+          "Trust the curator; Trust the world",
+          "Do not trust the curator; Trust the world",
+          "Trust the curator; Do not trust the world",
+          "Do not trust the curator; Do not trust the world"
+        ],
+        "correctAnswer": "Trust the curator; Do not trust the world"
+      },
+      {
+        "id": "rsa-w6-q10",
+        "text": "For fixed privacy levels, how do sample size requirements differ between Laplacian mechanism and Randomized response?",
+        "options": [
+          "Constant factor difference",
+          "Exponential factor difference",
+          "Logarithmic factor difference",
+          "Quadratic factor difference"
+        ],
+        "correctAnswer": "Quadratic factor difference"
+      },
+      {
+        "id": "rsa-w6-q11",
+        "text": "Higher privacy guarantees can be achieved in which scenarios? Select all correct options.",
+        "options": [
+          "When Epsilon parameter is increased",
+          "When noise magnitude is increased",
+          "When inverse sensitivity is high",
+          "When variance in the mechanism is high",
+          "When utility requirements are maximized"
+        ],
+        "correctAnswer": "When noise magnitude is increased\nWhen variance in the mechanism is high"
+      },
+      {
+        "id": "rsa-w6-q12",
+        "text": "In the context of randomized response, what happens to utility as privacy guarantees increase?",
+        "options": [
+          "Utility remains constant",
+          "Utility increases proportionally",
+          "Utility decreases due to increased noise",
+          "Utility becomes undefined"
+        ],
+        "correctAnswer": "Utility decreases due to increased noise"
+      }
+    ]
+  }

@@ -1,1 +1,125 @@
-{}
+{
+    "id": "rsa-week8-assign8",
+    "title": "Week 8: Assignment 8",
+    "week": 8,
+    "questions": [
+      {
+        "id": "rsa-w8-q1",
+        "text": "In pixel-attribution methods, which statement best distinguishes perturbation based approaches from gradient-based saliency?",
+        "options": [
+          "Perturbation-based methods compute input gradients; gradient-based methods fit local surrogate models.",
+          "Perturbation-based methods are model-agnostic and computationally expensive; gradient-based methods use model internals and are faster.",
+          "Perturbation-based methods always produce sparser explanations; gradient-based methods always produce denser explanations.",
+          "Perturbation-based methods require access to intermediate activations; gradient-based methods are strictly black-box."
+        ],
+        "correctAnswer": "Perturbation-based methods are model-agnostic and computationally expensive; gradient-based methods use model internals and are faster."
+      },
+      {
+        "id": "rsa-w8-q2",
+        "text": "Which behavior of a saliency map under layer-randomization is a red flag that the map is not capturing learned model structure?",
+        "options": [
+          "The saliency map remains largely unchanged after randomizing many layers.",
+          "The saliency map changes dramatically as earlier layers are randomized.",
+          "The saliency map’s sign (positive/negative) flips while spatial structure remains.",
+          "Absolute saliency values shrink while layout shifts."
+        ],
+        "correctAnswer": "The saliency map remains largely unchanged after randomizing many layers."
+      },
+      {
+        "id": "rsa-w8-q3",
+        "text": "Which of the following is fully equivariant to translation and rotation:",
+        "options": ["StyleGAN2", "ProtoPNet", "StyleGAN3", "None of the above"],
+        "correctAnswer": "StyleGAN3"
+      },
+      {
+        "id": "rsa-w8-q4",
+        "text": "Optimized-mask saliency methods (optimize a mask that when applied alters prediction) are brittle because:",
+        "options": [
+          "Their masks always converge to a single-pixel trigger.",
+          "They require closed-form solutions for mask gradients.",
+          "Results strongly depend on mask initialization and hyperparameters.",
+          "They are invariant to adversarial perturbations."
+        ],
+        "correctAnswer": "Results strongly depend on mask initialization and hyperparameters."
+      },
+      {
+        "id": "rsa-w8-q5",
+        "text": "For token-level gradient saliency in text, a large gradient magnitude for a token most reliably indicates:",
+        "options": [
+          "The token is causally required for the model’s prediction.",
+          "The model’s output is sensitive to small embedding perturbations at that token.",
+          "The token is semantically important to humans.",
+          "The token was the only one used during training for that class."
+        ],
+        "correctAnswer": "The model’s output is sensitive to small embedding perturbations at that token."
+      },
+      {
+        "id": "rsa-w8-q6",
+        "text": "Which of the following is NOT a name commonly associated with pixel attribution methods?",
+        "options": [
+          "Saliency map",
+          "Sensitivity map",
+          "Feature attribution",
+          "Convolution map"
+        ],
+        "correctAnswer": "Convolution map"
+      },
+      {
+        "id": "rsa-w8-q7",
+        "text": "Which of the following are realistic attack vectors for implanting Trojans into neural networks?",
+        "options": [
+          "Poisoning a fraction of a public training dataset with triggers and target labels.",
+          "Fine-tuning a model on carefully curated clean data only.",
+          "Distributing pretrained models via model libraries that already contain hidden functionality.",
+          "Applying purely random weight perturbation after training without trigger examples.",
+          "Injecting triggers only at inference time without altering training data or model weights."
+        ],
+        "correctAnswer": "Poisoning a fraction of a public training dataset with triggers and target labels.\nDistributing pretrained models via model libraries that already contain hidden functionality."
+      },
+      {
+        "id": "rsa-w8-q8",
+        "text": "Defenses that reverse-engineer potential triggers (e.g., via optimization) rely on which observations?",
+        "options": [
+          "One can optimize small masks/patterns that cause misclassification to a target label.",
+          "If an optimized trigger for a particular label is significantly smaller/simpler than others, it suggests a Trojan.",
+          "Reverse-engineered triggers always exactly match the original poisoning trigger used at training.",
+          "Pruning neurons highly activated by a reverse-engineered trigger can mitigate the Trojan.",
+          "Training a meta-classifier to detect Trojaned models is computationally cheap and always generalizes."
+        ],
+        "correctAnswer": "One can optimize small masks/patterns that cause misclassification to a target label.\nIf an optimized trigger for a particular label is significantly smaller/simpler than others, it suggests a Trojan.\nPruning neurons highly activated by a reverse-engineered trigger can mitigate the Trojan."
+      },
+      {
+        "id": "rsa-w8-q9",
+        "text": "How does Guided BackProp differ from standard backpropagation in generating saliency maps?",
+        "options": [
+          "It only considers positive gradients by zeroing out negative activations and gradients.",
+          "It back propagates gradients with all activations zeroed out.",
+          "It focuses on highlighting both negative and positive contributions.",
+          "It requires padding 1 to the image before backpropagation."
+        ],
+        "correctAnswer": "It only considers positive gradients by zeroing out negative activations and gradients."
+      },
+      {
+        "id": "rsa-w8-q10",
+        "text": "In the context of mechanistic interpretability, what do inhibitory connections in neural circuits primarily accomplish?",
+        "options": [
+          "They amplify signal strength between neurons",
+          "They create redundant pathways for information flow",
+          "They reduce the probability of information transfer between neurons",
+          "They store long-term memory patterns"
+        ],
+        "correctAnswer": "They reduce the probability of information transfer between neurons"
+      },
+      {
+        "id": "rsa-w8-q11",
+        "text": "What is the primary limitation of LIME's local explanations?",
+        "options": [
+          "LIME only works on image data",
+          "LIME requires access to model internals",
+          "LIME explanations are locally faithful but not necessarily globally consistent",
+          "LIME cannot handle categorical features"
+        ],
+        "correctAnswer": "LIME explanations are locally faithful but not necessarily globally consistent"
+      }
+    ]
+  }

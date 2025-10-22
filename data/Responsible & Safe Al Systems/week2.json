@@ -1,1 +1,140 @@
-{}
+{
+    "id": "rsa-week2-assign2",
+    "title": "Week 2: Assignment 2",
+    "week": 2,
+    "questions": [
+      {
+        "id": "rsa-w2-q1",
+        "text": "Which of the following is true?",
+        "options": [
+          "Extremistan has thin tails while Mediocristan has long tails",
+          "Mediocristan distributions are harder to predict than Extremistan",
+          "In Extremistan, the total is determined by a few large events with tyranny of the accidental",
+          "Extremistan has mild randomness while Mediocristan has wild randomness"
+        ],
+        "correctAnswer": "In Extremistan, the total is determined by a few large events with tyranny of the accidental"
+      },
+      {
+        "id": "rsa-w2-q2",
+        "text": "What is the key difference between covariate shift and concept shift in distribution shifts?",
+        "options": [
+          "Covariate shift changes P(y|x) while concept shift changes P(x)",
+          "Covariate shift changes P(x) while P(y|x) remains constant, concept shift changes P(y|x) while P(x) remains constant",
+          "Both change P(x) and P(y|x) simultaneously",
+          "Covariate shift affects labels while concept shift affects features"
+        ],
+        "correctAnswer": "Covariate shift changes P(x) while P(y|x) remains constant, concept shift changes P(y|x) while P(x) remains constant"
+      },
+      {
+        "id": "rsa-w2-q3",
+        "text": "In the AugMix methodology, what is the primary advantage over uncontrolled random augmentations?",
+        "options": [
+          "It uses skip connections to keep images recognizable while applying diverse augmentations",
+          "It requires less computational power",
+          "It only applies single augmentations instead of multiple",
+          "It focuses on geometric transformations only"
+        ],
+        "correctAnswer": "It uses skip connections to keep images recognizable while applying diverse augmentations"
+      },
+      {
+        "id": "rsa-w2-q4",
+        "text": "In the context of adversarial attacks, what does \"transferability\" specifically refer to?",
+        "options": [
+          "The ability to transfer attacks from one domain to another",
+          "The ability to transfer defenses across different architectures",
+          "The ability to convert white-box attacks to black-box attacks",
+          "The ability of adversarial examples crafted for one model to work on other models"
+        ],
+        "correctAnswer": "The ability of adversarial examples crafted for one model to work on other models"
+      },
+      {
+        "id": "rsa-w2-q5",
+        "text": "Black Swan lies in which of the following categories?",
+        "options": [
+          "Known Knowns",
+          "Known Unknowns",
+          "Unknown Knowns",
+          "Unknown Unknowns"
+        ],
+        "correctAnswer": "Unknown Unknowns"
+      },
+      {
+        "id": "rsa-w2-q6",
+        "text": "Which of the following are valid approaches for defending against adversarial attacks? (Select all that apply)",
+        "options": [
+          "Data augmentation techniques",
+          "Adversarial training using adversarial examples during training",
+          "Using more data and larger models",
+          "Reducing model complexity to avoid overfitting",
+          "Adversarial pretraining on larger datasets like ImageNet"
+        ],
+        "correctAnswer": "Data augmentation techniques\nAdversarial training using adversarial examples during training\nUsing more data and larger models\nAdversarial pretraining on larger datasets like ImageNet"
+      },
+      {
+        "id": "rsa-w2-q7",
+        "text": "In the RLHF optimization objective, why is a KL-divergence penalty term added to the reward maximization?",
+        "options": [
+          "To prevent the model from generating repetitive outputs",
+          "To ensure the model stays close to the original pretrained model",
+          "To improve the computational efficiency of the training process",
+          "To increase the diversity of generated samples"
+        ],
+        "correctAnswer": "To ensure the model stays close to the original pretrained model"
+      },
+      {
+        "id": "rsa-w2-q8",
+        "text": "What does \"reward hacking\" specifically refer to in the context of RLHF?",
+        "options": [
+          "Humans providing incorrect feedback to manipulate the system",
+          "External attackers compromising the reward model",
+          "The reward model overfitting to the training data",
+          "The model finding ways to maximize the reward function without achieving the intended behavior"
+        ],
+        "correctAnswer": "The model finding ways to maximize the reward function without achieving the intended behavior"
+      },
+      {
+        "id": "rsa-w2-q9",
+        "text": "Identify the equations that can lead to a long-tailed distribution.",
+        "options": [
+          "Idea * student * resources * time",
+          "Idea * student + resources * time",
+          "Idea + student + resource + time",
+          "Idea - student * resource - time"
+        ],
+        "correctAnswer": "Idea * student * resources * time"
+      },
+      {
+        "id": "rsa-w2-q10",
+        "text": "What is the primary advantage of using pairwise comparisons over direct scalar ratings in human feedback collection?",
+        "options": [
+          "Pairwise comparisons are faster to collect",
+          "They require fewer human annotators",
+          "Human judgments are noisy and miscalibrated, but pairwise comparisons are more reliable",
+          "They provide more granular feedback information"
+        ],
+        "correctAnswer": "Human judgments are noisy and miscalibrated, but pairwise comparisons are more reliable"
+      },
+      {
+        "id": "rsa-w2-q11",
+        "text": "What is a major challenge with using a single reward function in RLHF?",
+        "options": [
+          "It is computationally expensive to optimize",
+          "It cannot represent a diverse society of humans",
+          "It requires too much training data",
+          "It is unstable during training"
+        ],
+        "correctAnswer": "It cannot represent a diverse society of humans"
+      },
+      {
+        "id": "rsa-w2-q12",
+        "text": "What is Direct Preference Optimization (DPO) equivalent to in the context of RLHF component removal?",
+        "options": [
+          "RLHF - Human Feedback",
+          "RLHF - Reward Model",
+          "RLHF - RL",
+          "RLHF - Policy Optimization"
+        ],
+        "correctAnswer": "RLHF - Reward Model"
+      }
+    ]
+  }

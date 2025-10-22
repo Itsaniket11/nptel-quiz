@@ -1,1 +1,151 @@
-{}
+{
+    "id": "rsa-week4-assign4",
+    "title": "Week 4: Assignment 4",
+    "week": 4,
+    "questions": [
+      {
+        "id": "rsa-w4-q1",
+        "text": "As per the lecture, in the context of Machine Learning, what is the definition of ‘bias’?",
+        "options": [
+          "Systematic deviation from rationality and judgement.",
+          "Systematic error in the collection, analysis, or interpretation of data.",
+          "Systematic favoritism or discrimination towards certain groups/outcomes.",
+          "Systematic behaviour when solving complex tasks."
+        ],
+        "correctAnswer": "Systematic favoritism or discrimination towards certain groups/outcomes."
+      },
+      {
+        "id": "rsa-w4-q2",
+        "text": "Why did Microsoft’s Tay chatbot become offensive shortly after it was launched?",
+        "options": [
+          "It learned toxic behaviour from user interactions on Twitter.",
+          "It was hacked by a rival company.",
+          "It was trained on outdated information.",
+          "It was programmed to be controversial for publicity."
+        ],
+        "correctAnswer": "It learned toxic behaviour from user interactions on Twitter."
+      },
+      {
+        "id": "rsa-w4-q3",
+        "text": "As per the lecture, which of the following is a/are a category of bias? (Select all that apply.)",
+        "options": [
+          "Gender",
+          "Race",
+          "Scientific Facts",
+          "Profession",
+          "Currency exchange rates"
+        ],
+        "correctAnswer": "Gender\nRace\nProfession"
+      },
+      {
+        "id": "rsa-w4-q4",
+        "text": "According to the ML Pipeline, what may be a source of bias? (Select all that apply.)",
+        "options": [
+          "Annotators beliefs",
+          "Hardware used for computation",
+          "Balanced dataset",
+          "Biased training data"
+        ],
+        "correctAnswer": "Annotators beliefs\nBiased training data"
+      },
+      {
+        "id": "rsa-w4-q5",
+        "text": "What does the Legal Safety Score (LSS β) represent?",
+        "options": [
+          "The model's ability to predict legal outcomes based solely on accuracy.",
+          "A metric combining fairness and accuracy using a β-weighted harmonic mean.",
+          "A score based on the usage of legal jargon for marginalized groups.",
+          "An evaluation metric used to define how well a model understands legal jargon."
+        ],
+        "correctAnswer": "A metric combining fairness and accuracy using a β-weighted harmonic mean."
+      },
+      {
+        "id": "rsa-w4-q6",
+        "text": "What do LLMs use to prevent harmful outputs?",
+        "options": [
+          "Data augmentation",
+          "Guardrails",
+          "Faster GPUs",
+          "Dropout layers"
+        ],
+        "correctAnswer": "Guardrails"
+      },
+      {
+        "id": "rsa-w4-q7",
+        "text": "Which of the following is true about bias?",
+        "options": [
+          "It never exists.",
+          "It sometimes exists.",
+          "It only exists in American-created models.",
+          "It always exists."
+        ],
+        "correctAnswer": "It always exists."
+      },
+      {
+        "id": "rsa-w4-q8",
+        "text": "A researcher is evaluating a facial recognition model they helped develop. During testing, they select images where the model performs better, such as images with ideal lighting or frontal faces, while ignoring diverse or difficult cases (like low-light, non-white faces, or side angles). Which type of bias is this?",
+        "options": [
+          "Reporting bias",
+          "Sampling bias",
+          "Experimenter’s bias",
+          "Historical bias"
+        ],
+        "correctAnswer": "Experimenter’s bias"
+      },
+      {
+        "id": "rsa-w4-q9",
+        "text": "What is the issue with evaluating models only based on accuracy?",
+        "options": [
+          "Accuracy only reflects hardware performance.",
+          "Accuracy doesn’t reveal bias.",
+          "Accuracy checks for fairness.",
+          "Accuracy changes the labelling."
+        ],
+        "correctAnswer": "Accuracy doesn’t reveal bias."
+      },
+      {
+        "id": "rsa-w4-q10",
+        "text": "Why might using Western-aligned datasets be problematic for the Indian demographic?",
+        "options": [
+          "The datasets are too large which may slow down training time.",
+          "They are written in a different language.",
+          "They don’t reflect Indian social/societal norms.",
+          "They contain too many low-resolution images."
+        ],
+        "correctAnswer": "They don’t reflect Indian social/societal norms."
+      },
+      {
+        "id": "rsa-w4-q11",
+        "text": "What is a ‘stereotype’?",
+        "options": [
+          "A factual statement that applies to all humans.",
+          "A scientifically proven characteristic.",
+          "A legal rule used to govern a society.",
+          "A widely held belief about some group/entity."
+        ],
+        "correctAnswer": "A widely held belief about some group/entity."
+      },
+      {
+        "id": "rsa-w4-q12",
+        "text": "What does the CrowS-Pairs dataset contain?",
+        "options": [
+          "Pairs of sentences that differ only in minimally distant social bias.",
+          "Dialogues between humans and a chatbot.",
+          "Pairs of biased and unbiased images.",
+          "Code snippets with and without bugs."
+        ],
+        "correctAnswer": "Pairs of sentences that differ only in minimally distant social bias."
+      },
+      {
+        "id": "rsa-w4-q13",
+        "text": "What is sampling bias?",
+        "options": [
+          "When historical data reflects inequalities that existed in the world at that time.",
+          "When data is collected from a completely random and diverse group.",
+          "If proper randomization is not used during data collection.",
+          "When a model builder keeps training a model until it produces a result that aligns with their original hypothesis."
+        ],
+        "correctAnswer": "If proper randomization is not used during data collection."
+      }
+    ]
+  }
