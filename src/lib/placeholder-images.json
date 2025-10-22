@@ -20,9 +20,15 @@
     },
     {
       "id": "ai-ethics",
-      "description": "An abstract image representing AI ethics, with a brain and circuit board.",
+      "description": "A humanoid robot hand touching a glowing brain-like circuit, symbolizing the intersection of artificial intelligence and ethics.",
       "imageUrl": "https://images.unsplash.com/photo-1677756119517-756a188d2d94?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "imageHint": "AI ethics"
+    },
+    {
+      "id": "privacy-security",
+      "description": "A close-up of a padlock on a laptop keyboard, symbolizing privacy and security in the digital world.",
+      "imageUrl": "https://images.unsplash.com/photo-1614064548237-096537e54299?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "imageHint": "privacy security"
     }
   ]
 }
