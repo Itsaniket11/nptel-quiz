@@ -9,6 +9,7 @@ import { Menu, GraduationCap } from 'lucide-react';
 
 const navLinks = [
   { href: '/courses', label: 'Courses' },
+  { href: '/mock-tests', label: 'Mock Tests' },
   { href: '/leaderboard', label: 'Leaderboard' },
 ];
 
