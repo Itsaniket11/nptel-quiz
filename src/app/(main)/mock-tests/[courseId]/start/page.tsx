@@ -2,7 +2,6 @@
 import { notFound } from 'next/navigation';
 import MockTestStartClient from './MockTestStartClient';
 import { getCourseById } from '@/app/(main)/courses/[courseId]/page';
-import { Question } from '@/lib/types';
 
 type MockTestStartPageProps = {
   params: {
@@ -17,11 +16,9 @@ export default function MockTestStartPage({ params }: MockTestStartPageProps) {
     notFound();
   }
   
-  const allQuestions: Question[] = course.quizzes.flatMap(quiz => quiz.questions);
-
   return (
     <div className="container flex items-center justify-center min-h-[calc(100vh-4rem)] py-8">
-      <MockTestStartClient course={course} maxQuestions={allQuestions.length} />
+      <MockTestStartClient course={course} />
     </div>
   );
 }

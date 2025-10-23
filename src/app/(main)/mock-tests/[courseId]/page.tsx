@@ -52,8 +52,13 @@ export default function MockTestPage({ params, searchParams }: MockTestPageProps
 
   const timeLimit = parseInt(searchParams?.timeLimit as string || '1800', 10);
   const numQuestions = parseInt(searchParams?.numQuestions as string || '20', 10);
+  const weeksParam = searchParams?.weeks as string || '';
+  const selectedWeeks = weeksParam ? weeksParam.split(',').map(Number) : [];
 
-  const allQuestions: Question[] = course.quizzes.flatMap(quiz => quiz.questions);
+  const allQuestions: Question[] = course.quizzes
+    .filter(quiz => selectedWeeks.length === 0 || selectedWeeks.includes(quiz.week))
+    .flatMap(quiz => quiz.questions);
+
   const shuffledAllQuestions = shuffleArray(allQuestions);
   const selectedQuestions = shuffledAllQuestions.slice(0, numQuestions);
 
