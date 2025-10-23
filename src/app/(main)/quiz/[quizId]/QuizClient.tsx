@@ -8,9 +8,10 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import { RadioGroup, RadioGroupItem } from '@/components/ui/radio-group';
 import { Label } from '@/components/ui/label';
 import { Progress } from '@/components/ui/progress';
-import { ArrowRight, ArrowLeft, Timer, Check, XCircle } from 'lucide-react';
+import { ArrowRight, ArrowLeft, Timer, Check, XCircle, Zap, ZapOff } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { AlertDialog, AlertDialogAction, AlertDialogCancel, AlertDialogContent, AlertDialogDescription, AlertDialogFooter, AlertDialogHeader, AlertDialogTitle, AlertDialogTrigger } from '@/components/ui/alert-dialog';
+import { Switch } from '@/components/ui/switch';
 
 type QuizClientProps = {
   quiz: Quiz;
@@ -37,6 +38,7 @@ export default function QuizClient({ quiz, subject: course, timeLimitInSeconds }
   const [timeLeft, setTimeLeft] = useState(timeLimitInSeconds);
   const [quizFinished, setQuizFinished] = useState(false);
   const [quizStarted, setQuizStarted] = useState(false);
+  const [autoNext, setAutoNext] = useState(false);
   
   useEffect(() => {
     const questions = shuffleArray(quiz.questions);
@@ -107,19 +109,24 @@ export default function QuizClient({ quiz, subject: course, timeLimitInSeconds }
     router.replace(`/quiz/${quiz.id}/results`);
   }, [quizFinished, timeLimitInSeconds, timeLeft, router, quiz, course, answers, shuffledQuestions]);
 
+  const handleNext = useCallback(() => {
+    if (currentQuestionIndex < shuffledQuestions.length - 1) {
+      setCurrentQuestionIndex(currentQuestionIndex + 1);
+    }
+  }, [currentQuestionIndex, shuffledQuestions.length]);
 
   const handleSelectAnswer = (answer: string) => {
     const newAnswers = [...answers];
     newAnswers[currentQuestionIndex] = answer;
     setAnswers(newAnswers);
+    
+    if (autoNext) {
+      setTimeout(() => {
+          handleNext();
+      }, 300); // Small delay to show selection
+    }
   }
 
-  const handleNext = () => {
-    if (currentQuestionIndex < shuffledQuestions.length - 1) {
-      setCurrentQuestionIndex(currentQuestionIndex + 1);
-    }
-  };
-  
   const handleBack = () => {
     if (currentQuestionIndex > 0) {
       setCurrentQuestionIndex(currentQuestionIndex - 1);
@@ -160,6 +167,13 @@ export default function QuizClient({ quiz, subject: course, timeLimitInSeconds }
           <div className="space-y-2">
             <p className="text-sm text-muted-foreground">Question {currentQuestionIndex + 1} of {shuffledQuestions.length}</p>
             <Progress value={progress} />
+            <div className="flex items-center space-x-2 pt-2">
+                <Switch id="auto-next-switch" checked={autoNext} onCheckedChange={setAutoNext} />
+                <Label htmlFor="auto-next-switch" className='flex items-center'>
+                    {autoNext ? <Zap className="w-4 h-4 mr-2" /> : <ZapOff className="w-4 h-4 mr-2" />}
+                    Auto-Next on Answer
+                </Label>
+            </div>
           </div>
         </CardHeader>
         <CardContent>
