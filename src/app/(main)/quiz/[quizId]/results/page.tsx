@@ -79,7 +79,12 @@ function ResultsDisplay() {
   const seconds = time % 60;
 
   const getQuestionById = (questionId: string): Question | undefined => {
-    return quiz.questions.find(q => q.id === questionId);
+    // Search in all quizzes for the course, not just the one in the result
+    for (const q of course.quizzes) {
+        const question = q.questions.find(ques => ques.id === questionId);
+        if (question) return question;
+    }
+    return undefined;
   }
 
   return (
@@ -123,10 +128,6 @@ function ResultsDisplay() {
                                         <div className="flex items-start md:items-center gap-3">
                                             {ans.isCorrect ? <Check className="w-5 h-5 text-green-500 shrink-0 mt-1 md:mt-0" /> : <X className="w-5 h-5 text-destructive shrink-0 mt-1 md:mt-0" />}
                                             <span className="font-medium flex-1">{ans.questionText}</span>
-                                        </div>
-                                        <div className="flex items-center gap-2 text-xs md:text-sm text-muted-foreground tabular-nums ml-auto shrink-0">
-                                            <TimerIcon className="w-4 h-4" />
-                                            {ans.timeSpent.toFixed(1)}s
                                         </div>
                                     </div>
                                 </AccordionTrigger>

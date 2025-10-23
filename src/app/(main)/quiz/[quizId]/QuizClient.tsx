@@ -8,8 +8,9 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import { RadioGroup, RadioGroupItem } from '@/components/ui/radio-group';
 import { Label } from '@/components/ui/label';
 import { Progress } from '@/components/ui/progress';
-import { ArrowRight, Timer, XCircle } from 'lucide-react';
+import { ArrowRight, ArrowLeft, Timer, Check, XCircle } from 'lucide-react';
 import { cn } from '@/lib/utils';
+import { AlertDialog, AlertDialogAction, AlertDialogCancel, AlertDialogContent, AlertDialogDescription, AlertDialogFooter, AlertDialogHeader, AlertDialogTitle, AlertDialogTrigger } from '@/components/ui/alert-dialog';
 
 type QuizClientProps = {
   quiz: Quiz;
@@ -32,19 +33,20 @@ export default function QuizClient({ quiz, subject: course, timeLimitInSeconds }
   
   const [shuffledQuestions, setShuffledQuestions] = useState<Question[]>([]);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
-  const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null);
-  const [answers, setAnswers] = useState<AnswerData[]>([]);
+  const [answers, setAnswers] = useState<(string | null)[]>([]);
   const [timeLeft, setTimeLeft] = useState(timeLimitInSeconds);
   const [quizFinished, setQuizFinished] = useState(false);
-  const [questionStartTime, setQuestionStartTime] = useState(0);
+  const [quizStarted, setQuizStarted] = useState(false);
   
   useEffect(() => {
-    setShuffledQuestions(shuffleArray(quiz.questions));
-    setQuestionStartTime(Date.now());
+    const questions = shuffleArray(quiz.questions);
+    setShuffledQuestions(questions);
+    setAnswers(new Array(questions.length).fill(null));
+    setQuizStarted(true);
   }, [quiz.questions]);
 
   useEffect(() => {
-    if (quizFinished || questionStartTime === 0) return;
+    if (quizFinished || !quizStarted) return;
 
     const timer = setInterval(() => {
       setTimeLeft((prevTime) => {
@@ -58,9 +60,10 @@ export default function QuizClient({ quiz, subject: course, timeLimitInSeconds }
     }, 1000);
 
     return () => clearInterval(timer);
-  }, [quizFinished, questionStartTime]);
+  }, [quizFinished, quizStarted]);
 
   const currentQuestion = useMemo(() => shuffledQuestions[currentQuestionIndex], [shuffledQuestions, currentQuestionIndex]);
+  const selectedAnswer = answers[currentQuestionIndex];
 
   const shuffledOptions = useMemo(() => {
     if (!currentQuestion) return [];
@@ -72,19 +75,18 @@ export default function QuizClient({ quiz, subject: course, timeLimitInSeconds }
     if (quizFinished) return;
     setQuizFinished(true);
 
-    const finalAnswers = [...answers];
-    if (selectedAnswer && currentQuestion) {
-        const timeSpent = (Date.now() - questionStartTime) / 1000;
-        const isCorrect = selectedAnswer === currentQuestion.correctAnswer;
-        finalAnswers.push({
-            questionId: currentQuestion.id,
-            questionText: currentQuestion.text,
-            selectedAnswer: selectedAnswer,
-            correctAnswer: currentQuestion.correctAnswer,
+    const finalAnswers: AnswerData[] = shuffledQuestions.map((question, index) => {
+        const selected = answers[index];
+        const isCorrect = selected === question.correctAnswer;
+        return {
+            questionId: question.id,
+            questionText: question.text,
+            selectedAnswer: selected || 'Not Answered',
+            correctAnswer: question.correctAnswer,
             isCorrect: isCorrect,
-            timeSpent: timeSpent
-        });
-    }
+            timeSpent: 0 // Not tracked in regular quizzes for now
+        }
+    });
     
     const quizResult = {
       quizId: quiz.id,
@@ -103,30 +105,24 @@ export default function QuizClient({ quiz, subject: course, timeLimitInSeconds }
     }
 
     router.replace(`/quiz/${quiz.id}/results`);
-  }, [quizFinished, timeLimitInSeconds, timeLeft, router, quiz, course, answers, selectedAnswer, currentQuestion, questionStartTime]);
+  }, [quizFinished, timeLimitInSeconds, timeLeft, router, quiz, course, answers, shuffledQuestions]);
 
+
+  const handleSelectAnswer = (answer: string) => {
+    const newAnswers = [...answers];
+    newAnswers[currentQuestionIndex] = answer;
+    setAnswers(newAnswers);
+  }
 
   const handleNext = () => {
-    if (!selectedAnswer || !currentQuestion) return;
-
-    const timeSpent = (Date.now() - questionStartTime) / 1000;
-    const isCorrect = selectedAnswer === currentQuestion.correctAnswer;
-
-    setAnswers(prev => ([...prev, {
-        questionId: currentQuestion.id,
-        questionText: currentQuestion.text,
-        selectedAnswer: selectedAnswer,
-        correctAnswer: currentQuestion.correctAnswer,
-        isCorrect: isCorrect,
-        timeSpent: timeSpent
-    }]));
-
     if (currentQuestionIndex < shuffledQuestions.length - 1) {
       setCurrentQuestionIndex(currentQuestionIndex + 1);
-      setSelectedAnswer(null);
-      setQuestionStartTime(Date.now());
-    } else {
-      finishQuiz();
+    }
+  };
+  
+  const handleBack = () => {
+    if (currentQuestionIndex > 0) {
+      setCurrentQuestionIndex(currentQuestionIndex - 1);
     }
   };
   
@@ -142,7 +138,7 @@ export default function QuizClient({ quiz, subject: course, timeLimitInSeconds }
     return <div>Loading quiz...</div>;
   }
 
-  const progress = (currentQuestionIndex / shuffledQuestions.length) * 100;
+  const progress = ((answers.filter(a => a !== null).length) / shuffledQuestions.length) * 100;
 
   const minutes = Math.floor(timeLeft / 60);
   const seconds = timeLeft % 60;
@@ -170,7 +166,7 @@ export default function QuizClient({ quiz, subject: course, timeLimitInSeconds }
           <h2 className="text-xl md:text-2xl font-semibold mb-6">{currentQuestion.text}</h2>
           <RadioGroup
             value={selectedAnswer || ''}
-            onValueChange={setSelectedAnswer}
+            onValueChange={handleSelectAnswer}
             className="space-y-3"
           >
             {shuffledOptions.map((option) => (
@@ -179,6 +175,7 @@ export default function QuizClient({ quiz, subject: course, timeLimitInSeconds }
                 className={cn(
                   "flex items-center p-4 border rounded-lg cursor-pointer transition-colors text-base",
                   "hover:bg-accent",
+                  selectedAnswer === option && "bg-primary/10 border-primary"
                 )}
               >
                 <RadioGroupItem value={option} id={option} className="mr-4" />
@@ -187,11 +184,38 @@ export default function QuizClient({ quiz, subject: course, timeLimitInSeconds }
             ))}
           </RadioGroup>
 
-          <div className="mt-8 flex justify-end">
-            <Button size="lg" onClick={handleNext} disabled={!selectedAnswer}>
-              {currentQuestionIndex < shuffledQuestions.length - 1 ? 'Next Question': 'Finish Quiz'}
-              <ArrowRight className="ml-2 h-4 w-4" />
+          <div className="mt-8 flex justify-between">
+            <Button size="lg" onClick={handleBack} disabled={currentQuestionIndex === 0}>
+                <ArrowLeft className="mr-2 h-4 w-4" />
+                Back
             </Button>
+            {currentQuestionIndex < shuffledQuestions.length - 1 ? (
+                <Button size="lg" onClick={handleNext}>
+                Next
+                <ArrowRight className="ml-2 h-4 w-4" />
+              </Button>
+            ) : (
+                <AlertDialog>
+                    <AlertDialogTrigger asChild>
+                        <Button size="lg" variant="default" disabled={answers.filter(a => a !== null).length === 0}>
+                            Finish Quiz
+                            <Check className="ml-2 h-4 w-4" />
+                        </Button>
+                    </AlertDialogTrigger>
+                    <AlertDialogContent>
+                        <AlertDialogHeader>
+                        <AlertDialogTitle>Are you sure you want to finish?</AlertDialogTitle>
+                        <AlertDialogDescription>
+                            Any unanswered questions will be marked as incorrect. You cannot return to the test once submitted.
+                        </AlertDialogDescription>
+                        </AlertDialogHeader>
+                        <AlertDialogFooter>
+                        <AlertDialogCancel>Cancel</AlertDialogCancel>
+                        <AlertDialogAction onClick={finishQuiz}>Finish Quiz</AlertDialogAction>
+                        </AlertDialogFooter>
+                    </AlertDialogContent>
+                </AlertDialog>
+            )}
           </div>
         </CardContent>
       </Card>
