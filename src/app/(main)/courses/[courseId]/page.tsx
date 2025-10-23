@@ -70,7 +70,7 @@ export default function CoursePage({ params }: CoursePageProps) {
   }
 
   return (
-    <div className="container py-8">
+    <div className="container py-8 animate-fade-in-down">
       <div className="mb-8">
         <h1 className="text-3xl md:text-4xl font-headline font-bold">{course.name}</h1>
         <p className="text-muted-foreground mt-2">{course.description}</p>
@@ -78,8 +78,8 @@ export default function CoursePage({ params }: CoursePageProps) {
 
       {course.quizzes.length > 0 ? (
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {course.quizzes.map((quiz) => (
-            <Card key={quiz.id} className="flex flex-col">
+          {course.quizzes.map((quiz, index) => (
+            <Card key={quiz.id} className="flex flex-col animate-fade-in-up" style={{ animationDelay: `${index * 100}ms`, animationFillMode: 'backwards' }}>
               <CardHeader>
                 <CardTitle className="font-headline">{quiz.title}</CardTitle>
               </CardHeader>
@@ -99,7 +99,7 @@ export default function CoursePage({ params }: CoursePageProps) {
           ))}
         </div>
       ) : (
-        <div className="flex flex-col items-center justify-center text-center py-12 md:py-20 border-2 border-dashed rounded-lg px-4">
+        <div className="flex flex-col items-center justify-center text-center py-12 md:py-20 border-2 border-dashed rounded-lg px-4 animate-fade-in">
           <FileQuestion className="w-16 h-16 text-muted-foreground mb-4" />
           <h2 className="text-xl md:text-2xl font-headline font-semibold">Quizzes Coming Soon</h2>
           <p className="text-muted-foreground mt-2 max-w-sm">
