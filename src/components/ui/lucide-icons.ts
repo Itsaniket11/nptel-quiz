@@ -25,7 +25,7 @@ export {
   Rocket,
   Trophy,
   ChevronDown,
-  CalendarWeek,
+  Calendar,
   Zap,
   ZapOff
 } from 'lucide-react';

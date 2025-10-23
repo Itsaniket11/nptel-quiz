@@ -7,7 +7,7 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
-import { Timer, FileQuestion, ArrowRight, ChevronLeft, CalendarWeek } from 'lucide-react';
+import { Timer, FileQuestion, ArrowRight, ChevronLeft, Calendar } from '@/components/ui/lucide-icons';
 import Link from 'next/link';
 import { Subject as Course } from '@/lib/types';
 import { Slider } from '@/components/ui/slider';
@@ -77,7 +77,7 @@ export default function MockTestStartClient({ course }: MockTestStartClientProps
         {availableWeeks.length > 0 && (
           <div className="grid gap-4">
               <Label className="flex items-center">
-                  <CalendarWeek className="w-5 h-5 mr-3 text-muted-foreground" />
+                  <Calendar className="w-5 h-5 mr-3 text-muted-foreground" />
                   Select Weeks
               </Label>
               <div className="flex items-center space-x-2 mb-2">
