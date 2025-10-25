@@ -1,3 +1,4 @@
+
 'use client';
 
 import { Suspense, useEffect, useState } from 'react';
@@ -19,6 +20,9 @@ type QuizResult = {
     quiz: Quiz;
     subject: Course;
 }
+
+const isMultipleChoice = (question: Question) => question.correctAnswer.includes('|');
+const getCorrectAnswers = (question: Question) => isMultipleChoice(question) ? question.correctAnswer.split('|') : [question.correctAnswer];
 
 function ResultsDisplay() {
   const router = useRouter();
@@ -120,6 +124,9 @@ function ResultsDisplay() {
                     {answers.map((ans, i) => {
                         const question = getQuestionById(ans.questionId);
                         if (!question) return null;
+                        
+                        const correctAnswers = getCorrectAnswers(question);
+                        const selectedAnswers = Array.isArray(ans.selectedAnswer) ? ans.selectedAnswer : [ans.selectedAnswer];
 
                         return (
                             <AccordionItem value={`item-${i}`} key={i}>
@@ -134,8 +141,8 @@ function ResultsDisplay() {
                                 <AccordionContent className="p-4 bg-muted/50 rounded-b-lg">
                                     <ul className="space-y-2">
                                         {question.options.map(option => {
-                                            const isCorrectAnswer = option === ans.correctAnswer;
-                                            const isSelectedAnswer = option === ans.selectedAnswer;
+                                            const isCorrectAnswer = correctAnswers.includes(option);
+                                            const isSelectedAnswer = selectedAnswers.includes(option);
 
                                             return (
                                                 <li 
@@ -154,7 +161,7 @@ function ResultsDisplay() {
                                                     
                                                     {isSelectedAnswer && !isCorrectAnswer && <span className="text-xs font-semibold text-destructive shrink-0">(Your Answer)</span>}
                                                     {isCorrectAnswer && !isSelectedAnswer && <span className="text-xs font-semibold text-green-600 shrink-0">(Correct)</span>}
-                                                    {isCorrectAnswer && isSelectedAnswer && <span className="text-xs font-semibold text-green-600 shrink-0">(Correct)</span>}
+                                                    {isCorrectAnswer && isSelectedAnswer && <span className="text-xs font-semibold text-green-600 shrink-0">(Correct & Your Answer)</span>}
                                                 </li>
                                             )
                                         })}
