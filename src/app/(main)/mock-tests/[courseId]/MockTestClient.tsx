@@ -32,21 +32,26 @@ const shuffleArray = <T,>(array: T[]): T[] => {
 };
 
 
-const isMultipleChoice = (question: Question) => question.correctAnswer.includes('|');
+const isMultipleChoice = (question: Question) => Array.isArray(question.correctAnswer);
 
-const getCorrectAnswers = (question: Question) => isMultipleChoice(question) ? question.correctAnswer.split('|') : [question.correctAnswer];
+const getCorrectAnswers = (question: Question): string[] => {
+    if (Array.isArray(question.correctAnswer)) {
+        return question.correctAnswer;
+    }
+    return [question.correctAnswer];
+};
 
 const checkIsCorrect = (question: Question, selected: string | string[] | null): boolean => {
     if (selected === null || (Array.isArray(selected) && selected.length === 0)) return false;
     const correctAnswers = getCorrectAnswers(question);
+    
     if (isMultipleChoice(question)) {
         if (!Array.isArray(selected)) return false;
-        // Check if the selected answers match the correct answers regardless of order
         const sortedSelected = [...selected].sort();
         const sortedCorrect = [...correctAnswers].sort();
         return sortedSelected.length === sortedCorrect.length && sortedSelected.every((ans, i) => ans === sortedCorrect[i]);
     } else {
-        return selected === question.correctAnswer;
+        return selected === correctAnswers[0];
     }
 }
 

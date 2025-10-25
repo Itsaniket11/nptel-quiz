@@ -12,7 +12,7 @@
           "calculate statistics of graph",
           "Change node size and colour"
         ],
-        "correctAnswer": "filter nodes and edges"
+        "correctAnswer": ["filter nodes and edges", "calculate statistics of graph", "Change node size and colour"]
       },
       {
         "id": "psosm-w9-q2",
@@ -68,7 +68,7 @@
           "User can have many usernames",
           "Publicly available attribute."
         ],
-        "correctAnswer": "Restrictions on character and length"
+        "correctAnswer": ["Restrictions on character and length", "Publicly available attribute."]
       },
       {
         "id": "psosm-w9-q8",

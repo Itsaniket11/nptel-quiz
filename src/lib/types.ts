@@ -3,7 +3,7 @@ export interface Question {
   id: string;
   text: string;
   options: string[];
-  correctAnswer: string; // Can be a single string, or multiple answers separated by '|'
+  correctAnswer: string | string[]; // Can be a single string, or an array for multiple answers
 }
 
 export interface Quiz {
@@ -32,7 +32,7 @@ export interface AnswerData {
     questionId: string;
     questionText: string;
     selectedAnswer: string | string[]; // Can be a single string or an array for multi-choice
-    correctAnswer: string;
+    correctAnswer: string | string[];
     isCorrect: boolean;
     timeSpent: number;
 }

@@ -20,8 +20,14 @@ type MockTestResult = {
     subject: Course;
 }
 
-const isMultipleChoice = (question: Question) => question.correctAnswer.includes('|');
-const getCorrectAnswers = (question: Question) => isMultipleChoice(question) ? question.correctAnswer.split('|') : [question.correctAnswer];
+const isMultipleChoice = (question: Question) => Array.isArray(question.correctAnswer);
+
+const getCorrectAnswers = (question: Question): string[] => {
+    if (Array.isArray(question.correctAnswer)) {
+        return question.correctAnswer;
+    }
+    return [question.correctAnswer];
+};
 
 
 function ResultsDisplay() {
