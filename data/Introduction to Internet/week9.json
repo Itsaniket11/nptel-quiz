@@ -1,0 +1,137 @@
+{
+    "id": "iot-week9-assign9",
+    "title": "Week 9: Fog & Sensor Cloud",
+    "week": 9,
+    "questions": [
+      {
+        "id": "iot-w9-q1",
+        "text": "Fog is the layer between which two layers?",
+        "options": [
+          "Application and Presentation",
+          "Network and Transport",
+          "Cloud and IoT",
+          "Transport and Session"
+        ],
+        "correctAnswer": "Cloud and IoT"
+      },
+      {
+        "id": "iot-w9-q2",
+        "text": "Which of the following is/are the actors in sensor-cloud?",
+        "options": ["Users", "Sensor-owner", "SCSP", "All of the above"],
+        "correctAnswer": "All of the above"
+      },
+      {
+        "id": "iot-w9-q3",
+        "text": "Which of the following are considered key limitations of Wireless Sensor Networks (WSNs)?",
+        "options": [
+          "Cost of sensor nodes",
+          "Physical deployment of sensors",
+          "Both a and b",
+          "Neither a nor b"
+        ],
+        "correctAnswer": "Both a and b"
+      },
+      {
+        "id": "iot-w9-q4",
+        "text": "Which of the following takes the decision whether the data should be provided directly to the end user or is it required to re-cache the data from external cache?",
+        "options": ["User cache", "Sensor cache", "External cache", "Internal Cache"],
+        "correctAnswer": "Internal Cache"
+      },
+      {
+        "id": "iot-w9-q5",
+        "text": "Fill in the blanks\nThe __________ extends the cloud nearer the IoT devices.",
+        "options": ["Sensors", "Fogging", "Neither a nor b", "Both a and b"],
+        "correctAnswer": "Fogging"
+      },
+      {
+        "id": "iot-w9-q6",
+        "text": "Which of the following is/are the types of data with respect to sensitivity.",
+        "options": [
+          "Time-sensitive",
+          "Less time-sensitive",
+          "Not time-sensitive",
+          "All of these"
+        ],
+        "correctAnswer": "All of these"
+      },
+      {
+        "id": "iot-w9-q7",
+        "text": "Who coined the term Fog computing?",
+        "options": ["IBM", "CISCO", "Both a and b", "Neither a nor b"],
+        "correctAnswer": "CISCO"
+      },
+      {
+        "id": "iot-w9-q8",
+        "text": "What of the following is an advantage of fog computing ?",
+        "options": [
+          "Anywhere deployability",
+          "Mobility",
+          "Both a and b",
+          "Neither a nor b"
+        ],
+        "correctAnswer": "Both a and b"
+      },
+      {
+        "id": "iot-w9-q9",
+        "text": "State True or False\nOpenstack is an open-source software.",
+        "options": ["True", "False"],
+        "correctAnswer": "True"
+      },
+      {
+        "id": "iot-w9-q10",
+        "text": "To what are the fog nodes connected to?",
+        "options": ["IoT devices", "Cloud", "Neither a nor b", "Both a and b"],
+        "correctAnswer": "Both a and b"
+      },
+      {
+        "id": "iot-w9-q11",
+        "text": "Which of the following reduces danger and increases output?",
+        "options": [
+          "Static analysis",
+          "Static decision making",
+          "Both a and b",
+          "Neither a nor b"
+        ],
+        "correctAnswer": "Neither a nor b"
+      },
+      {
+        "id": "iot-w9-q12",
+        "text": "Fill in the blanks. Fog computing is an intermediate layer between __________ and _________.",
+        "options": [
+          "Dew and devices",
+          "Cloud and devices",
+          "Cloud and server",
+          "None of these"
+        ],
+        "correctAnswer": "Cloud and devices"
+      },
+      {
+        "id": "iot-w9-q13",
+        "text": "Unnecessary sensing causes energy consumption.",
+        "options": ["True", "False"],
+        "correctAnswer": "True"
+      },
+      {
+        "id": "iot-w9-q14",
+        "text": "Which of the following is used by the fog applications to increase the speed of service accessibility?",
+        "options": [
+          "Low power",
+          "Good network connection",
+          "Accelerators",
+          "Analytics"
+        ],
+        "correctAnswer": "Accelerators"
+      },
+      {
+        "id": "iot-w9-q15",
+        "text": "Fill in the blank. The concept of ________ enables physical hardware to be shared among multiple entities.",
+        "options": [
+          "Hardware virtualization",
+          "Software virtualization",
+          "Module virtualization",
+          "All of these"
+        ],
+        "correctAnswer": "Hardware virtualization"
+      }
+    ]
+  }

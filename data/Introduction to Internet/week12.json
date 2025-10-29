@@ -1,0 +1,157 @@
+{
+    "id": "iot-week12-assign12",
+    "title": "Week 12: Data Analysis & Healthcare",
+    "week": 12,
+    "questions": [
+      {
+        "id": "iot-w12-q1",
+        "text": "The two types of data analysis are _____________.",
+        "options": [
+          "Qualitative and Quantitative",
+          "Repetitive and Quantitative",
+          "Repetitive and Qualitative",
+          "All of these"
+        ],
+        "correctAnswer": "Qualitative and Quantitative"
+      },
+      {
+        "id": "iot-w12-q2",
+        "text": "Fill in the blank.\nTo perform an ANOVA, we must have a _______ response variable and at least one _____ factor.",
+        "options": [
+          "Discrete, categorical",
+          "Continuous, quantitative",
+          "Discrete, quantitative",
+          "Continuous, categorical"
+        ],
+        "correctAnswer": "Continuous, categorical"
+      },
+      {
+        "id": "iot-w12-q3",
+        "text": "Select the statement(s) that denote the type of ANOVA.\nStatement I: One way analysis\nStatement II: Two way analysis\nStatement III: K-way analysis",
+        "options": [
+          "Statement I",
+          "Statement II",
+          "Statements I, II, and III",
+          "None of these"
+        ],
+        "correctAnswer": "Statements I, II, and III"
+      },
+      {
+        "id": "iot-w12-q4",
+        "text": "What is the type of the data dispersion?",
+        "options": [
+          "Range",
+          "Average absolute deviation",
+          "Variance",
+          "All of these"
+        ],
+        "correctAnswer": "All of these"
+      },
+      {
+        "id": "iot-w12-q5",
+        "text": "The two most relevant sensors directly used in agricultures are __________.",
+        "options": [
+          "Soil moisture and proximity sensor",
+          "Soil moisture and water level sensor",
+          "ECG sensor and water level sensor",
+          "All of these"
+        ],
+        "correctAnswer": "Soil moisture and water level sensor"
+      },
+      {
+        "id": "iot-w12-q6",
+        "text": "The mathematical equation that is formulated in the form of relationships between variables is known as __________.",
+        "options": [
+          "Logical model",
+          "Relational model",
+          "Data dispersion",
+          "Statistical model"
+        ],
+        "correctAnswer": "Statistical model"
+      },
+      {
+        "id": "iot-w12-q7",
+        "text": "What are the two types of statistical models?",
+        "options": [
+          "Qualitative and quantitative",
+          "Complete and incomplete",
+          "Regression and dispersion",
+          "None of these"
+        ],
+        "correctAnswer": "Complete and incomplete"
+      },
+      {
+        "id": "iot-w12-q8",
+        "text": "Select the correct order of the component layers present in the IoT healthcare.",
+        "options": [
+          "Sensing layer, cloud platform layer, aggregated layer, processing layer",
+          "Sensing layer, aggregated layer, processing layer, cloud platform layer",
+          "Aggregated layer, sensing layer, processing layer, cloud platform layer",
+          "Sensing layer, processing layer, aggregated layer, cloud platform layer"
+        ],
+        "correctAnswer": "Sensing layer, aggregated layer, processing layer, cloud platform layer"
+      },
+      {
+        "id": "iot-w12-q9",
+        "text": "Wireless IoT driven solutions for remote healthcare facility provisioning brings healthcare to patients than bringing patients to healthcare.",
+        "options": ["True", "False"],
+        "correctAnswer": "True"
+      },
+      {
+        "id": "iot-w12-q10",
+        "text": "Which of the following handheld devices are used for activity monitoring?",
+        "options": [
+          "EEG and GPS",
+          "Accelerometer and EEG",
+          "Accelerometer and GPS",
+          "All of these"
+        ],
+        "correctAnswer": "Accelerometer and GPS"
+      },
+      {
+        "id": "iot-w12-q11",
+        "text": "Which of the following are components of IoT?",
+        "options": [
+          "Sensing layer",
+          "Aggregated layer",
+          "Processing layer",
+          "All of these"
+        ],
+        "correctAnswer": "All of these"
+      },
+      {
+        "id": "iot-w12-q12",
+        "text": "By performing continuous monitoring of a person’s activity, it is not possible to observe his/her behavior or to identify any repetitive pattern in his/her day-to-day activity.",
+        "options": ["True", "False"],
+        "correctAnswer": "False"
+      },
+      {
+        "id": "iot-w12-q13",
+        "text": "Deep learning based data analysis cannot be performed on videos",
+        "options": ["True", "False"],
+        "correctAnswer": "False"
+      },
+      {
+        "id": "iot-w12-q14",
+        "text": "Which of the following are the inbuilt sensors that are present in high end smartphones?",
+        "options": [
+          "ECG and EEG",
+          "Accelerometer, proximity sensor, and EEG",
+          "Accelerometer, Compass, and Gyroscope",
+          "Pressure sensor and NPK sensor"
+        ],
+        "correctAnswer": "Accelerometer, Compass, and Gyroscope"
+      },
+      {
+        "id": "iot-w12-q15",
+        "text": "Fill in the blank. Processing the handheld activity device data with artificial intelligence can be used for ________.",
+        "options": [
+          "Fall detection",
+          "Heart rate detection",
+          "Vehicle detection",
+          "All of these"
+        ],
+        "correctAnswer": "Fall detection"
+      }
+    ]
+  }

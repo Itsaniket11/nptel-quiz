@@ -1,0 +1,122 @@
+{
+    "id": "iot-week5-assign5",
+    "title": "Week 5: Interoperability & Arduino",
+    "week": 5,
+    "questions": [
+      {
+        "id": "iot-w5-q1",
+        "text": "Why interoperability in IoT is an issue?",
+        "options": [
+          "IoT nodes are heterogeneous hence they communicate in different protocols",
+          "IoT nodes are homogeneous and communicate with the same protocol",
+          "IoT nodes do not communicate.",
+          "IoT nodes are small."
+        ],
+        "correctAnswer": "IoT nodes are heterogeneous hence they communicate in different protocols"
+      },
+      {
+        "id": "iot-w5-q2",
+        "text": "UNSPSC provides a solution for which of the following?",
+        "options": ["Manufacturing", "Supply Chain", "Classification", "Communication"],
+        "correctAnswer": "Classification"
+      },
+      {
+        "id": "iot-w5-q3",
+        "text": "Arduino development boards are equipped with micro-controller processors which are ___________ with respect to their hardware configurations.",
+        "options": ["closed source", "open source", "forward source", "up sourced"],
+        "correctAnswer": "open source"
+      },
+      {
+        "id": "iot-w5-q4",
+        "text": "Translation of inter-device communication forms an important part in solving device interoperability.",
+        "options": ["True", "False"],
+        "correctAnswer": "True"
+      },
+      {
+        "id": "iot-w5-q5",
+        "text": "With respect to the different wireless communication protocols such as Zigbee, Bluetooth, GPRS, 6LoWPAN and WiFi, which of the following terms can be associated with?",
+        "options": ["Homogeneity", "Heterogeneity", "Self Service", "All of the given"],
+        "correctAnswer": "Heterogeneity"
+      },
+      {
+        "id": "iot-w5-q6",
+        "text": "Which among the following are valid Arduino datatypes?",
+        "options": ["byte", "char", "Boolean", "All of the given"],
+        "correctAnswer": "All of the given"
+      },
+      {
+        "id": "iot-w5-q7",
+        "text": "What is the purpose of the delay() function in Arduino programming?",
+        "options": [
+          "To speed up the execution",
+          "To terminate the program",
+          "To reset all parameters",
+          "To make the program go to sleep for a certain duration."
+        ],
+        "correctAnswer": "To make the program go to sleep for a certain duration."
+      },
+      {
+        "id": "iot-w5-q8",
+        "text": "Consider the following Arduino code snippet\nString str = “HelloWorld”;\nString ptr = str.ToUpperCase();\nWhat will be the value of String ptr?",
+        "options": ["HelloWorld", "helloworld", "HELLOWORLD", "WORLDHELLO"],
+        "correctAnswer": "HELLOWORLD"
+      },
+      {
+        "id": "iot-w5-q9",
+        "text": "What does the following code snippet do in interfacing a servo motor with the Arduino MEGA board?\nint servoPin = 12;",
+        "options": [
+          "Declares pin for connecting servo motor",
+          "Declares pin for providing power to MEGA board",
+          "Declares pin for Ground supply for servo motor",
+          "None of these"
+        ],
+        "correctAnswer": "Declares pin for connecting servo motor"
+      },
+      {
+        "id": "iot-w5-q10",
+        "text": "State True or False.\nStatement: “The “Verify” option in the Arduino IDE checks the code for compilation errors.”",
+        "options": ["True", "False"],
+        "correctAnswer": "True"
+      },
+      {
+        "id": "iot-w5-q11",
+        "text": "The tool used to select a particular COM port for connecting Arduino to a serial connector is called a sketch.",
+        "options": ["True", "False"],
+        "correctAnswer": "False"
+      },
+      {
+        "id": "iot-w5-q12",
+        "text": "In general, with respect to any sensor that can be connected to an Arduino board, which of the following is correct?",
+        "options": [
+          "The sensor has infinite number of connecting pins",
+          "The sensor will have at least 3 pins (1 +Vcc, 1 GND and 1 Data pin)",
+          "The sensor need not connect to the Arduino board.",
+          "The sensor will always have exactly 5 pins."
+        ],
+        "correctAnswer": "The sensor will have at least 3 pins (1 +Vcc, 1 GND and 1 Data pin)"
+      },
+      {
+        "id": "iot-w5-q13",
+        "text": "You connect the +Vcc PIN of a sensor with which of the corresponding PIN of Arduino board.",
+        "options": ["3V", "GND", "PIN A5", "PIN CTX"],
+        "correctAnswer": "3V"
+      },
+      {
+        "id": "iot-w5-q14",
+        "text": "Servo is a type of ____________.",
+        "options": ["Sensor", "Actuator", "Modifier", "Pacifier"],
+        "correctAnswer": "Actuator"
+      },
+      {
+        "id": "iot-w5-q15",
+        "text": "While uploading a sketch to an Arduino board, which of the following should be checked?",
+        "options": [
+          "Board",
+          "Serial Port",
+          "Both Board and Serial Port",
+          "Neither Board nor Serial Port."
+        ],
+        "correctAnswer": "Both Board and Serial Port"
+      }
+    ]
+  }

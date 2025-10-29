@@ -1,0 +1,132 @@
+{
+    "id": "iot-week4-assign4",
+    "title": "Week 4: Sensor Networks & UAVs",
+    "week": 4,
+    "questions": [
+      {
+        "id": "iot-w4-q1",
+        "text": "If transmission range > 2* sensing range,",
+        "options": [
+          "Coverage implies connectivity",
+          "Coverage implies greater coverage",
+          "Both (a) and (b)",
+          "None of these"
+        ],
+        "correctAnswer": "None of these"
+      },
+      {
+        "id": "iot-w4-q2",
+        "text": "What is the full form of AUV in the context of mobile wireless sensor networks?",
+        "options": [
+          "Aerial and Underwater Vehicle",
+          "Ambient and Underprivileged Vehicle",
+          "Astronomical Underwater Vehicle",
+          "None of these"
+        ],
+        "correctAnswer": "None of these"
+      },
+      {
+        "id": "iot-w4-q3",
+        "text": "State whether the following statement is true or false.\nStatement: Agricultural intrusion detection uses NFC sensors.",
+        "options": ["True", "False"],
+        "correctAnswer": "False"
+      },
+      {
+        "id": "iot-w4-q4",
+        "text": "The objective of coverage in WSN is to use a _______________ number of sensors and _______________ the network lifetime.",
+        "options": [
+          "minimum, minimize",
+          "maximum, minimize,",
+          "maximum, maximize",
+          "None of these"
+        ],
+        "correctAnswer": "None of these"
+      },
+      {
+        "id": "iot-w4-q5",
+        "text": "WSN in agriculture uses what for processing?",
+        "options": [
+          "Microprocessor",
+          "Microcontroller",
+          "Both (a) and (b)",
+          "None of these"
+        ],
+        "correctAnswer": "Microcontroller"
+      },
+      {
+        "id": "iot-w4-q6",
+        "text": "Which of the following is/are options for communication among nanodevices?",
+        "options": ["Electromagnetic", "Molecular", "Both (a) and (b)", "None of these"],
+        "correctAnswer": "Both (a) and (b)"
+      },
+      {
+        "id": "iot-w4-q7",
+        "text": "State whether the following statement is true or false.\nStatement: Voluntary Sensing allows distributed sensing carried by humans and the goal is not just to collect data but to allow the common people to assess and share the knowledge.",
+        "options": ["False", "True"],
+        "correctAnswer": "False"
+      },
+      {
+        "id": "iot-w4-q8",
+        "text": "State whether the following statement is true or false.\nStatement: UAV networks use a ring topology.",
+        "options": ["True", "False"],
+        "correctAnswer": "False"
+      },
+      {
+        "id": "iot-w4-q9",
+        "text": "In multi-UAV networks, the scalability is ________________.",
+        "options": ["Low", "Very Low", "Poor", "None of these"],
+        "correctAnswer": "None of these"
+      },
+      {
+        "id": "iot-w4-q10",
+        "text": "Single UAV system uses __________________ antenna.",
+        "options": [
+          "Uni-directional",
+          "Omni-directional",
+          "Both (a) and (b)",
+          "None of these"
+        ],
+        "correctAnswer": "Omni-directional"
+      },
+      {
+        "id": "iot-w4-q11",
+        "text": "Which of the following is/are constraint/constraints of UAV network?",
+        "options": [
+          "Infrequent link breakages",
+          "Malfunction",
+          "Both (a) and (b)",
+          "None of these"
+        ],
+        "correctAnswer": "Malfunction"
+      },
+      {
+        "id": "iot-w4-q12",
+        "text": "Low-end sensor nodes are -",
+        "options": [
+          "Whose deployment has high density in order to increase network lifetime and survivability.",
+          "Who perform basic functions such as data aggregation, auto configuration, and power saving.",
+          "Both (a) and (b)",
+          "None of these"
+        ],
+        "correctAnswer": "Both (a) and (b)"
+      },
+      {
+        "id": "iot-w4-q13",
+        "text": "State whether the following statement is true or false.\nStatement: FANETs are flying ad hoc networks.",
+        "options": ["True", "False"],
+        "correctAnswer": "True"
+      },
+      {
+        "id": "iot-w4-q14",
+        "text": "State whether the following statement is true or false\nStatement: SCADA is designed for isolated systems using proprietary solutions, whereas M2M is designed for cross-platform integration.",
+        "options": ["True", "False"],
+        "correctAnswer": "True"
+      },
+      {
+        "id": "iot-w4-q15",
+        "text": "State whether the following statement is true or false\nStatement: Low-end sensor nodes are static, energy-hungry, and complex.",
+        "options": ["True", "False"],
+        "correctAnswer": "False"
+      }
+    ]
+  }

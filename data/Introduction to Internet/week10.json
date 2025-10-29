@@ -1,0 +1,132 @@
+{
+    "id": "iot-week10-assign10",
+    "title": "Week 10: IoT Applications",
+    "week": 10,
+    "questions": [
+      {
+        "id": "iot-w10-q1",
+        "text": "DLNA (used in HAN standards) expands to:",
+        "options": [
+          "Digital Lifestyle Network Alliance",
+          "Digital Living Network Alliance",
+          "Digital Lifestyle Network Algorithm",
+          "None of these"
+        ],
+        "correctAnswer": "Digital Living Network Alliance"
+      },
+      {
+        "id": "iot-w10-q2",
+        "text": "Which property best characterizes V2X?",
+        "options": [
+          "Restricted to a single source",
+          "Distributed architecture",
+          "Both a and b",
+          "Neither a nor b"
+        ],
+        "correctAnswer": "Distributed architecture"
+      },
+      {
+        "id": "iot-w10-q3",
+        "text": "Which set correctly captures smart-home functionality?",
+        "options": [
+          "Health monitoring only",
+          "Security only",
+          "Both health monitoring and security",
+          "Neither"
+        ],
+        "correctAnswer": "Both health monitoring and security"
+      },
+      {
+        "id": "iot-w10-q4",
+        "text": "Which are valid types of sensing?",
+        "options": ["Stationary", "Mobile", "Both a and b", "None of these"],
+        "correctAnswer": "Both a and b"
+      },
+      {
+        "id": "iot-w10-q5",
+        "text": "Which layers are part of the Zigbee stack?",
+        "options": [
+          "Physical and transport",
+          "MAC and transport",
+          "Network and MAC",
+          "Transport and MAC"
+        ],
+        "correctAnswer": "Network and MAC"
+      },
+      {
+        "id": "iot-w10-q6",
+        "text": "Smart parking primarily reduces traffic ________.",
+        "options": ["mobility", "area", "analysis", "congestion"],
+        "correctAnswer": "congestion"
+      },
+      {
+        "id": "iot-w10-q7",
+        "text": "About Home Area Network (HAN), consider: I) Multi-protocol gateway bridges non-IP to IP. II) Wired HAN is low cost. III) Wireless HAN makes implementation easy. Which of these is correct?",
+        "options": ["Only I", "I and II only", "I and III only", "I, II, and III"],
+        "correctAnswer": "I, II, and III"
+      },
+      {
+        "id": "iot-w10-q8",
+        "text": "Which statements about smart health are true? I) Low-cost and portable II) Allows remote check-ups and diagnosis III) Effortless health monitoring",
+        "options": ["I only", "II only", "I, II, and III", "None of these"],
+        "correctAnswer": "I, II, and III"
+      },
+      {
+        "id": "iot-w10-q9",
+        "text": "Phases of Intelligent Connected Vehicle (ICV) development include:",
+        "options": ["Based on 2G", "Based on 4G LTE", "Both a and b", "None of these"],
+        "correctAnswer": "Both a and b"
+      },
+      {
+        "id": "iot-w10-q10",
+        "text": "In the Ad-hoc domain of VANET, vehicles are:",
+        "options": ["Stationary", "Mobile", "Fixed to RSUs only", "None of these"],
+        "correctAnswer": "Mobile"
+      },
+      {
+        "id": "iot-w10-q11",
+        "text": "Domains of VANET include:",
+        "options": [
+          "In-vehicle and ad-hoc",
+          "Ad-hoc and data center",
+          "Data center",
+          "None of these"
+        ],
+        "correctAnswer": "In-vehicle and ad-hoc"
+      },
+      {
+        "id": "iot-w10-q12",
+        "text": "At which data fusion stage are multiple classifier outputs combined?",
+        "options": ["Pixel level", "Feature level", "Signal level", "Decision level"],
+        "correctAnswer": "Decision level"
+      },
+      {
+        "id": "iot-w10-q13",
+        "text": "The Body & Brain Architecture consists of how many layers?",
+        "options": ["1", "2", "3", "4"],
+        "correctAnswer": "3"
+      },
+      {
+        "id": "iot-w10-q14",
+        "text": "Which statement about smart home infrastructure is correct?",
+        "options": [
+          "It cannot include wireless devices.",
+          "It may include wired and/or wireless devices.",
+          "It must be wireless-only.",
+          "None of these"
+        ],
+        "correctAnswer": "It may include wired and/or wireless devices."
+      },
+      {
+        "id": "iot-w10-q15",
+        "text": "Intelligent Connected Vehicles (ICV) communication is based on:",
+        "options": [
+          "Dedicated Short Range Communication",
+          "Directed Short Range Communication",
+          "Dedicated Small Range Communication",
+  "all of these"
+        ],
+        "correctAnswer": "Dedicated Short Range Communication"
+      }
+    ]
+  }

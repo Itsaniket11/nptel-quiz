@@ -1,0 +1,117 @@
+{
+    "id": "iot-week1-assign1",
+    "title": "Week 1: Introduction to IoT",
+    "week": 1,
+    "questions": [
+        {
+            "id": "iot-w1-q1",
+            "text": "What does IoT stand for?",
+            "options": [
+                "Internet of Technology",
+                "Internet of Things",
+                "Internal of Things",
+                "Internet of Telecommunication"
+            ],
+            "correctAnswer": "Internet of Things"
+        },
+        {
+            "id": "iot-w1-q2",
+            "text": "Which of the following is an example of an IoT device?",
+            "options": [
+                "Smart thermostat",
+                "Desktop computer",
+                "Standard television",
+                "Landline phone"
+            ],
+            "correctAnswer": "Smart thermostat"
+        },
+        {
+            "id": "iot-w1-q3",
+            "text": "What is the main purpose of sensors in IoT devices?",
+            "options": [
+                "To process data",
+                "To store data",
+                "To collect data from the environment",
+                "To display information"
+            ],
+            "correctAnswer": "To collect data from the environment"
+        },
+        {
+            "id": "iot-w1-q4",
+            "text": "Which layer in the IoT architecture is responsible for transmitting data from devices to the cloud?",
+            "options": [
+                "Perception Layer",
+                "Network Layer",
+                "Application Layer",
+                "Business Layer"
+            ],
+            "correctAnswer": "Network Layer"
+        },
+        {
+            "id": "iot-w1-q5",
+            "text": "What is a key challenge in IoT?",
+            "options": [
+                "Connectivity",
+                "Security and Privacy",
+                "Power consumption",
+                "All of the above"
+            ],
+            "correctAnswer": "All of the above"
+        },
+        {
+            "id": "iot-w1-q6",
+            "text": "Which wireless technology is commonly used for short-range communication in IoT?",
+            "options": [
+                "5G",
+                "Bluetooth",
+                "Satellite",
+                "Ethernet"
+            ],
+            "correctAnswer": "Bluetooth"
+        },
+        {
+            "id": "iot-w1-q7",
+            "text": "What is an actuator in an IoT system?",
+            "options": [
+                "A device that measures physical properties",
+                "A device that converts energy into motion or action",
+                "A device that provides internet connectivity",
+                "A device for data storage"
+            ],
+            "correctAnswer": "A device that converts energy into motion or action"
+        },
+        {
+            "id": "iot-w1-q8",
+            "text": "Cloud computing is important for IoT because it provides:",
+            "options": [
+                "Physical device hardware",
+                "Scalable storage and processing power",
+                "Local network connectivity",
+                "User interface design"
+            ],
+            "correctAnswer": "Scalable storage and processing power"
+        },
+        {
+            "id": "iot-w1-q9",
+            "text": "The term 'M2M' is often associated with IoT and stands for:",
+            "options": [
+                "Man-to-Machine",
+                "Machine-to-Machine",
+                "Market-to-Market",
+                "Mobile-to-Mobile"
+            ],
+            "correctAnswer": "Machine-to-Machine"
+        },
+        {
+            "id": "iot-w1-q10",
+            "text": "An IP address is used in IoT to:",
+            "options": [
+                "Power the device",
+                "Uniquely identify a device on a network",
+                "Measure temperature",
+                "Encrypt data"
+            ],
+            "correctAnswer": "Uniquely identify a device on a network"
+        }
+    ]
+}

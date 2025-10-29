@@ -1,0 +1,142 @@
+{
+    "id": "iot-week7-assign7",
+    "title": "Week 7: Cloud, Data & SDN",
+    "week": 7,
+    "questions": [
+      {
+        "id": "iot-w7-q1",
+        "text": "A Raspberry Pi can read data from a sensor but cannot send it over to a remote server for further processing.",
+        "options": ["True", "False"],
+        "correctAnswer": "False"
+      },
+      {
+        "id": "iot-w7-q2",
+        "text": "In Python socket programming, with respect to the sock.bind(server_address) function, which among the following does the variable server_address contain?",
+        "options": [
+          "IP address of destination",
+          "Port number of destination server",
+          "Neither IP address nor port number of destination server",
+          "Both IP address and port number of destination server"
+        ],
+        "correctAnswer": "Both IP address and port number of destination server"
+      },
+      {
+        "id": "iot-w7-q3",
+        "text": "In Python matplotlib, in order to display the graphical plot on a terminal, the command plt.plot() is used in conjunction with which of the following?",
+        "options": ["plt.plt()", "plt.show()", "plt.xtics()", "plt.axes()"],
+        "correctAnswer": "plt.show()"
+      },
+      {
+        "id": "iot-w7-q4",
+        "text": "The following Python code displays a parabolic plot using matplotlib.\nimport numpy as np\nimport matplotlib.pyplot as plt\nx = np.linspace(-10, 10, 400)\ny = x**2\nplt.figure(figsize=(8, 6))\nplt.xlabel(\"x\", fontname=\"Times New Roman\", fontsize=12)\nplt.ylabel(\"y\", fontname=\"Times New Roman\", fontsize=12)\nplt.title(\"Plot of a Parabola: y = x2\", fontname=\"Times New Roman\", fontsize=14)\nplt.grid(True)\nplt.legend(loc=\"upper left\")\nplt.axhline(0, color='black', linewidth=0.5) # x-axis\nplt.axvline(0, color='black', linewidth=0.5) # y-axis\nplt.show()\n\nObserve the code very carefully. Will the code plot the desired parabola?",
+        "options": ["Yes", "No"],
+        "correctAnswer": "No"
+      },
+      {
+        "id": "iot-w7-q5",
+        "text": "With respect to the above Question (Question 4), which the must be added to make the code display the parabola?",
+        "options": [
+          "Nothing, the code works fine",
+          "plt.xtics() method",
+          "plt.plot() method",
+          "plt.setfigure() method"
+        ],
+        "correctAnswer": "plt.plot() method"
+      },
+      {
+        "id": "iot-w7-q6",
+        "text": "In Python, suppose that that string text = ‘It^is my#birthday!I am*Happy’.\nWhat will the output of the following instruction\ndata = text.split(‘ ’)\nprint(data[1])",
+        "options": [
+          "It^is my#birthday!I am*Happy",
+          "my#birthday!I",
+          "am*Happy",
+          "It^is"
+        ],
+        "correctAnswer": "my#birthday!I"
+      },
+      {
+        "id": "iot-w7-q7",
+        "text": "Consider the same text again\ntext = ‘It^is my#birthday!I am*Happy’\n\nNow consider the following instructions. What will be the output?\n\ndata = text.split('r')\nprint(data[1].split('bi'))",
+        "options": ["my#birth", "*Happy", "thday!I am*Happy", "It^is"],
+        "correctAnswer": "thday!I am*Happy"
+      },
+      {
+        "id": "iot-w7-q8",
+        "text": "With respect to SDN for IoT what does ‘end-devices’ in the phrase ‘control for end-devices’ mean?",
+        "options": [
+          "SDN Controllers",
+          "SDN Switches",
+          "Sensors and Actuators",
+          "Database"
+        ],
+        "correctAnswer": "Sensors and Actuators"
+      },
+      {
+        "id": "iot-w7-q9",
+        "text": "A Network Operating System (NOS) resides in which of the following logical plane?",
+        "options": [
+          "Application Plane",
+          "Control Plane",
+          "Data Plane",
+          "Both Data Plane as well as Application Plane"
+        ],
+        "correctAnswer": "Control Plane"
+      },
+      {
+        "id": "iot-w7-q10",
+        "text": "Consider the figure of the network as given below.\n\nWhich of the following network topologies does this figure relate to?",
+        "options": ["Ring topology", "Bus topology", "Mesh topology", "Tree topology"],
+        "correctAnswer": "Mesh topology"
+      },
+      {
+        "id": "iot-w7-q11",
+        "text": "With respect to the same figure (given below), what does the blue directional dotted arrows from the controller to the switches represent?",
+        "options": [
+          "Northbound API",
+          "Southbound API",
+          "Eastbound API",
+          "Westbound API"
+        ],
+        "correctAnswer": "Southbound API"
+      },
+      {
+        "id": "iot-w7-q12",
+        "text": "Consider the following figure below. To which issue of SDN does this particular figure can be related to?",
+        "options": [
+          "Controller placement issue",
+          "Flow Rule placement issue",
+          "Hardware placement issue",
+          "Analysis placement issue"
+        ],
+        "correctAnswer": "Flow Rule placement issue"
+      },
+      {
+        "id": "iot-w7-q13",
+        "text": "Which among the following is the most suitable utility of Mininet?",
+        "options": [
+          "To act as a virtual sensor",
+          "To provide a simulation environment for SDN with OpenFlow",
+          "To act as a generic antenna simulator",
+          "To perform load testing and analysis."
+        ],
+        "correctAnswer": "To provide a simulation environment for SDN with OpenFlow"
+      },
+      {
+        "id": "iot-w7-q14",
+        "text": "Control of end devices such as sensors and actuators do not form a use-case for Software Defined IoT.",
+        "options": ["True", "False"],
+        "correctAnswer": "False"
+      },
+      {
+        "id": "iot-w7-q15",
+        "text": "With respect to packet delivery ratio, which of the following is true?",
+        "options": [
+          "WSN outperforms Soft-WSN",
+          "Soft-WSN outperforms WSN",
+          "Neither of Soft-WSN and WSN outperform each other",
+          "No relation between Soft-WSN and WSN"
+        ],
+        "correctAnswer": "Soft-WSN outperforms WSN"
+      }
+    ]
+  }

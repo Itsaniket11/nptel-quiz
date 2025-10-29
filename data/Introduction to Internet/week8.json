@@ -1,0 +1,127 @@
+{
+    "id": "iot-week8-assign8",
+    "title": "Week 8: SDN, Cloud & Security",
+    "week": 8,
+    "questions": [
+      {
+        "id": "iot-w8-q1",
+        "text": "Which of the following is true with respect to Network Virtualization?",
+        "options": [
+          "It abstracts the virtual network on a physical network",
+          "It abstracts the physical network on a virtual network",
+          "It is essentially a collection of physical SDN routers",
+          "Network virtualization is a non-existent concept."
+        ],
+        "correctAnswer": "It abstracts the physical network on a virtual network"
+      },
+      {
+        "id": "iot-w8-q2",
+        "text": "For rule placement at the edge with respect to Software Defined IoT, which of the following is a critical issue that is required to be addressed?",
+        "options": [
+          "Existence of IoT nodes",
+          "Data through routers",
+          "Mobility of end users and nodes",
+          "None of the given."
+        ],
+        "correctAnswer": "Mobility of end users and nodes"
+      },
+      {
+        "id": "iot-w8-q3",
+        "text": "Which cloud service model allows users to deploy and control their own software, including operating systems, while the provider manages the infrastructure?",
+        "options": ["SaaS", "PaaS", "IaaS", "DBaaS"],
+        "correctAnswer": "IaaS"
+      },
+      {
+        "id": "iot-w8-q4",
+        "text": "Which of the following is NOT a characteristic of Platform-as-a-Service (PaaS)?",
+        "options": [
+          "Provides tools for application deployment",
+          "Requires users to manage the virtual machines",
+          "Offers elastic scaling of applications",
+          "Simplifies development by abstracting the infrastructure"
+        ],
+        "correctAnswer": "Requires users to manage the virtual machines"
+      },
+      {
+        "id": "iot-w8-q5",
+        "text": "Which essential characteristic of cloud computing refers to the ability of resources to be scaled up or down automatically?",
+        "options": [
+          "Resource pooling",
+          "Broad network access",
+          "Elasticity",
+          "None of the given"
+        ],
+        "correctAnswer": "Elasticity"
+      },
+      {
+        "id": "iot-w8-q6",
+        "text": "An organization A wants to deploy a cloud infrastructure, whereby it wants to push majority of the data to a cloud whose servers can be situated anywhere within the globe, but it wants certain private data to be pushed only to cloud servers that are present on-premise and are accessible by only authenticated members of the organization. In this context which among the following deployment model should be used?",
+        "options": ["Private Cloud", "Public Cloud", "Hybrid Cloud", "Any of these"],
+        "correctAnswer": "Hybrid Cloud"
+      },
+      {
+        "id": "iot-w8-q7",
+        "text": "A Private Cloud deployment model cannot provide IaaS but can provide PaaS.",
+        "options": ["False", "True"],
+        "correctAnswer": "False"
+      },
+      {
+        "id": "iot-w8-q8",
+        "text": "What is the primary function of a Light Virtual Access Point (LVAP) in the ODIN architecture for SDN-based IoT?",
+        "options": [
+          "Acts as a firewall between user devices and access points",
+          "Enables virtualization of Wi-Fi APs for per-client network control",
+          "Encrypts user traffic before forwarding to the cloud",
+          "Controls routing at the backbone of the network"
+        ],
+        "correctAnswer": "Enables virtualization of Wi-Fi APs for per-client network control"
+      },
+      {
+        "id": "iot-w8-q9",
+        "text": "With respect to Virtualization, if one VM runs on a hypervisor, another VM is unable to use the hypervisor.?",
+        "options": ["True", "False"],
+        "correctAnswer": "False"
+      },
+      {
+        "id": "iot-w8-q10",
+        "text": "Through which of the following cloud service model, do you use an image editing application without explicitly installing the said application on your local system?",
+        "options": ["SaaS", "PaaS", "IaaS", "DaaS"],
+        "correctAnswer": "SaaS"
+      },
+      {
+        "id": "iot-w8-q11",
+        "text": "Which of the following best defines ‘measured service’ in cloud computing?",
+        "options": [
+          "Cloud resources are billed only annually",
+          "Users must request reports manually for resource usage",
+          "Cloud systems automatically control and optimize resources based on metering",
+          "None of the given"
+        ],
+        "correctAnswer": "Cloud systems automatically control and optimize resources based on metering"
+      },
+      {
+        "id": "iot-w8-q12",
+        "text": "With respect to Cloud security, which of the following is expected to have a higher level of security than the other in a very generic sense, on the assumption that on-premise data storage generally is more secure than off-premise data storage.",
+        "options": ["Public Cloud", "Private Cloud"],
+        "correctAnswer": "Private Cloud"
+      },
+      {
+        "id": "iot-w8-q13",
+        "text": "Data security and client authentication is an issue in which of the following cloud service models?",
+        "options": ["SaaS", "SaaS and PaaS", "IaaS", "All of them"],
+        "correctAnswer": "All of them"
+      },
+      {
+        "id": "iot-w8-q14",
+        "text": "In cloud computing, the users have specific knowledge about the exact physical location of the computing hardware with respect to the cloud services.",
+        "options": ["True", "False"],
+        "correctAnswer": "False"
+      },
+      {
+        "id": "iot-w8-q15",
+        "text": "GreenCloud implementation focuses most on which of the following aspects?",
+        "options": ["Scalability", "Energy", "Reversibility", "Computation"],
+        "correctAnswer": "Energy"
+      }
+    ]
+  }
