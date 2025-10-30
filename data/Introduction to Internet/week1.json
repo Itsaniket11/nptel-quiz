@@ -1,117 +1,160 @@
 {
-    "id": "iot-week1-assign1",
-    "title": "Week 1: Introduction to IoT",
+    "id": "Assignment-Week 1",
+    "title": "Assignment-Week 1",
     "week": 1,
     "questions": [
-        {
-            "id": "iot-w1-q1",
-            "text": "What does IoT stand for?",
-            "options": [
-                "Internet of Technology",
-                "Internet of Things",
-                "Internal of Things",
-                "Internet of Telecommunication"
-            ],
-            "correctAnswer": "Internet of Things"
-        },
-        {
-            "id": "iot-w1-q2",
-            "text": "Which of the following is an example of an IoT device?",
-            "options": [
-                "Smart thermostat",
-                "Desktop computer",
-                "Standard television",
-                "Landline phone"
-            ],
-            "correctAnswer": "Smart thermostat"
-        },
-        {
-            "id": "iot-w1-q3",
-            "text": "What is the main purpose of sensors in IoT devices?",
-            "options": [
-                "To process data",
-                "To store data",
-                "To collect data from the environment",
-                "To display information"
-            ],
-            "correctAnswer": "To collect data from the environment"
-        },
-        {
-            "id": "iot-w1-q4",
-            "text": "Which layer in the IoT architecture is responsible for transmitting data from devices to the cloud?",
-            "options": [
-                "Perception Layer",
-                "Network Layer",
-                "Application Layer",
-                "Business Layer"
-            ],
-            "correctAnswer": "Network Layer"
-        },
-        {
-            "id": "iot-w1-q5",
-            "text": "What is a key challenge in IoT?",
-            "options": [
-                "Connectivity",
-                "Security and Privacy",
-                "Power consumption",
-                "All of the above"
-            ],
-            "correctAnswer": "All of the above"
-        },
-        {
-            "id": "iot-w1-q6",
-            "text": "Which wireless technology is commonly used for short-range communication in IoT?",
-            "options": [
-                "5G",
-                "Bluetooth",
-                "Satellite",
-                "Ethernet"
-            ],
-            "correctAnswer": "Bluetooth"
-        },
-        {
-            "id": "iot-w1-q7",
-            "text": "What is an actuator in an IoT system?",
-            "options": [
-                "A device that measures physical properties",
-                "A device that converts energy into motion or action",
-                "A device that provides internet connectivity",
-                "A device for data storage"
-            ],
-            "correctAnswer": "A device that converts energy into motion or action"
-        },
-        {
-            "id": "iot-w1-q8",
-            "text": "Cloud computing is important for IoT because it provides:",
-            "options": [
-                "Physical device hardware",
-                "Scalable storage and processing power",
-                "Local network connectivity",
-                "User interface design"
-            ],
-            "correctAnswer": "Scalable storage and processing power"
-        },
-        {
-            "id": "iot-w1-q9",
-            "text": "The term 'M2M' is often associated with IoT and stands for:",
-            "options": [
-                "Man-to-Machine",
-                "Machine-to-Machine",
-                "Market-to-Market",
-                "Mobile-to-Mobile"
-            ],
-            "correctAnswer": "Machine-to-Machine"
-        },
-        {
-            "id": "iot-w1-q10",
-            "text": "An IP address is used in IoT to:",
-            "options": [
-                "Power the device",
-                "Uniquely identify a device on a network",
-                "Measure temperature",
-                "Encrypt data"
-            ],
-            "correctAnswer": "Uniquely identify a device on a network"
-        }
+      {
+        "id": "iot-w1-q1",
+        "text": "Which of the following is/are not a thing as per IoT?",
+        "options": [
+          "Fan",
+          "Light",
+          "Refrigerator",
+          "None of the these"
+        ],
+        "correctAnswer": "None of the these"
+      },
+      {
+        "id": "iot-w1-q2",
+        "text": "State true or false. \nStatement: The things in IoT consist of embedded systems.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctAnswer": "True"
+      },
+      {
+        "id": "iot-w1-q3",
+        "text": "State whether the following statement is True or False. \nStatement: IoT is one of the technologies that enable smart farms.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctAnswer": "True"
+      },
+      {
+        "id": "iot-w1-q4",
+        "text": "State whether the following statement is True or False. \nStatement: In M2M, it is mandatory that the interactions between the machines and \ndevices happen through a cloud computing infrastructure.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctAnswer": "False"
+      },
+      {
+        "id": "iot-w1-q5",
+        "text": "Sometimes, when there is a need for the nodes to communicate directly to the Internet, \n______________ can be used.",
+        "options": [
+          "Sensors",
+          "Actuators",
+          "Tunneling",
+          "None of these"
+        ],
+        "correctAnswer": "Tunneling"
+      },
+      {
+        "id": "iot-w1-q6",
+        "text": "State whether the following statement is true or false. \nStatement: In multi-homing a node/network is connected to only two networks for improved \nreliability.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctAnswer": "False"
+      },
+      {
+        "id": "iot-w1-q7",
+        "text": "Which of the following is/are not enablers of IoT?",
+        "options": [
+          "Advancement in gene sequencing",
+          "Nanotechnology",
+          "Sensors",
+          "RFID"
+        ],
+        "correctAnswer": "Advancement in gene sequencing"
+      },
+      {
+        "id": "iot-w1-q8",
+        "text": "State whether the following statement is True or False. \nStatement: The decreasing number of devices in IoT is expected to result in an address crunch.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctAnswer": "False"
+      },
+      {
+        "id": "iot-w1-q9",
+        "text": "Why IoT has become so popular?",
+        "options": [
+          "It can provide advanced level of services to the society",
+          "It can help reduce human effort",
+          "It can potentially make processes more efficient",
+          "All of these"
+        ],
+        "correctAnswer": "All of these"
+      },
+      {
+        "id": "iot-w1-q10",
+        "text": "State whether the following statement is true or false. \nThe resolution of a sensor is the maximum change it can detect in the quantity that it is \nmeasuring.",
+        "options": [
+          "False",
+          "True"
+        ],
+        "correctAnswer": "False"
+      },
+      {
+        "id": "iot-w1-q11",
+        "text": "Transducer is a ___________ term and includes ____________.",
+        "options": [
+          "special, only sensors",
+          "special, only actuators",
+          "collective, both sensors and actuators",
+          "None of these"
+        ],
+        "correctAnswer": "collective, both sensors and actuators"
+      },
+      {
+        "id": "iot-w1-q12",
+        "text": "Which of the following is/are feature/features of sensors?",
+        "options": [
+          "It is only sensitive to the measured property.",
+          "It acts on the surrounding environment.",
+          "Both (a) and (b)",
+          "None of these"
+        ],
+        "correctAnswer": "It is only sensitive to the measured property."
+      },
+      {
+        "id": "iot-w1-q13",
+        "text": "Which of the following technologies have unified and has resulted in the evolution of IoT?",
+        "options": [
+          "Low-power embedded systems",
+          "Cloud Computing",
+          "Machine Learning",
+          "All of these"
+        ],
+        "correctAnswer": "All of these"
+      },
+      {
+        "id": "iot-w1-q14",
+        "text": "What is the full form of IoT?",
+        "options": [
+          "Internet of Tasks",
+          "Internet of Things",
+          "Internet of Tracks",
+          "None of these"
+        ],
+        "correctAnswer": "Internet of Things"
+      },
+      {
+        "id": "iot-w1-q15",
+        "text": "A sensor node is not made up of which of the following?",
+        "options": [
+          "Sensor/Sensors",
+          "A processing unit",
+          "A power unit",
+          "None of these"
+        ],
+        "correctAnswer": "None of these"
+      }
     ]
-}
+  }

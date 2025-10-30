@@ -1,147 +1,168 @@
 {
-    "id": "iot-week11-assign11",
-    "title": "Week 11: Smart Grids & IIoT",
-    "week": 11,
-    "questions": [
-      {
-        "id": "iot-w11-q1",
-        "text": "What are some of the other names of the smart grids?",
-        "options": [
-          "Energy internet",
-          "Electricity with a hand",
-          "Electrolyte",
-          "All of these"
-        ],
-        "correctAnswer": "Energy internet"
-      },
-      {
-        "id": "iot-w11-q2",
-        "text": "Which of the following is not done in traditional electrical grids?",
-        "options": [
-          "Manual energy monitoring",
-          "Unidirectional energy distribution",
-          "Unidirectional communication",
-          "Distributed power plants"
-        ],
-        "correctAnswer": "Distributed power plants"
-      },
-      {
-        "id": "iot-w11-q3",
-        "text": "Which of the following is a benefit associated with smart grids for customers?",
-        "options": [
-          "Reduced transmission of electricity",
-          "Higher electricity rates",
-          "Less security",
-          "Different pricing options"
-        ],
-        "correctAnswer": "Different pricing options"
-      },
-      {
-        "id": "iot-w11-q4",
-        "text": "Fill in the blank.\n___________ samples voltage and current with a fixed sample rate at the installed location.",
-        "options": ["PEVs", "DAUs", "PMUs", "None of these"],
-        "correctAnswer": "PMUs"
-      },
-      {
-        "id": "iot-w11-q5",
-        "text": "Which of the following statements are true about MDMSs?\nStatement I: Decide the price per unit energy to be paid by the customers\nStatement II: Handled by the energy service providers\nStatement III: Aggregate the energy consumption or energy request of certain geographical area",
-        "options": [
-          "Statements I and II",
-          "Statements I and III",
-          "Statements II and III",
-          "Statements I, II and III"
-        ],
-        "correctAnswer": "Statements I and II"
-      },
-      {
-        "id": "iot-w11-q6",
-        "text": "Which of the following aggregate the energy consumption or energy request of a certain geographical area?",
-        "options": [
-          "DAUs",
-          "Meter Data Management System",
-          "Buffer",
-          "None of these"
-        ],
-        "correctAnswer": "DAUs"
-      },
-      {
-        "id": "iot-w11-q7",
-        "text": "Which of the following statements are true about Dynamic System Attacks?\nStatement I: Replay attacks compromises sensors and monitors their outputs.\nStatement II: D-DIA can lead to a system collapse.\nStatement III: Covert attack is a closed loop version of replay attacks.",
-        "options": [
-          "Statements I and II",
-          "Statements I and III",
-          "Statements II and III",
-          "Statement I, II and III"
-        ],
-        "correctAnswer": "Statement I, II and III"
-      },
-      {
-        "id": "iot-w11-q8",
-        "text": "Fill in the blank.\n____________ is performed by compromising the availability of the grid component.",
-        "options": ["Gateway", "Data injection attacks", "AMH", "Denial of service"],
-        "correctAnswer": "Denial of service"
-      },
-      {
-        "id": "iot-w11-q9",
-        "text": "Fill in the blank.\n____________ is a primary challenge in IIoT.",
-        "options": [
-          "Worker health and safety",
-          "Optimised operations",
-          "Regulatory compliance",
-          "Integrate existing infrastructure into new IIoT infrastructure"
-        ],
-        "correctAnswer": "Integrate existing infrastructure into new IIoT infrastructure"
-      },
-      {
-        "id": "iot-w11-q10",
-        "text": "Fill in the blank. ____________ is based on a wrap and re-use approach.",
-        "options": ["AoT", "PoT", "ToII", "IIoT"],
-        "correctAnswer": "IIoT"
-      },
-      {
-        "id": "iot-w11-q11",
-        "text": "Mechanized production is a part of the 4th Industrial Revolution.",
-        "options": ["True", "False"],
-        "correctAnswer": "False"
-      },
-      {
-        "id": "iot-w11-q12",
-        "text": "Which of the following happened in the 3rd Revolution?",
-        "options": [
-          "Mass production",
-          "IIoT",
-          "Mechanized production",
-          "None of these"
-        ],
-        "correctAnswer": "None of these"
-      },
-      {
-        "id": "iot-w11-q13",
-        "text": "Which of the following is not a vulnerability of Smart Grid?",
-        "options": [
-          "Integrity",
-          "Physical threats",
-          "Dynamic system attacks",
-          "None of these"
-        ],
-        "correctAnswer": "None of these"
-      },
-      {
-        "id": "iot-w11-q14",
-        "text": "Big data is characterized by 7 Vs.",
-        "options": ["True", "False"],
-        "correctAnswer": "True"
-      },
-      {
-        "id": "iot-w11-q15",
-        "text": "What is the Flow of data?",
-        "options": [
-          "Acquisition>Generation>Storage>Analysis",
-          "Generation>Storage>Analysis>Acquisition",
-          "Generation>Acquisition>Storage>Analysis",
-          "None of these"
-        ],
-        "correctAnswer": "Generation>Acquisition>Storage>Analysis"
-      }
-    ]
-  }
+  "id": "iot-week11-assign11",
+  "title": "Assignment-Week 11",
+  "week": 11,
+  "questions": [
+    {
+      "id": "iot-w11-q1",
+      "text": "What are some of the other names of the smart grids?",
+      "options": [
+        "Energy internet",
+        "Electricity with a hand",
+        "Electrolyte",
+        "All of these"
+      ],
+      "correctAnswer": "Energy internet"
+    },
+    {
+      "id": "iot-w11-q2",
+      "text": "Which of the following is not done in traditional electrical grids?",
+      "options": [
+        "Manual energy monitoring",
+        "Unidirectional energy distribution",
+        "Unidirectional communication",
+        "Distributed power plants"
+      ],
+      "correctAnswer": "Distributed power plants"
+    },
+    {
+      "id": "iot-w11-q3",
+      "text": "Which of the following is a benefit associated with smart grids for customers?",
+      "options": [
+        "Reduced transmission of electricity",
+        "Higher electricity rates",
+        "Less security",
+        "Different pricing options"
+      ],
+      "correctAnswer": "Different pricing options"
+    },
+    {
+      "id": "iot-w11-q4",
+      "text": "Fill in the blank. \n___________ samples voltage and current with a fixed sample rate at the installed location.",
+      "options": [
+        "PEVs",
+        "DAUs",
+        "PMUs",
+        "None of these"
+      ],
+      "correctAnswer": "PMUs"
+    },
+    {
+      "id": "iot-w11-q5",
+      "text": "Which of the following statements are true about MDMSs?\nStatement I: Decide the price per unit energy to be paid by the customers\nStatement II: Handled by the energy service providers\nStatement III: Aggregate the energy consumption or energy request of certain geographical \narea",
+      "options": [
+        "Statements I and II",
+        "Statements I and III",
+        "Statements II and III",
+        "Statements I, II and III"
+      ],
+      "correctAnswer": "Statements I and II"
+    },
+    {
+      "id": "iot-w11-q6",
+      "text": "Which of the following aggregate the energy consumption or energy request of a certain \ngeographical area?",
+      "options": [
+        "DAUs",
+        "Meter Data Management System",
+        "Buffer",
+        "None of these"
+      ],
+      "correctAnswer": "DAUs"
+    },
+    {
+      "id": "iot-w11-q7",
+      "text": "Which of the following statements are true about Dynamic System Attacks?\nStatement I: Replay attacks compromises sensors and monitors their outputs.\nStatement II: D-DIA can lead to a system collapse.\nStatement III: Covert attack is a closed loop version of replay attacks.",
+      "options": [
+        "Statements I and II",
+        "Statements I and III",
+        "Statements II and III",
+        "Statement I, II and III"
+      ],
+      "correctAnswer": "Statement I, II and III"
+    },
+    {
+      "id": "iot-w11-q8",
+      "text": "Fill in the blank. \n____________ is performed by compromising the availability of the grid component.",
+      "options": [
+        "Gateway",
+        "Data injection attacks",
+        "AMH",
+        "Denial of service"
+      ],
+      "correctAnswer": "Denial of service"
+    },
+    {
+      "id": "iot-w11-q9",
+      "text": "Fill in the blank. \n____________ is a primary challenge in IIoT.",
+      "options": [
+        "Worker health and safety",
+        "Optimised operations",
+        "Regulatory compliance",
+        "Integrate existing infrastructure into new IIoT infrastructure"
+      ],
+      "correctAnswer": "Integrate existing infrastructure into new IIoT infrastructure"
+    },
+    {
+      "id": "iot-w11-q10",
+      "text": "Fill in the blank. ____________ is based on a wrap and re-use approach.",
+      "options": [
+        "AoT",
+        "PoT",
+        "ToII",
+        "IIoT"
+      ],
+      "correctAnswer": "IIoT"
+    },
+    {
+      "id": "iot-w11-q11",
+      "text": "Mechanized production is a part of the 4th Industrial Revolution.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "False"
+    },
+    {
+      "id": "iot-w11-q12",
+      "text": "Which of the following happened in the 3rd Revolution?",
+      "options": [
+        "Mass production",
+        "IIoT",
+        "Mechanized production",
+        "None of these"
+      ],
+      "correctAnswer": "None of these"
+    },
+    {
+      "id": "iot-w11-q13",
+      "text": "Which of the following is not a vulnerability of Smart Grid?",
+      "options": [
+        "Integrity",
+        "Physical threats",
+        "Dynamic system attacks",
+        "None of these"
+      ],
+      "correctAnswer": "None of these"
+    },
+    {
+      "id": "iot-w11-q14",
+      "text": "Big data is characterized by 7 Vs.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "True"
+    },
+    {
+      "id": "iot-w11-q15",
+      "text": "What is the Flow of data?",
+      "options": [
+        "Acquisition>Generation>Storage>Analysis",
+        "Generation>Storage>Analysis>Acquisition",
+        "Generation>Acquisition>Storage>Analysis",
+        "None of these"
+      ],
+      "correctAnswer": "Generation>Acquisition>Storage>Analysis"
+    }
+  ]
+}

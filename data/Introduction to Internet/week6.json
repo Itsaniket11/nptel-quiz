@@ -1,127 +1,164 @@
 {
-    "id": "iot-week6-assign6",
-    "title": "Week 6: Python & Raspberry Pi",
-    "week": 6,
-    "questions": [
-      {
-        "id": "iot-w6-q1",
-        "text": "Python programming language can be easily interfaced with different IoT hardware?",
-        "options": ["True", "False"],
-        "correctAnswer": "True"
-      },
-      {
-        "id": "iot-w6-q2",
-        "text": "Consider the following Python instruction\naa, bb, cc = 34, [12,23,34], 56.89\nIs the above a valid Python instruction?",
-        "options": ["Yes", "No"],
-        "correctAnswer": "Yes"
-      },
-      {
-        "id": "iot-w6-q3",
-        "text": "Which of the following is a valid conditional construct instruction in Python?",
-        "options": ["else-if", "elif", "ellif", "ele"],
-        "correctAnswer": "elif"
-      },
-      {
-        "id": "iot-w6-q4",
-        "text": "Consider the following Python code snippet. Assume Python v3.\nwith open(\"hello.txt\", \"w+\") as f:\n  f.write(\"I am learning Python programming\")\n  f.seek(0)\n  lines = f.readline()\n  result = lines[2]\n\nprint(result)",
-        "options": ["‘I am’", "‘I’", "‘a’", "‘am’"],
-        "correctAnswer": "‘a’"
-      },
-      {
-        "id": "iot-w6-q5",
-        "text": "Which of the following is a mode to open a file in Python?",
-        "options": ["Read mode", "Write mode", "Append mode", "All of these"],
-        "correctAnswer": "All of these"
-      },
-      {
-        "id": "iot-w6-q6",
-        "text": "What does the following line of code do?\nGPIO.output(11,True)",
-        "options": [
-          "Sets GPIO 11 as output pin",
-          "Turns on GPIO pin 11",
-          "Neither (a) nor (b)",
-          "Both (a) and (b)"
-        ],
-        "correctAnswer": "Turns on GPIO pin 11"
-      },
-      {
-        "id": "iot-w6-q7",
-        "text": "What is the utility of the ‘pip’ instruction with respect to Python programming?",
-        "options": [
-          "To act as a package installer",
-          "To delete the Python version",
-          "To change from Python v2 to v3",
-          "None of the given"
-        ],
-        "correctAnswer": "To act as a package installer"
-      },
-      {
-        "id": "iot-w6-q8",
-        "text": "Suppose you have used the sock.bind(server_address) while writing programs with sockets in Python.\nWith respect to this, which among the following is a valid initialization of the server_address object?",
-        "options": [
-          "(1223,1223)",
-          "(‘10.12.56.34’,1223)",
-          "(‘12.56.78.221’, ‘10.12.34.56’)",
-          "(1223, ‘67.34.56.7789’)"
-        ],
-        "correctAnswer": "(‘10.12.56.34’,1223)"
-      },
-      {
-        "id": "iot-w6-q9",
-        "text": "Where do you store the image file of the Raspberry Pi OS before using it to execute the OS on the Pi?",
-        "options": [
-          "Over the cloud",
-          "Directly on the Pi motherboard",
-          "Inside a memory card attached to the Pi",
-          "OS is installed through wireless means"
-        ],
-        "correctAnswer": "Inside a memory card attached to the Pi"
-      },
-      {
-        "id": "iot-w6-q10",
-        "text": "With which of the following remote access mechanism can you access a Raspberry Pi from your laptop computer?",
-        "options": ["ssp", "ssh", "ssj", "ssd"],
-        "correctAnswer": "ssh"
-      },
-      {
-        "id": "iot-w6-q11",
-        "text": "Fill in the blanks. Raspberry Pi 3 Model B has a GPU support of _________",
-        "options": [
-          "400 MHz video core IV",
-          "250 MHz video core IV",
-          "Quad cortex A53@1.2GHz",
-          "ARM 11 @ 1 GHz"
-        ],
-        "correctAnswer": "400 MHz video core IV"
-      },
-      {
-        "id": "iot-w6-q12",
-        "text": "What is the data type of the variable ls in the following piece of Python code?\nls= {1:2, 3:4, 5:6, 7:8}",
-        "options": ["dictionary", "list", "tuple", "All of these"],
-        "correctAnswer": "dictionary"
-      },
-      {
-        "id": "iot-w6-q13",
-        "text": "Consider the image as given below.\n\nWhich among the following component is highlighted within the red box in the image?",
-        "options": [
-          "Raspberri Pi",
-          "Raspbian",
-          "Raspberry Pi Camera",
-          "GPIO pins"
-        ],
-        "correctAnswer": "Raspberry Pi Camera"
-      },
-      {
-        "id": "iot-w6-q14",
-        "text": "Relay is a type of actuator which can be used with Arduino but not with Raspberry Pi.",
-        "options": ["True", "False"],
-        "correctAnswer": "False"
-      },
-      {
-        "id": "iot-w6-q15",
-        "text": "State whether the following statement is true or false.\nStatement: Python allows us to only read files. Writing to files is not possible.",
-        "options": ["True", "False"],
-        "correctAnswer": "False"
-      }
-    ]
-  }
+  "id": "iot-week6-assign6",
+  "title": "Assignment-Week 6",
+  "week": 6,
+  "questions": [
+    {
+      "id": "iot-w6-q1",
+      "text": "Python programming language can be easily interfaced with different IoT hardware?",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "True"
+    },
+    {
+      "id": "iot-w6-q2",
+      "text": "Consider the following Python instruction \n aa, bb, cc = 34, [12,23,34], 56.89 \nIs the above a valid Python instruction?",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correctAnswer": "Yes"
+    },
+    {
+      "id": "iot-w6-q3",
+      "text": "Which of the following is a valid conditional construct instruction in Python?",
+      "options": [
+        "else-if",
+        "elif",
+        "ellif",
+        "ele"
+      ],
+      "correctAnswer": "elif"
+    },
+    {
+      "id": "iot-w6-q4",
+      "text": "Consider the following Python code snippet. Assume Python v3. \nwith open(\"hello.txt\", \"w+\") as f: \n    f.write(\"I am learning Python programming\") \n    f.seek(0) \n    lines = f.readline() \n    result = lines[2] \n     \nprint(result)",
+      "options": [
+        "‘I am’",
+        "‘I’",
+        "‘a’",
+        "‘am’"
+      ],
+      "correctAnswer": "‘a’"
+    },
+    {
+      "id": "iot-w6-q5",
+      "text": "Which of the following is a mode to open a file in Python?",
+      "options": [
+        "Read mode",
+        "Write mode",
+        "Append mode",
+        "All of these"
+      ],
+      "correctAnswer": "All of these"
+    },
+    {
+      "id": "iot-w6-q6",
+      "text": "What does the following line of code do? \nGPIO.output(11,True)",
+      "options": [
+        "Sets GPIO 11 as output pin",
+        "Turns on GPIO pin 11",
+        "Neither (a) nor (b)",
+        "Both (a) and (b)"
+      ],
+      "correctAnswer": "Turns on GPIO pin 11"
+    },
+    {
+      "id": "iot-w6-q7",
+      "text": "What is the utility of the ‘pip’ instruction with respect to Python programming?",
+      "options": [
+        "To act as a package installer",
+        "To delete the Python version",
+        "To change from Python v2 to v3",
+        "None of the given"
+      ],
+      "correctAnswer": "To act as a package installer"
+    },
+    {
+      "id": "iot-w6-q8",
+      "text": "Suppose you have used the sock.bind(server_address) while writing programs with sockets in \nPython. \nWith respect to this, which among the following is a valid initialization of the server_address \nobject?",
+      "options": [
+        "(1223,1223)",
+        "(‘10.12.56.34’,1223)",
+        "(‘12.56.78.221’, ‘10.12.34.56’)",
+        "(1223, ‘67.34.56.7789’)"
+      ],
+      "correctAnswer": "(‘10.12.56.34’,1223)"
+    },
+    {
+      "id": "iot-w6-q9",
+      "text": "Where do you store the image file of the Raspberry Pi OS before using it to execute the OS on the \nPi?",
+      "options": [
+        "Over the cloud",
+        "Directly on the Pi motherboard",
+        "Inside a memory card attached to the Pi",
+        "OS is installed through wireless means"
+      ],
+      "correctAnswer": "Inside a memory card attached to the Pi"
+    },
+    {
+      "id": "iot-w6-q10",
+      "text": "With which of the following remote access mechanism can you access a Raspberry Pi from your \nlaptop computer?",
+      "options": [
+        "ssp",
+        "ssh",
+        "ssj",
+        "ssd"
+      ],
+      "correctAnswer": "ssh"
+    },
+    {
+      "id": "iot-w6-q11",
+      "text": "Fill in the blanks. Raspberry Pi 3 Model B has a GPU support of _________",
+      "options": [
+        "400 MHz video core IV",
+        "250 MHz video core IV",
+        "Quad cortex A53@1.2GHz",
+        "ARM 11 @ 1 GHz"
+      ],
+      "correctAnswer": "400 MHz video core IV"
+    },
+    {
+      "id": "iot-w6-q12",
+      "text": "What is the data type of the variable ls in the following piece of Python code? \nls= {1:2, 3:4, 5:6, 7:8}",
+      "options": [
+        "dictionary",
+        "list",
+        "tuple",
+        "All of these"
+      ],
+      "correctAnswer": "dictionary"
+    },
+    {
+      "id": "iot-w6-q13",
+      "text": "Consider the image as given below. \n \nWhich among the following component is highlighted within the red box in the image?",
+      "options": [
+        "Raspberri Pi",
+        "Raspbian",
+        "Raspberry Pi Camera",
+        "GPIO pins"
+      ],
+      "correctAnswer": "Raspberry Pi Camera"
+    },
+    {
+      "id": "iot-w6-q14",
+      "text": "Relay is a type of actuator which can be used with Arduino but not with Raspberry Pi.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "False"
+    },
+    {
+      "id": "iot-w6-q15",
+      "text": "State whether the following statement is true or false. \nStatement: Python allows us to only read files. Writing to files is not possible.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "False"
+    }
+  ]
+}

@@ -1,117 +1,158 @@
 {
-    "id": "iot-week3-assign3",
-    "title": "Week 3: Connectivity Technologies & Sensor Networks",
-    "week": 3,
-    "questions": [
-      {
-        "id": "iot-w3-q1",
-        "text": "HART operates only in __________ GHz ISM band.",
-        "options": ["2.3", "4.8", "Both (a) and (b)", "None of these"],
-        "correctAnswer": "None of these"
-      },
-      {
-        "id": "iot-w3-q2",
-        "text": "State whether the following statement is true or false.\nStatement: The HART physical layer is derived from IEEE 802.15.4 protocol and operates only in 2.5 GHz ISM band.",
-        "options": ["False", "True"],
-        "correctAnswer": "False"
-      },
-      {
-        "id": "iot-w3-q3",
-        "text": "State whether the following statement is True or False\nStatement: Each node is supervised by the application manager and it guides them on when and where to send packets.",
-        "options": ["True", "False"],
-        "correctAnswer": "False"
-      },
-      {
-        "id": "iot-w3-q4",
-        "text": "_________________ identifies channels consistently affected by interference and removes them from use.",
-        "options": [
-          "Channel hopping",
-          "Channel aggregating",
-          "Channel blacklisting",
-          "Frequency aggregating"
-        ],
-        "correctAnswer": "Channel blacklisting"
-      },
-      {
-        "id": "iot-w3-q5",
-        "text": "State whether the following statement is true or false.\nStatement: The Network Manager supervises each node in the network and guides them on when and where to send packets.",
-        "options": ["True", "False"],
-        "correctAnswer": "True"
-      },
-      {
-        "id": "iot-w3-q6",
-        "text": "Which layer of HART incorporates channel hopping and channel blacklisting?",
-        "options": [
-          "Surface Layer",
-          "Troposphere",
-          "Data Link Layer",
-          "None of these"
-        ],
-        "correctAnswer": "Data Link Layer"
-      },
-      {
-        "id": "iot-w3-q7",
-        "text": "WirelessHART relies on _____________ for its communication.",
-        "options": [
-          "Star networking",
-          "Bus networking",
-          "Both (a) and (b)",
-          "None of these"
-        ],
-        "correctAnswer": "None of these"
-      },
-      {
-        "id": "iot-w3-q8",
-        "text": "State whether the following statement is true or false.\nNFC devices work on the principle of magnetic introduction.",
-        "options": ["True", "False"],
-        "correctAnswer": "False"
-      },
-      {
-        "id": "iot-w3-q9",
-        "text": "Bluetooth technology is based on Ad-hoc technology also known as ________________.",
-        "options": [
-          "Ad-hoc meshnet",
-          "Ad-hoc Piconets",
-          "Ad-hoc starnet",
-          "None of these"
-        ],
-        "correctAnswer": "Ad-hoc Piconets"
-      },
-      {
-        "id": "iot-w3-q10",
-        "text": "State whether the following statement is true or false\nStatement: Booking in Bluetooth is the process of forming a connection between two Bluetooth devices.",
-        "options": ["True", "False"],
-        "correctAnswer": "False"
-      },
-      {
-        "id": "iot-w3-q11",
-        "text": "State whether the following statement is true or false.\nStatement: Class 1 Bluetooth radios are used primarily in industrial use cases and have a range of 100 meters or 300 feet.",
-        "options": ["True", "False"],
-        "correctAnswer": "True"
-      },
-      {
-        "id": "iot-w3-q12",
-        "text": "Zwave uses __________ topology.",
-        "options": ["Ring", "Star", "Mesh", "None of these"],
-        "correctAnswer": "Mesh"
-      },
-      {
-        "id": "iot-w3-q13",
-        "text": "Which of the following is an OS for sensor nodes?",
-        "options": ["MicroOS", "LiteOS", "TinyOS", "None of these"],
-        "correctAnswer": "TinyOS"
-      },
-      {
-        "id": "iot-w3-q14",
-        "text": "State whether the following statement is true or false.\nStatement: Selfish nodes are typified by their unwillingness to cooperate, as the protocol requires whenever there is a personal cost involved.",
-        "options": ["True", "False"],
-        "correctAnswer": "True"
-      },
-      {
-        "id": "iot-w3-q15",
-        "text": "Dumb behavior of sensor nodes is _______________ in nature (as it is dependent on the effects of the environmental conditions).",
-        "options": ["Temporal", "Spatial", "Both (a) and (b)", "None of these"],
-        "correctAnswer": "Temporal"
-      }
-    ]
-  }
+  "id": "iot-week3-assign3",
+  "title": "Week 3",
+  "week": 3,
+  "questions": [
+    {
+      "id": "iot-w3-q1",
+      "text": "HART operates only in __________ GHz ISM band.",
+      "options": [
+        "2.3",
+        "4.8",
+        "Both (a) and (b)",
+        "None of these"
+      ],
+      "correctAnswer": "None of these"
+    },
+    {
+      "id": "iot-w3-q2",
+      "text": "State whether the following statement is true or false. \nStatement: The HART physical layer is derived from IEEE 802.15.4 protocol and \noperates only in 2.5 GHz ISM band.",
+      "options": [
+        "False",
+        "True"
+      ],
+      "correctAnswer": "False"
+    },
+    {
+      "id": "iot-w3-q3",
+      "text": "State whether the following statement is True or False \nStatement: Each node is supervised by the application manager and it guides them on \nwhen and where to send packets.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "False"
+    },
+    {
+      "id": "iot-w3-q4",
+      "text": "_________________ identifies channels consistently affected by interference and \nremoves them from use.",
+      "options": [
+        "Channel hopping",
+        "Channel aggregating",
+        "Channel blacklisting",
+        "Frequency aggregating"
+      ],
+      "correctAnswer": "Channel blacklisting"
+    },
+    {
+      "id": "iot-w3-q5",
+      "text": "State whether the following statement is true or false. \nStatement: The Network Manager supervises each node in the network and guides them \non when and where to send packets.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "True"
+    },
+    {
+      "id": "iot-w3-q6",
+      "text": "Which layer of HART incorporates channel hopping and channel blacklisting?",
+      "options": [
+        "Surface Layer",
+        "Troposphere",
+        "Data Link Layer",
+        "None of these"
+      ],
+      "correctAnswer": "Data Link Layer"
+    },
+    {
+      "id": "iot-w3-q7",
+      "text": "WirelessHART relies on _____________ for its communication.",
+      "options": [
+        "Star networking",
+        "Bus networking",
+        "Both (a) and (b)",
+        "None of these"
+      ],
+      "correctAnswer": "None of these"
+    },
+    {
+      "id": "iot-w3-q8",
+      "text": "State whether the following statement is true or false. \nNFC devices work on the principle of magnetic introduction.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "False"
+    },
+    {
+      "id": "iot-w3-q9",
+      "text": "Bluetooth technology is based on Ad-hoc technology also known as ________________.",
+      "options": [
+        "Ad-hoc meshnet",
+        "Ad-hoc Piconets",
+        "Ad-hoc starnet",
+        "None of these"
+      ],
+      "correctAnswer": "Ad-hoc Piconets"
+    },
+    {
+      "id": "iot-w3-q10",
+      "text": "State whether the following statement is true or false \nStatement: Booking in Bluetooth is the process of forming a connection between two \nBluetooth devices.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "False"
+    },
+    {
+      "id": "iot-w3-q11",
+      "text": "State whether the following statement is true or false. \n\nStatement: Class 1 Bluetooth radios are used primarily in industrial use cases and have a \nrange of 100 meters or 300 feet.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "True"
+    },
+    {
+      "id": "iot-w3-q12",
+      "text": "Zwave uses __________ topology.",
+      "options": [
+        "Ring",
+        "Star",
+        "Mesh",
+        "None of these"
+      ],
+      "correctAnswer": "Mesh"
+    },
+    {
+      "id": "iot-w3-q13",
+      "text": "Which of the following is an OS for sensor nodes?",
+      "options": [
+        "MicroOS",
+        "LiteOS",
+        "TinyOS",
+        "None of these"
+      ],
+      "correctAnswer": "TinyOS"
+    },
+    {
+      "id": "iot-w3-q14",
+      "text": "State whether the following statement is true or false. \n\nStatement: Selfish nodes are typified by their unwillingness to cooperate, as the protocol \nrequires whenever there is a personal cost involved.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "True"
+    },
+    {
+      "id": "iot-w3-q15",
+      "text": "Dumb behavior of sensor nodes is _______________ in nature (as it is dependent on the \neffects of the environmental conditions).",
+      "options": [
+        "Temporal",
+        "Spatial",
+        "Both (a) and (b)",
+        "None of these"
+      ],
+      "correctAnswer": "Temporal"
+    }
+  ]
+}

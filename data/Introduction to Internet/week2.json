@@ -1,117 +1,164 @@
 {
-    "id": "iot-week2-assign2",
-    "title": "Week 2: Basics of IoT Networking",
-    "week": 2,
-    "questions": [
-      {
-        "id": "iot-w2-q1",
-        "text": "The full form of MQTT is",
-        "options": [
-          "Message Queue Telephone Transmission",
-          "Message Query Telemetry Transport",
-          "Message Queue Telemedicine Transport",
-          "None of these"
-        ],
-        "correctAnswer": "None of these"
-      },
-      {
-        "id": "iot-w2-q2",
-        "text": "Which of the following is NOT a method in MQTT?",
-        "options": ["Break", "Stick", "Run", "All of these"],
-        "correctAnswer": "All of these"
-      },
-      {
-        "id": "iot-w2-q3",
-        "text": "Which of the following is/are component/components of MQTT?",
-        "options": ["Publishers", "Subscribers", "Brokers", "All of these"],
-        "correctAnswer": "All of these"
-      },
-      {
-        "id": "iot-w2-q4",
-        "text": "State whether the following statement is true or false.\nSMQTT is an extension of MQTT which uses lightweight attribute based encryption. It has three main stages.",
-        "options": ["True", "False"],
-        "correctAnswer": "False"
-      },
-      {
-        "id": "iot-w2-q5",
-        "text": "The OSI model has __________ layers.",
-        "options": ["6", "8", "Both (a) and (b)", "None of these"],
-        "correctAnswer": "None of these"
-      },
-      {
-        "id": "iot-w2-q6",
-        "text": "The two sub-layers of CoAP are -",
-        "options": [
-          "Messaging and Holding",
-          "Messaging and Backoff",
-          "Messaging and Teardown",
-          "None of these"
-        ],
-        "correctAnswer": "None of these"
-      },
-      {
-        "id": "iot-w2-q7",
-        "text": "What is the full form of AMQP in the context of IoT protocol?",
-        "options": [
-          "Another Message Queuing Protocol",
-          "Anchored Message Queuing Protocol",
-          "Adjoint Message Queuing Protocol",
-          "None of these"
-        ],
-        "correctAnswer": "None of these"
-      },
-      {
-        "id": "iot-w2-q8",
-        "text": "XMPP uses the ________________ architecture.",
-        "options": [
-          "Publish-subscribe",
-          "Client-server",
-          "Both (a) and (b)",
-          "Neither (a) nor (b)"
-        ],
-        "correctAnswer": "Client-server"
-      },
-      {
-        "id": "iot-w2-q9",
-        "text": "How many message delivery guarantee modes are there in the AMQP protocol?",
-        "options": ["2", "3", "4", "None of these"],
-        "correctAnswer": "3"
-      },
-      {
-        "id":"iot-w2-q10",
-        "text": "Which of the following is/are NOT an AMQP frame type?",
-        "options": ["Open", "Close", "Random", "None of these"],
-        "correctAnswer": "Random"
-      },
-      {
-        "id": "iot-w2-q11",
-        "text": "State whether the following statement is true or false.\nStatement: IEEE 802.15.5 was developed for low data rate monitoring and control applications and extended life low power communication uses.",
-        "options": ["True", "False"],
-        "correctAnswer": "False"
-      },
-      {
-        "id": "iot-w2-q12",
-        "text": "Which of the following is/are exchange types in AMQP?",
-        "options": ["Direct", "Indirect", "Both (a) and (b)", "None of these"],
-        "correctAnswer": "Direct"
-      },
-      {
-        "id": "iot-w2-q13",
-        "text": "State whether the following statement is True or False.\nStatement: The IEEE 802.15.4 operates in ISM band.",
-        "options": ["True", "False"],
-        "correctAnswer": "True"
-      },
-      {
-        "id": "iot-w2-q14",
-        "text": "The networking topologies supported in the IEEE 802.15.4 are -",
-        "options": ["Only Star", "Star and Mesh", "Only Mesh", "None of these"],
-        "correctAnswer": "Star and Mesh"
-      },
-      {
-        "id": "iot-w2-q15",
-        "text": "State whether the following statement is True or False.\nStatement: Generation of Route Requests (RREQs) by a LOADng Router for discovering a route to a destination is a valid operation of the LOADng routing protocol.",
-        "options": ["False", "True"],
-        "correctAnswer": "True"
-      }
-    ]
-  }
+  "id": "iot-week2-assign2",
+  "title": "Week 2: IoT Assignment",
+  "week": 2,
+  "questions": [
+    {
+      "id": "iot-w2-q1",
+      "text": "The full form of MQTT is",
+      "options": [
+        "Message Queue Telephone Transmission",
+        "Message Query Telemetry Transport",
+        "Message Queue Telemedicine Transport",
+        "None of these"
+      ],
+      "correctAnswer": "None of these"
+    },
+    {
+      "id": "iot-w2-q2",
+      "text": "Which of the following is NOT a method in MQTT?",
+      "options": [
+        "Break",
+        "Stick",
+        "Run",
+        "All of these"
+      ],
+      "correctAnswer": "All of these"
+    },
+    {
+      "id": "iot-w2-q3",
+      "text": "Which of the following is/are component/components of MQTT?",
+      "options": [
+        "Publishers",
+        "Subscribers",
+        "Brokers",
+        "All of these"
+      ],
+      "correctAnswer": "All of these"
+    },
+    {
+      "id": "iot-w2-q4",
+      "text": "State whether the following statement is true or false. \nSMQTT is an extension of MQTT which uses lightweight attribute based encryption. It \nhas three main stages.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "False"
+    },
+    {
+      "id": "iot-w2-q5",
+      "text": "The OSI model has __________ layers.",
+      "options": [
+        "6",
+        "8",
+        "Both (a) and (b)",
+        "None of these"
+      ],
+      "correctAnswer": "None of these"
+    },
+    {
+      "id": "iot-w2-q6",
+      "text": "The two sub-layers of CoAP are -",
+      "options": [
+        "Messaging and Holding",
+        "Messaging and Backoff",
+        "Messaging and Teardown",
+        "None of these"
+      ],
+      "correctAnswer": "None of these"
+    },
+    {
+      "id": "iot-w2-q7",
+      "text": "What is the full form of AMQP in the context of IoT protocol?",
+      "options": [
+        "Another Message Queuing Protocol",
+        "Anchored Message Queuing Protocol",
+        "Adjoint Message Queuing Protocol",
+        "None of these"
+      ],
+      "correctAnswer": "None of these"
+    },
+    {
+      "id": "iot-w2-q8",
+      "text": "XMPP uses the ________________ architecture.",
+      "options": [
+        "Publish-subscribe",
+        "Client-server",
+        "Both (a) and (b)",
+        "Neither (a) nor (b)"
+      ],
+      "correctAnswer": "Client-server"
+    },
+    {
+      "id": "iot-w2-q9",
+      "text": "How many message delivery guarantee modes are there in the AMQP protocol?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "None of these"
+      ],
+      "correctAnswer": "3"
+    },
+    {
+      "id":"iot-w2-q10",
+      "text": "Which of the following is/are NOT an AMQP frame type?",
+      "options": [
+        "Open",
+        "Close",
+        "Random",
+        "None of these"
+      ],
+      "correctAnswer": "Random"
+    },
+    {
+      "id": "iot-w2-q11",
+      "text": "State whether the following statement is true or false. \nStatement: IEEE 802.15.5 was developed for low data rate monitoring and control \napplications and extended life low power communication uses.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "False"
+    },
+    {
+      "id": "iot-w2-q12",
+      "text": "Which of the following is/are exchange types in AMQP?",
+      "options": [
+        "Direct",
+        "Indirect",
+        "Both (a) and (b)",
+        "None of these"
+      ],
+      "correctAnswer": "Direct"
+    },
+    {
+      "id": "iot-w2-q13",
+      "text": "State whether the following statement is True or False. \nStatement: The IEEE 802.15.4 operates in ISM band.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "True"
+    },
+    {
+      "id": "iot-w2-q14",
+      "text": "The networking topologies supported in the IEEE 802.15.4 are -",
+      "options": [
+        "Only Star",
+        "Star and Mesh",
+        "Only Mesh",
+        "None of these"
+      ],
+      "correctAnswer": "Star and Mesh"
+    },
+    {
+      "id": "iot-w2-q15",
+      "text": "State whether the following statement is True or False. \nStatement: Generation of Route Requests (RREQs) by a LOADng Router for discovering \na route to a destination is a valid operation of the LOADng routing protocol.",
+      "options": [
+        "False",
+        "True"
+      ],
+      "correctAnswer": "True"
+    }
+  ]
+}
