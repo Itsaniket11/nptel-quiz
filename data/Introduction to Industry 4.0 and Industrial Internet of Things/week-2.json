@@ -1,0 +1,62 @@
+{
+    "id": "iiot-week2-assign2",
+    "title": "Week 2: Assignment 2",
+    "week": 2,
+    "questions": [
+        {
+            "id": "iiot-w2-q1",
+            "text": "Which communication protocol is commonly used in IIoT for low-power, wide-area networks?",
+            "options": [
+                "Bluetooth",
+                "Wi-Fi",
+                "LoRaWAN",
+                "NFC"
+            ],
+            "correctAnswer": "LoRaWAN"
+        },
+        {
+            "id": "iiot-w2-q2",
+            "text": "What is 'edge computing' in the context of IIoT?",
+            "options": [
+                "Processing data on a central cloud server",
+                "Processing data at or near the source of data generation",
+                "A type of network switch",
+                "A data storage technique"
+            ],
+            "correctAnswer": "Processing data at or near the source of data generation"
+        },
+        {
+            "id": "iiot-w2-q3",
+            "text": "Which of these is a major security concern in IIoT?",
+            "options": [
+                "Slow internet speed",
+                "Data privacy and unauthorized access",
+                "High cost of sensors",
+                "Limited battery life"
+            ],
+            "correctAnswer": "Data privacy and unauthorized access"
+        },
+        {
+            "id": "iiot-w2-q4",
+            "text": "What is a 'digital twin'?",
+            "options": [
+                "A backup of industrial data",
+                "A virtual model of a physical object or system",
+                "A type of sensor",
+                "A security protocol"
+            ],
+            "correctAnswer": "A virtual model of a physical object or system"
+        },
+        {
+            "id": "iiot-w2-q5",
+            "text": "What is the role of sensors in an IIoT system?",
+            "options": [
+                "To process data",
+                "To store data",
+                "To collect data from the physical environment",
+                "To display data"
+            ],
+            "correctAnswer": "To collect data from the physical environment"
+        }
+    ]
+}

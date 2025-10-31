@@ -1,0 +1,62 @@
+{
+    "id": "iiot-week3-assign3",
+    "title": "Week 3: Assignment 3",
+    "week": 3,
+    "questions": [
+        {
+            "id": "iiot-w3-q1",
+            "text": "Which layer of the IIoT architecture is responsible for data acquisition?",
+            "options": [
+                "Application Layer",
+                "Perception/Sensing Layer",
+                "Network Layer",
+                "Processing Layer"
+            ],
+            "correctAnswer": "Perception/Sensing Layer"
+        },
+        {
+            "id": "iiot-w3-q2",
+            "text": "What is the function of the Network Layer in the IIoT architecture?",
+            "options": [
+                "To collect data from sensors",
+                "To transmit data between devices and the cloud",
+                "To analyze data",
+                "To provide a user interface"
+            ],
+            "correctAnswer": "To transmit data between devices and the cloud"
+        },
+        {
+            "id": "iiot-w3-q3",
+            "text": "MQTT is a protocol often used in IIoT. What does it stand for?",
+            "options": [
+                "Message Queuing Telemetry Transport",
+                "Motion Quality Transfer Technology",
+                "Machine Query Transfer Telemetry",
+                "Mainframe Quality Task Tracker"
+            ],
+            "correctAnswer": "Message Queuing Telemetry Transport"
+        },
+        {
+            "id": "iiot-w3-q4",
+            "text": "Which of the following is a characteristic of the MQTT protocol?",
+            "options": [
+                "Heavyweight and resource-intensive",
+                "Publish/subscribe model",
+                "Synchronous communication",
+                "Designed for high-bandwidth networks"
+            ],
+            "correctAnswer": "Publish/subscribe model"
+        },
+        {
+            "id": "iiot-w3-q5",
+            "text": "What is the role of actuators in an IIoT system?",
+            "options": [
+                "To sense the environment",
+                "To perform a physical action based on data",
+                "To transmit data",
+                "To store data"
+            ],
+            "correctAnswer": "To perform a physical action based on data"
+        }
+    ]
+}

@@ -1,0 +1,62 @@
+{
+    "id": "iiot-week1-assign1",
+    "title": "Week 1: Assignment 1",
+    "week": 1,
+    "questions": [
+        {
+            "id": "iiot-w1-q1",
+            "text": "What is the full form of IIoT?",
+            "options": [
+                "Industrial Internet of Things",
+                "Intelligent Internet of Things",
+                "Innovative Internet of Things",
+                "Integrated Internet of Things"
+            ],
+            "correctAnswer": "Industrial Internet of Things"
+        },
+        {
+            "id": "iiot-w1-q2",
+            "text": "Which revolution is associated with Industry 4.0?",
+            "options": [
+                "First Industrial Revolution",
+                "Second Industrial Revolution",
+                "Third Industrial Revolution",
+                "Fourth Industrial Revolution"
+            ],
+            "correctAnswer": "Fourth Industrial Revolution"
+        },
+        {
+            "id": "iiot-w1-q3",
+            "text": "Which of the following is a key technology in Industry 4.0?",
+            "options": [
+                "Steam Engine",
+                "Assembly Line",
+                "Cyber-Physical Systems",
+                "Personal Computer"
+            ],
+            "correctAnswer": "Cyber-Physical Systems"
+        },
+        {
+            "id": "iiot-w1-q4",
+            "text": "What does CPS stand for in the context of IIoT?",
+            "options": [
+                "Customer Processing System",
+                "Cyber-Physical Systems",
+                "Computer Programming Standard",
+                "Central Processing Station"
+            ],
+            "correctAnswer": "Cyber-Physical Systems"
+        },
+        {
+            "id": "iiot-w1-q5",
+            "text": "What is the primary goal of IIoT?",
+            "options": [
+                "To connect consumer devices",
+                "To improve industrial processes and efficiency",
+                "To provide entertainment",
+                "To manage social media"
+            ],
+            "correctAnswer": "To improve industrial processes and efficiency"
+        }
+    ]
+}

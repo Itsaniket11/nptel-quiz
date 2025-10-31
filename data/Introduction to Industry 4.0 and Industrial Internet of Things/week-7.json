@@ -1,0 +1,62 @@
+{
+    "id": "iiot-week7-assign7",
+    "title": "Week 7: Assignment 7",
+    "week": 7,
+    "questions": [
+        {
+            "id": "iiot-w7-q1",
+            "text": "Which of the following is a key component of a SCADA system?",
+            "options": [
+                "Social Media Feed",
+                "Remote Terminal Unit (RTU)",
+                "Video Game Console",
+                "E-commerce website"
+            ],
+            "correctAnswer": "Remote Terminal Unit (RTU)"
+        },
+        {
+            "id": "iiot-w7-q2",
+            "text": "What does SCADA stand for?",
+            "options": [
+                "Supervisory Control and Data Acquisition",
+                "System Control and Data Analysis",
+                "Secure Communication and Data Access",
+                "Standardized Control and Diagnostic Application"
+            ],
+            "correctAnswer": "Supervisory Control and Data Acquisition"
+        },
+        {
+            "id": "iiot-w7-q3",
+            "text": "What is the function of a Human-Machine Interface (HMI) in a SCADA system?",
+            "options": [
+                "To run machine learning models",
+                "To provide a graphical interface for operators to monitor and control processes",
+                "To connect to the internet",
+                "To store historical data"
+            ],
+            "correctAnswer": "To provide a graphical interface for operators to monitor and control processes"
+        },
+        {
+            "id": "iiot-w7-q4",
+            "text": "How is IIoT changing traditional SCADA systems?",
+            "options": [
+                "By making them less secure",
+                "By replacing them entirely with cloud-only solutions",
+                "By enabling remote access, cloud integration, and advanced analytics on SCADA data",
+                "By reducing the amount of data they can handle"
+            ],
+            "correctAnswer": "By enabling remote access, cloud integration, and advanced analytics on SCADA data"
+        },
+        {
+            "id": "iiot-w7-q5",
+            "text": "What is a major security challenge for SCADA systems?",
+            "options": [
+                "They are immune to cyberattacks",
+                "They were often designed before cybersecurity was a major concern and can be vulnerable",
+                "They automatically update their own security patches",
+                "They do not connect to any networks"
+            ],
+            "correctAnswer": "They were often designed before cybersecurity was a major concern and can be vulnerable"
+        }
+    ]
+}

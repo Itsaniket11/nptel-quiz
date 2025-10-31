@@ -1,0 +1,62 @@
+{
+    "id": "iiot-week10-assign10",
+    "title": "Week 10: Assignment 10",
+    "week": 10,
+    "questions": [
+        {
+            "id": "iiot-w10-q1",
+            "text": "What is the 'skills gap' in the context of Industry 4.0?",
+            "options": [
+                "A gap in physical strength",
+                "A mismatch between the skills workers have and the skills needed for new jobs in smart industries",
+                "A geographical gap between factories",
+                "A gap in the number of available jobs"
+            ],
+            "correctAnswer": "A mismatch between the skills workers have and the skills needed for new jobs in smart industries"
+        },
+        {
+            "id": "iiot-w10-q2",
+            "text": "Which of the following is an ethical consideration in IIoT?",
+            "options": [
+                "The color of the sensors",
+                "The potential for job displacement due to automation",
+                "The speed of the internet connection",
+                "The brand of the computer"
+            ],
+            "correctAnswer": "The potential for job displacement due to automation"
+        },
+        {
+            "id": "iiot-w10-q3",
+            "text": "How can data ownership be a challenge in IIoT?",
+            "options": [
+                "Data is always owned by the government",
+                "It's always clear who owns the data",
+                "Complex ownership questions arise when multiple parties (e.g., equipment manufacturer, factory owner, cloud provider) are involved",
+                "Data ownership is not a concern"
+            ],
+            "correctAnswer": "Complex ownership questions arise when multiple parties (e.g., equipment manufacturer, factory owner, cloud provider) are involved"
+        },
+        {
+            "id": "iiot-w10-q4",
+            "text": "What is a potential privacy issue with IIoT in the workplace?",
+            "options": [
+                "Employees having too much privacy",
+                "Monitoring of employee productivity and movements",
+                "The office being too cold",
+                "The company providing free snacks"
+            ],
+            "correctAnswer": "Monitoring of employee productivity and movements"
+        },
+        {
+            "id": "iiot-w10-q5",
+            "text": "What is the concept of 'lights-out' manufacturing?",
+            "options": [
+                "Manufacturing during the day only",
+                "A factory that runs fully automated without human presence on-site",
+                "A factory with poor lighting",
+                "A factory that produces light bulbs"
+            ],
+            "correctAnswer": "A factory that runs fully automated without human presence on-site"
+        }
+    ]
+}

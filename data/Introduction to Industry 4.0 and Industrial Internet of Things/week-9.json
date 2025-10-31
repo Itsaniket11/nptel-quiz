@@ -1,0 +1,62 @@
+{
+    "id": "iiot-week9-assign9",
+    "title": "Week 9: Assignment 9",
+    "week": 9,
+    "questions": [
+        {
+            "id": "iiot-w9-q1",
+            "text": "What is a primary security threat to IIoT devices?",
+            "options": [
+                "Physical damage from weather",
+                "Unauthorized access and control",
+                "Software bugs that cause crashes",
+                "Running out of battery"
+            ],
+            "correctAnswer": "Unauthorized access and control"
+        },
+        {
+            "id": "iiot-w9-q2",
+            "text": "What is 'defense in depth' in cybersecurity?",
+            "options": [
+                "Having only one strong security measure",
+                "A layered approach to security with multiple controls",
+                "Focusing only on physical security",
+                "Ignoring software updates"
+            ],
+            "correctAnswer": "A layered approach to security with multiple controls"
+        },
+        {
+            "id": "iiot-w9-q3",
+            "text": "Why is data encryption important in IIoT?",
+            "options": [
+                "It makes data larger",
+                "It protects data from being read by unauthorized parties",
+                "It speeds up data transmission",
+                "It is not important"
+            ],
+            "correctAnswer": "It protects data from being read by unauthorized parties"
+        },
+        {
+            "id": "iiot-w9-q4",
+            "text": "What is a 'Man-in-the-Middle' (MITM) attack?",
+            "options": [
+                "A physical attack on a device",
+                "An attacker secretly intercepts and possibly alters the communication between two parties",
+                "A type of malware",
+                "A social engineering technique"
+            ],
+            "correctAnswer": "An attacker secretly intercepts and possibly alters the communication between two parties"
+        },
+        {
+            "id": "iiot-w9-q5",
+            "text": "What is the purpose of regular security audits in an IIoT environment?",
+            "options": [
+                "To increase costs",
+                "To identify and address vulnerabilities in the system",
+                "To slow down operations",
+                "To punish employees"
+            ],
+            "correctAnswer": "To identify and address vulnerabilities in the system"
+        }
+    ]
+}
