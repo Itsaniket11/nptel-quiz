@@ -1,0 +1,117 @@
+{
+    "id": "iiot-week11-assign11",
+    "title": "Week 11: Assignment 11",
+    "week": 11,
+    "questions": [
+      {
+        "id": "iiot-w11-q1",
+        "text": "Which of the following is an ethical concern related to IIoT?",
+        "options": [
+          "Increased efficiency",
+          "Job displacement due to automation",
+          "Better product quality",
+          "Reduced energy consumption"
+        ],
+        "correctAnswer": "Job displacement due to automation"
+      },
+      {
+        "id": "iiot-w11-q2",
+        "text": "The use of workplace monitoring sensors to track employee movement and productivity raises concerns about:",
+        "options": [
+          "Data accuracy",
+          "Worker privacy",
+          "Network bandwidth",
+          "Sensor battery life"
+        ],
+        "correctAnswer": "Worker privacy"
+      },
+      {
+        "id": "iiot-w11-q3",
+        "text": "If an autonomous factory robot causes an injury, determining who is liable (the owner, the manufacturer, the software developer) is a complex _________ question.",
+        "options": [
+          "technical",
+          "legal and ethical",
+          "financial",
+          "marketing"
+        ],
+        "correctAnswer": "legal and ethical"
+      },
+      {
+        "id": "iiot-w11-q4",
+        "text": "What is 'algorithmic bias' in the context of IIoT?",
+        "options": [
+          "When an algorithm is too efficient",
+          "When an algorithm systematically produces unfair outcomes for certain groups",
+          "When an algorithm is written in a biased programming language",
+          "When an algorithm is free of errors"
+        ],
+        "correctAnswer": "When an algorithm systematically produces unfair outcomes for certain groups"
+      },
+      {
+        "id": "iiot-w11-q5",
+        "text": "An IIoT system that predicts which employees are likely to quit their jobs could be used unethically to:",
+        "options": [
+          "Offer incentives to high-performing employees to stay",
+          "Proactively deny promotions or opportunities to those employees",
+          "Improve the work environment to increase retention",
+          "Conduct anonymous surveys about job satisfaction"
+        ],
+        "correctAnswer": "Proactively deny promotions or opportunities to those employees"
+      },
+      {
+        "id": "iiot-w11-q6",
+        "text": "The 'digital divide' in the context of Industry 4.0 refers to:",
+        "options": [
+          "The gap between digital and analog signals",
+          "The gap between companies/countries that have access to and skills for new technologies and those that do not",
+          "The physical distance between a sensor and the cloud",
+          "A software bug"
+        ],
+        "correctAnswer": "The gap between companies/countries that have access to and skills for new technologies and those that do not"
+      },
+      {
+        "id": "iiot-w11-q7",
+        "text": "What is a key principle of 'responsible AI'?",
+        "options": [
+          "Making AI as complex as possible",
+          "Ensuring AI systems are fair, transparent, and accountable",
+          "Keeping the workings of AI systems a complete secret",
+          "Focusing only on profitability"
+        ],
+        "correctAnswer": "Ensuring AI systems are fair, transparent, and accountable"
+      },
+      {
+        "id": "iiot-w11-q8",
+        "text": "The environmental impact of IIoT includes:",
+        "options": [
+          "Only positive impacts, such as energy efficiency",
+          "Only negative impacts, such as e-waste",
+          "Both potential positive (e.g., resource optimization) and negative (e.g., energy consumption of data centers, e-waste) impacts",
+          "No environmental impact"
+        ],
+        "correctAnswer": "Both potential positive (e.g., resource optimization) and negative (e.g., energy consumption of data centers, e-waste) impacts"
+      },
+      {
+        "id": "iiot-w11-q9",
+        "text": "Why is the 'right to explanation' a significant topic for AI and IIoT?",
+        "options": [
+          "It is not significant",
+          "It ensures that individuals can understand the basis for decisions made by automated systems",
+          "It requires all AI to be simple enough for a child to understand",
+          "It gives companies the right to explain their high profits"
+        ],
+        "correctAnswer": "It ensures that individuals can understand the basis for decisions made by automated systems"
+      },
+      {
+        "id": "iiot-w11-q10",
+        "text": "A potential societal impact of widespread IIoT adoption is:",
+        "options": [
+          "A decrease in the need for education",
+          "A shift in the workforce skills required, demanding more data science and technical expertise",
+          "The elimination of all manual labor jobs overnight",
+          "A return to pre-industrial lifestyles"
+        ],
+        "correctAnswer": "A shift in the workforce skills required, demanding more data science and technical expertise"
+      }
+    ]
+}

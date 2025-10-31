@@ -1,0 +1,117 @@
+{
+    "id": "iiot-week4-assign4",
+    "title": "Week 4: Assignment 4",
+    "week": 4,
+    "questions": [
+      {
+        "id": "iiot-w4-q1",
+        "text": "Which of these is an example of a 'Smart Factory' application?",
+        "options": [
+          "Manual quality inspection",
+          "Predictive maintenance on machinery",
+          "Paper-based work orders",
+          "Fixed-schedule machine operation"
+        ],
+        "correctAnswer": "Predictive maintenance on machinery"
+      },
+      {
+        "id": "iiot-w4-q2",
+        "text": "How does IIoT contribute to supply chain optimization?",
+        "options": [
+          "By making all deliveries happen at night",
+          "By providing real-time tracking and monitoring of goods",
+          "By eliminating the need for warehouses",
+          "By replacing human workers with robots in all roles"
+        ],
+        "correctAnswer": "By providing real-time tracking and monitoring of goods"
+      },
+      {
+        "id": "iiot-w4-q3",
+        "text": "In 'Smart Agriculture', what can IIoT sensors be used for?",
+        "options": [
+          "To change the weather",
+          "To monitor soil moisture and nutrient levels",
+          "To automatically plant seeds from the cloud",
+          "To communicate with birds"
+        ],
+        "correctAnswer": "To monitor soil moisture and nutrient levels"
+      },
+      {
+        "id": "iiot-w4-q4",
+        "text": "A 'Smart Grid' uses IIoT technology to:",
+        "options": [
+          "Generate more electricity from the same sources",
+          "Make electricity free for everyone",
+          "Improve the efficiency, reliability, and sustainability of electricity distribution",
+          "Store electricity indefinitely"
+        ],
+        "correctAnswer": "Improve the efficiency, reliability, and sustainability of electricity distribution"
+      },
+      {
+        "id": "iiot-w4-q5",
+        "text": "Predictive maintenance is a key benefit of IIoT. What does it involve?",
+        "options": [
+          "Repairing equipment only after it breaks down",
+          "Maintaining all equipment on a fixed, rigid schedule",
+          "Using data analytics to predict when equipment will fail and servicing it beforehand",
+          "Replacing all equipment annually"
+        ],
+        "correctAnswer": "Using data analytics to predict when equipment will fail and servicing it beforehand"
+      },
+      {
+        "id": "iiot-w4-q6",
+        "text": "In healthcare, IIoT (often called IoMT - Internet of Medical Things) can be used for:",
+        "options": [
+          "Diagnosing all diseases automatically",
+          "Remote patient monitoring",
+          "Replacing doctors with robots",
+          "Manufacturing medicines at home"
+        ],
+        "correctAnswer": "Remote patient monitoring"
+      },
+      {
+        "id": "iiot-w4-q7",
+        "text": "What is a major challenge in implementing IIoT in existing 'brownfield' industrial environments?",
+        "options": [
+          "There is no challenge; it is always easy",
+          "Lack of available electricity",
+          "Integrating new IIoT technology with legacy systems and equipment",
+          "Employees are too familiar with old systems"
+        ],
+        "correctAnswer": "Integrating new IIoT technology with legacy systems and equipment"
+      },
+      {
+        "id": "iiot-w4-q8",
+        "text": "What does OEE (Overall Equipment Effectiveness) measure?",
+        "options": [
+          "The age of the equipment",
+          "The manufacturing productivity, combining availability, performance, and quality",
+          "The color of the equipment",
+          "The number of people required to operate the equipment"
+        ],
+        "correctAnswer": "The manufacturing productivity, combining availability, performance, and quality"
+      },
+      {
+        "id": "iiot-w4-q9",
+        "text": "How can a digital twin be used in a smart factory?",
+        "options": [
+          "As a replacement for all physical machines",
+          "To simulate and test production changes without affecting the physical line",
+          "As a video game for employees",
+          "To store employee records"
+        ],
+        "correctAnswer": "To simulate and test production changes without affecting the physical line"
+      },
+      {
+        "id": "iiot-w4-q10",
+        "text": "Which of these is a benefit of using IIoT in the oil and gas industry?",
+        "options": [
+          "Finding new oil reserves automatically",
+          "Making oil cheaper",
+          "Monitoring pipeline integrity and preventing leaks",
+          "Changing the chemical composition of oil"
+        ],
+        "correctAnswer": "Monitoring pipeline integrity and preventing leaks"
+      }
+    ]
+}

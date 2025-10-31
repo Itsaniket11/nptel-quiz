@@ -1,0 +1,117 @@
+{
+    "id": "iiot-week10-assign10",
+    "title": "Week 10: Assignment 10",
+    "week": 10,
+    "questions": [
+      {
+        "id": "iiot-w10-q1",
+        "text": "Which business model focuses on selling outcomes or results rather than physical products?",
+        "options": [
+          "Product-as-a-Service (PaaS)",
+          "Software-as-a-Service (SaaS)",
+          "Asset Efficiency-as-a-Service",
+          "All of the above"
+        ],
+        "correctAnswer": "All of the above"
+      },
+      {
+        "id": "iiot-w10-q2",
+        "text": "A jet engine manufacturer charging airlines per hour of flight time instead of selling the engine outright is an example of:",
+        "options": [
+          "A traditional sales model",
+          "A leasing model",
+          "Product-as-a-Service",
+          "A subscription box model"
+        ],
+        "correctAnswer": "Product-as-a-Service"
+      },
+      {
+        "id": "iiot-w10-q3",
+        "text": "What is the key enabler for Product-as-a-Service models in the industrial sector?",
+        "options": [
+          "Better marketing",
+          "IIoT and the ability to monitor asset performance in real-time",
+          "Lower manufacturing costs",
+          "Faster shipping"
+        ],
+        "correctAnswer": "IIoT and the ability to monitor asset performance in real-time"
+      },
+      {
+        "id": "iiot-w10-q4",
+        "text": "What is a major benefit for the customer in a PaaS model?",
+        "options": [
+          "They own the asset completely",
+          "They shift from a large capital expenditure (CapEx) to a more predictable operating expenditure (OpEx)",
+          "They are responsible for all maintenance and repairs",
+          "The product is guaranteed to never fail"
+        ],
+        "correctAnswer": "They shift from a large capital expenditure (CapEx) to a more predictable operating expenditure (OpEx)"
+      },
+      {
+        "id": "iiot-w10-q5",
+        "text": "For the provider, a key advantage of the PaaS model is:",
+        "options": [
+          "They sell more physical units",
+          "They have no ongoing relationship with the customer",
+          "It creates a recurring revenue stream and a long-term customer relationship",
+          "It simplifies their manufacturing process"
+        ],
+        "correctAnswer": "It creates a recurring revenue stream and a long-term customer relationship"
+      },
+      {
+        "id": "iiot-w10-q6",
+        "text": "What is the 'platform economy' in the context of IIoT?",
+        "options": [
+          "An economy based on selling physical platforms",
+          "Digital platforms that connect different groups of users (e.g., manufacturers, service providers, customers)",
+          "A type of factory layout",
+          "An economic theory from the 18th century"
+        ],
+        "correctAnswer": "Digital platforms that connect different groups of users (e.g., manufacturers, service providers, customers)"
+      },
+      {
+        "id": "iiot-w10-q7",
+        "text": "Siemens' MindSphere and GE's Predix are examples of:",
+        "options": [
+          "New types of sensors",
+          "IIoT platforms",
+          "Energy sources",
+          "Robotic arms"
+        ],
+        "correctAnswer": "IIoT platforms"
+      },
+      {
+        "id": "iiot-w10-q8",
+        "text": "The 'gig economy' model, when applied to manufacturing, might look like:",
+        "options": [
+          "Hiring only full-time, permanent factory workers",
+          "A platform that connects businesses needing parts made with manufacturers who have spare production capacity",
+          "Every factory operating 24/7",
+          "Using only manual labor"
+        ],
+        "correctAnswer": "A platform that connects businesses needing parts made with manufacturers who have spare production capacity"
+      },
+      {
+        "id": "iiot-w10-q9",
+        "text": "A significant challenge in transitioning to a PaaS business model is:",
+        "options": [
+          "The technology is not advanced enough",
+          "The need for a cultural shift in the organization and managing financial risk during the transition",
+          "Customers prefer buying products outright",
+          "It is impossible to track product usage"
+        ],
+        "correctAnswer": "The need for a cultural shift in the organization and managing financial risk during the transition"
+      },
+      {
+        "id": "iiot-w10-q10",
+        "text": "Data monetization in IIoT refers to:",
+        "options": [
+          "Selling raw sensor data to the highest bidder without any privacy concerns",
+          "Using collected data to improve efficiency, create new services, or generate revenue",
+          "Deleting all collected data to save storage costs",
+          "Printing out all data on paper"
+        ],
+        "correctAnswer": "Using collected data to improve efficiency, create new services, or generate revenue"
+      }
+    ]
+}

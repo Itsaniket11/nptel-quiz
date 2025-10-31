@@ -1,0 +1,117 @@
+{
+    "id": "iiot-week3-assign3",
+    "title": "Week 3: Assignment 3",
+    "week": 3,
+    "questions": [
+      {
+        "id": "iiot-w3-q1",
+        "text": "What is a major security concern for IIoT devices?",
+        "options": [
+          "Physical theft of devices",
+          "Unauthorized access and control",
+          "High power consumption",
+          "Limited color options for device casings"
+        ],
+        "correctAnswer": "Unauthorized access and control"
+      },
+      {
+        "id": "iiot-w3-q2",
+        "text": "What is the purpose of data encryption in IIoT?",
+        "options": [
+          "To increase data transmission speed",
+          "To compress data size",
+          "To protect data from being read by unauthorized parties",
+          "To convert data to a different language"
+        ],
+        "correctAnswer": "To protect data from being read by unauthorized parties"
+      },
+      {
+        "id": "iiot-w3-q3",
+        "text": "A 'man-in-the-middle' attack in an IIoT context involves:",
+        "options": [
+          "Physically blocking a sensor's view",
+          "Sending a flood of data to a server",
+          "Intercepting and possibly altering communication between two devices",
+          "An employee intentionally causing a system failure"
+        ],
+        "correctAnswer": "Intercepting and possibly altering communication between two devices"
+      },
+      {
+        "id": "iiot-w3-q4",
+        "text": "What is a secure boot process in an IIoT device?",
+        "options": [
+          "A boot process that is very fast",
+          "A process that verifies the digital signature of software before it runs",
+          "A process that requires a physical key to start the device",
+          "A process that erases all data on startup"
+        ],
+        "correctAnswer": "A process that verifies the digital signature of software before it runs"
+      },
+      {
+        "id": "iiot-w3-q5",
+        "text": "Which of the following is a best practice for securing IIoT devices?",
+        "options": [
+          "Using default factory passwords",
+          "Disabling all security features to improve performance",
+          "Regularly updating firmware and software",
+          "Connecting all devices directly to the public internet"
+        ],
+        "correctAnswer": "Regularly updating firmware and software"
+      },
+      {
+        "id": "iiot-w3-q6",
+        "text": "What does 'air-gapping' refer to in industrial security?",
+        "options": [
+          "Increasing the physical space between machines",
+          "Isolating a computer or network from unsecured networks, like the public internet",
+          "A type of cooling system for servers",
+          "A wireless communication protocol"
+        ],
+        "correctAnswer": "Isolating a computer or network from unsecured networks, like the public internet"
+      },
+      {
+        "id": "iiot-w3-q7",
+        "text": "A Distributed Denial of Service (DDoS) attack on an IIoT system aims to:",
+        "options": [
+          "Steal sensitive data",
+          "Make a service unavailable by overwhelming it with traffic",
+          "Gain control of a physical machine",
+          "Install malware on devices"
+        ],
+        "correctAnswer": "Make a service unavailable by overwhelming it with traffic"
+      },
+      {
+        "id": "iiot-w3-q8",
+        "text": "What role does a 'Root of Trust' play in IIoT security?",
+        "options": [
+          "It's the main server in the cloud",
+          "It's a software library for data analysis",
+          "It is a highly reliable hardware or software component that is trusted to provide security functions",
+          "It's the lead engineer on a project"
+        ],
+        "correctAnswer": "It is a highly reliable hardware or software component that is trusted to provide security functions"
+      },
+      {
+        "id": "iiot-w3-q9",
+        "text": "Which standard is commonly associated with cybersecurity for industrial automation and control systems?",
+        "options": [
+          "ISO 9001",
+          "IEEE 802.11",
+          "ISA/IEC 62443",
+          "Bluetooth 5.0"
+        ],
+        "correctAnswer": "ISA/IEC 62443"
+      },
+      {
+        "id": "iiot-w3-q10",
+        "text": "What is the principle of 'least privilege' in cybersecurity?",
+        "options": [
+          "Giving all users maximum access to simplify management",
+          "Giving a user or system only the access rights necessary to perform its specific task",
+          "The least important devices have the most access",
+          "Giving temporary access to everyone"
+        ],
+        "correctAnswer": "Giving a user or system only the access rights necessary to perform its specific task"
+      }
+    ]
+}

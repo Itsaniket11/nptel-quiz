@@ -1,0 +1,117 @@
+{
+    "id": "iiot-week7-assign7",
+    "title": "Week 7: Assignment 7",
+    "week": 7,
+    "questions": [
+      {
+        "id": "iiot-w7-q1",
+        "text": "What is 'edge computing' in the context of IIoT?",
+        "options": [
+          "A type of cloud computing located at the edge of the world",
+          "Processing data on a centralized cloud server",
+          "Moving computation and data storage closer to the sources of data",
+          "A new type of computer monitor"
+        ],
+        "correctAnswer": "Moving computation and data storage closer to the sources of data"
+      },
+      {
+        "id": "iiot-w7-q2",
+        "text": "What is a primary advantage of edge computing over cloud computing for IIoT applications?",
+        "options": [
+          "Unlimited storage capacity",
+          "Reduced latency for real-time decisions",
+          "Higher processing power for large-scale model training",
+          "Simpler security management"
+        ],
+        "correctAnswer": "Reduced latency for real-time decisions"
+      },
+      {
+        "id": "iiot-w7-q3",
+        "text": "Which of the following tasks is most suitable for an edge device?",
+        "options": [
+          "Long-term archival of historical factory data",
+          "Training a complex deep learning model with terabytes of data",
+          "Immediate shutdown of a machine upon detecting a critical anomaly",
+          "Running the company's enterprise resource planning (ERP) system"
+        ],
+        "correctAnswer": "Immediate shutdown of a machine upon detecting a critical anomaly"
+      },
+      {
+        "id": "iiot-w7-q4",
+        "text": "What is 'fog computing'?",
+        "options": [
+          "Another term for cloud computing",
+          "Computing in misty or foggy weather conditions",
+          "A decentralized computing infrastructure where data, compute, storage, and applications are distributed between the data source and the cloud",
+          "A type of quantum computer"
+        ],
+        "correctAnswer": "A decentralized computing infrastructure where data, compute, storage, and applications are distributed between the data source and the cloud"
+      },
+      {
+        "id": "iiot-w7-q5",
+        "text": "How do edge and fog computing relate to each other?",
+        "options": [
+          "They are the same thing",
+          "Edge computing is a subset of fog computing",
+          "Fog computing is a layer that sits between the edge and the cloud",
+          "They are completely unrelated concepts"
+        ],
+        "correctAnswer": "Fog computing is a layer that sits between the edge and the cloud"
+      },
+      {
+        "id": "iiot-w7-q6",
+        "text": "A smart camera that performs on-device object detection to identify defects on a production line is an example of:",
+        "options": [
+          "Cloud computing",
+          "Edge computing",
+          "Mainframe computing",
+          "Grid computing"
+        ],
+        "correctAnswer": "Edge computing"
+      },
+      {
+        "id": "iiot-w7-q7",
+        "text": "Which of these is a potential drawback of edge computing?",
+        "options": [
+          "Increased network bandwidth usage",
+          "Higher latency",
+          "Limited processing and storage resources on edge devices",
+          "Centralized point of failure"
+        ],
+        "correctAnswer": "Limited processing and storage resources on edge devices"
+      },
+      {
+        "id": "iiot-w7-q8",
+        "text": "A hybrid IIoT architecture typically involves a combination of:",
+        "options": [
+          "Only edge devices and cloud",
+          "Only fog devices and cloud",
+          "Edge devices, fog computing, and cloud computing",
+          "Only on-premise servers"
+        ],
+        "correctAnswer": "Edge devices, fog computing, and cloud computing"
+      },
+      {
+        "id": "iiot-w7-q9",
+        "text": "Why is edge computing important for autonomous vehicles?",
+        "options": [
+          "It allows the car to stream movies from the cloud",
+          "It is not important for autonomous vehicles",
+          "It enables low-latency decisions for obstacle avoidance and navigation",
+          "It helps the car choose the best music playlist"
+        ],
+        "correctAnswer": "It enables low-latency decisions for obstacle avoidance and navigation"
+      },
+      {
+        "id": "iiot-w7-q10",
+        "text": "What is a 'micro data center' in the context of edge computing?",
+        "options": [
+          "A very large, centralized data center",
+          "A small, self-contained data center located closer to where data is generated",
+          "A data center that only stores a small amount of data",
+          "A data center powered by microscopic batteries"
+        ],
+        "correctAnswer": "A small, self-contained data center located closer to where data is generated"
+      }
+    ]
+}

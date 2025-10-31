@@ -1,0 +1,117 @@
+{
+    "id": "iiot-week8-assign8",
+    "title": "Week 8: Assignment 8",
+    "week": 8,
+    "questions": [
+      {
+        "id": "iiot-w8-q1",
+        "text": "What is Augmented Reality (AR) in an industrial context?",
+        "options": [
+          "A completely computer-generated environment",
+          "Overlapping computer-generated information onto the real world",
+          "A video game about factories",
+          "A type of advanced robotics"
+        ],
+        "correctAnswer": "Overlapping computer-generated information onto the real world"
+      },
+      {
+        "id": "iiot-w8-q2",
+        "text": "Which of the following is a primary use case for AR in industrial maintenance?",
+        "options": [
+          "Playing games during breaks",
+          "Providing remote expert assistance and displaying step-by-step instructions",
+          "Projecting movies onto factory walls",
+          "Ordering lunch for the maintenance crew"
+        ],
+        "correctAnswer": "Providing remote expert assistance and displaying step-by-step instructions"
+      },
+      {
+        "id": "iiot-w8-q3",
+        "text": "How does Virtual Reality (VR) differ from Augmented Reality (AR)?",
+        "options": [
+          "VR overlays digital info on the real world, while AR creates a fully immersive virtual environment",
+          "AR overlays digital info on the real world, while VR creates a fully immersive virtual environment",
+          "There is no difference",
+          "VR uses glasses, while AR uses a headset"
+        ],
+        "correctAnswer": "AR overlays digital info on the real world, while VR creates a fully immersive virtual environment"
+      },
+      {
+        "id": "iiot-w8-q4",
+        "text": "What is a key application of VR in Industry 4.0?",
+        "options": [
+          "Real-time monitoring of live factory operations",
+          "Training employees on complex machinery in a safe, simulated environment",
+          "Conducting physical repairs on equipment",
+          "Communicating with customers"
+        ],
+        "correctAnswer": "Training employees on complex machinery in a safe, simulated environment"
+      },
+      {
+        "id": "iiot-w8-q5",
+        "text": "Additive Manufacturing is more commonly known as:",
+        "options": [
+          "Robotic welding",
+          "3D Printing",
+          "Laser cutting",
+          "CNC machining"
+        ],
+        "correctAnswer": "3D Printing"
+      },
+      {
+        "id": "iiot-w8-q6",
+        "text": "What is a major advantage of additive manufacturing over traditional subtractive manufacturing?",
+        "options": [
+          "It is always faster for mass production",
+          "It can create complex geometries and custom parts with less material waste",
+          "It uses cheaper materials",
+          "It requires less-skilled operators"
+        ],
+        "correctAnswer": "It can create complex geometries and custom parts with less material waste"
+      },
+      {
+        "id": "iiot-w8-q7",
+        "text": "What is an autonomous robot?",
+        "options": [
+          "A robot that is directly controlled by a human at all times",
+          "A robot that can perform tasks without continuous human guidance",
+          "A robot that can only perform one specific task",
+          "A stationary robotic arm"
+        ],
+        "correctAnswer": "A robot that can perform tasks without continuous human guidance"
+      },
+      {
+        "id": "iiot-w8-q8",
+        "text": "Collaborative robots, or 'cobots', are designed to:",
+        "options": [
+          "Work in complete isolation from humans",
+          "Replace all human workers in a factory",
+          "Work safely alongside human employees",
+          "Only perform administrative tasks"
+        ],
+        "correctAnswer": "Work safely alongside human employees"
+      },
+      {
+        "id": "iiot-w8-q9",
+        "text": "Which technology is used by many autonomous mobile robots (AMRs) to navigate a warehouse?",
+        "options": [
+          "GPS (indoors)",
+          "Following magnetic strips on the floor",
+          "LIDAR and computer vision",
+          "Remote control by an operator"
+        ],
+        "correctAnswer": "LIDAR and computer vision"
+      },
+      {
+        "id": "iiot-w8-q10",
+        "text": "The integration of IIoT with robotics allows for:",
+        "options": [
+          "Robots that cannot be reprogrammed",
+          "Real-time monitoring of robot performance and predictive maintenance",
+          "Slower and less efficient robots",
+          "Robots that can only be controlled via a wired connection"
+        ],
+        "correctAnswer": "Real-time monitoring of robot performance and predictive maintenance"
+      }
+    ]
+}

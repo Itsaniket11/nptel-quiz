@@ -1,0 +1,117 @@
+{
+    "id": "iiot-week1-assign1",
+    "title": "Week 1: Assignment 1",
+    "week": 1,
+    "questions": [
+      {
+        "id": "iiot-w1-q1",
+        "text": "What is the primary driver of the Fourth Industrial Revolution (Industry 4.0)?",
+        "options": [
+          "Steam power",
+          "Electricity",
+          "Cyber-physical systems",
+          "Assembly lines"
+        ],
+        "correctAnswer": "Cyber-physical systems"
+      },
+      {
+        "id": "iiot-w1-q2",
+        "text": "Which of the following is a key characteristic of Industry 4.0?",
+        "options": [
+          "Mass production",
+          "Manual labor",
+          "Interoperability",
+          "Analog data"
+        ],
+        "correctAnswer": "Interoperability"
+      },
+      {
+        "id": "iiot-w1-q3",
+        "text": "The Industrial Internet of Things (IIoT) primarily focuses on:",
+        "options": [
+          "Consumer electronics",
+          "Social media applications",
+          "Industrial sectors like manufacturing and energy",
+          "Personal fitness tracking"
+        ],
+        "correctAnswer": "Industrial sectors like manufacturing and energy"
+      },
+      {
+        "id": "iiot-w1-q4",
+        "text": "What does 'Cyber-Physical System' (CPS) mean in the context of IIoT?",
+        "options": [
+          "A system that only exists in cyberspace.",
+          "A physical system controlled by a human operator.",
+          "Integration of computation, networking, and physical processes.",
+          "A software simulation of a physical system."
+        ],
+        "correctAnswer": "Integration of computation, networking, and physical processes."
+      },
+      {
+        "id": "iiot-w1-q5",
+        "text": "Which technology enables objects to be uniquely identified and tracked using radio waves?",
+        "options": [
+          "Bluetooth",
+          "Wi-Fi",
+          "RFID",
+          "GPS"
+        ],
+        "correctAnswer": "RFID"
+      },
+      {
+        "id": "iiot-w1-q6",
+        "text": "What is the role of sensors in an IIoT ecosystem?",
+        "options": [
+          "To perform complex calculations",
+          "To display information to users",
+          "To collect data from the physical environment",
+          "To store historical data"
+        ],
+        "correctAnswer": "To collect data from the physical environment"
+      },
+      {
+        "id": "iiot-w1-q7",
+        "text": "Which of the following is NOT a core component of an IIoT architecture?",
+        "options": [
+          "Edge devices (sensors, actuators)",
+          "Connectivity (network)",
+          "Cloud platform",
+          "Manual data entry terminal"
+        ],
+        "correctAnswer": "Manual data entry terminal"
+      },
+      {
+        "id": "iiot-w1-q8",
+        "text": "The concept of a 'digital twin' refers to:",
+        "options": [
+          "A backup of industrial data.",
+          "A virtual model of a physical asset or process.",
+          "Two identical physical machines.",
+          "A security protocol for IIoT devices."
+        ],
+        "correctAnswer": "A virtual model of a physical asset or process."
+      },
+      {
+        "id": "iiot-w1-q9",
+        "text": "What was the main innovation of the Third Industrial Revolution?",
+        "options": [
+          "Mechanization",
+          "Automation and electronics",
+          "Internet of Things",
+          "Steam engines"
+        ],
+        "correctAnswer": "Automation and electronics"
+      },
+      {
+        "id": "iiot-w1-q10",
+        "text": "The term 'Industry 4.0' originated in which country?",
+        "options": [
+          "USA",
+          "Japan",
+          "Germany",
+          "China"
+        ],
+        "correctAnswer": "Germany"
+      }
+    ]
+}
