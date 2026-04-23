@@ -41,6 +41,11 @@
       "description": "A robotic arm working on a modern factory assembly line, representing industrial automation.",
       "imageUrl": "https://images.unsplash.com/photo-1567789884554-0b844b597180?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "imageHint": "factory automation"
+    },{
+      "id": "IntroductionToCognitivePsychology",
+      "description": "congnitive psyhology",
+      "imageUrl": "https://kommodo.ai/i/odyMCi3KNRIhq4szcCGI",
+      "imageHint": "pschology"
     }
   ]
 }
