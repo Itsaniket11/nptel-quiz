@@ -57,7 +57,7 @@
           "Persistent Social links",
           "Replies"
         ],
-        "correctAnswer": "Replies"
+        "correctAnswer": ["Replies"]
       },
       {
         "id": "psosm-w8-q7",

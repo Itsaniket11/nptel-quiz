@@ -58,7 +58,7 @@
           "Links present in the email",
           "Name of the person sending the email."
         ],
-        "correctAnswer": "Subject line"
+        "correctAnswer": ["Subject line", "Urgency in the body", "Links present in the email"]
       },
       {
         "id": "psosm-w7-q8",
@@ -75,7 +75,7 @@
           "By disclosing all private information on Facebook",
           "By opening all links present in an email"
         ],
-        "correctAnswer": "By educating the users"
+        "correctAnswer": ["By educating the users", "By using browser extensions"]
       },
       {
         "id": "psosm-w7-q10",

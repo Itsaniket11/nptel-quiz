@@ -1,8 +1,9 @@
+
 export interface Question {
   id: string;
   text: string;
   options: string[];
-  correctAnswer: string;
+  correctAnswer: string | string[]; // Can be a single string, or an array for multiple answers
 }
 
 export interface Quiz {
@@ -30,8 +31,8 @@ export interface LeaderboardEntry {
 export interface AnswerData {
     questionId: string;
     questionText: string;
-    selectedAnswer: string;
-    correctAnswer: string;
+    selectedAnswer: string | string[]; // Can be a single string or an array for multi-choice
+    correctAnswer: string | string[];
     isCorrect: boolean;
     timeSpent: number;
 }

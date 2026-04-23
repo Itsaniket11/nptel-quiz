@@ -1,69 +1,67 @@
-
 {
-    "id": "orgbeh-week12-assign1",
-    "title": "Week 12: Assignment 1",
-    "week": 12,
-    "questions": [
-      {
-        "id": "orgbeh-w12-q1",
-        "text": "Redesigning business processes to increase organizational effectiveness is called:",
-        "options": ["Restructuring", "Reengineering", "Organizational Ethics", "Downsizing"],
-        "correctAnswer": "Reengineering"
-      },
-      {
-        "id": "orgbeh-w12-q2",
-        "text": "Revolutionary change happens slowly in an organization and on its own.",
-        "options": ["True", "False"],
-        "correctAnswer": "False"
-      },
-      {
-        "id": "orgbeh-w12-q3",
-        "text": "The formal system of task and authority relationships that control how people coordinate their actions and use resources to achieve organizational goals is called:",
-        "options": ["Organizational structure", "Organizational change", "Cognitive biases", "Resource allocation"],
-        "correctAnswer": "Organizational structure"
-      },
-      {
-        "id": "orgbeh-w12-q4",
-        "text": "Indian Railways having different zones of operation like Southern Railways, Central Railway etc. is an example of:",
-        "options": ["Horizontal differentiation", "Vertical differentiation", "Spatial differentiation", "None of the above"],
-        "correctAnswer": "Spatial differentiation"
-      },
-      {
-        "id": "orgbeh-w12-q5",
-        "text": "Defining employees’ roles through formal documentation is a part of formalization.",
-        "options": ["True", "False"],
-        "correctAnswer": "True"
-      },
-      {
-        "id": "orgbeh-w12-q6",
-        "text": "___ can provide more inputs into decision making and will help in reducing information overload.",
-        "options": ["Centralization", "Decentralization", "Environmental uncertainty", "None of the above"],
-        "correctAnswer": "Decentralization"
-      },
-      {
-        "id": "orgbeh-w12-q7",
-        "text": "According to life-cycle perspective, the stage of organizational life cycle where the goals are ambiguous but there is a lot of creativity is called:",
-        "options": ["Formalization-and-control stage", "Collectivity stage", "Elaboration-of-structure stage", "Entrepreneurial stage"],
-        "correctAnswer": "Entrepreneurial stage"
-      },
-      {
-        "id": "orgbeh-w12-q8",
-        "text": "The life-cycle perspective sees the organization as an organism.",
-        "options": ["True", "False"],
-        "correctAnswer": "True"
-      },
-      {
-        "id": "orgbeh-w12-q9",
-        "text": "A set of interrelated and interdependent parts arranged in a manner that produces a unified whole is called:",
-        "options": ["System", "Training", "Rituals", "Span of control"],
-        "correctAnswer": "System"
-      },
-      {
-        "id": "orgbeh-w12-q10",
-        "text": "Closed systems differentiate too much from the larger system and have their own identity.",
-        "options": ["True", "False"],
-        "correctAnswer": "True"
-      }
-    ]
-  }
-  
+  "id": "orgbeh-week6-assign1",
+  "title": "Week 6: Assignment 1",
+  "week": 6,
+  "questions": [
+    {
+      "id": "orgbeh-w6-q1",
+      "text": "The need to be part of a group is categorized as:",
+      "options": ["Achievement motive", "Affiliation motive", "Power motive", "Role conflict"],
+      "correctAnswer": "Affiliation motive"
+    },
+    {
+      "id": "orgbeh-w6-q2",
+      "text": "John had applied for several jobs after graduation. One day he received a job offer from Tata Motors and Mahindra Group, both of which he loved to work. The conflict Mr. John is facing in selecting one job is called:",
+      "options": ["Role Conflict", "Approach-avoidance conflict", "Approach-approach conflict", "Avoidance-avoidance conflict"],
+      "correctAnswer": "Approach-approach conflict"
+    },
+    {
+      "id": "orgbeh-w6-q3",
+      "text": "Money is a form of extrinsic motivation.",
+      "options": ["True", "False"],
+      "correctAnswer": "True"
+    },
+    {
+      "id": "orgbeh-w6-q4",
+      "text": "According to Maslow’s hierarchy of needs, the highest level of needs one can achieve is:",
+      "options": ["Self-actualization", "Social Needs", "Esteem needs", "Safety needs"],
+      "correctAnswer": "Self-actualization"
+    },
+    {
+      "id": "orgbeh-w6-q5",
+      "text": "According to Herzberg’s two-factor theory of motivation, pay and security provided by a job is a Motivator.",
+      "options": ["True", "False"],
+      "correctAnswer": "False"
+    },
+    {
+      "id": "orgbeh-w6-q6",
+      "text": "In Alderfer’s ERG theory of motivation, R stands for",
+      "options": ["Reputation", "Regression", "Resilience", "Relatedness"],
+      "correctAnswer": "Relatedness"
+    },
+    {
+      "id": "orgbeh-w6-q7",
+      "text": "____________ means that employees feel that the organization treats its employees in a fair manner and a just way.",
+      "options": ["Intra-personal conflict", "Self-esteem", "Power motive", "Organizational Justice Climate"],
+      "correctAnswer": "Organizational Justice Climate"
+    },
+    {
+      "id": "orgbeh-w6-q8",
+      "text": "____________ is when you are moving towards a certain goal, but certain barriers are stopping you from achieving that goal.",
+      "options": ["Goal conflict", "Role conflict", "Frustration", "Satisfaction"],
+      "correctAnswer": "Frustration"
+    },
+    {
+      "id": "orgbeh-w6-q9",
+      "text": "___________ is the willingness of a person to put high levels of efforts to reach a goal.",
+      "options": ["Emotions", "Motivation", "Frustration", "Incentives"],
+      "correctAnswer": "Motivation"
+    },
+    {
+      "id": "orgbeh-w6-q10",
+      "text": "One of the drawbacks of using money as a motivator is that it can reduce extra-role performance.",
+      "options": ["True", "False"],
+      "correctAnswer": "True"
+    }
+  ]
+}

@@ -51,17 +51,17 @@ export const getCourses = (): Course[] => {
 export default function CoursesPage() {
   const courses = getCourses();
   return (
-    <div className="container py-8">
+    <div className="container py-8 animate-fade-in-down">
       <div className="mb-8">
         <h1 className="text-3xl md:text-4xl font-headline font-bold">Courses</h1>
         <p className="text-muted-foreground mt-2">Choose a course to start your learning journey.</p>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-        {courses.map((course) => {
+        {courses.map((course, index) => {
           const placeholder = PlaceHolderImages.find(p => p.id === course.imageId);
           return (
-            <Link href={`/courses/${course.id}`} key={course.id} className="group">
-              <Card className="h-full flex flex-col transition-all duration-300 group-hover:border-primary group-hover:shadow-lg group-hover:shadow-primary/10">
+            <Link href={`/courses/${course.id}`} key={course.id} className="group animate-fade-in-up" style={{ animationDelay: `${index * 100}ms`, animationFillMode: 'backwards' }}>
+              <Card className="h-full flex flex-col transition-all duration-300 group-hover:border-primary group-hover:shadow-lg group-hover:shadow-primary/10 group-hover:-translate-y-1">
                 <CardHeader>
                   {placeholder && (
                     <div className="overflow-hidden rounded-lg mb-4">
