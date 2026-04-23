@@ -1,0 +1,112 @@
+{
+  "id": "cogpsy-week2-assign1",
+  "title": "Week 2: Assignment 1 - Introduction To Cognitive Psychology",
+  "week": 2,
+  "questions": [
+    {
+      "id": "cogpsy-w2-q1",
+      "text": "A toy on the table represents",
+      "options": [
+        "Distal stimulus",
+        "Proximal stimulus",
+        "Retinal image",
+        "Percept"
+      ],
+      "correctAnswer": "Distal stimulus"
+    },
+    {
+      "id": "cogpsy-w2-q2",
+      "text": "A patient with prosopagnosia has difficulty recognizing:",
+      "options": [
+        "Drawing of objects.",
+        "Moving objects.",
+        "Faces.",
+        "Sounds."
+      ],
+      "correctAnswer": "Faces."
+    },
+    {
+      "id": "cogpsy-w2-q3",
+      "text": "When you let go of a balloon and it floats away from you into the sky, the size of the retinal image gets smaller and smaller. However, you do not perceive the balloon as...",
+      "options": [
+        "Pattern recognition.",
+        "Bottom-up processing.",
+        "Size constancy.",
+        "Figure-ground organization."
+      ],
+      "correctAnswer": "Size constancy."
+    },
+    {
+      "id": "cogpsy-w2-q4",
+      "text": "The meaningful interpretation of a proximal stimulus is called the:",
+      "options": [
+        "Percept.",
+        "Sensation.",
+        "Distal stimulus.",
+        "Retinal Image"
+      ],
+      "correctAnswer": "Percept."
+    },
+    {
+      "id": "cogpsy-w2-q5",
+      "text": "The two best studied forms of perception are:",
+      "options": [
+        "Visual and Haptic",
+        "Visual and Olfactory",
+        "Visual and Auditory",
+        "Auditory and Olfactory"
+      ],
+      "correctAnswer": "Visual and Auditory"
+    },
+    {
+      "id": "cogpsy-w2-q6",
+      "text": "Which of the following represents a good example of a proximal stimulus?",
+      "options": [
+        "Option A (Missing from source)",
+        "Option B (Missing from source)",
+        "Option C (Missing from source)",
+        "The retinal image formed by a tree."
+      ],
+      "correctAnswer": "The retinal image formed by a tree."
+    },
+    {
+      "id": "cogpsy-w2-q7",
+      "text": "According to Gibson's theory, the acts or behaviors permitted by objects, places, and events are called:",
+      "options": [
+        "Consequences",
+        "Functions",
+        "Affordances",
+        "Direct processes"
+      ],
+      "correctAnswer": "Affordances"
+    },
+    {
+      "id": "cogpsy-w2-q8",
+      "text": "A stencil provides a good analogy for the theory of:",
+      "options": [
+        "Prototype matching.",
+        "Template matching.",
+        "Good continuation.",
+        "Featural analysis."
+      ],
+      "correctAnswer": "Template matching."
+    },
+    {
+      "id": "cogpsy-w2-q9",
+      "text": "_____ are to visual perception what phonemes are to language, according to Biederman.",
+      "options": ["Receptors", "Retinas", "Distal stimuli", "Geons"],
+      "correctAnswer": "Geons"
+    },
+    {
+      "id": "cogpsy-w2-q10",
+      "text": "The principle governing reversible figures is:",
+      "options": [
+        "Figure-ground organization",
+        "Size constancy",
+        "Dimensionality",
+        "Retinal imagery"
+      ],
+      "correctAnswer": "Figure-ground organization"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "id": "cogpsy-week7-assign7",
+  "title": "Week 7: Assignment 7",
+  "week": 7,
+  "questions": [
+    {
+      "id": "cogpsy-w7-q1",
+      "text": "According to the ______ view of concepts, people categorize new instances by comparing them to representations of previously stored instances[cite: 5].",
+      "options": ["Classical", "Prototype", "Exemplar", "Schema"],
+      "correctAnswer": "Exemplar"
+    },
+    {
+      "id": "cogpsy-w7-q2",
+      "text": "According to the typicality effect, the statement “A dog is a household pet” should be verified[cite: 13]:",
+      "options": [
+        "Faster than “a poodle is a household pet”",
+        "Faster than “a dog is a living thing”",
+        "Faster than “a ferret is a household pet”",
+        "Faster than “a dog is an animal”"
+      ],
+      "correctAnswer": "Faster than “a ferret is a household pet”"
+    },
+    {
+      "id": "cogpsy-w7-q3",
+      "text": "Which of the following would be considered an example of a “natural kind” concept? [cite: 21]",
+      "options": ["Blue", "Wolf", "Odd number", "Mirror"],
+      "correctAnswer": "Wolf"
+    },
+    {
+      "id": "cogpsy-w7-q4",
+      "text": "A schema for a routine event, such as going to the dentist, is called a: [cite: 29]",
+      "options": ["Concept", "Script", "Exemplar", "Category"],
+      "correctAnswer": "Script"
+    },
+    {
+      "id": "cogpsy-w7-q5",
+      "text": "A ________ is a mental representation of some object, event, or pattern. [cite: 37]",
+      "options": ["Category", "Concept", "Script", "Memory"],
+      "correctAnswer": "Concept"
+    },
+    {
+      "id": "cogpsy-w7-q6",
+      "text": "A ______ can be defined as a class of similar things that share either an essential core, or some similarity in perceptual, biological, or functional properties. [cite: 45]",
+      "options": ["Category", "Concept", "Script", "Schema"],
+      "correctAnswer": "Category"
+    },
+    {
+      "id": "cogpsy-w7-q7",
+      "text": "Which of the following is NOT TRUE of the classical view of concepts? [cite: 53]",
+      "options": [
+        "It proposes that concepts are mentally represented by list of features.",
+        "It assumes that membership in a category is clear-cut.",
+        "It accurately predicts the typicality effect.",
+        "‘Necessity’ and ‘sufficient’ features play an important role in the theory."
+      ],
+      "correctAnswer": "It accurately predicts the typicality effect."
+    },
+    {
+      "id": "cogpsy-w7-q8",
+      "text": "Which of the following is a good example of a basic level of categorization? [cite: 61]",
+      "options": [
+        "Musical instrument",
+        "Piano",
+        "Electronic keyboard",
+        "String instrument"
+      ],
+      "correctAnswer": "Piano"
+    },
+    {
+      "id": "cogpsy-w7-q9",
+      "text": "If “soda” is a basic-level category, then ______ would be a subordinate level. [cite: 69]",
+      "options": ["Soft drink", "Beverage", "Drink", "Coca-Cola"],
+      "correctAnswer": "Coca-Cola"
+    },
+    {
+      "id": "cogpsy-w7-q10",
+      "text": "The ______ view of concepts argues that a person uses his/her theories about the way the world works to justify the classification of instances in the same category. [cite: 77]",
+      "options": ["Classical", "Prototype", "Knowledge based", "Schema"],
+      "correctAnswer": "Knowledge based"
+    }
+  ]
+}

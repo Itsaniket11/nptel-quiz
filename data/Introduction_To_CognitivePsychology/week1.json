@@ -1,0 +1,107 @@
+{
+  "id": "cogpsy-week1-assign1",
+  "title": "Week 1: Assignment 1",
+  "week": 1,
+  "questions": [
+    {
+      "id": "cogpsy-w1-q1",
+      "text": "The school of psychology known as functionalism, which emphasized the purposes of the mind’s operations, was founded by:",
+      "options": [
+        "Wilhelm Wundt",
+        "John Watson",
+        "William James",
+        "Edward Titchener"
+      ],
+      "correctAnswer": "William James"
+    },
+    {
+      "id": "cogpsy-w1-q2",
+      "text": "The fact that you know you have seen the face before but cannot remember the name of the person, illustrates the cognitive process of:",
+      "options": ["perception", "attention", "recognition", "recall"],
+      "correctAnswer": "recognition"
+    },
+    {
+      "id": "cogpsy-w1-q3",
+      "text": "The term _________ refers to the relevance of the research to the “real world.”",
+      "options": [
+        "Internal validity",
+        "Evolutionary validity",
+        "Ecological validity",
+        "Neural validity"
+      ],
+      "correctAnswer": "Ecological validity"
+    },
+    {
+      "id": "cogpsy-w1-q4",
+      "text": "_______________ challenged the assumption that mental events were beyond the realm of scientific study.",
+      "options": [
+        "Cognitive revolution",
+        "Behaviorist rebellion",
+        "Human factor movements",
+        "Universal grammar"
+      ],
+      "correctAnswer": "Cognitive revolution"
+    },
+    {
+      "id": "cogpsy-w1-q5",
+      "text": "Since the 1970s, various techniques of _________ have allowed us to construct pictures of the anatomy and functioning of intact brains.",
+      "options": [
+        "Genetic engineering",
+        "Brain Imaging",
+        "Neurosurgery",
+        "Brain lesioning"
+      ],
+      "correctAnswer": "Brain Imaging"
+    },
+    {
+      "id": "cogpsy-w1-q6",
+      "text": "Historians date the founding of scientific psychology to the 1879 laboratory of:",
+      "options": [
+        "William James",
+        "Wilhelm Wundt",
+        "John Locke",
+        "Edward Titchener"
+      ],
+      "correctAnswer": "Wilhelm Wundt"
+    },
+    {
+      "id": "cogpsy-w1-q7",
+      "text": "The term “limited capacity processors” suggests that:",
+      "options": [
+        "Humans have limited memory storage",
+        "Human beings can only do so many things at once",
+        "Neurons can only fire at a certain rate",
+        "Processing in the brain occurs in parallel"
+      ],
+      "correctAnswer": "Human beings can only do so many things at once"
+    },
+    {
+      "id": "cogpsy-w1-q8",
+      "text": "This psychologist sought to describe the intellectual structures underlying cognitive experience at different developmental points through an approach he called genetic epistemology:",
+      "options": ["Galton", "Skinner", "Wundt", "Piaget"],
+      "correctAnswer": "Piaget"
+    },
+    {
+      "id": "cogpsy-w1-q9",
+      "text": "Clinical interviews are to introspection as ______ are to __________.",
+      "options": [
+        "Naturalistic observations; experiments",
+        "Naturalistic observations; quasi experiments",
+        "Controlled observations; naturalistic observations",
+        "Controlled observations; experiments"
+      ],
+      "correctAnswer": "Controlled observations; naturalistic observations"
+    },
+    {
+      "id": "cogpsy-w1-q10",
+      "text": "Which of the following is a basic assumption of the connectionist approach?",
+      "options": [
+        "Serial processing",
+        "Multiple stores where information is kept throughout processing",
+        "Networks of connections among simple processing units",
+        "A central processor that directs the flow of information"
+      ],
+      "correctAnswer": "Networks of connections among simple processing units"
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "id": "cogpsy-week4-assign4",
+  "title": "Week 4: Assignment 4 - Introduction To Cognitive Psychology",
+  "week": 4,
+  "questions": [
+    {
+      "id": "cogpsy-w4-q1",
+      "text": "Which of the following is NOT a component of Baddeley’s working memory model?",
+      "options": [
+        "The phonological loop",
+        "The icon",
+        "The central executive",
+        "The visuospatial sketchpad"
+      ],
+      "correctAnswer": "The icon"
+    },
+    {
+      "id": "cogpsy-w4-q2",
+      "text": "Sternberg’s classic work on searching for information from short-term memory indicated that the search process is:",
+      "options": [
+        "Serial",
+        "Self - terminating",
+        "Parallel",
+        "Both serial and exhaustive"
+      ],
+      "correctAnswer": "Both serial and exhaustive"
+    },
+    {
+      "id": "cogpsy-w4-q3",
+      "text": "In the absence of rehearsal, short-term memory tends to:",
+      "options": [
+        "Last about 20 seconds",
+        "Last about 8 seconds",
+        "Decay slowly over 24 hours",
+        "Decay slowly over a week"
+      ],
+      "correctAnswer": "Last about 20 seconds"
+    },
+    {
+      "id": "cogpsy-w4-q4",
+      "text": "The suffix effect relates to which type of memory?",
+      "options": ["Iconic", "Echoic", "Short term", "Working"],
+      "correctAnswer": "Echoic"
+    },
+    {
+      "id": "cogpsy-w4-q5",
+      "text": "Unattended information is stored briefly in:",
+      "options": [
+        "Sensory memory",
+        "Short term memory",
+        "Long term memory",
+        "Working memory"
+      ],
+      "correctAnswer": "Sensory memory"
+    },
+    {
+      "id": "cogpsy-w4-q6",
+      "text": "Retrieval involves:",
+      "options": [
+        "The activation of the senses",
+        "The translation of information into a form that can be stored",
+        "The storage of information over time",
+        "The calling to mind of previously stored information"
+      ],
+      "correctAnswer": "The calling to mind of previously stored information"
+    },
+    {
+      "id": "cogpsy-w4-q7",
+      "text": "The primacy and recency effects in memory:",
+      "options": [
+        "Are thought to be due to the action of short-term memory",
+        "Are thought to be due to the action of long-term memory",
+        "Are thought to be due to the action of sensory memory",
+        "Can be independently manipulated, indicating at least two types of memory at work"
+      ],
+      "correctAnswer": "Can be independently manipulated, indicating at least two types of memory at work"
+    },
+    {
+      "id": "cogpsy-w4-q8",
+      "text": "Information in short-term memory is assumed to be coded primarily by:",
+      "options": [
+        "Sound",
+        "Meaning",
+        "Visual appearance",
+        "Both sound and meaning"
+      ],
+      "correctAnswer": "Sound"
+    },
+    {
+      "id": "cogpsy-w4-q9",
+      "text": "Repeating a phone number to yourself to hold it in memory while you dial it would use which component of working memory?",
+      "options": [
+        "The visuospatial sketchpad",
+        "The phonological loop",
+        "The episodic buffer",
+        "Both the visuospatial sketchpad and the phonological loop"
+      ],
+      "correctAnswer": "The phonological loop"
+    },
+    {
+      "id": "cogpsy-w4-q10",
+      "text": "Disrupting the process of long-term potentiation leads to:",
+      "options": [
+        "Disruption of learning and remembering",
+        "Recovery from anterograde amnesia",
+        "Recovery from retrograde amnesia",
+        "Language deficits"
+      ],
+      "correctAnswer": "Disruption of learning and remembering"
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "id": "cogpsy-week12-assign12",
+  "title": "Week 12: Assignment 12 - Introduction To Cognitive Psychology",
+  "week": 12,
+  "questions": [
+    {
+      "id": "cogpsy-w12-q1",
+      "text": "The gambler’s fallacy is thought of as a special instance of:",
+      "options": [
+        "Framing",
+        "Availability",
+        "Belief in the number of small numbers",
+        "Hindsight"
+      ],
+      "correctAnswer": "Belief in the number of small numbers"
+    },
+    {
+      "id": "cogpsy-w12-q2",
+      "text": "You have just spent 10 minutes trying to figure out the answer to a single problem on your math quiz. In spite of your lack of success, you continue to struggle, neglecting to continue on to other problems because you have already invested so much time and effort in this problem. You have fallen victim to:",
+      "options": [
+        "The sunk cost effect",
+        "A framing effect",
+        "The anchor effect",
+        "Availability bias"
+      ],
+      "correctAnswer": "The sunk cost effect"
+    },
+    {
+      "id": "cogpsy-w12-q3",
+      "text": "Normative models of decision making describe:",
+      "options": [
+        "How we ought to make decisions in realistic circumstances",
+        "Ideal performance under ideal circumstances",
+        "What people actually do when they make decisions",
+        "Cognitive illusions"
+      ],
+      "correctAnswer": "Ideal performance under ideal circumstances"
+    },
+    {
+      "id": "cogpsy-w12-q4",
+      "text": "Past events seems “inevitable” due to the action of the:",
+      "options": [
+        "Framing effect",
+        "Hindsight bias",
+        "Gambler’s fallacy",
+        "Availability heuristic"
+      ],
+      "correctAnswer": "Hindsight bias"
+    },
+    {
+      "id": "cogpsy-w12-q5",
+      "text": "Anita is blonde, extremely attractive and lives in an expensive condo. If we judge the probability of Anita’s being a model as quite high because she resembles our stereotype of a model, we are using the heuristic of:",
+      "options": [
+        "Representativeness",
+        "Availability",
+        "Framing",
+        "The law of small numbers"
+      ],
+      "correctAnswer": "Representativeness"
+    },
+    {
+      "id": "cogpsy-w12-q6",
+      "text": "The mental activities that takes place in choosing among alternatives are collectively called:",
+      "options": [
+        "Problem solving",
+        "Inductive reasoning",
+        "Deductive reasoning",
+        "Decision making"
+      ],
+      "correctAnswer": "Decision making"
+    },
+    {
+      "id": "cogpsy-w12-q7",
+      "text": "The tendency to seek out information that supports our current beliefs is called:",
+      "options": [
+        "Believability effect",
+        "Content effect",
+        "Confirmation bias",
+        "Syllogistic reasoning"
+      ],
+      "correctAnswer": "Confirmation bias"
+    },
+    {
+      "id": "cogpsy-w12-q8",
+      "text": "Which of the following is NOT one of the five phases of decision making, according to Galotti.",
+      "options": [
+        "Goal setting",
+        "Information gathering",
+        "Planning",
+        "Random choice"
+      ],
+      "correctAnswer": "Random choice"
+    },
+    {
+      "id": "cogpsy-w12-q9",
+      "text": "According to psychologists, human decision making often falls short of optimality because:",
+      "options": [
+        "There is not enough information available to make a rational decision",
+        "One cannot be rational under conditions of uncertainty",
+        "The information available overwhelms the cognitive processes",
+        "Rationality assumes a higher degree of intelligence than most people have"
+      ],
+      "correctAnswer": "The information available overwhelms the cognitive processes"
+    },
+    {
+      "id": "cogpsy-w12-q10",
+      "text": "The phase of decision making finding a way to organize information is called:",
+      "options": [
+        "Goal setting",
+        "Planning",
+        "Structuring the decision",
+        "Evaluating"
+      ],
+      "correctAnswer": "Structuring the decision"
+    }
+  ]
+}
