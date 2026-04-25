@@ -1,0 +1,102 @@
+{
+  "id": "affective-week6-assign6",
+  "title": "Week 6: Affective Computing Assignment",
+  "week": 6,
+  "questions": [
+    {
+      "id": "aff-w6-q1",
+      "text": "ANEW is a categorical lexicon used to label text with Ekman’s six universal emotions.",
+      "options": ["True", "False"],
+      "correctAnswer": "False"
+    },
+    {
+      "id": "aff-w6-q2",
+      "text": "According to Poffenberger & Barrows (1924), upward-moving lines tend to evoke which feeling?",
+      "options": ["Calmness", "Joy", "Fear", "Anger"],
+      "correctAnswer": "Joy"
+    },
+    {
+      "id": "aff-w6-q3",
+      "text": "Juni & Gross (2008) found that articles were perceived as more satirical when written in:",
+      "options": ["Arial", "Georgia", "Times New Roman", "Verdana"],
+      "correctAnswer": "Times New Roman"
+    },
+    {
+      "id": "aff-w6-q4",
+      "text": "Relative Subjective Duration (RSD) experiments showed that good typography led participants to:",
+      "options": [
+        "Underestimate reading time less",
+        "Overestimate reading time greatly",
+        "Underestimate reading time more",
+        "Read significantly slower"
+      ],
+      "correctAnswer": "Underestimate reading time more"
+    },
+    {
+      "id": "aff-w6-q5",
+      "text": "Why is positive/negative sentiment analysis often insufficient?",
+      "options": [
+        "Emotions with similar polarity (e.g., fear vs. anger) differ in relevance and meaning",
+        "Most texts contain no sentiment",
+        "It cannot detect sarcasm",
+        "It is computationally expensive"
+      ],
+      "correctAnswer": "Emotions with similar polarity (e.g., fear vs. anger) differ in relevance and meaning"
+    },
+    {
+      "id": "aff-w6-q6",
+      "text": "Implicit expressions of emotions (Lee, 2015) refer to:",
+      "options": [
+        "Emotions directly stated via adjectives",
+        "Physiological signals embedded in text",
+        "Metaphors expressing emotional states",
+        "Emotion conveyed without explicit emotional words"
+      ],
+      "correctAnswer": "Emotion conveyed without explicit emotional words"
+    },
+    {
+      "id": "aff-w6-q7",
+      "text": "Metaphorical emotional expressions create challenges because:",
+      "options": [
+        "Their meaning cannot be inferred from literal text alone",
+        "They are too rare to train on",
+        "They cannot be represented in WordNet",
+        "They always express anger"
+      ],
+      "correctAnswer": "Their meaning cannot be inferred from literal text alone"
+    },
+    {
+      "id": "aff-w6-q8",
+      "text": "The ISEAR database consists of reports from participants describing:",
+      "options": [
+        "Metaphorical uses of emotional expressions",
+        "Situations where they experienced one of seven major emotions",
+        "Annotated news headlines",
+        "Product reviews labeled for polarity"
+      ],
+      "correctAnswer": "Situations where they experienced one of seven major emotions"
+    },
+    {
+      "id": "aff-w6-q9",
+      "text": "SentiWordNet focuses primarily on:",
+      "options": [
+        "Dimensional emotion modeling",
+        "Detecting metaphors in textual data",
+        "Context-sensitive emotional sequences",
+        "Polarity (positive, negative, objective) of terms"
+      ],
+      "correctAnswer": "Polarity (positive, negative, objective) of terms"
+    },
+    {
+      "id": "aff-w6-q10",
+      "text": "For unsupervised emotion recognition using lexicons, the text emotion is assigned by:",
+      "options": [
+        "Counting how many emotional words appear",
+        "Finding the class with highest cosine similarity to the text vector",
+        "Selecting the emotion with the highest frequency in ANEW",
+        "Applying rule-based keyword matching only"
+      ],
+      "correctAnswer": "Finding the class with highest cosine similarity to the text vector"
+    }
+  ]
+}

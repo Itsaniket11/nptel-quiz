@@ -1,0 +1,102 @@
+{
+  "id": "affective-week4-assign4",
+  "title": "Week 4: Affective Computing Assignment",
+  "week": 4,
+  "questions": [
+    {
+      "id": "aff-w4-q1",
+      "text": "Which input modality is considered the most informative and non-intrusive for Facial Emotion Recognition (FER)?",
+      "options": ["EMG", "Camera", "EEG", "Earables"],
+      "correctAnswer": "Camera"
+    },
+    {
+      "id": "aff-w4-q2",
+      "text": "Dynamic FER generally outperforms static FER because it:",
+      "options": [
+        "Uses more sensors",
+        "Ignores temporal variations",
+        "Captures expression transitions over time",
+        "Removes noise from peak frames"
+      ],
+      "correctAnswer": "Captures expression transitions over time"
+    },
+    {
+      "id": "aff-w4-q3",
+      "text": "The first step in conventional FER pipelines typically involves:",
+      "options": [
+        "Expression classification",
+        "Texture smoothing",
+        "Face and facial component detection",
+        "Motion estimation"
+      ],
+      "correctAnswer": "Face and facial component detection"
+    },
+    {
+      "id": "aff-w4-q4",
+      "text": "Deep-learning-based FER systems reduce reliance on:",
+      "options": [
+        "Face-physics-based models and preprocessing",
+        "Landmark detectors",
+        "Data augmentation",
+        "GPU resources"
+      ],
+      "correctAnswer": "Face-physics-based models and preprocessing"
+    },
+    {
+      "id": "aff-w4-q5",
+      "text": "Macro expressions typically last:",
+      "options": [
+        "Less than 1/2 second",
+        "5–10 seconds",
+        "Longer than 10 seconds",
+        "Between 1/2 and 4 seconds"
+      ],
+      "correctAnswer": "Between 1/2 and 4 seconds"
+    },
+    {
+      "id": "aff-w4-q6",
+      "text": "Micro expressions are difficult to detect because they:",
+      "options": [
+        "Last longer than macro expressions",
+        "Are consciously controlled",
+        "Are brief and often involuntary",
+        "Do not involve facial muscles"
+      ],
+      "correctAnswer": "Are brief and often involuntary"
+    },
+    {
+      "id": "aff-w4-q7",
+      "text": "Facial Action Coding System (FACS) is based on:",
+      "options": [
+        "Facial muscle movements",
+        "Wrinkle depth measurements",
+        "Tracking head pose only",
+        "Eye aperture changes exclusively"
+      ],
+      "correctAnswer": "Facial muscle movements"
+    },
+    {
+      "id": "aff-w4-q8",
+      "text": "Which appearance-based feature descriptor is sensitive to lighting variations?",
+      "options": ["SIFT", "Raw pixel intensity values", "Gabor filters", "HOG"],
+      "correctAnswer": "Raw pixel intensity values"
+    },
+    {
+      "id": "aff-w4-q9",
+      "text": "Optical flow is primarily used to extract:",
+      "options": [
+        "Static shape features",
+        "Texture gradients",
+        "Motion-based features",
+        "High-resolution appearance cues"
+      ],
+      "correctAnswer": "Motion-based features"
+    },
+    {
+      "id": "aff-w4-q10",
+      "text": "State whether the following statement is True or False.\nStatement: Geometric features alone are sometimes insufficient because different AUs can produce similar landmark changes.",
+      "options": ["True", "False"],
+      "correctAnswer": "True"
+    }
+  ]
+}

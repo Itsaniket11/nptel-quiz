@@ -1,0 +1,107 @@
+{
+  "id": "affective-week2-assign2",
+  "title": "Week 2: Affective Computing Assignment",
+  "week": 2,
+  "questions": [
+    {
+      "id": "aff-w2-q1",
+      "text": "Which brain region is primarily involved in regulating emotional experience and motivation?",
+      "options": [
+        "Prefrontal cortex",
+        "Occipital lobe",
+        "Cerebellum",
+        "Pituitary gland"
+      ],
+      "correctAnswer": "Prefrontal cortex"
+    },
+    {
+      "id": "aff-w2-q2",
+      "text": "The amygdala is most strongly associated with which function?",
+      "options": [
+        "Decision making and planning",
+        "Regulation of voluntary movement",
+        "Processing stimulus salience and arousal",
+        "Language comprehension"
+      ],
+      "correctAnswer": "Processing stimulus salience and arousal"
+    },
+    {
+      "id": "aff-w2-q3",
+      "text": "According to embodied cognition theories, voluntary facial muscle contraction can influence emotional experience. This idea supports which concept?",
+      "options": [
+        "Emotions exist independently of bodily states",
+        "Emotion cannot occur without a conscious appraisal",
+        "Emotion is generated only through cognitive evaluation",
+        "Bodily feedback contributes to how emotions are felt"
+      ],
+      "correctAnswer": "Bodily feedback contributes to how emotions are felt"
+    },
+    {
+      "id": "aff-w2-q4",
+      "text": "Higher activation in the left frontal hemisphere is generally linked to which motivational tendency?",
+      "options": [
+        "Withdrawal motivation",
+        "Approach motivation",
+        "Reduced emotional awareness",
+        "Neutral affect"
+      ],
+      "correctAnswer": "Approach motivation"
+    },
+    {
+      "id": "aff-w2-q5",
+      "text": "Which emotion is commonly associated with activation of the left frontal PFC, despite being negatively valenced?",
+      "options": ["Fear", "Sadness", "Anger", "Disgust"],
+      "correctAnswer": "Anger"
+    },
+    {
+      "id": "aff-w2-q6",
+      "text": "In the dimensional VAD/PAD model, dominance refers to:",
+      "options": [
+        "The sense of control or submission associated with an emotion",
+        "The pleasantness of an emotional state",
+        "The intensity or energy of an emotion",
+        "The clarity with which an emotion is recognized"
+      ],
+      "correctAnswer": "The sense of control or submission associated with an emotion"
+    },
+    {
+      "id": "aff-w2-q7",
+      "text": "One limitation of traditional categorical emotion models is that:",
+      "options": [
+        "They cannot be implemented computationally",
+        "They struggle to represent relationships between emotions",
+        "They include too many dimensions to be practical",
+        "They ignore facial expressions entirely"
+      ],
+      "correctAnswer": "They struggle to represent relationships between emotions"
+    },
+    {
+      "id": "aff-w2-q8",
+      "text": "Which emotion is typically characterized by lowered eyebrows, tense eyelids, and pressed lips?",
+      "options": ["Happiness", "Fear", "Disgust", "Anger"],
+      "correctAnswer": "Anger"
+    },
+    {
+      "id": "aff-w2-q9",
+      "text": "Increased skin conductance is most reliably associated with which type of disgust-related stimulus?",
+      "options": [
+        "Pictures of dirty toilets",
+        "Pleasant odors",
+        "Mutilation or body-boundary violation images",
+        "Neutral facial expressions"
+      ],
+      "correctAnswer": "Mutilation or body-boundary violation images"
+    },
+    {
+      "id": "aff-w2-q10",
+      "text": "Crying-related sadness is associated with which physiological pattern?",
+      "options": [
+        "Reduced respiration and lower HRV",
+        "Increased heart rate and increased skin conductance",
+        "Decreased skin conductance and reduced heart rate",
+        "No change in respiration but reduced HRV"
+      ],
+      "correctAnswer": "Increased heart rate and increased skin conductance"
+    }
+  ]
+}

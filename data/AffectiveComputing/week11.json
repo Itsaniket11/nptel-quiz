@@ -1,0 +1,97 @@
+{
+  "id": "affective-week11-assign11",
+  "title": "Week 11: Affective Computing Assignment",
+  "week": 11,
+  "questions": [
+    {
+      "id": "aff-w11-q1",
+      "text": "Which of the following is a suitable reason why an Emotional Virtual Agent (EVA) should support multiple languages?",
+      "options": [
+        "To enable a wider range of users to access emotional support",
+        "To ensure that the agent never makes translation errors",
+        "To reduce the need for emotional modeling",
+        "To increase the agent’s computational speed"
+      ],
+      "correctAnswer": "To enable a wider range of users to access emotional support"
+    },
+    {
+      "id": "aff-w11-q2",
+      "text": "Virtual assistants may be biased towards the training data, which may potentially lead to the unfair treatment of certain groups.",
+      "options": ["True", "False"],
+      "correctAnswer": "True"
+    },
+    {
+      "id": "aff-w11-q3",
+      "text": "Emotional virtual agents might lead to social isolation.",
+      "options": ["True", "False"],
+      "correctAnswer": "True"
+    },
+    {
+      "id": "aff-w11-q4",
+      "text": "Which of the following is the best way to prevent privacy concerns related to emotional virtual agents?",
+      "options": [
+        "Collect as much user data as possible to improve accuracy",
+        "Obtaining users' consent before collecting personal data and clearly stating the purpose of the data collection.",
+        "Store all emotional data indefinitely for future analysis",
+        "Disable all emotional recognition features entirely"
+      ],
+      "correctAnswer": "Obtaining users' consent before collecting personal data and clearly stating the purpose of the data collection."
+    },
+    {
+      "id": "aff-w11-q5",
+      "text": "The speech emotion detection and virtual assistant components should be able to work in real-time or close to real-time.",
+      "options": ["True", "False"],
+      "correctAnswer": "True"
+    },
+    {
+      "id": "aff-w11-q6",
+      "text": "What is the role of the \"context\" in an emotionally intelligent virtual assistant?",
+      "options": [
+        "To understand the user’s preferences and history for personalized responses",
+        "It eliminates the need to analyze user input",
+        "It ensures the assistant always responds with positive emotions",
+        "To simply follow the user’s spoken instructions without emotion or history"
+      ],
+      "correctAnswer": "To understand the user’s preferences and history for personalized responses"
+    },
+    {
+      "id": "aff-w11-q7",
+      "text": "How can emotional virtual agents help avoid bias in their responses to users?",
+      "options": [
+        "By using data from only one ethnic group.",
+        "By ensuring the data used for training is diverse and representative.",
+        "By focusing on only one language group.",
+        "By ignoring cultural differences."
+      ],
+      "correctAnswer": "By ensuring the data used for training is diverse and representative."
+    },
+    {
+      "id": "aff-w11-q8",
+      "text": "Which of the following is true about a virtual personal assistant system?",
+      "options": [
+        "It should protect personal information but not emotional information.",
+        "It should protect emotional information but not personal information.",
+        "It should not protect either personal or emotional information.",
+        "It should protect both personal and emotional information."
+      ],
+      "correctAnswer": "It should protect both personal and emotional information."
+    },
+    {
+      "id": "aff-w11-q9",
+      "text": "What should an Emotional Virtual Agent base its appropriate response on?",
+      "options": [
+        "Intent and emotion",
+        "Intent and context",
+        "A mix of intent, emotion, and context",
+        "Emotion and context"
+      ],
+      "correctAnswer": "A mix of intent, emotion, and context"
+    },
+    {
+      "id": "aff-w11-q10",
+      "text": "Normalizing emotional data from different users ensures that their responses can be compared fairly.",
+      "options": ["True", "False"],
+      "correctAnswer": "True"
+    }
+  ]
+}

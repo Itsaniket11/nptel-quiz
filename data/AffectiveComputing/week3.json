@@ -1,0 +1,117 @@
+{
+  "id": "affective-week3-assign3",
+  "title": "Week 3: Affective Computing Assignment",
+  "week": 3,
+  "questions": [
+    {
+      "id": "aff-w3-q1",
+      "text": "Which type of emotional expression dataset is easiest to collect but suffers from low ecological validity?",
+      "options": [
+        "Acted or posed expressions",
+        "Naturalistic expressions",
+        "Induced expressions",
+        "Behavioral manipulation datasets"
+      ],
+      "correctAnswer": "Acted or posed expressions"
+    },
+    {
+      "id": "aff-w3-q2",
+      "text": "In emotion elicitation, which method involves observing film clips or images designed to evoke emotions?",
+      "options": [
+        "Social interaction",
+        "Passive/perception-based methods",
+        "Directed facial action tasks",
+        "Productive modality elicitation"
+      ],
+      "correctAnswer": "Passive/perception-based methods"
+    },
+    {
+      "id": "aff-w3-q3",
+      "text": "A key disadvantage of using images for passive elicitation is:",
+      "options": [
+        "Setup is too complex",
+        "Emotional reactions are short and transient",
+        "Images cannot be standardized",
+        "Images elicit too intense emotions"
+      ],
+      "correctAnswer": "Emotional reactions are short and transient"
+    },
+    {
+      "id": "aff-w3-q4",
+      "text": "Which passive method generally includes a neutral baseline clip before emotional clips?",
+      "options": [
+        "Facial action tasks",
+        "Social interaction",
+        "Film clip–based elicitation",
+        "Gesture-based elicitation"
+      ],
+      "correctAnswer": "Film clip–based elicitation"
+    },
+    {
+      "id": "aff-w3-q5",
+      "text": "Directed Facial Action Tasks are primarily used in:",
+      "options": [
+        "Behavioral manipulation methods",
+        "Passive emotion elicitation",
+        "Baseline emotional calibration",
+        "IRB risk assessment"
+      ],
+      "correctAnswer": "Behavioral manipulation methods"
+    },
+    {
+      "id": "aff-w3-q6",
+      "text": "One major advantage of social interaction–based elicitation is:",
+      "options": [
+        "The emotions elicited are highly controllable",
+        "It is effective for collecting productive modalities",
+        "Emotions produced are realistic and natural",
+        "Participants do not require instruction"
+      ],
+      "correctAnswer": "Emotions produced are realistic and natural"
+    },
+    {
+      "id": "aff-w3-q7",
+      "text": "Which document is required when submitting a study for IRB review?",
+      "options": [
+        "A participant payment receipt",
+        "A full literature review",
+        "A published version of the experiment",
+        "A copy of the informed consent form"
+      ],
+      "correctAnswer": "A copy of the informed consent form"
+    },
+    {
+      "id": "aff-w3-q8",
+      "text": "Which of the following is not a criterion for IRB approval?",
+      "options": [
+        "Risks to subjects must be minimized",
+        "Adequate privacy and confidentiality protection",
+        "Ensuring participants enjoy the experiment",
+        "Selection of subjects must be equitable"
+      ],
+      "correctAnswer": "Ensuring participants enjoy the experiment"
+    },
+    {
+      "id": "aff-w3-q9",
+      "text": "Tools such as PsychoPy, OpenSesame, and SuperLab fall under which category?",
+      "options": [
+        "Affect expression tools",
+        "Data collection tools",
+        "Data mining tools",
+        "Annotation tools"
+      ],
+      "correctAnswer": "Data collection tools"
+    },
+    {
+      "id": "aff-w3-q10",
+      "text": "SAM (Self-Assessment Manikin) is primarily used for:",
+      "options": [
+        "Image labeling",
+        "Physiological signal cleaning",
+        "Facial expression synthesis",
+        "Measuring emotional responses along dimensions like valence and arousal"
+      ],
+      "correctAnswer": "Measuring emotional responses along dimensions like valence and arousal"
+    }
+  ]
+}

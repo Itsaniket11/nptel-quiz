@@ -1,0 +1,107 @@
+{
+  "id": "affective-week8-assign8",
+  "title": "Week 8: Affective Computing Assignment",
+  "week": 8,
+  "questions": [
+    {
+      "id": "aff-w8-q1",
+      "text": "Skin Conductance (GSR/EDA) measures changes primarily due to:",
+      "options": [
+        "Sweat gland activity",
+        "Body temperature",
+        "Blood pressure",
+        "Respiration depth"
+      ],
+      "correctAnswer": "Sweat gland activity"
+    },
+    {
+      "id": "aff-w8-q2",
+      "text": "In GSR signals, the fast, event-related component is called:",
+      "options": [
+        "SCL (Skin Conductance Level)",
+        "EDL (Electrodermal Level)",
+        "SCR (Skin Conductance Response)",
+        "ERV (Emotional Response Value)"
+      ],
+      "correctAnswer": "SCR (Skin Conductance Response)"
+    },
+    {
+      "id": "aff-w8-q3",
+      "text": "GSR can reveal whether the emotional state is positive or negative.",
+      "options": ["True", "False"],
+      "correctAnswer": "False"
+    },
+    {
+      "id": "aff-w8-q4",
+      "text": "Skin conductance responses (SCR) correspond to:",
+      "options": [
+        "Slow tonic changes in conductivity",
+        "Rapid, event-related changes triggered by stimuli",
+        "Changes due to respiration cycles",
+        "Variations caused only by temperature"
+      ],
+      "correctAnswer": "Rapid, event-related changes triggered by stimuli"
+    },
+    {
+      "id": "aff-w8-q5",
+      "text": "The most emotionally reactive sweat glands are located on:",
+      "options": ["Forehead", "Knees", "Palms and soles", "Back"],
+      "correctAnswer": "Palms and soles"
+    },
+    {
+      "id": "aff-w8-q6",
+      "text": "In EEG signals, alpha-band power has what relationship with cortical activity?",
+      "options": [
+        "Direct (more alpha = more activity)",
+        "Inverse (more alpha = less activity)",
+        "No relationship",
+        "Only positive emotions change alpha"
+      ],
+      "correctAnswer": "Inverse (more alpha = less activity)"
+    },
+    {
+      "id": "aff-w8-q7",
+      "text": "In multimodal emotion recognition, early fusion requires:",
+      "options": [
+        "Combining classifier decisions",
+        "Using only a single modality",
+        "Late-stage hypothesis selection",
+        "Synchronizing signals before concatenation"
+      ],
+      "correctAnswer": "Synchronizing signals before concatenation"
+    },
+    {
+      "id": "aff-w8-q8",
+      "text": "Slow fusion is beneficial because it:",
+      "options": [
+        "Avoids all redundancy across modalities",
+        "Assumes strict independence of cues",
+        "Exploits correlations while relaxing synchronization requirements",
+        "Works only with visual cues"
+      ],
+      "correctAnswer": "Exploits correlations while relaxing synchronization requirements"
+    },
+    {
+      "id": "aff-w8-q9",
+      "text": "The SEMAINE project aims to train a system that:",
+      "options": [
+        "Engages in multimodal social interaction as a Sensitive Artificial Listener",
+        "Predicts emotional valence using only speech",
+        "Detects emotions using physiological sensors alone",
+        "Generates emotional facial expressions automatically"
+      ],
+      "correctAnswer": "Engages in multimodal social interaction as a Sensitive Artificial Listener"
+    },
+    {
+      "id": "aff-w8-q10",
+      "text": "A challenge in multimodal affect data collection is:",
+      "options": [
+        "Too many synchronized datasets exist",
+        "Overabundance of annotated corpora",
+        "Lack of available audio signals",
+        "Getting spontaneous, subtle expressions with aligned modalities"
+      ],
+      "correctAnswer": "Getting spontaneous, subtle expressions with aligned modalities"
+    }
+  ]
+}

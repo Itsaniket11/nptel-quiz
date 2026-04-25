@@ -1,0 +1,112 @@
+{
+  "id": "affective-week10-assign10",
+  "title": "Week 10: Affective Computing Assignment",
+  "week": 10,
+  "questions": [
+    {
+      "id": "aff-w10-q1",
+      "text": "Affective AutoTutor combines individual affect diagnoses using:",
+      "options": [
+        "Feature-level fusion",
+        "Decision-level fusion",
+        "Early multimodal fusion",
+        "Pure rule-based weighting"
+      ],
+      "correctAnswer": "Decision-level fusion"
+    },
+    {
+      "id": "aff-w10-q2",
+      "text": "GazeTutor primarily focuses on detecting:",
+      "options": [
+        "Heart rate fluctuations",
+        "Keyboard typing patterns",
+        "Emotional tone of spoken dialogue",
+        "Eye-gaze shifts indicating waning attention"
+      ],
+      "correctAnswer": "Eye-gaze shifts indicating waning attention"
+    },
+    {
+      "id": "aff-w10-q3",
+      "text": "In affect-aware games, emotion-driven interaction allows:",
+      "options": [
+        "Predicting user goals only",
+        "Removing all non-playable characters",
+        "Preventing game difficulty adjustments",
+        "Tailoring game experience to individual players"
+      ],
+      "correctAnswer": "Tailoring game experience to individual players"
+    },
+    {
+      "id": "aff-w10-q4",
+      "text": "Nevermind modifies gameplay difficulty based on:",
+      "options": [
+        "Heart rate and emotional distress indicators",
+        "Player’s reaction time",
+        "Completed mission count",
+        "Voice loudness"
+      ],
+      "correctAnswer": "Heart rate and emotional distress indicators"
+    },
+    {
+      "id": "aff-w10-q5",
+      "text": "A key scalability issue with sensors is that they are often:",
+      "options": [
+        "Too small to detect affective signals",
+        "Only compatible with gaming systems",
+        "Custom, non-portable, and expensive",
+        "Used exclusively for medical purposes"
+      ],
+      "correctAnswer": "Custom, non-portable, and expensive"
+    },
+    {
+      "id": "aff-w10-q6",
+      "text": "Sensorlite approaches typically rely on:",
+      "options": [
+        "EEG headsets only",
+        "Cameras and microphones as scalable proxies",
+        "Pressure-sensitive chairs",
+        "Biological implants"
+      ],
+      "correctAnswer": "Cameras and microphones as scalable proxies"
+    },
+    {
+      "id": "aff-w10-q7",
+      "text": "A major open issue in affect detection is:",
+      "options": [
+        "Too much annotated data availability",
+        "Perfect generalization across users and contexts",
+        "Noisy and intrusive sensors that reduce scalability",
+        "Complete agreement on emotion models"
+      ],
+      "correctAnswer": "Noisy and intrusive sensors that reduce scalability"
+    },
+    {
+      "id": "aff-w10-q8",
+      "text": "A Level 0 adaptation system is one that:",
+      "options": [
+        "Adapts multiple tasks simultaneously",
+        "Recognizes affect but does not alter behavior",
+        "Communicates adaptation with other agents",
+        "Does not alter its behavior at all"
+      ],
+      "correctAnswer": "Does not alter its behavior at all"
+    },
+    {
+      "id": "aff-w10-q9",
+      "text": "Level 4 adaptation involves:",
+      "options": [
+        "Multiple independent agents communicating adaptations",
+        "No adaptation to emotion",
+        "A single optimized task",
+        "Removing emotional monitoring entirely"
+      ],
+      "correctAnswer": "Multiple independent agents communicating adaptations"
+    },
+    {
+      "id": "aff-w10-q10",
+      "text": "Affect detection in real-world environments is extremely challenging and may never reach perfect accuracy.",
+      "options": ["True", "False"],
+      "correctAnswer": "True"
+    }
+  ]
+}

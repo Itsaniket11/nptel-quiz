@@ -1,0 +1,102 @@
+{
+  "id": "affective-week7-assign7",
+  "title": "Week 7: Affective Computing Assignment",
+  "week": 7,
+  "questions": [
+    {
+      "id": "aff-w7-q1",
+      "text": "Physiological signals are especially valuable in affect detection because they:",
+      "options": [
+        "Cannot be voluntarily controlled and reflect pure emotional states",
+        "Require full attention from the participant",
+        "Are easier to fake than facial expressions",
+        "Are unaffected by wearable technologies"
+      ],
+      "correctAnswer": "Cannot be voluntarily controlled and reflect pure emotional states"
+    },
+    {
+      "id": "aff-w7-q2",
+      "text": "Which of the following is not a physiological measure?",
+      "options": [
+        "Respiration",
+        "Electrocardiogram",
+        "Heart Rate",
+        "Eye-blink frequency"
+      ],
+      "correctAnswer": "Eye-blink frequency"
+    },
+    {
+      "id": "aff-w7-q3",
+      "text": "Heart rate is strongly associated with which dimension of emotion?",
+      "options": ["Valence", "Arousal", "Dominance", "Surprise"],
+      "correctAnswer": "Arousal"
+    },
+    {
+      "id": "aff-w7-q4",
+      "text": "A key advantage of PPG (Photo-Plethysmography) over ECG is that PPG:",
+      "options": [
+        "Provides greater spatial resolution",
+        "Is quicker to attach and less intrusive",
+        "Measures electrical pulses directly",
+        "Requires medical-grade gel electrodes"
+      ],
+      "correctAnswer": "Is quicker to attach and less intrusive"
+    },
+    {
+      "id": "aff-w7-q5",
+      "text": "Heart Rate Variability (HRV) measures:",
+      "options": [
+        "The average heart rate over the day",
+        "The electrical intensity of heart contractions",
+        "The variation in RR intervals between beats",
+        "The number of peaks in each heartbeat waveform"
+      ],
+      "correctAnswer": "The variation in RR intervals between beats"
+    },
+    {
+      "id": "aff-w7-q6",
+      "text": "A major limitation of ECG/PPG for affect recognition is that they:",
+      "options": [
+        "Only measure emotional valence, not arousal",
+        "Cannot measure changes over short intervals",
+        "Are too invasive for most participants",
+        "Cannot distinguish positive from negative arousal"
+      ],
+      "correctAnswer": "Cannot distinguish positive from negative arousal"
+    },
+    {
+      "id": "aff-w7-q7",
+      "text": "Physiological signals like HR and GSR are less likely to be consciously manipulated compared to facial expressions.",
+      "options": ["True", "False"],
+      "correctAnswer": "True"
+    },
+    {
+      "id": "aff-w7-q8",
+      "text": "ECG-based heart rate measurements are more accurate than PPG because:",
+      "options": [
+        "They measure electrical activity directly",
+        "They require fewer sensors",
+        "They work better at long distances",
+        "They are less sensitive to motion artifacts"
+      ],
+      "correctAnswer": "They measure electrical activity directly"
+    },
+    {
+      "id": "aff-w7-q9",
+      "text": "GSR can reveal whether the emotional state is positive or negative.",
+      "options": ["True", "False"],
+      "correctAnswer": "False"
+    },
+    {
+      "id": "aff-w7-q10",
+      "text": "Low HRV is typically associated with:",
+      "options": [
+        "Relaxation",
+        "Strong stress or arousal",
+        "Enhanced emotional control",
+        "Deep sleep"
+      ],
+      "correctAnswer": "Strong stress or arousal"
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "id": "affective-week1-assign1",
+  "title": "Week 1: Affective Computing Assignment",
+  "week": 1,
+  "questions": [
+    {
+      "id": "aff-w1-q1",
+      "text": "What does affective computing primarily involve?",
+      "options": [
+        "Systems that improve computer graphics",
+        "Systems that sense, recognize, respond to, and influence emotions",
+        "Systems that optimize data storage",
+        "Systems that improve processor speed"
+      ],
+      "correctAnswer": "Systems that sense, recognize, respond to, and influence emotions"
+    },
+    {
+      "id": "aff-w1-q2",
+      "text": "Which of the following is not a modality for affect sensing?",
+      "options": [
+        "Facial activity",
+        "Textual analysis",
+        "Temperature of the environment",
+        "Physiological signals"
+      ],
+      "correctAnswer": "Temperature of the environment"
+    },
+    {
+      "id": "aff-w1-q3",
+      "text": "According to Picard (1997), which of the following is not one of the three applications of affective computing?",
+      "options": ["Detection", "Expression", "Prediction", "Perception"],
+      "correctAnswer": "Prediction"
+    },
+    {
+      "id": "aff-w1-q4",
+      "text": "The EngageMe system uses which data source to help teachers reflect on their classes?",
+      "options": [
+        "EEG readings from helmets",
+        "Skin conductance and classroom video feeds",
+        "Social media activity",
+        "Voice recordings"
+      ],
+      "correctAnswer": "Skin conductance and classroom video feeds"
+    },
+    {
+      "id": "aff-w1-q5",
+      "text": "Which application is designed to help individuals with Asperger syndrome or high functioning autism?",
+      "options": [
+        "StartleMart",
+        "Subtle Stone",
+        "SymTrend and Autism Track",
+        "MACH"
+      ],
+      "correctAnswer": "SymTrend and Autism Track"
+    },
+    {
+      "id": "aff-w1-q6",
+      "text": "What is the purpose of the MACH system?",
+      "options": [
+        "Neuromarketing research",
+        "Automated conversation coaching for interviews",
+        "Stress detection in PTSD",
+        "Classroom emotion tracking"
+      ],
+      "correctAnswer": "Automated conversation coaching for interviews"
+    },
+    {
+      "id": "aff-w1-q7",
+      "text": "In UX design, what does usability mainly concern?",
+      "options": [
+        "How attractive the interface looks",
+        "How easy the product is to use",
+        "How emotional the user feels",
+        "How fast the product can be developed"
+      ],
+      "correctAnswer": "How easy the product is to use"
+    },
+    {
+      "id": "aff-w1-q8",
+      "text": "What is a major problem with self-reported user testing (focus groups/surveys)?",
+      "options": [
+        "Requires expensive hardware",
+        "Participant bias and recall bias",
+        "Requires EEG equipment",
+        "Long training time for participants"
+      ],
+      "correctAnswer": "Participant bias and recall bias"
+    },
+    {
+      "id": "aff-w1-q9",
+      "text": "Which physiological signal is explicitly mentioned as part of affect sensing?",
+      "options": [
+        "Heart rate variability",
+        "Electrodermal activity (EDA)",
+        "Sleep cycles",
+        "Blood pressure"
+      ],
+      "correctAnswer": "Electrodermal activity (EDA)"
+    },
+    {
+      "id": "aff-w1-q10",
+      "text": "State whether the following statement is True or False.\nStatement: Emotion recognition systems always rely on facial expressions and cannot use any other type of data.",
+      "options": ["True", "False"],
+      "correctAnswer": "False"
+    }
+  ]
+}

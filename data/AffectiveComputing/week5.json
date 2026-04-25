@@ -1,0 +1,112 @@
+{
+  "id": "affective-week5-assign5",
+  "title": "Week 5: Affective Computing Assignment",
+  "week": 5,
+  "questions": [
+    {
+      "id": "aff-w5-q1",
+      "text": "Which of the following is not an application of speech in affective computing?",
+      "options": [
+        "Driver safety monitoring",
+        "Mobile communications",
+        "Diagnostic tools for therapists",
+        "Face recognition unlocking"
+      ],
+      "correctAnswer": "Face recognition unlocking"
+    },
+    {
+      "id": "aff-w5-q2",
+      "text": "According to Borden et al. (1994), “how it is said” refers to:",
+      "options": [
+        "The linguistic meaning of the words",
+        "Paralinguistic information reflecting emotional state",
+        "Speaker identity characteristics",
+        "Speech segmentation rules"
+      ],
+      "correctAnswer": "Paralinguistic information reflecting emotional state"
+    },
+    {
+      "id": "aff-w5-q3",
+      "text": "Natural emotional speech databases primarily include:",
+      "options": [
+        "Speech from trained actors",
+        "Emotionally synthesized speech",
+        "Spontaneous speech from real-world scenarios",
+        "Scripted dialogues recorded in studios"
+      ],
+      "correctAnswer": "Spontaneous speech from real-world scenarios"
+    },
+    {
+      "id": "aff-w5-q4",
+      "text": "Positive emotions always produce lower variability in pitch.",
+      "options": ["True", "False"],
+      "correctAnswer": "False"
+    },
+    {
+      "id": "aff-w5-q5",
+      "text": "The Berlin Emotional Speech Database contains recordings of:",
+      "options": [
+        "Children interacting with robots",
+        "Professional actors producing emotional German sentences",
+        "North American speakers producing neutral statements",
+        "Patients and doctors in clinical settings"
+      ],
+      "correctAnswer": "Professional actors producing emotional German sentences"
+    },
+    {
+      "id": "aff-w5-q6",
+      "text": "Prosody features include:",
+      "options": [
+        "MFCCs",
+        "SIFT descriptors",
+        "Fundamental frequency and short-term energy",
+        "Visual intensity curves"
+      ],
+      "correctAnswer": "Fundamental frequency and short-term energy"
+    },
+    {
+      "id": "aff-w5-q7",
+      "text": "MFCCs are primarily used to represent:",
+      "options": [
+        "Resonant spectral characteristics",
+        "Rhythm and intonation patterns",
+        "Speaker identity features",
+        "Amplitude variations across time"
+      ],
+      "correctAnswer": "Resonant spectral characteristics"
+    },
+    {
+      "id": "aff-w5-q8",
+      "text": "Positive voices typically show which characteristic?",
+      "options": [
+        "Low pitch and low formant frequencies",
+        "Low speech rate",
+        "Flat and monotone amplitude",
+        "High loudness variability and high formant frequencies"
+      ],
+      "correctAnswer": "High loudness variability and high formant frequencies"
+    },
+    {
+      "id": "aff-w5-q9",
+      "text": "A key problem with global normalization of f0 across all speakers is that it:",
+      "options": [
+        "May blur emotional differences due to speaker-specific traits",
+        "Reduces background noise",
+        "Is too computationally expensive",
+        "Requires manual annotation"
+      ],
+      "correctAnswer": "May blur emotional differences due to speaker-specific traits"
+    },
+    {
+      "id": "aff-w5-q10",
+      "text": "One major open challenge in speech-based affect recognition is:",
+      "options": [
+        "Oversupply of natural databases",
+        "Inter- and intra-speaker variability",
+        "Perfect cross-lingual generalization",
+        "Excessive real-time deployment success"
+      ],
+      "correctAnswer": "Inter- and intra-speaker variability"
+    }
+  ]
+}

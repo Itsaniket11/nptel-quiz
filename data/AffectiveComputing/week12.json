@@ -1,0 +1,102 @@
+{
+  "id": "affective-week12-assign12",
+  "title": "Week 12: Affective Computing Assignment",
+  "week": 12,
+  "questions": [
+    {
+      "id": "aff-w12-q1",
+      "text": "Which security measure is most commonly used to protect emotional state data transmitted to cloud-based systems?",
+      "options": [
+        "Two-factor authentication",
+        "IP whitelisting",
+        "End-to-end encryption",
+        "Data obfuscation"
+      ],
+      "correctAnswer": "End-to-end encryption"
+    },
+    {
+      "id": "aff-w12-q2",
+      "text": "Perfect anonymization cannot be guaranteed because any piece of data may become identifiable when combined with enough additional information.",
+      "options": ["True", "False"],
+      "correctAnswer": "True"
+    },
+    {
+      "id": "aff-w12-q3",
+      "text": "Why is it important for designers to provide clear documentation and contracts regarding app functionalities and data handling?",
+      "options": [
+        "To maximize user interaction with the app",
+        "To increase user dependence on the app",
+        "To limit user access to app features",
+        "To ensure users understand how their data is recorded and who can access it"
+      ],
+      "correctAnswer": "To ensure users understand how their data is recorded and who can access it"
+    },
+    {
+      "id": "aff-w12-q4",
+      "text": "Which of the following is in the correct order of their privacy invasiveness, starting with the most invasive first?",
+      "options": [
+        "Accelerometer > Wifi > Microphone",
+        "Accelerometer > Microphone > Wifi",
+        "Microphone > Wifi > Accelerometer",
+        "Microphone > Wifi > Accelerometer"
+      ],
+      "correctAnswer": "Microphone > Wifi > Accelerometer"
+    },
+    {
+      "id": "aff-w12-q5",
+      "text": "What method from the list below is used in neuromarketing research?",
+      "options": ["fMRI", "dMRI", "EGG", "ECB"],
+      "correctAnswer": "fMRI"
+    },
+    {
+      "id": "aff-w12-q6",
+      "text": "From an ethics perspective, what is a major concern regarding affect-sensing apps and emotional dependency?",
+      "options": [
+        "User engagement",
+        "Privacy intrusion",
+        "User addiction",
+        "Emotional manipulation"
+      ],
+      "correctAnswer": "Emotional manipulation"
+    },
+    {
+      "id": "aff-w12-q7",
+      "text": "Targeted advertising can improve user experience, but it also increases the user's vulnerability to privacy risks.",
+      "options": ["True", "False"],
+      "correctAnswer": "True"
+    },
+    {
+      "id": "aff-w12-q8",
+      "text": "Why should designers provide clear documentation and contracts about app functionalities and data handling?",
+      "options": [
+        "To maximize how much users interact with the app",
+        "To increase user dependence on the application",
+        "To restrict user access to features",
+        "To clearly inform users about how their data is recorded and who can access it"
+      ],
+      "correctAnswer": "To clearly inform users about how their data is recorded and who can access it"
+    },
+    {
+      "id": "aff-w12-q9",
+      "text": "Who should participate in forming ethical guidelines for developing affect-aware machines?",
+      "options": [
+        "A collaborative group including engineers, ethicists, users, and other relevant stakeholders",
+        "Only engineers and system developers",
+        "Only ethicists and philosophers",
+        "Only end users and direct stakeholders"
+      ],
+      "correctAnswer": "A collaborative group including engineers, ethicists, users, and other relevant stakeholders"
+    },
+    {
+      "id": "aff-w12-q10",
+      "text": "Which of the following sensing strategies is written wrongly in order of their privacy invasiveness?",
+      "options": [
+        "Microphone > WiFi > Accelerometer",
+        "GPS > Bluetooth > Screen Touch",
+        "Calls > Apps > Gyroscope",
+        "WiFi > Gyroscope > Calls"
+      ],
+      "correctAnswer": "WiFi > Gyroscope > Calls"
+    }
+  ]
+}
