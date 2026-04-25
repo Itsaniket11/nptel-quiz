@@ -62,10 +62,10 @@ export const getQuizById = (quizId: string): { quiz: Quiz | undefined, subject: 
 
 
 type QuizPageProps = {
-  params: {
+  params: Promise<{
     quizId: string;
-  };
-   searchParams: { [key: string]: string | string[] | undefined };
+  }>;
+   searchParams: Promise<{ [key: string]: string | string[] | undefined }>;
 };
 
 function QuizSkeleton() {
@@ -88,7 +88,9 @@ function QuizSkeleton() {
     )
 }
 
-export default function QuizPage({ params, searchParams }: QuizPageProps) {
+export default async function QuizPage(props: QuizPageProps) {
+  const params = await props.params;
+  const searchParams = await props.searchParams;
   const { quiz, subject: course } = getQuizById(params.quizId);
   
   if (!quiz || !course) {

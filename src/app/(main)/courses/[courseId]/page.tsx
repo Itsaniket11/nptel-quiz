@@ -57,12 +57,13 @@ export const getCourseById = (id: string): Course | undefined => {
 
 
 type CoursePageProps = {
-  params: {
+  params: Promise<{
     courseId: string;
-  };
+  }>;
 };
 
-export default function CoursePage({ params }: CoursePageProps) {
+export default async function CoursePage(props: CoursePageProps) {
+  const params = await props.params;
   const course = getCourseById(params.courseId);
 
   if (!course) {

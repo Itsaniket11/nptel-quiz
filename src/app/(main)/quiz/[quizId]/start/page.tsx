@@ -61,12 +61,13 @@ export const getQuizById = (quizId: string): { quiz: Quiz | undefined, subject: 
 };
 
 type QuizStartPageProps = {
-  params: {
+  params: Promise<{
     quizId: string;
-  };
+  }>;
 };
 
-export default function QuizStartPage({ params }: QuizStartPageProps) {
+export default async function QuizStartPage(props: QuizStartPageProps) {
+  const params = await props.params;
   const { quiz, subject: course } = getQuizById(params.quizId);
 
   if (!quiz || !course) {
