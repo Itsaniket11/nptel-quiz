@@ -7,10 +7,10 @@ import type { Question, Subject as Course } from '@/lib/types';
 import { getCourseById } from '@/app/(main)/courses/[courseId]/page';
 
 type MockTestPageProps = {
-  params: {
+  params: Promise<{
     courseId: string;
-  };
-  searchParams: { [key: string]: string | string[] | undefined };
+  }>;
+  searchParams: Promise<{ [key: string]: string | string[] | undefined }>;
 };
 
 function MockTestSkeleton() {
@@ -43,16 +43,18 @@ const shuffleArray = <T,>(array: T[]): T[] => {
   return newArray;
 };
 
-export default function MockTestPage({ params, searchParams }: MockTestPageProps) {
-  const course = getCourseById(params.courseId);
+export default async function MockTestPage({ params, searchParams }: MockTestPageProps) {
+  const resolvedParams = await params;
+  const resolvedSearchParams = await searchParams;
+  const course = getCourseById(resolvedParams.courseId);
   
   if (!course) {
       notFound();
   }
 
-  const timeLimit = parseInt(searchParams?.timeLimit as string || '1800', 10);
-  const numQuestions = parseInt(searchParams?.numQuestions as string || '20', 10);
-  const weeksParam = searchParams?.weeks as string || '';
+  const timeLimit = parseInt(resolvedSearchParams?.timeLimit as string || '1800', 10);
+  const numQuestions = parseInt(resolvedSearchParams?.numQuestions as string || '20', 10);
+  const weeksParam = resolvedSearchParams?.weeks as string || '';
   const selectedWeeks = weeksParam ? weeksParam.split(',').map(Number) : [];
 
   const allQuestions: Question[] = course.quizzes

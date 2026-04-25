@@ -57,13 +57,14 @@ export const getSubjectById = (id: string): Subject | undefined => {
 
 
 type SubjectPageProps = {
-  params: {
+  params: Promise<{
     subjectId: string;
-  };
+  }>;
 };
 
-export default function SubjectPage({ params }: SubjectPageProps) {
-  const subject = getSubjectById(params.subjectId);
+export default async function SubjectPage({ params }: SubjectPageProps) {
+  const resolvedParams = await params;
+  const subject = getSubjectById(resolvedParams.subjectId);
 
   if (!subject) {
     notFound();

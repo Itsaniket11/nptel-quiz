@@ -4,13 +4,14 @@ import MockTestStartClient from './MockTestStartClient';
 import { getCourseById } from '@/app/(main)/courses/[courseId]/page';
 
 type MockTestStartPageProps = {
-  params: {
+  params: Promise<{
     courseId: string;
-  };
+  }>;
 };
 
-export default function MockTestStartPage({ params }: MockTestStartPageProps) {
-  const course = getCourseById(params.courseId);
+export default async function MockTestStartPage({ params }: MockTestStartPageProps) {
+  const resolvedParams = await params;
+  const course = getCourseById(resolvedParams.courseId);
 
   if (!course) {
     notFound();
